@@ -94,7 +94,7 @@
         }
     ],
     "transportation": "Keikyu Airport Line to Shinagawa, then JR Yamanote Line to Ebisu. Total cost: ~¥510, Time: 45-55 minutes",
-    "accommodation": "HJ PLACE SHIBUYA Airbnb - 3 Chome-20-10 Higashi, Shibuya City, Tokyo 〒150-0011",
+    "accommodation": "HJ PLACE SHIBUYA Airbnb - 3 Chome-20-10 Higashi, Shibuya City, Tokyo 〒150-0011 | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4)",
     "meals": "Dinner: Shibuya restaurants (ramen, sushi, or department store food hall)",
     "budget": "¥4,500 - ¥8,000 (includes transport ¥510, Goshuincho ¥1,500, goshuin ¥300, meals & activities)",
     "notes": "Pick up Suica/Pasmo card at airport for easy train travel. CULTURAL HIGHLIGHT: Visit Ebisu Shrine for your first goshuin - a beautiful way to start your Japan journey! Goshuincho (stamp book) typically costs ¥1,000-2,000, goshuin stamps ¥300-500 each. Shibuya is busiest in evening - perfect timing!"
@@ -729,15 +729,15 @@
         {"time": "21:30", "description": "Rest and plan final Tokyo days"}
     ],
     "transportation": "🚅 Tokaido Shinkansen Nozomi/Hikari - Shin-Osaka to Tokyo (2h 45min) - ¥13,320",
-    "accommodation": "Tokyo hotel (final days)",
+    "accommodation": "Tokyo accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4)",
     "meals": "Breakfast: Osaka, Lunch: Shinkansen ekiben bento, Dinner: Tokyo",
     "budget": "¥15,000 - ¥20,000 (including Shinkansen ¥13,320)",
     "notes": "🚅 SHINKANSEN CRITICAL: Depart from SHIN-OSAKA Station (not Osaka Station)! Take subway/taxi to Shin-Osaka 45min early. Reserved seats essential on Sunday. Try famous ekiben train bento. Keep tickets until final exit. Download JR app for delays."
 }
 ,
-"day14": {"day":14,"date":"Monday, December 9, 2025","location":"Tokyo","weather":"Check forecast - December weather","description":"Second-to-last day in Tokyo - favorite districts and final experiences","activities":[{"time":"09:00","description":"Breakfast in a favorite Tokyo neighborhood"},{"time":"10:30","description":"Tokyo National Museum or teamLab Borderless"},{"time":"13:00","description":"Lunch in Tsukiji or Ginza"},{"time":"15:00","description":"Final shopping in Harajuku or Shibuya"},{"time":"17:30","description":"Visit Tokyo Skytree or Tokyo Tower at sunset"},{"time":"19:00","description":"Special dinner at a high-end restaurant"},{"time":"21:00","description":"Final night out in Tokyo"},{"time":"23:00","description":"Reflection and packing"}],"transportation":"Tokyo Metro and JR lines","accommodation":"Tokyo hotel","meals":"Breakfast: Local cafe, Lunch: Tsukiji/Ginza, Dinner: Special restaurant","budget":"�18,000 - �25,000","notes":"Make the most of the second-to-last day. Visit any missed attractions and enjoy final Tokyo experiences."}
+"day14": {"day":14,"date":"Monday, December 9, 2025","location":"Tokyo","weather":"Check forecast - December weather","description":"Second-to-last day in Tokyo - favorite districts and final experiences","activities":[{"time":"09:00","description":"Breakfast in a favorite Tokyo neighborhood"},{"time":"10:30","description":"Tokyo National Museum or teamLab Borderless"},{"time":"13:00","description":"Lunch in Tsukiji or Ginza"},{"time":"15:00","description":"Final shopping in Harajuku or Shibuya"},{"time":"17:30","description":"Visit Tokyo Skytree or Tokyo Tower at sunset"},{"time":"19:00","description":"Special dinner at a high-end restaurant"},{"time":"21:00","description":"Final night out in Tokyo"},{"time":"23:00","description":"Reflection and packing"}],"transportation":"Tokyo Metro and JR lines","accommodation":"Tokyo accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4)","meals":"Breakfast: Local cafe, Lunch: Tsukiji/Ginza, Dinner: Special restaurant","budget":"¥18,000 - ¥25,000","notes":"Make the most of the second-to-last day. Visit any missed attractions and enjoy final Tokyo experiences."}
 ,
-"day15": {"day":15,"date":"Wednesday, December 10, 2025","location":"Tokyo","weather":"Check forecast - December weather","description":"Last full day in Tokyo - final shopping, favorite spots, and memorable experiences","activities":[{"time":"09:00","description":"Final breakfast at a favorite Tokyo cafe"},{"time":"10:30","description":"Last-minute shopping in Ginza or Shibuya"},{"time":"13:00","description":"Lunch at a memorable restaurant from the trip"},{"time":"15:00","description":"Revisit favorite spots or districts"},{"time":"17:00","description":"Final temple or shrine visit"},{"time":"19:00","description":"Farewell dinner - special restaurant or izakaya"},{"time":"21:00","description":"Pack and prepare for departure"}],"transportation":"Tokyo Metro and JR lines","accommodation":"Tokyo hotel (final night)","meals":"Breakfast: Cafe, Lunch: Special restaurant, Dinner: Farewell meal","budget":"�15,000 - �25,000 (including souvenirs)","notes":"Last chance for any missed experiences. Pack carefully for departure. Confirm transportation to airport."}
+"day15": {"day":15,"date":"Wednesday, December 10, 2025","location":"Tokyo","weather":"Check forecast - December weather","description":"Last full day in Tokyo - final shopping, favorite spots, and memorable experiences","activities":[{"time":"09:00","description":"Final breakfast at a favorite Tokyo cafe"},{"time":"10:30","description":"Last-minute shopping in Ginza or Shibuya"},{"time":"13:00","description":"Lunch at a memorable restaurant from the trip"},{"time":"15:00","description":"Revisit favorite spots or districts"},{"time":"17:00","description":"Final temple or shrine visit"},{"time":"19:00","description":"Farewell dinner - special restaurant or izakaya"},{"time":"21:00","description":"Pack and prepare for departure"}],"transportation":"Tokyo Metro and JR lines","accommodation":"Tokyo accommodation (final night) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4)","meals":"Breakfast: Cafe, Lunch: Special restaurant, Dinner: Farewell meal","budget":"¥15,000 - ¥25,000 (including souvenirs)","notes":"Last chance for any missed experiences. Pack carefully for departure. Confirm transportation to airport."}
 ,
 "day16": {
     "day": 16,
@@ -770,9 +770,8 @@
             "time": "18:00",
             "description": "Flight departure (check your actual time)"
         }
-    ],
-    "transportation": "Airport Express to Haneda Airport",
-    "accommodation": "Check out of Tokyo hotel",
+    ],    "transportation": "Airport Express to Haneda Airport",
+    "accommodation": "Check out of Tokyo accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4)",
     "meals": "Breakfast: Hotel, Lunch: Favorite restaurant, Dinner: Airport/In-flight",
     "budget": "¥10,000 - ¥15,000 (plus souvenirs)",
     "notes": "Allow extra time for airport. Keep receipts for tax-free shopping. Don't forget to say arigatou gozaimasu!"

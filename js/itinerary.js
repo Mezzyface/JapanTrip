@@ -230,10 +230,9 @@ class ItineraryLoader {
                 <div class="info-section transportation">
                     <div class="info-title">Transportation</div>
                     <div class="info-content">${day.transportation}</div>
-                </div>
-                <div class="info-section accommodation">
+                </div>                <div class="info-section accommodation">
                     <div class="info-title">Accommodation</div>
-                    <div class="info-content">${day.accommodation}</div>
+                    <div class="info-content">${this.processMarkdownLinks(day.accommodation)}</div>
                 </div>
                 <div class="info-section meals">
                     <div class="info-title">Meals</div>
