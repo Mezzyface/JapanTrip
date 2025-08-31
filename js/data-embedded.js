@@ -107,21 +107,14 @@ const itineraryData = {
     "weather": "Check forecast - travel day to mountains",
     "description": "Shrine-hopping adventure through Tokyo for goshuin collection, then departing for Mount Fuji area. Multiple beautiful shrines in Harajuku/Shibuya area before traveling to Kawaguchiko for ryokan stay.",    "activities": [
         {
-            "time": "07:00",
-            "description": "Leave Airbnb and walk to Ebisu Station"
-        },
-        {
-            "time": "07:00",
-            "description": "Travel to Shinjuku: JR Yamanote Line from Ebisu Station (inner loop, 2 stops north) - 10-15 mins, ~¥170"
-        },
-        {
             "time": "07:30",
-            "description": "Arrive at Shinjuku Station and drop off bags in coin locker or luggage storage"
+            "description": "Drop off bags in coin locker or luggage storage at Shinjuku Station"
         },
         {
             "time": "07:45",
             "description": "Travel from Shinjuku Station to Harajuku Station (JR Yamanote Line, 1 stop south)"
-        },        {
+        },        
+        {
             "time": "08:00",
             "description": "Visit Meiji Shrine (Meiji Jingu) - walk through serene forest path to main complex. Get goshuin at this prestigious shrine. [📖 Shrine Guide](https://jinja-gosyuin.com/meijijingu/)"
         },
@@ -177,9 +170,25 @@ const itineraryData = {
         {
             "time": "18:15",
             "description": "Check into Aoiso Ryokan (あおい荘) - 1297-1 Kodachi, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0302"
+        }    ],
+    "transportation": "JR Yamanote Line (¥170 per trip), Limited Express Kaiji + Fujisan View Express to Kawaguchiko, taxi to ryokan",    "travelRoutes": [
+        {
+            "name": "Ebisu to Shinjuku Station",
+            "description": "Morning journey from Shibuya accommodation area to Shinjuku for shrine hopping departure",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00002025&goal=00004254&start_name=Ebisu(Tokyo)&goal_name=Shinjuku&cid=&from=route_top_search_box&ferry=false&taxi=false",
+            "duration": "10-15 minutes",
+            "cost": "~¥170",
+            "method": "JR Yamanote Line"
+        },
+        {
+            "name": "Shinjuku to Harajuku Station",
+            "description": "Travel to shrine hopping starting point in Harajuku area near Meiji Shrine",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00004254&goal=00002128&start_name=Shinjuku&goal_name=Harajuku&cid=&from=route_top_search_box&ferry=false&taxi=false",
+            "duration": "4-6 minutes",
+            "cost": "~¥170",
+            "method": "JR Yamanote Line"
         }
     ],
-    "transportation": "JR Yamanote Line (¥170 per trip), Limited Express Kaiji + Fujisan View Express to Kawaguchiko, taxi to ryokan",
     "accommodation": "Aoiso Ryokan (あおい荘) - 1297-1 Kodachi, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0302",
     "meals": "Breakfast: Light meal before departure, Lunch: Harajuku/Omotesando restaurants, Dinner: Traditional ryokan kaiseki",
     "budget": "¥15,000 - ¥25,000 (includes train tickets ¥3,000+, shrine donations, meals, taxi, ryokan)",
