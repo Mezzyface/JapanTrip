@@ -1,0 +1,37 @@
+{
+    "day": 0,
+    "date": "Tuesday, November 25, 2025",
+    "location": "Travel Day (USA → Japan)",
+    "weather": "In transit",
+    "description": "Travel day from Austin to Tokyo via San Francisco. Long journey across the Pacific - get ready for the adventure!",
+    "activities": [
+        {
+            "time": "06:00",
+            "description": "Depart Austin-Bergstrom International Airport (AUS)"
+        },
+        {
+            "time": "08:03",
+            "description": "Arrive at San Francisco International Airport (SFO) - PST"
+        },
+        {
+            "time": "08:03",
+            "description": "Layover at SFO (2 hours 12 minutes)"
+        },
+        {
+            "time": "10:15",
+            "description": "Depart San Francisco International Airport (SFO)"
+        },        {
+            "time": "In-flight",
+            "description": "Long-haul flight to Tokyo - sleep, movies, prepare for Japan!"
+        },
+        {
+            "time": "14:50+1",
+            "description": "Arrive at Tokyo International (Haneda) Airport (HND) - Wednesday Nov 26"
+        }
+    ],
+    "transportation": "ANA/NH 7333 (AUS→SFO), ANA/NH 7011 (SFO→HND) - operated by United",
+    "accommodation": "Airplane seat",
+    "meals": "In-flight meals",
+    "budget": "Flight already paid",
+    "notes": "Set watch to Japan time. Try to sleep on the plane. Download offline maps and translation apps. Bring entertainment for long flight!"
+}

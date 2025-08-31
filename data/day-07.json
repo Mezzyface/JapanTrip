@@ -1,0 +1,38 @@
+{
+    "day": 7,
+    "date": "Monday, December 2, 2025",
+    "location": "Kyoto",
+    "weather": "Check forecast closer to date",
+    "description": "First day in Kyoto - the ancient capital of Japan! Exploring traditional temples and gardens.",
+    "activities": [
+        {
+            "time": "08:00",
+            "description": "Shinkansen from Tokyo to Kyoto"
+        },
+        {
+            "time": "11:00",
+            "description": "Check into ryokan/hotel"
+        },
+        {
+            "time": "13:00",
+            "description": "Lunch in Gion district"
+        },
+        {
+            "time": "15:00",
+            "description": "Visit Kiyomizu-dera Temple"
+        },
+        {
+            "time": "17:00",
+            "description": "Walk through Gion district (geisha spotting)"
+        },
+        {
+            "time": "19:00",
+            "description": "Traditional kaiseki dinner"
+        }
+    ],
+    "transportation": "Shinkansen bullet train Tokyo → Kyoto",
+    "accommodation": "Traditional ryokan in Kyoto",
+    "meals": "Lunch: Gion restaurant, Dinner: Kaiseki at ryokan",
+    "budget": "¥25,000 - ¥35,000 (includes Shinkansen)",
+    "notes": "Book Shinkansen seats in advance. Dress respectfully for temples. No photos in some areas of Gion."
+}

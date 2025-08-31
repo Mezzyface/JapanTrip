@@ -54,8 +54,8 @@
 }
 
 .day-weather {
-    background: linear-gradient(135deg, var(--accent-color), #4fc3f7);
-    color: var(--white);
+    background: linear-gradient(135deg, var(--accent-color), var(--secondary-color));
+    color: var(--background);
     padding: var(--spacing-xs) var(--spacing-sm);
     border-radius: 20px;
     font-size: 0.875rem;
@@ -110,7 +110,7 @@
 }
 
 .activity-item {
-    background: #f8f9fa;
+    background: var(--background-light);
     padding: var(--spacing-sm);
     margin-bottom: var(--spacing-xs);
     border-radius: 8px;
@@ -133,6 +133,165 @@
     font-size: 0.95rem;
 }
 
+/* Activity Location Clustering and Optional Activity Styles */
+.activity-item.optional {
+    background: var(--accent-color);
+    border-left: 3px solid var(--primary-color);
+    position: relative;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: var(--secondary-color);
+    animation: optionalPulse 6s ease-in-out infinite;
+}
+
+.activity-item.optional::before {
+    content: '✨ Optional';
+    position: absolute;
+    top: -8px;
+    right: 8px;
+    background: var(--primary-color);
+    color: var(--white);
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.activity-item.optional .activity-description {
+    font-style: italic;
+    color: var(--primary-color);
+}
+
+@keyframes optionalPulse {
+    0%, 100% { 
+        border-left-color: var(--primary-color);
+        background: var(--accent-color);
+        opacity: 1;
+    }
+    50% { 
+        border-left-color: var(--primary-color);
+        background: rgba(105, 117, 101, 0.5);
+        opacity: 0.95;
+    }
+}
+
+/* Location-based clustering */
+.activity-item.location-cluster {
+    margin-left: 20px;
+    border-left-color: var(--secondary-color);
+    background: var(--background-light);
+}
+
+.activity-item.location-cluster::before {
+    content: '';
+    position: absolute;
+    left: -23px;
+    top: 15px;
+    width: 16px;
+    height: 2px;
+    background: var(--secondary-color);
+}
+
+/* Hide connecting line for optional activities */
+.activity-item.optional.location-cluster::before {
+    display: none;
+}
+
+/* Location headers for grouping */
+.location-group {
+    margin: var(--spacing-md) 0 var(--spacing-sm) 0;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    background: linear-gradient(135deg, var(--background-light), var(--background));
+    border-radius: 8px;
+    border-left: 4px solid var(--secondary-color);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 0.85rem;
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-xs);
+}
+
+.location-group:first-child {
+    margin-top: 0;
+}
+
+.location-group::before {
+    content: '📍';
+    margin-right: var(--spacing-xs);
+}
+
+.location-group .location-name {
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 0.9rem;
+}
+
+.location-group .travel-time {
+    font-size: 0.8rem;
+    color: var(--text-medium);
+    margin-left: auto;
+}
+
+/* Different location cluster colors using the palette */
+.activity-item.cluster-temple {
+    border-left-color: var(--primary-color);
+    background: rgba(236, 223, 204, 0.1);
+}
+
+.activity-item.cluster-temple::after {
+    content: '⛩️';
+    margin-left: auto;
+    opacity: 0.8;
+}
+
+.activity-item.cluster-shopping {
+    border-left-color: var(--accent-color);
+    background: rgba(105, 117, 101, 0.12);
+}
+
+.activity-item.cluster-shopping::after {
+    content: '🛍️';
+    margin-left: auto;
+    opacity: 0.8;
+}
+
+.activity-item.cluster-food {
+    border-left-color: var(--secondary-color);
+    background: rgba(105, 117, 101, 0.15);
+}
+
+.activity-item.cluster-food::after {
+    content: '🍜';
+    margin-left: auto;
+    opacity: 0.8;
+}
+
+.activity-item.cluster-transport {
+    border-left-color: var(--text-medium);
+    background: rgba(138, 141, 127, 0.1);
+}
+
+.activity-item.cluster-transport::after {
+    content: '🚊';
+    margin-left: auto;
+    opacity: 0.8;
+}
+
+/* Additional visual improvements for location clustering */
+.location-activities {
+    margin-left: 12px;
+    border-left: 2px solid var(--secondary-color);
+    padding-left: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.location-activities .activity-item:last-child {
+    margin-bottom: 0;
+}
+
 /* Transportation & Accommodation */
 .day-info {
     display: grid;
@@ -142,15 +301,15 @@
 }
 
 .info-section {
-    background: #f0f7ff;
+    background: var(--background-light);
     padding: var(--spacing-sm);
     border-radius: 8px;
-    border: 1px solid #e3f2fd;
+    border: 1px solid var(--accent-color);
 }
 
 .info-title {
     font-weight: 600;
-    color: var(--accent-color);
+    color: var(--primary-color);
     margin-bottom: var(--spacing-xs);
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -185,16 +344,16 @@
 
 /* Notes Section */
 .day-notes {
-    background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+    background: linear-gradient(135deg, var(--accent-color) 0%, var(--background-light) 100%);
     padding: var(--spacing-md);
     border-radius: 8px;
     margin-top: var(--spacing-md);
-    border: 1px solid #ffcc02;
+    border: 1px solid var(--secondary-color);
 }
 
 .notes-title {
     font-weight: 600;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     margin-bottom: var(--spacing-xs);
     display: flex;
     align-items: center;
@@ -233,11 +392,11 @@
 
 /* Error States */
 .error {
-    background: #ffebee;
-    color: #c62828;
+    background: rgba(139, 90, 90, 0.2);
+    color: #FF6B6B;
     padding: var(--spacing-md);
     border-radius: var(--border-radius);
-    border: 1px solid #ffcdd2;
+    border: 1px solid rgba(255, 107, 107, 0.3);
     margin-bottom: var(--spacing-md);
 }
 

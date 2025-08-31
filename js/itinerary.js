@@ -5,15 +5,14 @@ class ItineraryLoader {
         this.days = [];
         this.totalCities = new Set();
         this.totalActivities = 0;
-    }
-
-    async loadAllDays() {
-        const startDate = new Date(2025, 10, 26); // November 26, 2025
+    }    async loadAllDays() {
+        const startDate = new Date(2025, 10, 25); // November 25, 2025 (travel day)
         const endDate = new Date(2025, 11, 11);   // December 11, 2025
         const dayCount = Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24)) + 1;
 
         const loadPromises = [];
-        for (let i = 1; i <= dayCount; i++) {
+        // Load day 0 (travel day) and days 1-16
+        for (let i = 0; i < dayCount; i++) {
             loadPromises.push(this.loadDay(i));
         }
 
@@ -26,29 +25,110 @@ class ItineraryLoader {
             console.error('Error loading itinerary:', error);
             this.renderError();
         }
-    }
-
-    async loadDay(dayNumber) {
+    }    async loadDay(dayNumber) {
         try {
             const paddedDay = dayNumber.toString().padStart(2, '0');
             const response = await fetch(`data/day-${paddedDay}.json`);
             
             if (!response.ok) {
-                // Return template data if file doesn't exist
-                return this.getTemplateDayData(dayNumber);
+                return this.getFallbackData(dayNumber);
             }
             
-            return await response.json();
+            const data = await response.json();
+            return data;
         } catch (error) {
-            console.error(`Error loading day ${dayNumber}:`, error);
-            return this.getTemplateDayData(dayNumber);
+            // Silently fall back to embedded data on CORS or other errors
+            return this.getFallbackData(dayNumber);
         }
     }
 
-    getTemplateDayData(dayNumber) {
-        const startDate = new Date(2025, 10, 26);
+    // Fallback method for file:// protocol or CORS issues
+    getFallbackData(dayNumber) {
+        const startDate = new Date(2025, 10, 25); // November 25, 2025 (Day 0)
         const currentDate = new Date(startDate);
-        currentDate.setDate(startDate.getDate() + dayNumber - 1);
+        currentDate.setDate(startDate.getDate() + dayNumber);
+        
+        const dateString = currentDate.toLocaleDateString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });        // Return real data for the days we know about
+        const fallbackData = {
+            0: {
+                day: 0,
+                date: "Tuesday, November 25, 2025",
+                location: "Travel Day (USA → Japan)",
+                weather: "In transit",
+                description: "Travel day from Austin to Tokyo via San Francisco. Long journey across the Pacific - get ready for the adventure!",
+                activities: [
+                    { time: "06:00", description: "Depart Austin-Bergstrom International Airport (AUS)" },
+                    { time: "08:03", description: "Arrive at San Francisco International Airport (SFO) - PST" },
+                    { time: "08:03", description: "Layover at SFO (2 hours 12 minutes)" },
+                    { time: "10:15", description: "Depart San Francisco International Airport (SFO)" },
+                    { time: "In-flight", description: "Long-haul flight to Tokyo - sleep, movies, prepare for Japan!" },
+                    { time: "14:50+1", description: "Arrive at Tokyo International (Haneda) Airport (HND) - Wednesday Nov 26" }
+                ],
+                transportation: "ANA/NH 7333 (AUS→SFO), ANA/NH 7011 (SFO→HND) - operated by United",
+                accommodation: "Airplane seat",
+                meals: "In-flight meals",
+                budget: "Flight already paid",
+                notes: "Set watch to Japan time. Try to sleep on the plane. Download offline maps and translation apps. Bring entertainment for long flight!"
+            },            1: {
+                day: 1,
+                date: "Wednesday, November 26, 2025",
+                location: "Tokyo - Shibuya",
+                weather: "Check forecast closer to date",
+                description: "Arrival day in Tokyo! Landing at Haneda Airport, traveling to Shibuya, starting your cultural journey with your first goshuin at Ebisu Shrine, and experiencing the famous Shibuya crossing.",
+                activities: [
+                    { time: "14:50", description: "Arrive at Tokyo International (Haneda) Airport (HND)" },
+                    { time: "15:00", description: "Clear immigration, collect luggage, and go through customs" },
+                    { time: "16:30", description: "Travel to Shibuya: Keikyu Line to Shinagawa → JR Yamanote Line to Ebisu" },
+                    { time: "17:15", description: "Optional cultural stop: Visit Ebisu Shrine (恵比寿神社) to purchase Goshuincho (stamp book) and receive first goshuin" },
+                    { time: "17:30", description: "Check into HJ PLACE SHIBUYA Airbnb and settle in" },
+                    { time: "18:30", description: "Walk to Shibuya area (15-20 minute walk from Airbnb)" },
+                    { time: "19:00", description: "Experience Shibuya Scramble Crossing - visit Starbucks on 2nd floor of Tsutaya for aerial view" },
+                    { time: "20:00", description: "Visit Pokémon Center Shibuya (6th floor of PARCO building)" },
+                    { time: "21:00", description: "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls" },
+                    { time: "22:30", description: "Walk back to Airbnb" }
+                ],
+                transportation: "Keikyu Airport Line to Shinagawa, then JR Yamanote Line to Ebisu. Total cost: ~¥510, Time: 45-55 minutes",
+                accommodation: "HJ PLACE SHIBUYA Airbnb - 3 Chome-20-10 Higashi, Shibuya City, Tokyo 〒150-0011",
+                meals: "Dinner: Shibuya restaurants (ramen, sushi, or department store food hall)",
+                budget: "¥4,500 - ¥8,000 (includes transport ¥510, Goshuincho ¥1,500, goshuin ¥300, meals & activities)",
+                notes: "Pick up Suica/Pasmo card at airport for easy train travel. CULTURAL HIGHLIGHT: Visit Ebisu Shrine for your first goshuin - a beautiful way to start your Japan journey! Goshuincho (stamp book) typically costs ¥1,000-2,000, goshuin stamps ¥300-500 each. Shibuya is busiest in evening - perfect timing!"
+            },
+            2: {
+                day: 2,
+                date: "Thursday, November 27, 2025",
+                location: "Tokyo - Asakusa & Shibuya",
+                weather: "Sunny, 17°C",
+                description: "First full day exploring Tokyo! Starting with traditional Asakusa in the morning, then experiencing the modern energy of Shibuya in the evening.",
+                activities: [
+                    { time: "08:00", description: "Traditional Japanese breakfast at hotel" },
+                    { time: "09:30", description: "Visit Senso-ji Temple in Asakusa" },
+                    { time: "11:00", description: "Explore Nakamise Shopping Street" },
+                    { time: "13:00", description: "Lunch: Tempura at Daikokuya (established 1887)" },
+                    { time: "15:00", description: "Tokyo Skytree observation deck" },
+                    { time: "17:30", description: "Travel to Shibuya" },
+                    { time: "18:00", description: "Experience Shibuya Crossing" },
+                    { time: "19:30", description: "Dinner and drinks in Shibuya" }
+                ],
+                transportation: "JR Lines and Tokyo Metro - use day pass",
+                accommodation: "Same hotel",
+                meals: "Breakfast: Hotel, Lunch: Daikokuya Tempura, Dinner: Shibuya izakaya",
+                budget: "¥12,000 - ¥18,000",
+                notes: "Senso-ji opens at 6 AM - go early to avoid crowds. Shibuya Crossing is busiest around 6-8 PM. Try to catch sunset from Skytree!"
+            }
+        };
+
+        return fallbackData[dayNumber] || this.getTemplateDayData(dayNumber);
+    }
+
+    getTemplateDayData(dayNumber) {
+        const startDate = new Date(2025, 10, 25); // November 25, 2025 (Day 0)
+        const currentDate = new Date(startDate);
+        currentDate.setDate(startDate.getDate() + dayNumber);
         
         const dateString = currentDate.toLocaleDateString('en-US', {
             weekday: 'long',
@@ -113,12 +193,13 @@ class ItineraryLoader {
             const dayCard = this.createDayCard(day, index + 1);
             timeline.appendChild(dayCard);
         });
-    }
-
-    createDayCard(day, dayNumber) {
+    }    createDayCard(day, dayNumber) {
         const card = document.createElement('div');
         card.className = 'day-card';
         card.setAttribute('data-day', dayNumber);
+
+        // Group activities by location and detect optional ones
+        const groupedActivities = this.groupActivitiesByLocation(day.activities);
 
         card.innerHTML = `
             <div class="day-header">
@@ -135,14 +216,9 @@ class ItineraryLoader {
             
             <div class="activities">
                 <h3 class="activities-title">Activities</h3>
-                <ul class="activity-list">
-                    ${day.activities.map(activity => `
-                        <li class="activity-item">
-                            <span class="activity-time">${activity.time}</span>
-                            <span class="activity-description">${activity.description}</span>
-                        </li>
-                    `).join('')}
-                </ul>
+                <div class="activity-list">
+                    ${groupedActivities}
+                </div>
             </div>
             
             <div class="day-info">
@@ -173,6 +249,121 @@ class ItineraryLoader {
         `;
 
         return card;
+    }
+
+    groupActivitiesByLocation(activities) {
+        let currentLocation = null;
+        let html = '';
+        
+        activities.forEach((activity, index) => {
+            // Detect activity type and location
+            const activityInfo = this.analyzeActivity(activity);
+            
+            // Add location group header if location changes
+            if (activityInfo.location && activityInfo.location !== currentLocation) {
+                if (currentLocation !== null) {
+                    html += '</div>'; // Close previous location group
+                }
+                html += `
+                    <div class="location-group">
+                        <span class="location-name">${activityInfo.location}</span>
+                        ${activityInfo.travelTime ? `<span class="travel-time">${activityInfo.travelTime}</span>` : ''}
+                    </div>
+                    <div class="location-activities">
+                `;
+                currentLocation = activityInfo.location;
+            } else if (currentLocation === null) {
+                html += '<div class="location-activities">';
+            }
+            
+            // Create activity item with appropriate classes
+            const classes = ['activity-item'];
+            if (activityInfo.isOptional) classes.push('optional');
+            if (activityInfo.cluster) classes.push(`cluster-${activityInfo.cluster}`);
+            if (currentLocation) classes.push('location-cluster');
+            
+            html += `
+                <div class="${classes.join(' ')}">
+                    <span class="activity-time">${activity.time}</span>
+                    <span class="activity-description">${activity.description}</span>
+                </div>
+            `;
+        });
+        
+        if (currentLocation !== null) {
+            html += '</div>'; // Close final location group
+        }
+        
+        return html;
+    }    analyzeActivity(activity) {
+        const description = activity.description.toLowerCase();
+        const result = {
+            location: null,
+            isOptional: false,
+            cluster: null,
+            travelTime: null
+        };
+        
+        // Detect optional activities
+        result.isOptional = description.includes('optional') || 
+                           description.includes('if time permits') ||
+                           description.includes('consider') ||
+                           description.includes('cultural stop');
+        
+        // Detect location clusters with more specificity
+        if (description.includes('temple') || description.includes('shrine') || 
+            description.includes('goshuin') || description.includes('goshuincho') ||
+            description.includes('senso-ji') || description.includes('ebisu shrine')) {
+            result.cluster = 'temple';
+        } else if (description.includes('shopping') || description.includes('store') || 
+                  description.includes('center') || description.includes('pokemon center') ||
+                  description.includes('nakamise') || description.includes('parco')) {
+            result.cluster = 'shopping';
+        } else if (description.includes('lunch') || description.includes('dinner') || 
+                  description.includes('breakfast') || description.includes('food') ||
+                  description.includes('tempura') || description.includes('daikokuya')) {
+            result.cluster = 'food';
+        } else if (description.includes('train') || description.includes('travel') || 
+                  description.includes('transport') || description.includes('airport') ||
+                  description.includes('keikyu') || description.includes('yamanote') ||
+                  description.includes('immigration') || description.includes('customs')) {
+            result.cluster = 'transport';
+        }
+        
+        // Extract locations from descriptions with more detail
+        if (description.includes('shibuya') && !description.includes('ebisu')) {
+            result.location = 'Shibuya District';
+        } else if (description.includes('ebisu')) {
+            result.location = 'Ebisu Area';
+        } else if (description.includes('asakusa')) {
+            result.location = 'Asakusa District';
+        } else if (description.includes('haneda') || (description.includes('airport') && !description.includes('depart from'))) {
+            result.location = 'Haneda Airport';
+        } else if (description.includes('airbnb') || description.includes('accommodation') || 
+                  description.includes('check into') || description.includes('hj place')) {
+            result.location = 'Accommodation';
+        } else if (description.includes('austin') || description.includes('san francisco')) {
+            result.location = 'USA Airports';
+        } else if (description.includes('skytree')) {
+            result.location = 'Tokyo Skytree Area';
+        } else if (description.includes('scramble crossing') || description.includes('starbucks')) {
+            result.location = 'Shibuya Crossing';
+        }
+        
+        // Extract travel time hints
+        if (description.includes('walk') && description.includes('minute')) {
+            const match = description.match(/(\d+)[-\s]*minute/);
+            if (match) result.travelTime = `${match[1]} min walk`;
+        } else if (description.includes('layover')) {
+            const match = description.match(/(\d+)\s*hours?\s*(\d+)?\s*minutes?/);
+            if (match) {
+                const hours = match[1];
+                const minutes = match[2] || '0';
+                result.travelTime = `${hours}h ${minutes}m layover`;
+            }
+        }
+        
+        return result;
     }
 
     renderError() {

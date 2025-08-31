@@ -1,1 +1,22 @@
-﻿{"day":9,"date":"TBD","location":"TBD","weather":"Check forecast","description":"Day 9 - add your plans","activities":[{"time":"09:00","description":"Add activities"}],"transportation":"TBD","accommodation":"TBD","meals":"TBD","budget":"TBD","notes":"Add notes"}
+{
+    "day": 9,
+    "date": "Wednesday, December 4, 2025",
+    "location": "Kyoto",
+    "weather": "Check forecast - December weather",
+    "description": "Third day in Kyoto - exploring Arashiyama bamboo grove and western Kyoto",
+    "activities": [
+        {"time": "08:30", "description": "Early train to Arashiyama"},
+        {"time": "09:30", "description": "Explore Bamboo Grove"},
+        {"time": "10:30", "description": "Visit Tenryu-ji Temple"},
+        {"time": "12:00", "description": "Lunch in Arashiyama"},
+        {"time": "14:00", "description": "Togetsukyo Bridge and river views"},
+        {"time": "15:30", "description": "Visit monkey park for city views"},
+        {"time": "17:00", "description": "Return to central Kyoto"},
+        {"time": "19:00", "description": "Traditional kaiseki dinner"}
+    ],
+    "transportation": "JR trains and local buses",
+    "accommodation": "Kyoto hotel",
+    "meals": "Lunch: Arashiyama local cuisine, Dinner: Kaiseki restaurant",
+    "budget": "�12,000 - �18,000",
+    "notes": "Arashiyama is famous for bamboo groves and autumn colors. Monkey park offers great views of Kyoto."
+}

@@ -1,14 +1,29 @@
 /* Main Styles for Japan Trip Itinerary */
 :root {
-    --primary-color: #e91e63;
-    --secondary-color: #ff9800;
-    --accent-color: #2196f3;
-    --text-dark: #212121;
-    --text-light: #757575;
-    --background: #fafafa;
-    --white: #ffffff;
-    --shadow: 0 2px 8px rgba(0,0,0,0.1);
-    --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
+    /* New ColorHunt Dark Palette: https://colorhunt.co/palette/1e201e3c3d37697565ecdfcc */
+    --primary-color: #ECDFCC;      /* Warm cream - main brand color and text */
+    --secondary-color: #697565;    /* Muted sage green - secondary actions */
+    --accent-color: #697565;       /* Sage green - highlights and accents */
+    --background-light: #3C3D37;   /* Dark olive - light backgrounds */
+    
+    /* Text colors for new dark theme */
+    --text-dark: #ECDFCC;         /* Warm cream for main text */
+    --text-medium: #697565;       /* Sage green for secondary text */
+    --text-light: #8A8D7F;        /* Lighter sage for muted text */
+    
+    /* Background variations */
+    --background: #1E201E;         /* Deep dark green background */
+    --background-secondary: #3C3D37; /* Dark olive secondary background */
+    --white: #3C3D37;             /* Dark card background */
+    
+    /* Interactive states */
+    --primary-hover: #F5ECD9;     /* Brighter cream for hover */
+    --secondary-hover: #7A876D;   /* Brighter sage for hover */
+    --accent-hover: #7A876D;      /* Brighter sage for hover */
+    
+    /* Shadows and effects for dark theme */
+    --shadow: 0 2px 8px rgba(30, 32, 30, 0.4);
+    --shadow-hover: 0 4px 16px rgba(30, 32, 30, 0.6);
     --border-radius: 12px;
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
@@ -27,7 +42,7 @@ body {
     font-family: 'Inter', 'Noto Sans JP', sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
-    background: linear-gradient(135deg, #ffeef3 0%, #f3e5f5 100%);
+    background: linear-gradient(135deg, var(--background) 0%, var(--background-secondary) 50%, var(--background-light) 100%);
     min-height: 100vh;
 }
 
@@ -146,11 +161,12 @@ body {
 
 /* Footer */
 .footer {
-    background: var(--text-dark);
-    color: var(--white);
+    background: var(--background-secondary);
+    color: var(--text-dark);
     text-align: center;
     padding: var(--spacing-lg) 0;
     margin-top: var(--spacing-xl);
+    border-top: 2px solid var(--primary-color);
 }
 
 /* Responsive Design */

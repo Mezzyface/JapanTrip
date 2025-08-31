@@ -1,0 +1,38 @@
+{
+    "day": 8,
+    "date": "Tuesday, December 3, 2025",
+    "location": "Kyoto",
+    "weather": "Check forecast closer to date",
+    "description": "Second day in Kyoto - exploring more temples and traditional districts.",
+    "activities": [
+        {
+            "time": "08:00",
+            "description": "Early visit to Fushimi Inari Shrine"
+        },
+        {
+            "time": "11:00",
+            "description": "Explore thousands of torii gates"
+        },
+        {
+            "time": "13:00",
+            "description": "Lunch near Fushimi Inari"
+        },
+        {
+            "time": "15:00",
+            "description": "Visit Bamboo Grove in Arashiyama"
+        },
+        {
+            "time": "17:00",
+            "description": "Tea ceremony experience"
+        },
+        {
+            "time": "19:00",
+            "description": "Traditional dinner"
+        }
+    ],
+    "transportation": "Kyoto city buses and trains",
+    "accommodation": "Kyoto ryokan",
+    "meals": "Lunch: Local restaurant, Dinner: Traditional kaiseki",
+    "budget": "¥15,000 - ¥20,000",
+    "notes": "Fushimi Inari is best visited early morning. Book tea ceremony in advance."
+}

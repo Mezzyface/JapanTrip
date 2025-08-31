@@ -1,34 +1,53 @@
 {
     "day": 1,
-    "date": "Tuesday, November 26, 2025",
-    "location": "Tokyo",
-    "weather": "Partly Cloudy, 15°C",
-    "description": "Arrival day in Tokyo! Landing at Haneda Airport and getting settled in the city. First taste of Tokyo vibes and some light exploration.",
+    "date": "Wednesday, November 26, 2025",
+    "location": "Tokyo - Shibuya",
+    "weather": "Check forecast closer to date",
+    "description": "Arrival day in Tokyo! Landing at Haneda Airport, traveling to Shibuya, starting your cultural journey with your first goshuin at Ebisu Shrine, and experiencing the famous Shibuya crossing.",
     "activities": [
         {
-            "time": "14:30",
-            "description": "Land at Haneda Airport (HND)"
+            "time": "14:50",
+            "description": "Arrive at Tokyo International (Haneda) Airport (HND)"
         },
         {
-            "time": "16:00",
-            "description": "Take Airport Express to central Tokyo"
+            "time": "15:00",
+            "description": "Clear immigration, collect luggage, and go through customs"
+        },        {
+            "time": "16:30",
+            "description": "Travel to Shibuya: Keikyu Line to Shinagawa → JR Yamanote Line to Ebisu"
+        },
+        {
+            "time": "17:15",
+            "description": "Optional cultural stop: Visit Ebisu Shrine (恵比寿神社) to purchase Goshuincho (stamp book) and receive first goshuin"
         },
         {
             "time": "17:30",
-            "description": "Check into hotel and freshen up"
+            "description": "Check into HJ PLACE SHIBUYA Airbnb and settle in"
+        },
+        {
+            "time": "18:30",
+            "description": "Walk to Shibuya area (15-20 minute walk from Airbnb)"
         },
         {
             "time": "19:00",
-            "description": "Dinner at nearby restaurant - try authentic ramen"
+            "description": "Experience Shibuya Scramble Crossing - visit Starbucks on 2nd floor of Tsutaya for aerial view"
         },
         {
-            "time": "20:30",
-            "description": "Evening stroll around the neighborhood"
+            "time": "20:00",
+            "description": "Visit Pokémon Center Shibuya (6th floor of PARCO building)"
+        },
+        {
+            "time": "21:00",
+            "description": "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls"
+        },
+        {
+            "time": "22:30",
+            "description": "Walk back to Airbnb"
         }
     ],
-    "transportation": "Airport Express from Haneda to hotel area",
-    "accommodation": "Hotel in Shibuya/Shinjuku area",
-    "meals": "Dinner: Local ramen shop",
-    "budget": "¥8,000 - ¥12,000",
-    "notes": "Keep flight confirmation handy. Download Google Translate app. Get IC card (Suica/Pasmo) for trains. Remember to bow when greeting!"
+    "transportation": "Keikyu Airport Line to Shinagawa, then JR Yamanote Line to Ebisu. Total cost: ~¥510, Time: 45-55 minutes",
+    "accommodation": "HJ PLACE SHIBUYA Airbnb - 3 Chome-20-10 Higashi, Shibuya City, Tokyo 〒150-0011",
+    "meals": "Dinner: Shibuya restaurants (ramen, sushi, or department store food hall)",
+    "budget": "¥4,500 - ¥8,000 (includes transport ¥510, Goshuincho ¥1,500, goshuin ¥300, meals & activities)",
+    "notes": "Pick up Suica/Pasmo card at airport for easy train travel. CULTURAL HIGHLIGHT: Visit Ebisu Shrine for your first goshuin - a beautiful way to start your Japan journey! Goshuincho (stamp book) typically costs ¥1,000-2,000, goshuin stamps ¥300-500 each. Shibuya is busiest in evening - perfect timing!"
 }
