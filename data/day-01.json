@@ -1,0 +1,34 @@
+{
+    "day": 1,
+    "date": "Tuesday, November 26, 2025",
+    "location": "Tokyo",
+    "weather": "Partly Cloudy, 15°C",
+    "description": "Arrival day in Tokyo! Landing at Haneda Airport and getting settled in the city. First taste of Tokyo vibes and some light exploration.",
+    "activities": [
+        {
+            "time": "14:30",
+            "description": "Land at Haneda Airport (HND)"
+        },
+        {
+            "time": "16:00",
+            "description": "Take Airport Express to central Tokyo"
+        },
+        {
+            "time": "17:30",
+            "description": "Check into hotel and freshen up"
+        },
+        {
+            "time": "19:00",
+            "description": "Dinner at nearby restaurant - try authentic ramen"
+        },
+        {
+            "time": "20:30",
+            "description": "Evening stroll around the neighborhood"
+        }
+    ],
+    "transportation": "Airport Express from Haneda to hotel area",
+    "accommodation": "Hotel in Shibuya/Shinjuku area",
+    "meals": "Dinner: Local ramen shop",
+    "budget": "¥8,000 - ¥12,000",
+    "notes": "Keep flight confirmation handy. Download Google Translate app. Get IC card (Suica/Pasmo) for trains. Remember to bow when greeting!"
+}

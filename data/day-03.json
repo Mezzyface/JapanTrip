@@ -1,0 +1,46 @@
+{
+    "day": 3,
+    "date": "Thursday, November 28, 2025",
+    "location": "Tokyo - Harajuku & Omotesando",
+    "weather": "Cloudy, 14°C",
+    "description": "Exploring Tokyo's fashion and culture districts. From quirky Harajuku street style to upscale Omotesando shopping.",
+    "activities": [
+        {
+            "time": "09:00",
+            "description": "Breakfast: Japanese pancakes in Harajuku"
+        },
+        {
+            "time": "10:30",
+            "description": "Explore Takeshita Street"
+        },
+        {
+            "time": "12:00",
+            "description": "Visit Meiji Shrine"
+        },
+        {
+            "time": "14:00",
+            "description": "Lunch: Crepes on Takeshita Street"
+        },
+        {
+            "time": "15:30",
+            "description": "Shopping in Omotesando Hills"
+        },
+        {
+            "time": "17:00",
+            "description": "Cat Cafe experience"
+        },
+        {
+            "time": "19:00",
+            "description": "Dinner: Authentic sushi restaurant"
+        },
+        {
+            "time": "21:00",
+            "description": "Evening in Golden Gai, Shinjuku"
+        }
+    ],
+    "transportation": "JR Yamanote Line",
+    "accommodation": "Same hotel",
+    "meals": "Breakfast: Fluffy pancakes, Lunch: Harajuku crepes, Dinner: Sushi restaurant",
+    "budget": "¥15,000 - ¥25,000",
+    "notes": "Meiji Shrine is free but consider donation. Golden Gai bars are tiny - perfect for meeting locals! Bring cash for most places."
+}

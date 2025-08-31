@@ -1,0 +1,30 @@
+{
+    "day": 4,
+    "date": "Friday, November 29, 2025",
+    "location": "Tokyo",
+    "weather": "Check forecast closer to date",
+    "description": "Day 4 in Tokyo. Plan your activities and experiences here.",
+    "activities": [
+        {
+            "time": "09:00",
+            "description": "Morning activity - add your plans here"
+        },
+        {
+            "time": "12:00",
+            "description": "Lunch and midday exploration"
+        },
+        {
+            "time": "15:00",
+            "description": "Afternoon activity"
+        },
+        {
+            "time": "18:00",
+            "description": "Evening activity and dinner"
+        }
+    ],
+    "transportation": "Add transportation details",
+    "accommodation": "Add accommodation details",
+    "meals": "Plan your meals here",
+    "budget": "Estimate daily budget",
+    "notes": "Add any special notes, reservations, or reminders for this day"
+}

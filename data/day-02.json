@@ -1,0 +1,46 @@
+{
+    "day": 2,
+    "date": "Wednesday, November 27, 2025",
+    "location": "Tokyo - Asakusa & Shibuya",
+    "weather": "Sunny, 17°C",
+    "description": "First full day exploring Tokyo! Starting with traditional Asakusa in the morning, then experiencing the modern energy of Shibuya in the evening.",
+    "activities": [
+        {
+            "time": "08:00",
+            "description": "Traditional Japanese breakfast at hotel"
+        },
+        {
+            "time": "09:30",
+            "description": "Visit Senso-ji Temple in Asakusa"
+        },
+        {
+            "time": "11:00",
+            "description": "Explore Nakamise Shopping Street"
+        },
+        {
+            "time": "13:00",
+            "description": "Lunch: Tempura at Daikokuya (established 1887)"
+        },
+        {
+            "time": "15:00",
+            "description": "Tokyo Skytree observation deck"
+        },
+        {
+            "time": "17:30",
+            "description": "Travel to Shibuya"
+        },
+        {
+            "time": "18:00",
+            "description": "Experience Shibuya Crossing"
+        },
+        {
+            "time": "19:30",
+            "description": "Dinner and drinks in Shibuya"
+        }
+    ],
+    "transportation": "JR Lines and Tokyo Metro - use day pass",
+    "accommodation": "Same hotel",
+    "meals": "Breakfast: Hotel, Lunch: Daikokuya Tempura, Dinner: Shibuya izakaya",
+    "budget": "¥12,000 - ¥18,000",
+    "notes": "Senso-ji opens at 6 AM - go early to avoid crowds. Shibuya Crossing is busiest around 6-8 PM. Try to catch sunset from Skytree!"
+}
