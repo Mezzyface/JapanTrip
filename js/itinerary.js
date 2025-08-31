@@ -204,21 +204,50 @@ class ItineraryLoader {
             const dayCard = this.createDayCard(day, index + 1);
             timeline.appendChild(dayCard);
         });
-    }    // Check if transportation contains critical travel information
-    isCriticalTransportation(transportation) {
+    }    // Check if transportation should be displayed at all (hides routine local transport)
+    shouldShowTransportation(transportation) {
         if (!transportation || transportation === 'TBD' || transportation.trim() === '') {
             return false;
         }
         
         const transportLower = transportation.toLowerCase();
         
-        // Exclude routine local transportation patterns
+        // Hide routine local transportation patterns completely
+        const hidePatterns = [
+            /keikyu.*yamanote/i, // Airport to local area via common train lines
+            /tokyo metro.*jr lines/i, // Standard metro combinations
+            /^jr lines and tokyo metro/i, // Day pass usage
+            /local.*lines?.*day pass/i, // Local transport with day passes
+            /walking.*distance/i,
+            /total cost:.*¥[1-9]\d{2}(?!\d)/i, // Small costs ¥100-999 (but not ¥1000+)
+        ];
+        
+        // Check if this should be hidden
+        const shouldHide = hidePatterns.some(pattern => 
+            pattern.test(transportation)
+        );
+        
+        if (shouldHide) {
+            return false; // Don't show routine transportation
+        }
+        
+        return true; // Show all other transportation
+    }
+
+    // Check if transportation contains critical travel information
+    isCriticalTransportation(transportation) {
+        if (!transportation || transportation === 'TBD' || transportation.trim() === '') {
+            return false;
+        }
+        
+        const transportLower = transportation.toLowerCase();
+          // Exclude routine local transportation patterns
         const routinePatterns = [
-            /keikyu.*line.*yamanote/i,
+            /keikyu.*yamanote/i, // More flexible: Keikyu...Yamanote (any text in between)
             /tokyo metro.*jr lines/i,
             /local.*lines?/i,
             /walking.*distance/i,
-            /total cost:.*¥\d{2,4}/i, // Small costs like ¥510
+            /total cost:.*¥\d{2,4}(?!\d)/i, // Small costs like ¥510 (but not ¥5100+)
             /time:.*\d+.*minutes?$/i // Just travel time info
         ];
         
@@ -435,9 +464,8 @@ class ItineraryLoader {
                     `).join('')}
                 </div>
             </div>
-            ` : ''}
-              <div class="day-info">
-                ${day.transportation && day.transportation !== 'TBD' && day.transportation.trim() !== '' ? `
+            ` : ''}            <div class="day-info">
+                ${day.transportation && day.transportation !== 'TBD' && day.transportation.trim() !== '' && this.shouldShowTransportation(day.transportation) ? `
                 <div class="info-section transportation ${this.isCriticalTransportation(day.transportation) ? 'critical' : ''}">
                     <div class="info-title">${this.isCriticalTransportation(day.transportation) ? 'Critical Transportation' : 'Transportation'}</div>
                     <div class="info-content">${this.isCriticalTransportation(day.transportation) ? this.formatCriticalTransportation(day.transportation, day.activities) : this.processMarkdownLinks(day.transportation)}</div>
