@@ -387,16 +387,34 @@ class ItineraryLoader {
             
             return result || transportation;
         }
-        
-        // Extract Limited Express info (like Kaiji)
+          // Extract Limited Express info (like Kaiji)
         if (transportation.includes('Limited Express') || transportation.includes('Kaiji')) {
             const trainMatch = transportation.match(/(Kaiji|Limited Express)\s*\d*/i);
-            const timeMatch = transportation.match(/\d{1,2}:\d{2}/g);
+            let departureTime = null;
             const platformMatch = transportation.match(/platform \d+/i);
+            
+            // Look for departure time in activities first (for "MUST CATCH" trains)
+            if (activities && activities.length > 0) {
+                const departureActivity = activities.find(activity => 
+                    activity.description && 
+                    (activity.description.includes('MUST CATCH') || activity.description.includes('Limited Express Kaiji')) &&
+                    activity.time
+                );
+                
+                if (departureActivity) {
+                    departureTime = departureActivity.time;
+                }
+            }
+            
+            // Fallback: try to find time in transportation text
+            if (!departureTime) {
+                const timeMatch = transportation.match(/\d{1,2}:\d{2}/g);
+                if (timeMatch) departureTime = timeMatch[0];
+            }
             
             let result = '';
             if (trainMatch) result += `${trainMatch[0]} `;
-            if (timeMatch) result += `| Depart: ${timeMatch[0]} `;
+            if (departureTime) result += `| Depart: ${departureTime} `;
             if (platformMatch) result += `| ${platformMatch[0]}`;
             
             return result || transportation;
@@ -717,7 +735,7 @@ class ItineraryLoader {
         if (description.includes('shibuya') && !description.includes('ebisu')) {
             result.location = 'Shibuya District';
         } else if (description.includes('ebisu')) {
-            result.location = 'Ebisu Area';        } else if (description.includes('harajuku') || description.includes('meiji shrine') || description.includes('meiji jingu')) {
+            result.location = 'Ebisu Area';        } else if (description.includes('harajuku') || description.includes('meiji shrine') || description.includes('meiji jingu') || description.includes('togo-jinja') || description.includes('togo shrine') || description.includes('onden shrine') || description.includes('onden jinja') || description.includes('kitaya inari') || description.includes('kitaya shrine')) {
             result.location = 'Harajuku Area';
         } else if (description.includes('shinjuku')) {
             result.location = 'Shinjuku Station';        } else if (description.includes('asakusa')) {

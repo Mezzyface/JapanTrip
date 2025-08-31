@@ -94,7 +94,7 @@ const itineraryData = {
             "method": "Walking"
         }
     ],
-    "accommodation": "HJ PLACE SHIBUYA Airbnb - 3 Chome-20-10 Higashi, Shibuya City, Tokyo 〒150-0011 | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
+    "accommodation": "HJ PLACE SHIBUYA Airbnb | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
     "meals": "Dinner: Shibuya restaurants (ramen, sushi, or department store food hall)",
     "budget": "¥4,500 - ¥8,000 (includes transport ¥510, Goshuincho ¥1,500, goshuin ¥300, meals & activities)",
     "notes": "Pick up Suica/Pasmo card at airport for easy train travel. Shopping List: Suitcase, Sling bag, Shopping Bag, Toiletire"
@@ -127,20 +127,17 @@ const itineraryData = {
             "description": "Lunch in Harajuku/Shibuya - explore Omotesando, Cat Street, or backstreets of Harajuku"
         },        {
             "time": "12:30",
-            "description": "Visit Onden Shrine (穏田神社) - quiet local shrine tucked away from main streets, 10-15 min walk from Harajuku area. Beautiful goshuin available. [📖 Shrine Guide](https://jinja-gosyuin.com/ondenjinja-gosyuin/)"
+            "description": "Visit Onden Shrine (穏田神社) - [Shrine Site](https://onden.jp/items/) [Navigate](https://maps.app.goo.gl/NdsQCNcR2bXTjPkcA)"
         },
         {
             "time": "13:30",
-            "description": "Visit Kitaya Inari Shrine (北谷稲荷神社) - small oasis of calm in bustling area, 15-20 min walk from Onden"
+            "description": "Visit Kitaya Inari Shrine (北谷稲荷神社) - [Shrine Site](https://jinjamemo.com/archives/kitayainarijinja.html#toc24) [Navigate](https://maps.app.goo.gl/1MZoi6S4n5Esv3JCA)"
         },        {
             "time": "14:30",
-            "description": "Visit Miyamasumitake Shrine (宮益御嶽神社) - short walk towards Shibuya Station, right in heart of city"
-        },        {
-            "time": "14:50",
-            "description": "Head to Shinjuku Station via nearby Shibuya Station (JR Yamanote line, 1 stop north)"
+            "description": "Visit Miyamasumitake Shrine (宮益御嶽神社) - [Shrine Site](https://shibuyamiyamasu.jp/?page_id=396) [Navigate](https://maps.app.goo.gl/MrKPzY4c8KzzVRju8)"
         },
         {
-            "time": "15:05",
+            "time": "15:00",
             "description": "Arrive at Shinjuku Station and retrieve your luggage"
         },
         {
@@ -152,25 +149,9 @@ const itineraryData = {
             "description": "🚄 MUST CATCH: Limited Express Kaiji 35 (Chuo Line) from Platform 10 - LAST TRAIN TO MOUNT FUJI TODAY!"
         },
         {
-            "time": "16:30",
-            "description": "🚄 Arrive at Ōtsuki Station for transfer"
-        },
-        {
-            "time": "16:57",
-            "description": "🚄 Depart Ōtsuki Station: Fujisan View Express 13 (Fujikyuko Line)"
-        },
-        {
-            "time": "17:56",
-            "description": "🚄 Arrive at Kawaguchiko Station"
-        },
-        {
-            "time": "18:00",
-            "description": "Travel to ryokan: Take short taxi ride (5-10 minutes) from the station"
-        },
-        {
-            "time": "18:15",
-            "description": "Check into Aoiso Ryokan (あおい荘) - 1297-1 Kodachi, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0302"
-        }    ],
+            "time": "16:30 - 16:57",
+            "description": "🚄 Arrive at Ōtsuki Station for transfer to Fujisan View Express 13 (Fujikyuko Line)"
+        }   ],
     "transportation": "JR Yamanote Line (¥170 per trip), Limited Express Kaiji + Fujisan View Express to Kawaguchiko, taxi to ryokan",    "travelRoutes": [
         {
             "name": "Ebisu to Shinjuku Station",
@@ -186,13 +167,20 @@ const itineraryData = {
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00004254&goal=00002128&start_name=Shinjuku&goal_name=Harajuku&cid=&from=route_top_search_box&ferry=false&taxi=false",
             "duration": "4-6 minutes",
             "cost": "~¥170",
-            "method": "JR Yamanote Line"
-        }
-    ],
-    "accommodation": "Aoiso Ryokan (あおい荘) - 1297-1 Kodachi, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0302",
+            "method": "JR Yamanote Line"        
+        },
+        {
+            "name": "Shinjuku to Kawaguchiko Station",
+            "description": "Complete Mount Fuji journey via Limited Express Kaiji 35 and Fujisan View Express to reach ryokan destination",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00004254&goal=00001065&start_name=Shinjuku&goal_name=Kawaguchiko&cid=&from=route_top_search_box&date_time=2025-11-27T15%3A20&ferry=false&taxi=false",
+            "duration": "2 hours 26 minutes",
+            "cost": "~¥2,700",
+            "method": "Limited Express + Local Train"
+        }    ],
+    "accommodation": "Aoiso Ryokan (あおい荘) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMKCYQKHZZ) |  [Navigate](https://maps.app.goo.gl/MCXdJWUuhSKBgMzF9)",
     "meals": "Breakfast: Light meal before departure, Lunch: Harajuku/Omotesando restaurants, Dinner: Traditional ryokan kaiseki",
     "budget": "¥15,000 - ¥25,000 (includes train tickets ¥3,000+, shrine donations, meals, taxi, ryokan)",
-    "notes": "GOSHUIN COLLECTION DAY! Bring your goshuincho from Ebisu Shrine. Check shrine guides for Meiji Shrine and Onden Shrine for goshuin details and photos. Shrine addresses: Onden (5-26-6 Jingumae), Kitaya Inari (1-4-1 Jinnan), Miyamasumitake (1-12-16 Shibuya). Store luggage at Shinjuku early. Traditional ryokan experience begins! 🚨 CRITICAL TRAIN: Limited Express Kaiji 35 at 15:30 from Platform 10 - MUST NOT MISS! This is the last train to Mount Fuji today. Arrive Platform 10 by 15:15. ⚠️ VERIFIED AGAINST ATTACHMENT: All train times and addresses confirmed accurate."
+    "notes": "GOSHUIN COLLECTION DAY! 🚨 CRITICAL TRAIN: Limited Express Kaiji 35 at 15:30 from Platform 10 - MUST NOT MISS!"
 }
 ,
 "day03": {
