@@ -1,49 +1,77 @@
 {
     "day": 3,
-    "date": "Thursday, November 28, 2025",
-    "location": "Tokyo - Harajuku & Omotesando",
-    "weather": "Cloudy, 14°C",
-    "description": "Exploring Tokyo's fashion and culture districts. From quirky Harajuku street style to upscale Omotesando shopping.",    "activities": [
+    "date": "Friday, November 28, 2025",
+    "location": "Mount Fuji Area - Chureito Pagoda & Lakeside Shrines",
+    "weather": "Clear skies ideal for Fuji views - Check for visibility",
+    "description": "🗻 Fuji Views Adventure! Iconic Chureito Pagoda at sunrise, shrine hopping for goshuin collection, and stunning lakeside views. The perfect day to capture Mount Fuji's majesty from multiple angles.",
+    "activities": [
         {
-            "time": "08:30",
-            "description": "Travel to Harajuku: JR Yamanote Line from Ebisu to Harajuku"
+            "time": "07:00",
+            "description": "🚄 Leave Aoiso Ryokan via taxi to Kawaguchiko Station (5-10 minutes)"
         },
         {
-            "time": "09:00",
-            "description": "Breakfast: Japanese pancakes in Harajuku"
+            "time": "07:15",
+            "description": "🚄 Travel to Arakurayama Sengen Park: Fujikyu Railway Line from Kawaguchiko to Shimoyoshida Station (15 minutes)"
         },
         {
-            "time": "10:30",
-            "description": "Explore Takeshita Street"
+            "time": "07:45",
+            "description": "🥾 Walk from Shimoyoshida Station to Arakurayama Sengen Park entrance (10-15 minutes)"
+        },
+        {
+            "time": "08:00",
+            "description": "🗻 Climb ~400 steps to Chureito Pagoda for iconic Mount Fuji views - BEST PHOTO SPOT!"
+        },
+        {
+            "time": "09:30",
+            "description": "⛩️ Visit Arakura Fujisengen-jinja Shrine for goshuin collection. [📖 Shrine Guide](https://example.com/arakura-shrine)"
+        },        {
+            "time": "11:30",
+            "description": "🚄 Walk back to Shimoyoshida Station and return to Kawaguchiko Station 🗺️"
         },
         {
             "time": "12:00",
-            "description": "Visit Meiji Shrine"
+            "description": "🍜 Lunch at Specialty Hoto Fudo (Kawaguchiko Ekimae branch) - famous local udon in miso broth"
+        },
+        {
+            "time": "13:30",
+            "description": "🚌 Take Kawaguchiko Sightseeing Bus (Red Line) for lakeside shrine tour"
         },
         {
             "time": "14:00",
-            "description": "Lunch: Crepes on Takeshita Street"
+            "description": "⛩️ Visit Kawaguchi Asama-jinja Shrine - ancient cedar trees and another goshuin. [📖 Shrine Guide](https://example.com/kawaguchi-asama)"
+        },
+        {
+            "time": "15:00",
+            "description": "🚌 Continue on Red Line bus to Natural Living Center"
         },
         {
             "time": "15:30",
-            "description": "Shopping in Omotesando Hills"
+            "description": "🗻 Kawaguchiko Natural Living Center & Oishi Park - unobstructed Mount Fuji views"
         },
         {
-            "time": "17:00",
-            "description": "Cat Cafe experience"
+            "time": "16:30",
+            "description": "🌅 Mount Fuji sunset viewing from Oishi Park (sunset ~16:30 in late November)"
         },
         {
-            "time": "19:00",
-            "description": "Dinner: Authentic sushi restaurant"
+            "time": "17:30",
+            "description": "🚌 Take Red Line bus towards Itchiku Kubota Art Museum stop"
         },
         {
-            "time": "21:00",
-            "description": "Evening in Golden Gai, Shinjuku"
+            "time": "18:00",
+            "description": "🍁 Maple Corridor (Momiji Kairo) - evening illuminations on autumn leaves"
+        },
+        {
+            "time": "19:30",
+            "description": "🚌 Return to Kawaguchiko Station via Red Line bus"
+        },
+        {
+            "time": "20:00",
+            "description": "🚄 Taxi back to Aoiso Ryokan for traditional kaiseki dinner"
         }
     ],
-    "transportation": "JR Yamanote Line",
-    "accommodation": "Same hotel",
-    "meals": "Breakfast: Fluffy pancakes, Lunch: Harajuku crepes, Dinner: Sushi restaurant",
-    "budget": "¥15,000 - ¥25,000",
-    "notes": "Meiji Shrine is free but consider donation. Golden Gai bars are tiny - perfect for meeting locals! Bring cash for most places."
+    "transportation": "🚄 Fujikyu Railway, 🚌 Kawaguchiko Red Line Sightseeing Bus (¥1,500 2-day pass), 🚕 Local taxis",
+    "accommodation": "Aoiso Ryokan (あおい荘) - final night with traditional kaiseki dinner",
+    "meals": "Breakfast: Light ryokan breakfast, Lunch: Hoto noodles specialty, Dinner: Traditional kaiseki at ryokan",
+    "budget": "¥8,000 - ¥12,000 (includes bus pass ¥1,500, shrine donations, meals, local transport)",
+    "notes": "🗻 PERFECT FUJI VIEWING DAY! Weather is critical - clear skies needed for best views. Chureito Pagoda is the iconic postcard shot. Collect goshuin at both shrines. Red Line bus pass covers all sightseeing spots. Wear comfortable shoes for pagoda climb. Sunset timing is crucial - arrive at Oishi Park by 4:00 PM. Evening illuminations start after dark."
 }

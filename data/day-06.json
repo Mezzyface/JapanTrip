@@ -1,53 +1,86 @@
 {
     "day": 6,
-    "date": "Sunday, December 1, 2025",    "location": "Tokyo - Tsukiji & Ginza",
-    "weather": "Check forecast closer to date",
-    "description": "Early morning at Tsukiji Fish Market followed by luxury shopping in Ginza.",
+    "date": "Monday, December 1, 2025",
+    "location": "Kyoto - Moss Garden, Arashiyama & Maple Illuminations",
+    "weather": "Cool December weather, perfect for temple gardens and autumn illuminations",
+    "description": "🍃 Ultimate Kyoto temple and garden adventure! Sacred moss garden meditation, bamboo forest exploration, comprehensive goshuin temple tour, and magical evening maple illuminations.",
     "activities": [
         {
-            "time": "05:00",
-            "description": "Travel to Tsukiji: Tokyo Metro Hibiya Line from Ebisu to Tsukiji"
+            "time": "07:30",
+            "description": "🚶 Depart accommodation for Saiho-ji (Moss Temple) - early start for exclusive temple experience"
         },
         {
-            "time": "05:30",
-            "description": "Visit Tsukiji Outer Market for fresh sushi breakfast"
-        },
-        {
-            "time": "07:00",
-            "description": "Explore traditional food stalls and shops"
+            "time": "08:30",
+            "description": "🚄 Arrive near Saiho-ji via train/bus combination from Nijo Station (45-60 mins) or taxi for time efficiency"
         },
         {
             "time": "09:00",
-            "description": "Walk to Ginza: 15-minute walk from Tsukiji"
+            "description": "🧘 Saiho-j (Koke-dera) meditation experience - participate in Buddhist chanting and sutra calligraphy (shakyo) before moss garden access. [📖 Temple Guide](https://jpmanual.com/en/kokedera)"
         },
         {
-            "time": "09:30",
-            "description": "Luxury shopping at Ginza department stores"
+            "time": "10:30",
+            "description": "🚌 Travel from Saiho-j to central Arashiyama area - short bus or taxi ride"
+        },
+        {
+            "time": "11:00",
+            "description": "🍜 Quick lunch in Arashiyama before starting intensive temple tour"
         },
         {
             "time": "12:00",
-            "description": "High-end sushi lunch at Ginza restaurant"
+            "description": "🏛️ Begin Arashiyama Goshuin Tour at Tenryu-j Temple - UNESCO World Heritage site (40 mins). [📖 Tour Guide](https://jinja-gosyuin.com/kyoto-rakusai/#8221)"
         },
         {
-            "time": "14:00",
-            "description": "Travel to Ueno: JR Yamanote Line from Shimbashi to Ueno"
+            "time": "12:46",
+            "description": "🎋 Walk through iconic Bamboo Forest Path to next shrine - ethereal bamboo grove experience (6 min walk)"
         },
         {
-            "time": "14:30",
-            "description": "Visit Ueno Park and museums"
+            "time": "13:00",
+            "description": "⛩️ Nonomiya Shrine - associated with Tale of Genji literary classic (25 mins, 6 min walk)"
         },
         {
-            "time": "17:00",
-            "description": "Travel back to Shibuya: JR Yamanote Line from Ueno to Shibuya"
+            "time": "13:31",
+            "description": "🍁 Jojakko-j Temple - famous for spectacular autumn leaves display (40 mins, 8 min walk)"
         },
         {
-            "time": "18:00",
-            "description": "Dinner in Shibuya"
+            "time": "14:19",
+            "description": "🏡 Rakushisha (Persimmon Hut) - former villa of Matsuo Basho's disciple (15 mins, 2 min walk)"
+        },
+        {
+            "time": "14:36",
+            "description": "🏛️ Nison-in Temple - autumn leaves specialty with seasonal goshuin (25 mins, 2 min walk)"
+        },
+        {
+            "time": "15:03",
+            "description": "🏛️ Shoan-in Temple - popular goshuin (if open - typically closed Mondays, check Twitter/X) (15 mins, 3 min walk)"
+        },
+        {
+            "time": "15:20",
+            "description": "📖 Gion-j Temple - connected to Tale of the Heike epic (25 mins, 2 min walk)"
+        },
+        {
+            "time": "15:47",
+            "description": "🏛️ Daikaku-j Temple - final temple stop, arrive by 4:15 PM latest for goshuin collection (20 min walk)"
+        },
+        {
+            "time": "16:30",
+            "description": "🚌 Travel to Northern Kyoto - bus or taxi to Kitano Tenmangu Shrine area (40-50 mins)"
+        },
+        {
+            "time": "17:30",
+            "description": "🍱 Early dinner near Kitano Tenmangu Shrine - local restaurant in shrine area"
+        },
+        {
+            "time": "18:30",
+            "description": "🍁 Kitano Tenmangu Shrine Momiji-en (Maple Garden) evening illuminations - exclusive autumn light display among hundreds of maple trees. [📖 Illumination Guide](https://jinja-gosyuin.com/kawaii-gosyuin-kyoto/#i-29)"
+        },
+        {
+            "time": "20:30",
+            "description": "🚌 Return to accommodation via direct bus (Route 50) from Kitano Tenmangu-mae to Nijo Station"
         }
     ],
-    "transportation": "Tokyo Metro and JR Yamanote Line",
-    "accommodation": "Same Airbnb",
-    "meals": "Breakfast: Tsukiji sushi, Lunch: Ginza restaurant, Dinner: Shibuya",
-    "budget": "¥15,000 - ¥25,000",
-    "notes": "Tsukiji is busiest early morning. Ginza shops open around 10 AM. Bring cash for Tsukiji vendors."
+    "transportation": "🚄 Multiple trains/buses for temple hopping, 🚌 Kyoto city buses, 🚕 Taxi for time efficiency between distant locations",
+    "accommodation": "Kyoto accommodation (ryokan or hotel)",
+    "meals": "Breakfast: Light early meal, Lunch: Arashiyama local cuisine, Dinner: Traditional restaurant near Kitano Tenmangu",
+    "budget": "¥12,000 - ¥18,000 (Saiho-j reservation ¥3,000, temple fees ¥300-600 each, illumination ticket ¥1,000, meals, transport)",
+    "notes": "🧘 ADVANCE RESERVATION REQUIRED for Saiho-j! Very ambitious 9-temple tour - move efficiently between stops. Shoan-in typically closed Mondays - check social media. Daikaku-j goshuin office closes 4:30 PM sharp. Maple illuminations are seasonal highlight and can be crowded. December weather requires warm clothing for evening illuminations."
 }

@@ -118,6 +118,8 @@
     display: flex;
     align-items: flex-start;
     gap: var(--spacing-sm);
+    width: 100%;
+    max-width: 100%;
 }
 
 .activity-time {
@@ -131,6 +133,11 @@
 .activity-description {
     color: var(--text-dark);
     font-size: 0.95rem;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    flex: 1;
 }
 
 /* Activity Location Clustering and Optional Activity Styles */

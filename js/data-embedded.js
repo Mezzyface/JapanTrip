@@ -180,188 +180,313 @@ const ITINERARY_DATA = {
 ,
   3: {
     "day": 3,
-    "date": "Thursday, November 28, 2025",
-    "location": "Tokyo - Harajuku & Omotesando",
-    "weather": "Cloudy, 14°C",
-    "description": "Exploring Tokyo's fashion and culture districts. From quirky Harajuku street style to upscale Omotesando shopping.",    "activities": [
+    "date": "Friday, November 28, 2025",
+    "location": "Mount Fuji Area - Chureito Pagoda & Lakeside Shrines",
+    "weather": "Clear skies ideal for Fuji views - Check for visibility",
+    "description": "🗻 Fuji Views Adventure! Iconic Chureito Pagoda at sunrise, shrine hopping for goshuin collection, and stunning lakeside views. The perfect day to capture Mount Fuji's majesty from multiple angles.",
+    "activities": [
         {
-            "time": "08:30",
-            "description": "Travel to Harajuku: JR Yamanote Line from Ebisu to Harajuku"
+            "time": "07:00",
+            "description": "🚄 Leave Aoiso Ryokan via taxi to Kawaguchiko Station (5-10 minutes)"
         },
         {
-            "time": "09:00",
-            "description": "Breakfast: Japanese pancakes in Harajuku"
+            "time": "07:15",
+            "description": "🚄 Travel to Arakurayama Sengen Park: Fujikyu Railway Line from Kawaguchiko to Shimoyoshida Station (15 minutes)"
         },
         {
-            "time": "10:30",
-            "description": "Explore Takeshita Street"
+            "time": "07:45",
+            "description": "🥾 Walk from Shimoyoshida Station to Arakurayama Sengen Park entrance (10-15 minutes)"
+        },
+        {
+            "time": "08:00",
+            "description": "🗻 Climb ~400 steps to Chureito Pagoda for iconic Mount Fuji views - BEST PHOTO SPOT!"
+        },
+        {
+            "time": "09:30",
+            "description": "⛩️ Visit Arakura Fujisengen-jinja Shrine for goshuin collection. [📖 Shrine Guide](https://example.com/arakura-shrine)"
+        },        {
+            "time": "11:30",
+            "description": "🚄 Walk back to Shimoyoshida Station and return to Kawaguchiko Station 🗺️"
         },
         {
             "time": "12:00",
-            "description": "Visit Meiji Shrine"
+            "description": "🍜 Lunch at Specialty Hoto Fudo (Kawaguchiko Ekimae branch) - famous local udon in miso broth"
+        },
+        {
+            "time": "13:30",
+            "description": "🚌 Take Kawaguchiko Sightseeing Bus (Red Line) for lakeside shrine tour"
         },
         {
             "time": "14:00",
-            "description": "Lunch: Crepes on Takeshita Street"
+            "description": "⛩️ Visit Kawaguchi Asama-jinja Shrine - ancient cedar trees and another goshuin. [📖 Shrine Guide](https://example.com/kawaguchi-asama)"
+        },
+        {
+            "time": "15:00",
+            "description": "🚌 Continue on Red Line bus to Natural Living Center"
         },
         {
             "time": "15:30",
-            "description": "Shopping in Omotesando Hills"
+            "description": "🗻 Kawaguchiko Natural Living Center & Oishi Park - unobstructed Mount Fuji views"
         },
         {
-            "time": "17:00",
-            "description": "Cat Cafe experience"
+            "time": "16:30",
+            "description": "🌅 Mount Fuji sunset viewing from Oishi Park (sunset ~16:30 in late November)"
         },
         {
-            "time": "19:00",
-            "description": "Dinner: Authentic sushi restaurant"
+            "time": "17:30",
+            "description": "🚌 Take Red Line bus towards Itchiku Kubota Art Museum stop"
         },
         {
-            "time": "21:00",
-            "description": "Evening in Golden Gai, Shinjuku"
+            "time": "18:00",
+            "description": "🍁 Maple Corridor (Momiji Kairo) - evening illuminations on autumn leaves"
+        },
+        {
+            "time": "19:30",
+            "description": "🚌 Return to Kawaguchiko Station via Red Line bus"
+        },
+        {
+            "time": "20:00",
+            "description": "🚄 Taxi back to Aoiso Ryokan for traditional kaiseki dinner"
         }
     ],
-    "transportation": "JR Yamanote Line",
-    "accommodation": "Same hotel",
-    "meals": "Breakfast: Fluffy pancakes, Lunch: Harajuku crepes, Dinner: Sushi restaurant",
-    "budget": "¥15,000 - ¥25,000",
-    "notes": "Meiji Shrine is free but consider donation. Golden Gai bars are tiny - perfect for meeting locals! Bring cash for most places."
+    "transportation": "🚄 Fujikyu Railway, 🚌 Kawaguchiko Red Line Sightseeing Bus (¥1,500 2-day pass), 🚕 Local taxis",
+    "accommodation": "Aoiso Ryokan (あおい荘) - final night with traditional kaiseki dinner",
+    "meals": "Breakfast: Light ryokan breakfast, Lunch: Hoto noodles specialty, Dinner: Traditional kaiseki at ryokan",
+    "budget": "¥8,000 - ¥12,000 (includes bus pass ¥1,500, shrine donations, meals, local transport)",
+    "notes": "🗻 PERFECT FUJI VIEWING DAY! Weather is critical - clear skies needed for best views. Chureito Pagoda is the iconic postcard shot. Collect goshuin at both shrines. Red Line bus pass covers all sightseeing spots. Wear comfortable shoes for pagoda climb. Sunset timing is crucial - arrive at Oishi Park by 4:00 PM. Evening illuminations start after dark."
 }
 ,
   4: {
     "day": 4,
     "date": "Friday, November 29, 2025",
-    "location": "Tokyo",
-    "weather": "Check forecast closer to date",
-    "description": "Day 4 in Tokyo. Plan your activities and experiences here.",    "activities": [
-        {
-            "time": "08:30", 
-            "description": "Travel to Ginza: JR Yamanote Line from Shibuya to Shimbashi, then walk"
-        },
+    "location": "Tokyo → Kyoto",
+    "weather": "Cool autumn weather, pack layers",
+    "description": "Art museum morning followed by high-speed travel to Kyoto and evening exploration of historic Pontocho Alley.",
+    "activities": [
         {
             "time": "09:00",
-            "description": "Morning shopping in Ginza district"
+            "description": "🎨 Visit Tokyo National Museum in Ueno - explore Japan's finest art collection including samurai armor, ancient scrolls, and Buddhist sculptures"
+        },
+        {
+            "time": "10:30",
+            "description": "🏛️ Explore the Honkan (Japanese Gallery) - see national treasures and seasonal special exhibitions"
         },
         {
             "time": "12:00",
-            "description": "Lunch at high-end sushi restaurant in Ginza"
+            "description": "🍱 Lunch at museum café with views of Ueno Park's autumn foliage"
+        },
+        {
+            "time": "13:30",
+            "description": "🚶 Travel to Tokyo Station - JR Yamanote Line from Ueno (15 minutes)"
         },
         {
             "time": "14:00",
-            "description": "Travel to Asakusa: Tokyo Metro from Ginza to Asakusa"
+            "description": "📍 Navigate to Tokyo Station Shinkansen platforms - follow signs for Tokaido Shinkansen, platforms 14-19"
         },
         {
-            "time": "14:30",
-            "description": "Visit traditional shops and temples"        },
-        {
-            "time": "15:00",
-            "description": "Afternoon activity"
+            "time": "14:20",
+            "description": "🚅 SHINKANSEN: Board Hikari 517 from Tokyo to Kyoto (14:33 departure) - MUST CATCH for afternoon Kyoto activities! Reserved seats in Car 5. Journey time: 2 hours 15 minutes through stunning Mount Fuji views."
         },
         {
-            "time": "18:00",
-            "description": "Evening activity and dinner"
+            "time": "16:48",
+            "description": "🏮 Arrive Kyoto Station - exit Central Gate and take Karasuma Subway Line to Gion-Shijo (7 minutes)"
+        },
+        {
+            "time": "17:15",
+            "description": "🚶 Walk to Pontocho Alley - narrow historic lane between Kawaramachi and the Kamogawa River"
+        },
+        {
+            "time": "17:30",
+            "description": "🏮 Explore Pontocho Alley - traditional wooden machiya houses converted to restaurants and tea houses, look for geisha and maiko"
+        },
+        {
+            "time": "18:30",
+            "description": "🍶 Dinner at traditional kaiseki restaurant in Pontocho - multi-course seasonal dinner with riverside views"
+        },
+        {
+            "time": "20:30",
+            "description": "🌙 Evening stroll along Kamogawa River - couples and locals gathering along the riverbank"
+        },
+        {
+            "time": "21:00",
+            "description": "🏨 Check into Kyoto accommodation and rest for temple adventures tomorrow"
         }
     ],
-    "transportation": "Add transportation details",
-    "accommodation": "Add accommodation details",
-    "meals": "Plan your meals here",
-    "budget": "Estimate daily budget",
-    "notes": "Add any special notes, reservations, or reminders for this day"
+    "transportation": "JR Pass valid for Yamanote Line and Shinkansen. Kyoto city bus day pass recommended for tomorrow.",
+    "accommodation": "Traditional ryokan or modern hotel in central Kyoto",
+    "meals": "Museum café lunch, traditional kaiseki dinner in Pontocho",
+    "budget": "¥8,000-12,000 (museum entry ¥1,000, meals ¥6,000-10,000, local transport ¥500)",
+    "notes": "CRITICAL: Must catch Hikari 517 at 14:33 - last good connection for afternoon Kyoto arrival. Book kaiseki dinner in advance. Pontocho can be crowded on weekends."
 }
 ,
   5: {
     "day": 5,
-    "date": "Saturday, November 30, 2025",
-    "location": "Nikko",
-    "weather": "Check forecast closer to date",
-    "description": "Day trip to Nikko - UNESCO World Heritage temples and beautiful nature.",
+    "date": "Sunday, November 30, 2025",
+    "location": "Kyoto - Fushimi Inari & Higashiyama Goshuin Tour",
+    "weather": "Cool autumn weather, perfect for temple hopping",
+    "description": "⛩️ Epic Kyoto shrine and temple adventure! Early morning at iconic Fushimi Inari before crowds, followed by comprehensive goshuin collection tour through Higashiyama district, ending with magical evening illuminations.",
     "activities": [
         {
-            "time": "07:00",
-            "description": "Travel to Nikko: Limited Express from Asakusa to Tobu-Nikko Station"
+            "time": "06:45",
+            "description": "🚄 Depart for Fushimi Inari Taisha - early start crucial to beat the crowds and experience the shrine in peaceful morning light"
         },
         {
-            "time": "10:00",
-            "description": "Visit Toshogu Shrine complex"
+            "time": "07:15",
+            "description": "⛩️ Arrive at Inari Station via JR Nara Line from Kyoto Station - shrine entrance directly opposite the station"
         },
         {
-            "time": "13:00",
-            "description": "Lunch in Nikko - traditional Buddhist vegetarian cuisine"
+            "time": "07:15",
+            "description": "🦊 Explore Fushimi Inari Taisha - walk through iconic Senbon Torii (thousands of vermillion gates) up the mountain path. Goshuin available at multiple locations: [📖 Shrine Guide](https://jinja-gosyuin.com/fushimiinaritaisya/)"
+        },
+        {
+            "time": "08:30",
+            "description": "🥾 Hike deeper into mountain paths - crowds thin out significantly as you climb higher through endless torii tunnels"
+        },
+        {
+            "time": "10:30",
+            "description": "🚄 Travel to Gion district - walk to Fushimi-Inari Station (Keihan Main Line) then north to Gion-Shijo Station"
+        },
+        {
+            "time": "11:15",
+            "description": "⛩️ Begin Higashiyama Goshuin Tour at Yasaka Shrine - start the temple hopping adventure in historic district. [📖 Tour Guide](https://jinja-gosyuin.com/higashiyama-gosyuin/#8221)"
+        },
+        {
+            "time": "11:45",
+            "description": "🏛️ Kodai-ji Temple - temple of Toyotomi Hideyoshi and Nene, famous for illuminations and special night goshuin (6 min walk)"
+        },
+        {
+            "time": "12:15",
+            "description": "🏛️ Entoku-in Temple - where Nene spent her final years, beautiful gardens (1 min walk)"
+        },
+        {
+            "time": "12:45",
+            "description": "🏛️ Chorakuji Temple - associated with Tale of the Heike (5 min walk)"
+        },
+        {
+            "time": "13:15",
+            "description": "🌸 Maruyama Park - short break and lunch in Kyoto's premier cherry blossom park (1 min to park entrance)"
+        },
+        {
+            "time": "14:15",
+            "description": "🏛️ Chion-in Temple - head temple of Jodo sect with massive Sanmon Gate (3 min walk through park)"
         },
         {
             "time": "15:00",
-            "description": "Explore Nikko National Park and Kegon Falls"
+            "description": "🏛️ Shoren-in Temple - Imperial family connections and famous blue illuminations (5 min walk)"
+        },
+        {
+            "time": "15:45",
+            "description": "⚔️ Awata Shrine - key stop on Kyoto Sword Goshuin Tour, finish by 4:30 PM for illuminations timing (5 min walk)"
+        },
+        {
+            "time": "16:30",
+            "description": "🚶 Walk to Kodai-ji Temple for evening illuminations - prepare for magical autumn light displays"
         },
         {
             "time": "17:00",
-            "description": "Travel back to Tokyo: Limited Express to Asakusa"
+            "description": "✨ Kodai-ji Evening Illuminations - be first in line for famous autumn night illuminations, collect special glowing goshuin in illuminated gardens"
         },
         {
-            "time": "19:30",
-            "description": "Dinner back in Tokyo"
+            "time": "19:00",
+            "description": "🍱 Dinner in Higashiyama/Gion area - traditional kaiseki or modern Japanese cuisine in historic district"
+        },
+        {
+            "time": "21:00",
+            "description": "🚌 Return to accommodation via bus or subway from Gion area"
         }
     ],
-    "transportation": "Limited Express to Nikko",
-    "accommodation": "Tokyo hotel",
-    "meals": "Lunch: Nikko local cuisine, Dinner: Tokyo",
-    "budget": "¥8,000 - ¥12,000",
-    "notes": "Nikko is beautiful in autumn/winter. Bring warm clothes for the mountains."
-}
-,
+    "transportation": "🚄 JR Nara Line to Fushimi Inari, 🚃 Keihan Main Line to Gion, 🚶 Walking tour between temples, 🚌 City bus for return",
+    "accommodation": "Kyoto accommodation (ryokan or hotel)",
+    "meals": "Breakfast: Early light meal, Lunch: Local restaurant in Maruyama Park area, Dinner: Traditional Higashiyama cuisine",
+    "budget": "¥8,000 - ¥12,000 (temple entrance fees ¥300-600 each, goshuin ¥300-500 each, meals, illumination tickets ¥600)",
+    "notes": "🦊 EARLY START ESSENTIAL! Fushimi Inari is magical at dawn but unbearably crowded after 10 AM. Bring goshuincho (stamp book) for comprehensive collection. Kodai-ji illuminations require separate evening ticket ¥600. Full mountain hike takes 2-3 hours if desired. Higashiyama walking tour covers ~3km. Evening illuminations are seasonal highlight!"
+},
   6: {
     "day": 6,
-    "date": "Sunday, December 1, 2025",    "location": "Tokyo - Tsukiji & Ginza",
-    "weather": "Check forecast closer to date",
-    "description": "Early morning at Tsukiji Fish Market followed by luxury shopping in Ginza.",
+    "date": "Monday, December 1, 2025",
+    "location": "Kyoto - Moss Garden, Arashiyama & Maple Illuminations",
+    "weather": "Cool December weather, perfect for temple gardens and autumn illuminations",
+    "description": "🍃 Ultimate Kyoto temple and garden adventure! Sacred moss garden meditation, bamboo forest exploration, comprehensive goshuin temple tour, and magical evening maple illuminations.",
     "activities": [
         {
-            "time": "05:00",
-            "description": "Travel to Tsukiji: Tokyo Metro Hibiya Line from Ebisu to Tsukiji"
+            "time": "07:30",
+            "description": "🚶 Depart accommodation for Saiho-ji (Moss Temple) - early start for exclusive temple experience"
         },
         {
-            "time": "05:30",
-            "description": "Visit Tsukiji Outer Market for fresh sushi breakfast"
-        },
-        {
-            "time": "07:00",
-            "description": "Explore traditional food stalls and shops"
+            "time": "08:30",
+            "description": "🚄 Arrive near Saiho-ji via train/bus combination from Nijo Station (45-60 mins) or taxi for time efficiency"
         },
         {
             "time": "09:00",
-            "description": "Walk to Ginza: 15-minute walk from Tsukiji"
+            "description": "🧘 Saiho-j (Koke-dera) meditation experience - participate in Buddhist chanting and sutra calligraphy (shakyo) before moss garden access. [📖 Temple Guide](https://jpmanual.com/en/kokedera)"
         },
         {
-            "time": "09:30",
-            "description": "Luxury shopping at Ginza department stores"
+            "time": "10:30",
+            "description": "🚌 Travel from Saiho-j to central Arashiyama area - short bus or taxi ride"
+        },
+        {
+            "time": "11:00",
+            "description": "🍜 Quick lunch in Arashiyama before starting intensive temple tour"
         },
         {
             "time": "12:00",
-            "description": "High-end sushi lunch at Ginza restaurant"
+            "description": "🏛️ Begin Arashiyama Goshuin Tour at Tenryu-j Temple - UNESCO World Heritage site (40 mins). [📖 Tour Guide](https://jinja-gosyuin.com/kyoto-rakusai/#8221)"
         },
         {
-            "time": "14:00",
-            "description": "Travel to Ueno: JR Yamanote Line from Shimbashi to Ueno"
+            "time": "12:46",
+            "description": "🎋 Walk through iconic Bamboo Forest Path to next shrine - ethereal bamboo grove experience (6 min walk)"
         },
         {
-            "time": "14:30",
-            "description": "Visit Ueno Park and museums"
+            "time": "13:00",
+            "description": "⛩️ Nonomiya Shrine - associated with Tale of Genji literary classic (25 mins, 6 min walk)"
         },
         {
-            "time": "17:00",
-            "description": "Travel back to Shibuya: JR Yamanote Line from Ueno to Shibuya"
+            "time": "13:31",
+            "description": "🍁 Jojakko-j Temple - famous for spectacular autumn leaves display (40 mins, 8 min walk)"
         },
         {
-            "time": "18:00",
-            "description": "Dinner in Shibuya"
+            "time": "14:19",
+            "description": "🏡 Rakushisha (Persimmon Hut) - former villa of Matsuo Basho's disciple (15 mins, 2 min walk)"
+        },
+        {
+            "time": "14:36",
+            "description": "🏛️ Nison-in Temple - autumn leaves specialty with seasonal goshuin (25 mins, 2 min walk)"
+        },
+        {
+            "time": "15:03",
+            "description": "🏛️ Shoan-in Temple - popular goshuin (if open - typically closed Mondays, check Twitter/X) (15 mins, 3 min walk)"
+        },
+        {
+            "time": "15:20",
+            "description": "📖 Gion-j Temple - connected to Tale of the Heike epic (25 mins, 2 min walk)"
+        },
+        {
+            "time": "15:47",
+            "description": "🏛️ Daikaku-j Temple - final temple stop, arrive by 4:15 PM latest for goshuin collection (20 min walk)"
+        },
+        {
+            "time": "16:30",
+            "description": "🚌 Travel to Northern Kyoto - bus or taxi to Kitano Tenmangu Shrine area (40-50 mins)"
+        },
+        {
+            "time": "17:30",
+            "description": "🍱 Early dinner near Kitano Tenmangu Shrine - local restaurant in shrine area"
+        },
+        {
+            "time": "18:30",
+            "description": "🍁 Kitano Tenmangu Shrine Momiji-en (Maple Garden) evening illuminations - exclusive autumn light display among hundreds of maple trees. [📖 Illumination Guide](https://jinja-gosyuin.com/kawaii-gosyuin-kyoto/#i-29)"
+        },
+        {
+            "time": "20:30",
+            "description": "🚌 Return to accommodation via direct bus (Route 50) from Kitano Tenmangu-mae to Nijo Station"
         }
     ],
-    "transportation": "Tokyo Metro and JR Yamanote Line",
-    "accommodation": "Same Airbnb",
-    "meals": "Breakfast: Tsukiji sushi, Lunch: Ginza restaurant, Dinner: Shibuya",
-    "budget": "¥15,000 - ¥25,000",
-    "notes": "Tsukiji is busiest early morning. Ginza shops open around 10 AM. Bring cash for Tsukiji vendors."
-}
-,
+    "transportation": "🚄 Multiple trains/buses for temple hopping, 🚌 Kyoto city buses, 🚕 Taxi for time efficiency between distant locations",
+    "accommodation": "Kyoto accommodation (ryokan or hotel)",
+    "meals": "Breakfast: Light early meal, Lunch: Arashiyama local cuisine, Dinner: Traditional restaurant near Kitano Tenmangu",
+    "budget": "¥12,000 - ¥18,000 (Saiho-j reservation ¥3,000, temple fees ¥300-600 each, illumination ticket ¥1,000, meals, transport)",
+    "notes": "🧘 ADVANCE RESERVATION REQUIRED for Saiho-j! Very ambitious 9-temple tour - move efficiently between stops. Shoan-in typically closed Mondays - check social media. Daikaku-j goshuin office closes 4:30 PM sharp. Maple illuminations are seasonal highlight and can be crowded. December weather requires warm clothing for evening illuminations."
+},
   7: {
     "day": 7,
     "date": "Monday, December 2, 2025",

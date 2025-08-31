@@ -1,38 +1,82 @@
 {
     "day": 5,
-    "date": "Saturday, November 30, 2025",
-    "location": "Nikko",
-    "weather": "Check forecast closer to date",
-    "description": "Day trip to Nikko - UNESCO World Heritage temples and beautiful nature.",
+    "date": "Sunday, November 30, 2025",
+    "location": "Kyoto - Fushimi Inari & Higashiyama Goshuin Tour",
+    "weather": "Cool autumn weather, perfect for temple hopping",
+    "description": "⛩️ Epic Kyoto shrine and temple adventure! Early morning at iconic Fushimi Inari before crowds, followed by comprehensive goshuin collection tour through Higashiyama district, ending with magical evening illuminations.",
     "activities": [
         {
-            "time": "07:00",
-            "description": "Travel to Nikko: Limited Express from Asakusa to Tobu-Nikko Station"
+            "time": "06:45",
+            "description": "🚄 Depart for Fushimi Inari Taisha - early start crucial to beat the crowds and experience the shrine in peaceful morning light"
         },
         {
-            "time": "10:00",
-            "description": "Visit Toshogu Shrine complex"
+            "time": "07:15",
+            "description": "⛩️ Arrive at Inari Station via JR Nara Line from Kyoto Station - shrine entrance directly opposite the station"
         },
         {
-            "time": "13:00",
-            "description": "Lunch in Nikko - traditional Buddhist vegetarian cuisine"
+            "time": "07:15",
+            "description": "🦊 Explore Fushimi Inari Taisha - walk through iconic Senbon Torii (thousands of vermillion gates) up the mountain path. Goshuin available at multiple locations: [📖 Shrine Guide](https://jinja-gosyuin.com/fushimiinaritaisya/)"
+        },
+        {
+            "time": "08:30",
+            "description": "🥾 Hike deeper into mountain paths - crowds thin out significantly as you climb higher through endless torii tunnels"
+        },
+        {
+            "time": "10:30",
+            "description": "🚄 Travel to Gion district - walk to Fushimi-Inari Station (Keihan Main Line) then north to Gion-Shijo Station"
+        },
+        {
+            "time": "11:15",
+            "description": "⛩️ Begin Higashiyama Goshuin Tour at Yasaka Shrine - start the temple hopping adventure in historic district. [📖 Tour Guide](https://jinja-gosyuin.com/higashiyama-gosyuin/#8221)"
+        },
+        {
+            "time": "11:45",
+            "description": "🏛️ Kodai-ji Temple - temple of Toyotomi Hideyoshi and Nene, famous for illuminations and special night goshuin (6 min walk)"
+        },
+        {
+            "time": "12:15",
+            "description": "🏛️ Entoku-in Temple - where Nene spent her final years, beautiful gardens (1 min walk)"
+        },
+        {
+            "time": "12:45",
+            "description": "🏛️ Chorakuji Temple - associated with Tale of the Heike (5 min walk)"
+        },
+        {
+            "time": "13:15",
+            "description": "🌸 Maruyama Park - short break and lunch in Kyoto's premier cherry blossom park (1 min to park entrance)"
+        },
+        {
+            "time": "14:15",
+            "description": "🏛️ Chion-in Temple - head temple of Jodo sect with massive Sanmon Gate (3 min walk through park)"
         },
         {
             "time": "15:00",
-            "description": "Explore Nikko National Park and Kegon Falls"
+            "description": "🏛️ Shoren-in Temple - Imperial family connections and famous blue illuminations (5 min walk)"
+        },
+        {
+            "time": "15:45",
+            "description": "⚔️ Awata Shrine - key stop on Kyoto Sword Goshuin Tour, finish by 4:30 PM for illuminations timing (5 min walk)"
+        },
+        {
+            "time": "16:30",
+            "description": "🚶 Walk to Kodai-ji Temple for evening illuminations - prepare for magical autumn light displays"
         },
         {
             "time": "17:00",
-            "description": "Travel back to Tokyo: Limited Express to Asakusa"
+            "description": "✨ Kodai-ji Evening Illuminations - be first in line for famous autumn night illuminations, collect special glowing goshuin in illuminated gardens"
         },
         {
-            "time": "19:30",
-            "description": "Dinner back in Tokyo"
+            "time": "19:00",
+            "description": "🍱 Dinner in Higashiyama/Gion area - traditional kaiseki or modern Japanese cuisine in historic district"
+        },
+        {
+            "time": "21:00",
+            "description": "🚌 Return to accommodation via bus or subway from Gion area"
         }
     ],
-    "transportation": "Limited Express to Nikko",
-    "accommodation": "Tokyo hotel",
-    "meals": "Lunch: Nikko local cuisine, Dinner: Tokyo",
-    "budget": "¥8,000 - ¥12,000",
-    "notes": "Nikko is beautiful in autumn/winter. Bring warm clothes for the mountains."
+    "transportation": "🚄 JR Nara Line to Fushimi Inari, 🚃 Keihan Main Line to Gion, 🚶 Walking tour between temples, 🚌 City bus for return",
+    "accommodation": "Kyoto accommodation (ryokan or hotel)",
+    "meals": "Breakfast: Early light meal, Lunch: Local restaurant in Maruyama Park area, Dinner: Traditional Higashiyama cuisine",
+    "budget": "¥8,000 - ¥12,000 (temple entrance fees ¥300-600 each, goshuin ¥300-500 each, meals, illumination tickets ¥600)",
+    "notes": "🦊 EARLY START ESSENTIAL! Fushimi Inari is magical at dawn but unbearably crowded after 10 AM. Bring goshuincho (stamp book) for comprehensive collection. Kodai-ji illuminations require separate evening ticket ¥600. Full mountain hike takes 2-3 hours if desired. Higashiyama walking tour covers ~3km. Evening illuminations are seasonal highlight!"
 }

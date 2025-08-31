@@ -390,8 +390,11 @@ class ItineraryLoader {
             } else if (description.includes('kamakura')) {
                 result.destination = 'Kamakura Station, Kamakura, Kanagawa, Japan';
             } else if (description.includes('hakone')) {
-                result.destination = 'Hakone-Yumoto Station, Hakone, Kanagawa, Japan';
-            } else if (description.includes('mount fuji') || description.includes('mt fuji') || description.includes('kawaguchi')) {
+                result.destination = 'Hakone-Yumoto Station, Hakone, Kanagawa, Japan';            } else if (description.includes('mount fuji') || description.includes('mt fuji') || description.includes('kawaguchi')) {
+                result.destination = 'Kawaguchiko Station, Fujikawaguchiko, Yamanashi, Japan';
+            } else if (description.includes('shimoyoshida')) {
+                result.destination = 'Shimoyoshida Station, Fujiyoshida, Yamanashi, Japan';
+            } else if (description.includes('kawaguchiko station')) {
                 result.destination = 'Kawaguchiko Station, Fujikawaguchiko, Yamanashi, Japan';
             }
             
@@ -478,9 +481,40 @@ class ItineraryLoader {
         } else if (description.includes('harajuku')) {
             result.location = 'Harajuku Area';
         } else if (description.includes('shinjuku')) {
-            result.location = 'Shinjuku Station';
-        } else if (description.includes('asakusa')) {
+            result.location = 'Shinjuku Station';        } else if (description.includes('asakusa')) {
             result.location = 'Asakusa District';
+        } else if (description.includes('ueno')) {
+            result.location = 'Ueno Area';
+        } else if (description.includes('tokyo station') || (description.includes('tokyo') && description.includes('shinkansen'))) {
+            result.location = 'Tokyo Station';
+        } else if (description.includes('kyoto station') || (description.includes('kyoto') && description.includes('arrive'))) {
+            result.location = 'Kyoto Station';        } else if (description.includes('pontocho') || description.includes('gion')) {
+            result.location = 'Pontocho & Gion District';
+        } else if (description.includes('fushimi inari') || description.includes('inari station')) {
+            result.location = 'Fushimi Inari Area';
+        } else if (description.includes('higashiyama') || description.includes('yasaka shrine')) {
+            result.location = 'Higashiyama District';
+        } else if (description.includes('kodai-ji') || description.includes('entoku-in') || description.includes('illuminations')) {
+            result.location = 'Kodai-ji Temple Complex';
+        } else if (description.includes('chion-in') || description.includes('shoren-in') || description.includes('awata shrine')) {
+            result.location = 'Northern Higashiyama';        } else if (description.includes('maruyama park')) {
+            result.location = 'Maruyama Park';
+        } else if (description.includes('saiho-ji') || description.includes('koke-dera') || description.includes('moss temple')) {
+            result.location = 'Saiho-ji (Moss Temple)';
+        } else if (description.includes('arashiyama') && !description.includes('travel')) {
+            result.location = 'Arashiyama District';
+        } else if (description.includes('tenryu-ji') || description.includes('bamboo forest')) {
+            result.location = 'Tenryu-ji & Bamboo Grove';
+        } else if (description.includes('nonomiya') || description.includes('jojakko-ji') || description.includes('rakushisha')) {
+            result.location = 'Northern Arashiyama';
+        } else if (description.includes('nison-in') || description.includes('shoan-in') || description.includes('gion-ji')) {
+            result.location = 'Saga Area Temples';
+        } else if (description.includes('daikaku-ji')) {
+            result.location = 'Daikaku-ji Temple';
+        } else if (description.includes('kitano tenmangu') || description.includes('momiji-en') || description.includes('maple')) {
+            result.location = 'Kitano Tenmangu Area';
+        } else if (description.includes('kamogawa river') || description.includes('riverside')) {
+            result.location = 'Kamogawa River Area';
         } else if (description.includes('kawaguchiko') || description.includes('mount fuji') || description.includes('ryokan')) {
             result.location = 'Mount Fuji Area';
         } else if (description.includes('haneda') || (description.includes('airport') && !description.includes('depart from'))) {
@@ -493,9 +527,14 @@ class ItineraryLoader {
         } else if (description.includes('skytree')) {
             result.location = 'Tokyo Skytree Area';
         } else if (description.includes('scramble crossing') || description.includes('starbucks')) {
-            result.location = 'Shibuya Crossing';
-        } else if (description.includes('meiji shrine') || description.includes('meiji jingu')) {
+            result.location = 'Shibuya Crossing';        } else if (description.includes('meiji shrine') || description.includes('meiji jingu')) {
             result.location = 'Meiji Shrine';
+        } else if (description.includes('nikko') && !description.includes('travel')) {
+            result.location = 'Nikko Area';
+        } else if (description.includes('toshogu')) {
+            result.location = 'Toshogu Shrine Complex';
+        } else if (description.includes('kegon falls') || description.includes('national park')) {
+            result.location = 'Nikko National Park';
         } else if (description.includes('shrine') && description.includes('visit')) {
             result.location = 'Shrine Visits';
         } else if (description.includes('luggage') || description.includes('locker')) {
