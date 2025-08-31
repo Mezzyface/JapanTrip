@@ -24,27 +24,33 @@ class ItineraryLoader {
             this.renderError();
         }
     }    async loadDay(dayNumber) {
-        // First check if we have embedded data (for file:// protocol)
+        // Always prioritize embedded data (for file:// protocol and better performance)
         const dayKey = `day${dayNumber.toString().padStart(2, '0')}`;
         if (typeof itineraryData !== 'undefined' && itineraryData[dayKey]) {
             return itineraryData[dayKey];
         }
         
-        try {
-            const paddedDay = dayNumber.toString().padStart(2, '0');
-            const timestamp = new Date().getTime();
-            const response = await fetch(`data/day-${paddedDay}.json?t=${timestamp}`);
-            
-            if (!response.ok) {
+        // Only try fetch if we're on http/https protocol and no embedded data exists
+        if (window.location.protocol === 'http:' || window.location.protocol === 'https:') {
+            try {
+                const paddedDay = dayNumber.toString().padStart(2, '0');
+                const timestamp = new Date().getTime();
+                const response = await fetch(`data/day-${paddedDay}.json?t=${timestamp}`);
+                
+                if (!response.ok) {
+                    return this.getFallbackData(dayNumber);
+                }
+                
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                // Fall back to embedded data on fetch errors
                 return this.getFallbackData(dayNumber);
             }
-            
-            const data = await response.json();
-            return data;
-        } catch (error) {
-            // Silently fall back to embedded data on CORS or other errors
-            return this.getFallbackData(dayNumber);
         }
+        
+        // For file:// protocol or when embedded data is missing, use fallback
+        return this.getFallbackData(dayNumber);
     }
 
     // Fallback method for file:// protocol or CORS issues
@@ -271,16 +277,50 @@ class ItineraryLoader {
     }// Format critical transportation to show only essential info
     formatCriticalTransportation(transportation, activities = []) {
         if (!transportation) return '';
-        
-        // Extract flight numbers and departure times
+          // Extract flight numbers and departure times
         if (transportation.includes('NH7') || transportation.includes('ANA')) {
-            // Flight pattern: extract flight numbers and key info
+            // If transportation contains a booking link, show formatted version with link
+            if (transportation.includes('[Manage Booking]')) {
+                // Process markdown links but keep essential flight info
+                const processedTransport = this.processMarkdownLinks(transportation);
+                
+                // Extract flight numbers and departure time for display
+                const flightMatch = transportation.match(/NH\d+/g);
+                let departureTime = null;
+                
+                // Look for departure times in activities
+                if (activities && activities.length > 0) {
+                    const departureActivity = activities.find(activity => 
+                        activity.description && 
+                        (activity.description.includes('Depart') || activity.description.includes('🛫')) &&
+                        activity.time && activity.time !== 'In-flight'
+                    );
+                    
+                    if (departureActivity) {
+                        departureTime = departureActivity.time;
+                    }
+                }
+                
+                // Return formatted flight info with booking link
+                if (flightMatch && departureTime) {
+                    const flightInfo = `${flightMatch.join(', ')} | Depart: ${departureTime}`;
+                    const linkMatch = transportation.match(/\[([^\]]+)\]\(([^)]+)\)/);
+                    if (linkMatch) {
+                        return `${flightInfo} | <a href="${linkMatch[2]}" target="_blank" class="booking-link">${linkMatch[1]}</a>`;
+                    }
+                    return flightInfo;
+                }
+                
+                // Fallback to processed transport with links
+                return processedTransport;
+            }
+            
+            // Original logic for flights without booking links
             const flightMatch = transportation.match(/NH\d+/g);
             
             // Look for departure times in activities
             let departureTime = null;
             if (activities && activities.length > 0) {
-                // Find the first departure activity
                 const departureActivity = activities.find(activity => 
                     activity.description && 
                     (activity.description.includes('Depart') || activity.description.includes('🛫')) &&
@@ -364,17 +404,43 @@ class ItineraryLoader {
             <div class="day-location">${day.location}</div>
             
             <div class="day-description">${day.description}</div>
-            
-            <div class="activities">
+              <div class="activities">
                 <h3 class="activities-title">Activities</h3>
                 <div class="activity-list">
                     ${groupedActivities}
                 </div>
-            </div>              <div class="day-info">
-                ${this.isCriticalTransportation(day.transportation) ? `
-                <div class="info-section transportation">
-                    <div class="info-title">Critical Transportation</div>
-                    <div class="info-content">${this.formatCriticalTransportation(day.transportation, day.activities)}</div>
+            </div>
+            
+            ${day.travelRoutes && day.travelRoutes.length > 0 ? `
+            <div class="travel-routes">
+                <h3 class="travel-routes-title">Travel Routes</h3>
+                <div class="travel-routes-list">
+                    ${day.travelRoutes.map(route => `
+                        <div class="travel-route-item">
+                            <div class="route-header">
+                                <h4 class="route-name">${route.name}</h4>
+                                <div class="route-summary">
+                                    <span class="route-duration">⏱️ ${route.duration}</span>
+                                    <span class="route-cost">💰 ${route.cost}</span>
+                                    <span class="route-method">🚊 ${route.method}</span>
+                                </div>
+                            </div>
+                            <p class="route-description">${route.description}</p>
+                            <div class="route-actions">
+                                <a href="${route.url}" target="_blank" class="route-link">
+                                    🗺️ View Route on Navitime
+                                </a>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+            ` : ''}
+              <div class="day-info">
+                ${day.transportation && day.transportation !== 'TBD' && day.transportation.trim() !== '' ? `
+                <div class="info-section transportation ${this.isCriticalTransportation(day.transportation) ? 'critical' : ''}">
+                    <div class="info-title">${this.isCriticalTransportation(day.transportation) ? 'Critical Transportation' : 'Transportation'}</div>
+                    <div class="info-content">${this.isCriticalTransportation(day.transportation) ? this.formatCriticalTransportation(day.transportation, day.activities) : this.processMarkdownLinks(day.transportation)}</div>
                 </div>` : ''}
                 <div class="info-section accommodation">
                     <div class="info-title">Accommodation</div>

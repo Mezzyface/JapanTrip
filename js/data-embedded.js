@@ -1,4 +1,4 @@
-﻿const itineraryData = {
+const itineraryData = {
 "day00": {
     "day": 0,
     "date": "Tuesday, November 25, 2025",
@@ -39,7 +39,7 @@
             "description": "🚇 Immigration, customs, and train to Tokyo city center - Welcome to Japan! 🇯🇵"
         }
     ],
-    "transportation": "ANA Reservation C13J79: NH7333 (AUS→SFO), NH7011 (SFO→HND) - operated by United Airlines",
+    "transportation": "ANA Reservation C13J79: NH7333 (AUS→SFO), NH7011 (SFO→HND) - operated by United Airlines | [Manage Booking](https://aswbe.ana.co.jp/webapps/servicing/mybooking)",
     "accommodation": "Economy Value Plus seats on both flights",
     "meals": "In-flight meals on both segments - special meal requests confirmed",
     "budget": "Flight already paid - ANA/United codeshare booking",
@@ -91,9 +91,18 @@
         {
             "time": "22:30",
             "description": "Walk back to Airbnb"
+        }    ],
+    "transportation": "Keikyu Airport Line to Shinagawa, then JR Yamanote Line to Ebisu. Total cost: ~¥510, Time: 45-55 minutes",
+    "travelRoutes": [
+        {
+            "name": "Haneda Airport to Ebisu Station",
+            "description": "Airport arrival to accommodation area via Keikyu Line and JR Yamanote Line",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00000592&goal=%7B%27lat%27%3A35.646584%2C%27lon%27%3A139.710153%2C%27spot%27%3A%2702011-00002025%27%7D&start_name=Haneda%20Airport(Tokyo)&goal_name=Ebisu(Tokyo)&cid=&from=route_top_search_box&ferry=false&taxi=false",
+            "duration": "45-55 minutes",
+            "cost": "~¥510",
+            "method": "Train (Keikyu + JR Yamanote)"
         }
     ],
-    "transportation": "Keikyu Airport Line to Shinagawa, then JR Yamanote Line to Ebisu. Total cost: ~¥510, Time: 45-55 minutes",
     "accommodation": "HJ PLACE SHIBUYA Airbnb - 3 Chome-20-10 Higashi, Shibuya City, Tokyo 〒150-0011 | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
     "meals": "Dinner: Shibuya restaurants (ramen, sushi, or department store food hall)",
     "budget": "¥4,500 - ¥8,000 (includes transport ¥510, Goshuincho ¥1,500, goshuin ¥300, meals & activities)",
@@ -833,14 +842,16 @@
             "description": "🚗 Baggage claim, customs, and head home - Trip complete! Time to start planning the next Japan adventure! 😊"
         }
     ],
-    "transportation": "ANA Reservation C13J79: NH7010 (HND→SFO), NH7332 (SFO→AUS) - operated by United Airlines",
+    "transportation": "ANA Reservation C13J79: NH7010 (HND→SFO), NH7332 (SFO→AUS) - operated by United Airlines | [Manage Booking](https://aswbe.ana.co.jp/webapps/servicing/mybooking)",
     "accommodation": "Economy Value Plus seats on both flights",
     "meals": "In-flight meals on both segments - last taste of Japanese hospitality on NH7010",
     "budget": "Flight already paid - ANA/United codeshare booking",
     "notes": "✅ Reservation: C13J79 | ✅ Passenger: Adam Henderson | ✅ Economy Value Plus class | ✅ Check baggage weight limits for souvenirs! | Set watch back to US time zones during layover. Download photos from trip during flights. Prepare for reverse jet lag. Don't forget to declare any food items at customs!"
 }
+,
 };
 
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = itineraryData;
 }
+
