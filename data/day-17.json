@@ -1,0 +1,62 @@
+{
+    "day": 17,
+    "date": "Wednesday, December 11, 2025",
+    "location": "Travel Day (Japan → USA)",
+    "weather": "In transit",
+    "description": "ANA Reservation C13J79 - Return journey from Tokyo to Austin via San Francisco. United Airlines Economy Value Plus class. Final day of the Japan adventure - sayonara! 🇯🇵✈️🇺🇸",
+    "activities": [
+        {
+            "time": "08:00",
+            "description": "🧳 Final packing and check out from accommodation - Double check passport, JR Pass, souvenirs!"
+        },
+        {
+            "time": "09:00",
+            "description": "🚇 Tokyo city center to Haneda Airport (HND) - Allow extra time for train delays"
+        },
+        {
+            "time": "10:30",
+            "description": "🛫 Arrive at Tokyo International (Haneda) Airport (HND) - Check-in and security (3+ hours early for international)"
+        },
+        {
+            "time": "10:30-13:30",
+            "description": "✅ Check-in, security, duty-free shopping, final Japanese meal at airport - Last chance for omiyage (souvenirs)!"
+        },
+        {
+            "time": "13:30",
+            "description": "🛫 Depart Tokyo International (Haneda) Airport (HND) - United NH7010 (operated by United Airlines)"
+        },
+        {
+            "time": "13:30-06:45",
+            "description": "✈️ Flight NH7010: HND→SFO (9hr 15min trans-Pacific) - Economy Value Plus - Sleep, reflect on amazing trip!"
+        },
+        {
+            "time": "06:45",
+            "description": "🛬 Arrive at San Francisco International Airport (SFO) - Wednesday Dec 11, 6:45 AM PST (same day due to time zone)"
+        },
+        {
+            "time": "06:45-09:10",
+            "description": "⏰ Layover at SFO (2 hours 25 minutes) - Immigration, customs, terminal change for domestic connection"
+        },
+        {
+            "time": "09:10",
+            "description": "🛫 Depart San Francisco International Airport (SFO) - United NH7332 (operated by United Airlines)"
+        },
+        {
+            "time": "09:10-14:28",
+            "description": "✈️ Flight NH7332: SFO→AUS (3hr 18min) - Economy Value Plus - Almost home!"
+        },
+        {
+            "time": "14:28",
+            "description": "🛬 Arrive at Austin-Bergstrom International Airport (AUS) - Wednesday Dec 11, 2:28 PM CST - Welcome home! 🏠"
+        },
+        {
+            "time": "15:00",
+            "description": "🚗 Baggage claim, customs, and head home - Trip complete! Time to start planning the next Japan adventure! 😊"
+        }
+    ],
+    "transportation": "ANA Reservation C13J79: NH7010 (HND→SFO), NH7332 (SFO→AUS) - operated by United Airlines",
+    "accommodation": "Economy Value Plus seats on both flights",
+    "meals": "In-flight meals on both segments - last taste of Japanese hospitality on NH7010",
+    "budget": "Flight already paid - ANA/United codeshare booking",
+    "notes": "✅ Reservation: C13J79 | ✅ Passenger: Adam Henderson | ✅ Economy Value Plus class | ✅ Check baggage weight limits for souvenirs! | Set watch back to US time zones during layover. Download photos from trip during flights. Prepare for reverse jet lag. Don't forget to declare any food items at customs!"
+}

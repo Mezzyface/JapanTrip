@@ -2,9 +2,9 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM loaded');
-    console.log('ITINERARY_DATA available:', typeof ITINERARY_DATA !== 'undefined');
-    if (typeof ITINERARY_DATA !== 'undefined') {
-        console.log('Available days:', Object.keys(ITINERARY_DATA));
+    console.log('itineraryData available:', typeof itineraryData !== 'undefined');
+    if (typeof itineraryData !== 'undefined') {
+        console.log('Available days:', Object.keys(itineraryData));
     }
     
     // Initialize the itinerary loader

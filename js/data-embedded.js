@@ -1,44 +1,52 @@
-// Auto-generated embedded data
-const ITINERARY_DATA = {
-  0: {
+﻿const itineraryData = {
+"day00": {
     "day": 0,
     "date": "Tuesday, November 25, 2025",
     "location": "Travel Day (USA → Japan)",
     "weather": "In transit",
-    "description": "Travel day from Austin to Tokyo via San Francisco. Long journey across the Pacific - get ready for the adventure!",
+    "description": "ANA Reservation C13J79 - Travel day from Austin to Tokyo via San Francisco. United Airlines Economy Value Plus class. Long journey across the Pacific - get ready for the adventure!",
     "activities": [
         {
             "time": "06:00",
-            "description": "Depart Austin-Bergstrom International Airport (AUS)"
+            "description": "🛫 Depart Austin-Bergstrom International Airport (AUS) - United NH7333 (operated by United Airlines)"
+        },
+        {
+            "time": "06:00-08:03",
+            "description": "✈️ Flight NH7333: AUS→SFO (2hr 3min) - Economy Value Plus - Passenger: Adam Henderson"
         },
         {
             "time": "08:03",
-            "description": "Arrive at San Francisco International Airport (SFO) - PST"
+            "description": "🛬 Arrive at San Francisco International Airport (SFO) - PST Terminal 3"
         },
         {
-            "time": "08:03",
-            "description": "Layover at SFO (2 hours 12 minutes)"
+            "time": "08:03-10:15",
+            "description": "⏰ Layover at SFO (2 hours 12 minutes) - Terminal change for international departure"
         },
         {
             "time": "10:15",
-            "description": "Depart San Francisco International Airport (SFO)"
-        },        {
-            "time": "In-flight",
-            "description": "Long-haul flight to Tokyo - sleep, movies, prepare for Japan!"
+            "description": "🛫 Depart San Francisco International Airport (SFO) - United NH7011 (operated by United Airlines)"
+        },
+        {
+            "time": "10:15-14:50+1",
+            "description": "✈️ Flight NH7011: SFO→HND (11hr 35min trans-Pacific) - Economy Value Plus - Sleep, movies, prepare for Japan!"
         },
         {
             "time": "14:50+1",
-            "description": "Arrive at Tokyo International (Haneda) Airport (HND) - Wednesday Nov 26"
+            "description": "🛬 Arrive at Tokyo International (Haneda) Airport (HND) - Wednesday Nov 26, 2:50 PM JST"
+        },
+        {
+            "time": "15:00+1",
+            "description": "🚇 Immigration, customs, and train to Tokyo city center - Welcome to Japan! 🇯🇵"
         }
     ],
-    "transportation": "ANA/NH 7333 (AUS→SFO), ANA/NH 7011 (SFO→HND) - operated by United",
-    "accommodation": "Airplane seat",
-    "meals": "In-flight meals",
-    "budget": "Flight already paid",
-    "notes": "Set watch to Japan time. Try to sleep on the plane. Download offline maps and translation apps. Bring entertainment for long flight!"
+    "transportation": "ANA Reservation C13J79: NH7333 (AUS→SFO), NH7011 (SFO→HND) - operated by United Airlines",
+    "accommodation": "Economy Value Plus seats on both flights",
+    "meals": "In-flight meals on both segments - special meal requests confirmed",
+    "budget": "Flight already paid - ANA/United codeshare booking",
+    "notes": "✅ Reservation: C13J79 | ✅ Passenger: Adam Henderson | ✅ Economy Value Plus class | ✅ Baggage: Check ANA/United policy | Set watch to Japan time (+14 hours from Austin). Try to sleep on the long SFO→HND flight. Download offline maps and translation apps. Bring entertainment for 11+ hour flight!"
 }
 ,
-  1: {
+"day01": {
     "day": 1,
     "date": "Wednesday, November 26, 2025",
     "location": "Tokyo - Shibuya",
@@ -92,7 +100,7 @@ const ITINERARY_DATA = {
     "notes": "Pick up Suica/Pasmo card at airport for easy train travel. CULTURAL HIGHLIGHT: Visit Ebisu Shrine for your first goshuin - a beautiful way to start your Japan journey! Goshuincho (stamp book) typically costs ¥1,000-2,000, goshuin stamps ¥300-500 each. Shibuya is busiest in evening - perfect timing!"
 }
 ,
-  2: {
+"day02": {
     "day": 2,
     "date": "Thursday, November 27, 2025",
     "location": "Tokyo Shrines → Mount Fuji (Kawaguchiko)",
@@ -178,7 +186,7 @@ const ITINERARY_DATA = {
     "notes": "GOSHUIN COLLECTION DAY! Bring your goshuincho from Ebisu Shrine. Check shrine guides for Meiji Shrine and Onden Shrine for goshuin details and photos. Shrine addresses: Onden (5-26-6 Jingumae), Kitaya Inari (1-4-1 Jinnan), Miyamasumitake (1-12-16 Shibuya). Store luggage at Shinjuku early. Traditional ryokan experience begins! 🚨 CRITICAL TRAIN: Limited Express Kaiji 35 at 15:30 from Platform 10 - MUST NOT MISS! This is the last train to Mount Fuji today. Arrive Platform 10 by 15:15. ⚠️ VERIFIED AGAINST ATTACHMENT: All train times and addresses confirmed accurate."
 }
 ,
-  3: {
+"day03": {
     "day": 3,
     "date": "Friday, November 28, 2025",
     "location": "Mount Fuji Area - Chureito Pagoda & Lakeside Shrines",
@@ -256,7 +264,7 @@ const ITINERARY_DATA = {
     "notes": "🗻 PERFECT FUJI VIEWING DAY! Weather is critical - clear skies needed for best views. Chureito Pagoda is the iconic postcard shot. Collect goshuin at both shrines. Red Line bus pass covers all sightseeing spots. Wear comfortable shoes for pagoda climb. Sunset timing is crucial - arrive at Oishi Park by 4:00 PM. Evening illuminations start after dark."
 }
 ,
-  4: {
+"day04": {
     "day": 4,
     "date": "Friday, November 29, 2025",
     "location": "Tokyo → Kyoto",
@@ -319,7 +327,7 @@ const ITINERARY_DATA = {
     "notes": "CRITICAL: Must catch Hikari 517 at 14:33 - last good connection for afternoon Kyoto arrival. Book kaiseki dinner in advance. Pontocho can be crowded on weekends."
 }
 ,
-  5: {
+"day05": {
     "day": 5,
     "date": "Sunday, November 30, 2025",
     "location": "Kyoto - Fushimi Inari & Higashiyama Goshuin Tour",
@@ -401,7 +409,7 @@ const ITINERARY_DATA = {
     "budget": "¥8,000 - ¥12,000 (temple entrance fees ¥300-600 each, goshuin ¥300-500 each, meals, illumination tickets ¥600)",
     "notes": "🦊 EARLY START ESSENTIAL! Fushimi Inari is magical at dawn but unbearably crowded after 10 AM. Bring goshuincho (stamp book) for comprehensive collection. Kodai-ji illuminations require separate evening ticket ¥600. Full mountain hike takes 2-3 hours if desired. Higashiyama walking tour covers ~3km. Evening illuminations are seasonal highlight!"
 },
-  6: {
+"day06": {
     "day": 6,
     "date": "Monday, December 1, 2025",
     "location": "Kyoto - Moss Garden, Arashiyama & Maple Illuminations",
@@ -487,7 +495,7 @@ const ITINERARY_DATA = {
     "budget": "¥12,000 - ¥18,000 (Saiho-j reservation ¥3,000, temple fees ¥300-600 each, illumination ticket ¥1,000, meals, transport)",
     "notes": "🧘 ADVANCE RESERVATION REQUIRED for Saiho-j! Very ambitious 9-temple tour - move efficiently between stops. Shoan-in typically closed Mondays - check social media. Daikaku-j goshuin office closes 4:30 PM sharp. Maple illuminations are seasonal highlight and can be crowded. December weather requires warm clothing for evening illuminations."
 },
-  7: {
+"day07": {
     "day": 7,
     "date": "Tuesday, December 2, 2025",
     "location": "Nara & Osaka - Deer Park Temples & City Transition",
@@ -565,7 +573,7 @@ const ITINERARY_DATA = {
     "budget": "¥8,000 - ¥12,000 (temple entrance fees ¥300-600 each, goshuin ¥300-500 each, coin lockers ¥500, meals, local transport)",    "notes": "🦌 MAGICAL DEER EXPERIENCE! Nara's sacred deer roam freely - buy deer crackers (shika senbei) ¥200. Bring goshuincho for comprehensive temple stamp collection. Kofuku-ji's five-story pagoda is iconic photo spot. Todai-ji Great Buddha is massive - 15 meters tall! Kasuga Taisha has over 3,000 stone lanterns. Store luggage early for comfortable temple walking. December weather requires layers for outdoor exploration."
 }
 ,
-  8: {
+"day08": {
     "day": 8,
     "date": "Tuesday, December 3, 2025",    "location": "Osaka Day Trip",
     "weather": "Check forecast closer to date",
@@ -611,7 +619,7 @@ const ITINERARY_DATA = {
     "notes": "Osaka is known as 'Japan's Kitchen' - try takoyaki, okonomiyaki, and fresh seafood! Keep ticket for multiple train rides."
 }
 ,
-  9: {
+"day09": {
     "day": 9,
     "date": "Wednesday, December 4, 2025",
     "location": "Kyoto",
@@ -634,9 +642,9 @@ const ITINERARY_DATA = {
     "notes": "Arashiyama is famous for bamboo groves and autumn colors. Monkey park offers great views of Kyoto."
 }
 ,
-  10: {"day":10,"date":"Thursday, December 5, 2025","location":"Nara","weather":"Check forecast - December weather","description":"Day trip to Nara - ancient capital with friendly deer and historic temples","activities":[{"time":"08:00","description":"Early train from Kyoto to Nara"},{"time":"09:30","description":"Arrive in Nara, walk to Nara Park"},{"time":"10:00","description":"Feed deer in Nara Park"},{"time":"11:00","description":"Visit Todai-ji Temple and Great Buddha"},{"time":"13:00","description":"Lunch in Nara"},{"time":"14:30","description":"Explore Kasuga Taisha Shrine"},{"time":"16:00","description":"Walk through Nara's historic streets"},{"time":"17:30","description":"Return train to Kyoto"},{"time":"19:00","description":"Dinner in Kyoto"}],"transportation":"Kintetsu line Kyoto to Nara","accommodation":"Kyoto hotel","meals":"Lunch: Nara local specialties, Dinner: Kyoto restaurant","budget":"¥8,000 - ¥12,000","notes":"Nara's deer are sacred messengers. The Great Buddha is one of Japan's largest bronze Buddha statues."}
+"day10": {"day":10,"date":"Thursday, December 5, 2025","location":"Nara","weather":"Check forecast - December weather","description":"Day trip to Nara - ancient capital with friendly deer and historic temples","activities":[{"time":"08:00","description":"Early train from Kyoto to Nara"},{"time":"09:30","description":"Arrive in Nara, walk to Nara Park"},{"time":"10:00","description":"Feed deer in Nara Park"},{"time":"11:00","description":"Visit Todai-ji Temple and Great Buddha"},{"time":"13:00","description":"Lunch in Nara"},{"time":"14:30","description":"Explore Kasuga Taisha Shrine"},{"time":"16:00","description":"Walk through Nara's historic streets"},{"time":"17:30","description":"Return train to Kyoto"},{"time":"19:00","description":"Dinner in Kyoto"}],"transportation":"Kintetsu line Kyoto to Nara","accommodation":"Kyoto hotel","meals":"Lunch: Nara local specialties, Dinner: Kyoto restaurant","budget":"¥8,000 - ¥12,000","notes":"Nara's deer are sacred messengers. The Great Buddha is one of Japan's largest bronze Buddha statues."}
 ,
-  11: {
+"day11": {
     "day": 11,
     "date": "Friday, December 6, 2025",
     "location": "Kyoto to Osaka",
@@ -661,7 +669,7 @@ const ITINERARY_DATA = {
     "notes": "🚄 Kyoto-Osaka: NO Shinkansen needed! Use local express trains - much cheaper & faster for city-to-city. Keihan Main Line (Gion→Osaka) or Hankyu (central Kyoto→Osaka). Both take ~45min. Dotonbori: Try takoyaki, okonomiyaki, kushikatsu!"
 }
 ,
-  12: {
+"day12": {
     "day": 12,
     "date": "Saturday, December 7, 2025",
     "location": "Osaka",
@@ -700,7 +708,7 @@ const ITINERARY_DATA = {
     "notes": "Osaka is famous for food! Try everything. Dotonbori is busiest in evening."
 }
 ,
-  13: {
+"day13": {
     "day": 13,
     "date": "Sunday, December 8, 2025",
     "location": "Osaka to Tokyo",
@@ -727,11 +735,11 @@ const ITINERARY_DATA = {
     "notes": "🚅 SHINKANSEN CRITICAL: Depart from SHIN-OSAKA Station (not Osaka Station)! Take subway/taxi to Shin-Osaka 45min early. Reserved seats essential on Sunday. Try famous ekiben train bento. Keep tickets until final exit. Download JR app for delays."
 }
 ,
-  14: {"day":14,"date":"Monday, December 9, 2025","location":"Tokyo","weather":"Check forecast - December weather","description":"Second-to-last day in Tokyo - favorite districts and final experiences","activities":[{"time":"09:00","description":"Breakfast in a favorite Tokyo neighborhood"},{"time":"10:30","description":"Tokyo National Museum or teamLab Borderless"},{"time":"13:00","description":"Lunch in Tsukiji or Ginza"},{"time":"15:00","description":"Final shopping in Harajuku or Shibuya"},{"time":"17:30","description":"Visit Tokyo Skytree or Tokyo Tower at sunset"},{"time":"19:00","description":"Special dinner at a high-end restaurant"},{"time":"21:00","description":"Final night out in Tokyo"},{"time":"23:00","description":"Reflection and packing"}],"transportation":"Tokyo Metro and JR lines","accommodation":"Tokyo hotel","meals":"Breakfast: Local cafe, Lunch: Tsukiji/Ginza, Dinner: Special restaurant","budget":"�18,000 - �25,000","notes":"Make the most of the second-to-last day. Visit any missed attractions and enjoy final Tokyo experiences."}
+"day14": {"day":14,"date":"Monday, December 9, 2025","location":"Tokyo","weather":"Check forecast - December weather","description":"Second-to-last day in Tokyo - favorite districts and final experiences","activities":[{"time":"09:00","description":"Breakfast in a favorite Tokyo neighborhood"},{"time":"10:30","description":"Tokyo National Museum or teamLab Borderless"},{"time":"13:00","description":"Lunch in Tsukiji or Ginza"},{"time":"15:00","description":"Final shopping in Harajuku or Shibuya"},{"time":"17:30","description":"Visit Tokyo Skytree or Tokyo Tower at sunset"},{"time":"19:00","description":"Special dinner at a high-end restaurant"},{"time":"21:00","description":"Final night out in Tokyo"},{"time":"23:00","description":"Reflection and packing"}],"transportation":"Tokyo Metro and JR lines","accommodation":"Tokyo hotel","meals":"Breakfast: Local cafe, Lunch: Tsukiji/Ginza, Dinner: Special restaurant","budget":"�18,000 - �25,000","notes":"Make the most of the second-to-last day. Visit any missed attractions and enjoy final Tokyo experiences."}
 ,
-  15: {"day":15,"date":"Wednesday, December 10, 2025","location":"Tokyo","weather":"Check forecast - December weather","description":"Last full day in Tokyo - final shopping, favorite spots, and memorable experiences","activities":[{"time":"09:00","description":"Final breakfast at a favorite Tokyo cafe"},{"time":"10:30","description":"Last-minute shopping in Ginza or Shibuya"},{"time":"13:00","description":"Lunch at a memorable restaurant from the trip"},{"time":"15:00","description":"Revisit favorite spots or districts"},{"time":"17:00","description":"Final temple or shrine visit"},{"time":"19:00","description":"Farewell dinner - special restaurant or izakaya"},{"time":"21:00","description":"Pack and prepare for departure"}],"transportation":"Tokyo Metro and JR lines","accommodation":"Tokyo hotel (final night)","meals":"Breakfast: Cafe, Lunch: Special restaurant, Dinner: Farewell meal","budget":"�15,000 - �25,000 (including souvenirs)","notes":"Last chance for any missed experiences. Pack carefully for departure. Confirm transportation to airport."}
+"day15": {"day":15,"date":"Wednesday, December 10, 2025","location":"Tokyo","weather":"Check forecast - December weather","description":"Last full day in Tokyo - final shopping, favorite spots, and memorable experiences","activities":[{"time":"09:00","description":"Final breakfast at a favorite Tokyo cafe"},{"time":"10:30","description":"Last-minute shopping in Ginza or Shibuya"},{"time":"13:00","description":"Lunch at a memorable restaurant from the trip"},{"time":"15:00","description":"Revisit favorite spots or districts"},{"time":"17:00","description":"Final temple or shrine visit"},{"time":"19:00","description":"Farewell dinner - special restaurant or izakaya"},{"time":"21:00","description":"Pack and prepare for departure"}],"transportation":"Tokyo Metro and JR lines","accommodation":"Tokyo hotel (final night)","meals":"Breakfast: Cafe, Lunch: Special restaurant, Dinner: Farewell meal","budget":"�15,000 - �25,000 (including souvenirs)","notes":"Last chance for any missed experiences. Pack carefully for departure. Confirm transportation to airport."}
 ,
-  16: {
+"day16": {
     "day": 16,
     "date": "Thursday, December 11, 2025",
     "location": "Tokyo",
@@ -770,5 +778,70 @@ const ITINERARY_DATA = {
     "notes": "Allow extra time for airport. Keep receipts for tax-free shopping. Don't forget to say arigatou gozaimasu!"
 }
 ,
+"day17": {
+    "day": 17,
+    "date": "Wednesday, December 11, 2025",
+    "location": "Travel Day (Japan → USA)",
+    "weather": "In transit",
+    "description": "ANA Reservation C13J79 - Return journey from Tokyo to Austin via San Francisco. United Airlines Economy Value Plus class. Final day of the Japan adventure - sayonara! 🇯🇵✈️🇺🇸",
+    "activities": [
+        {
+            "time": "08:00",
+            "description": "🧳 Final packing and check out from accommodation - Double check passport, JR Pass, souvenirs!"
+        },
+        {
+            "time": "09:00",
+            "description": "🚇 Tokyo city center to Haneda Airport (HND) - Allow extra time for train delays"
+        },
+        {
+            "time": "10:30",
+            "description": "🛫 Arrive at Tokyo International (Haneda) Airport (HND) - Check-in and security (3+ hours early for international)"
+        },
+        {
+            "time": "10:30-13:30",
+            "description": "✅ Check-in, security, duty-free shopping, final Japanese meal at airport - Last chance for omiyage (souvenirs)!"
+        },
+        {
+            "time": "13:30",
+            "description": "🛫 Depart Tokyo International (Haneda) Airport (HND) - United NH7010 (operated by United Airlines)"
+        },
+        {
+            "time": "13:30-06:45",
+            "description": "✈️ Flight NH7010: HND→SFO (9hr 15min trans-Pacific) - Economy Value Plus - Sleep, reflect on amazing trip!"
+        },
+        {
+            "time": "06:45",
+            "description": "🛬 Arrive at San Francisco International Airport (SFO) - Wednesday Dec 11, 6:45 AM PST (same day due to time zone)"
+        },
+        {
+            "time": "06:45-09:10",
+            "description": "⏰ Layover at SFO (2 hours 25 minutes) - Immigration, customs, terminal change for domestic connection"
+        },
+        {
+            "time": "09:10",
+            "description": "🛫 Depart San Francisco International Airport (SFO) - United NH7332 (operated by United Airlines)"
+        },
+        {
+            "time": "09:10-14:28",
+            "description": "✈️ Flight NH7332: SFO→AUS (3hr 18min) - Economy Value Plus - Almost home!"
+        },
+        {
+            "time": "14:28",
+            "description": "🛬 Arrive at Austin-Bergstrom International Airport (AUS) - Wednesday Dec 11, 2:28 PM CST - Welcome home! 🏠"
+        },
+        {
+            "time": "15:00",
+            "description": "🚗 Baggage claim, customs, and head home - Trip complete! Time to start planning the next Japan adventure! 😊"
+        }
+    ],
+    "transportation": "ANA Reservation C13J79: NH7010 (HND→SFO), NH7332 (SFO→AUS) - operated by United Airlines",
+    "accommodation": "Economy Value Plus seats on both flights",
+    "meals": "In-flight meals on both segments - last taste of Japanese hospitality on NH7010",
+    "budget": "Flight already paid - ANA/United codeshare booking",
+    "notes": "✅ Reservation: C13J79 | ✅ Passenger: Adam Henderson | ✅ Economy Value Plus class | ✅ Check baggage weight limits for souvenirs! | Set watch back to US time zones during layover. Download photos from trip during flights. Prepare for reverse jet lag. Don't forget to declare any food items at customs!"
+}
 };
 
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = itineraryData;
+}

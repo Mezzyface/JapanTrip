@@ -7,8 +7,8 @@ class ItineraryLoader {
         this.totalActivities = 0;
     }    async loadAllDays() {        
         const loadPromises = [];
-        // Load day 0 through day 16 (17 days total)
-        for (let i = 0; i <= 16; i++) {
+        // Load day 0 through day 17 (18 days total)
+        for (let i = 0; i <= 17; i++) {
             loadPromises.push(this.loadDay(i));
         }
 
@@ -25,8 +25,9 @@ class ItineraryLoader {
         }
     }    async loadDay(dayNumber) {
         // First check if we have embedded data (for file:// protocol)
-        if (typeof ITINERARY_DATA !== 'undefined' && ITINERARY_DATA[dayNumber]) {
-            return ITINERARY_DATA[dayNumber];
+        const dayKey = `day${dayNumber.toString().padStart(2, '0')}`;
+        if (typeof itineraryData !== 'undefined' && itineraryData[dayKey]) {
+            return itineraryData[dayKey];
         }
         
         try {
