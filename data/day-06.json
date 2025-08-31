@@ -1,30 +1,53 @@
 {
     "day": 6,
-    "date": "Sunday, December 1, 2025",
-    "location": "Tokyo",
+    "date": "Sunday, December 1, 2025",    "location": "Tokyo - Tsukiji & Ginza",
     "weather": "Check forecast closer to date",
-    "description": "Last day in Tokyo before heading to Kyoto. Exploring areas you haven't seen yet.",
+    "description": "Early morning at Tsukiji Fish Market followed by luxury shopping in Ginza.",
     "activities": [
         {
+            "time": "05:00",
+            "description": "Travel to Tsukiji: Tokyo Metro Hibiya Line from Ebisu to Tsukiji"
+        },
+        {
+            "time": "05:30",
+            "description": "Visit Tsukiji Outer Market for fresh sushi breakfast"
+        },
+        {
+            "time": "07:00",
+            "description": "Explore traditional food stalls and shops"
+        },
+        {
             "time": "09:00",
-            "description": "Morning activity - add your plans here"
+            "description": "Walk to Ginza: 15-minute walk from Tsukiji"
+        },
+        {
+            "time": "09:30",
+            "description": "Luxury shopping at Ginza department stores"
         },
         {
             "time": "12:00",
-            "description": "Lunch and midday exploration"
+            "description": "High-end sushi lunch at Ginza restaurant"
         },
         {
-            "time": "15:00",
-            "description": "Afternoon activity"
+            "time": "14:00",
+            "description": "Travel to Ueno: JR Yamanote Line from Shimbashi to Ueno"
+        },
+        {
+            "time": "14:30",
+            "description": "Visit Ueno Park and museums"
+        },
+        {
+            "time": "17:00",
+            "description": "Travel back to Shibuya: JR Yamanote Line from Ueno to Shibuya"
         },
         {
             "time": "18:00",
-            "description": "Evening activity and dinner"
+            "description": "Dinner in Shibuya"
         }
     ],
-    "transportation": "Add transportation details",
-    "accommodation": "Add accommodation details",
-    "meals": "Plan your meals here",
-    "budget": "Estimate daily budget",
-    "notes": "Add any special notes, reservations, or reminders for this day"
+    "transportation": "Tokyo Metro and JR Yamanote Line",
+    "accommodation": "Same Airbnb",
+    "meals": "Breakfast: Tsukiji sushi, Lunch: Ginza restaurant, Dinner: Shibuya",
+    "budget": "¥15,000 - ¥25,000",
+    "notes": "Tsukiji is busiest early morning. Ginza shops open around 10 AM. Bring cash for Tsukiji vendors."
 }

@@ -67,9 +67,12 @@ Each day has its own JSON file in the `data/` folder. The files are named `day-0
 ## ✨ Features
 
 - **Responsive Design**: Looks great on desktop, tablet, and mobile
-- **Japanese-inspired Theme**: Beautiful color scheme with cherry blossom vibes
+- **Japanese-inspired Theme**: Beautiful dark color scheme with sophisticated aesthetics
 - **Timeline Layout**: Easy-to-follow chronological layout
 - **Interactive Elements**: Hover effects and smooth animations
+- **Google Maps Integration**: 🗺️ One-click navigation for all travel activities
+- **Smart Activity Detection**: Automatic categorization and location clustering
+- **Optional Activity Highlighting**: Visual differentiation for flexible plans
 - **Statistics**: Automatic counting of cities and activities
 - **Print-friendly**: Optimized for printing
 - **Offline Capable**: Works without internet once loaded

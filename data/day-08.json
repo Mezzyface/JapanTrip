@@ -1,38 +1,45 @@
 {
     "day": 8,
-    "date": "Tuesday, December 3, 2025",
-    "location": "Kyoto",
+    "date": "Tuesday, December 3, 2025",    "location": "Osaka Day Trip",
     "weather": "Check forecast closer to date",
-    "description": "Second day in Kyoto - exploring more temples and traditional districts.",
+    "description": "Day trip to Osaka from Kyoto - experience Japan's food capital and Osaka Castle.",
     "activities": [
         {
             "time": "08:00",
-            "description": "Early visit to Fushimi Inari Shrine"
+            "description": "Travel to Osaka: Rapid train from Kyoto Station to Osaka Station"
         },
         {
-            "time": "11:00",
-            "description": "Explore thousands of torii gates"
+            "time": "09:00",
+            "description": "Visit Osaka Castle and surrounding park"
         },
         {
-            "time": "13:00",
-            "description": "Lunch near Fushimi Inari"
+            "time": "11:30",
+            "description": "Travel to Dotonbori: Osaka Metro from Osakajo-koen to Namba"
         },
         {
-            "time": "15:00",
-            "description": "Visit Bamboo Grove in Arashiyama"
+            "time": "12:00",
+            "description": "Lunch in Dotonbori - famous street food and takoyaki"
         },
         {
-            "time": "17:00",
-            "description": "Tea ceremony experience"
+            "time": "14:00",
+            "description": "Shopping and exploring Dotonbori district"
         },
         {
-            "time": "19:00",
-            "description": "Traditional dinner"
+            "time": "16:00",
+            "description": "Travel to Kuromon Market: Walk from Dotonbori to Kuromon"
+        },
+        {
+            "time": "16:30",
+            "description": "Explore Kuromon Ichiba Market for fresh seafood"
+        },
+        {
+            "time": "18:00",
+            "description": "Travel back to Kyoto: Express train from Osaka to Kyoto"
         }
     ],
-    "transportation": "Kyoto city buses and trains",
-    "accommodation": "Kyoto ryokan",
-    "meals": "Lunch: Local restaurant, Dinner: Traditional kaiseki",
-    "budget": "¥15,000 - ¥20,000",
-    "notes": "Fushimi Inari is best visited early morning. Book tea ceremony in advance."
+    "transportation": "JR trains between Kyoto-Osaka, Osaka Metro within city",
+    "accommodation": "Kyoto ryokan/hotel",
+    "meals": "Breakfast: Kyoto, Lunch: Dotonbori takoyaki and street food, Dinner: Kyoto",
+    "budget": "¥8,000 - ¥15,000",
+    "notes": "Osaka is known as 'Japan's Kitchen' - try takoyaki, okonomiyaki, and fresh seafood! Keep ticket for multiple train rides."
 }

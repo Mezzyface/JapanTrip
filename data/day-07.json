@@ -4,14 +4,17 @@
     "location": "Kyoto",
     "weather": "Check forecast closer to date",
     "description": "First day in Kyoto - the ancient capital of Japan! Exploring traditional temples and gardens.",
-    "activities": [
-        {
+    "activities": [        {
             "time": "08:00",
-            "description": "Shinkansen from Tokyo to Kyoto"
+            "description": "Travel to Kyoto: Shinkansen bullet train from Tokyo Station to Kyoto Station"
         },
         {
             "time": "11:00",
-            "description": "Check into ryokan/hotel"
+            "description": "Arrive in Kyoto and check into ryokan/hotel"
+        },
+        {
+            "time": "12:00",
+            "description": "Travel to Gion: Bus or subway from Kyoto Station to Gion"
         },
         {
             "time": "13:00",

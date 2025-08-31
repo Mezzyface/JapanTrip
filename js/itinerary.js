@@ -275,17 +275,23 @@ class ItineraryLoader {
             } else if (currentLocation === null) {
                 html += '<div class="location-activities">';
             }
-            
-            // Create activity item with appropriate classes
+              // Create activity item with appropriate classes
             const classes = ['activity-item'];
             if (activityInfo.isOptional) classes.push('optional');
             if (activityInfo.cluster) classes.push(`cluster-${activityInfo.cluster}`);
             if (currentLocation) classes.push('location-cluster');
             
+            // Add Google Maps link for travel activities
+            let mapsLink = '';
+            if (activityInfo.isTravel && activityInfo.destination) {
+                const mapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(activityInfo.destination)}&travelmode=transit`;
+                mapsLink = ` <a href="${mapsUrl}" target="_blank" class="maps-link" title="Get directions to ${activityInfo.destination}">🗺️</a>`;
+            }
+            
             html += `
                 <div class="${classes.join(' ')}">
                     <span class="activity-time">${activity.time}</span>
-                    <span class="activity-description">${activity.description}</span>
+                    <span class="activity-description">${activity.description}${mapsLink}</span>
                 </div>
             `;
         });
@@ -301,8 +307,106 @@ class ItineraryLoader {
             location: null,
             isOptional: false,
             cluster: null,
-            travelTime: null
+            travelTime: null,
+            destination: null,
+            isTravel: false
         };
+        
+        // Enhanced travel activity detection with broader patterns
+        if (description.includes('travel to') || description.includes('go to') || 
+            description.includes('head to') || description.includes('depart to') ||
+            description.includes('arrive at') || description.includes('take train to') ||
+            description.includes('walk to') || description.includes('return to') ||
+            description.includes('yamanote line') || description.includes('jr line') ||
+            description.includes('metro to') || description.includes('keikyu line')) {
+            result.isTravel = true;
+            result.cluster = 'transport';
+              // Enhanced destination mapping with specific train stations and addresses
+            
+            // Tokyo Districts & Stations
+            if (description.includes('shibuya') && !description.includes('ebisu')) {
+                result.destination = 'Shibuya Station, Tokyo, Japan';
+            } else if (description.includes('ebisu')) {
+                result.destination = 'Ebisu Station, Tokyo, Japan';
+            } else if (description.includes('harajuku')) {
+                result.destination = 'Harajuku Station, Tokyo, Japan';
+            } else if (description.includes('asakusa')) {
+                result.destination = 'Asakusa Station, Tokyo, Japan';
+            } else if (description.includes('ginza')) {
+                result.destination = 'Ginza Station, Tokyo, Japan';
+            } else if (description.includes('shimbashi')) {
+                result.destination = 'Shimbashi Station, Tokyo, Japan';
+            } else if (description.includes('shinagawa')) {
+                result.destination = 'Shinagawa Station, Tokyo, Japan';
+            } else if (description.includes('shinjuku')) {
+                result.destination = 'Shinjuku Station, Tokyo, Japan';
+            } else if (description.includes('omotesando')) {
+                result.destination = 'Omotesando Station, Tokyo, Japan';
+            } else if (description.includes('ueno')) {
+                result.destination = 'Ueno Station, Tokyo, Japan';
+            } else if (description.includes('ikebukuro')) {
+                result.destination = 'Ikebukuro Station, Tokyo, Japan';
+            } else if (description.includes('akihabara')) {
+                result.destination = 'Akihabara Station, Tokyo, Japan';
+            } else if (description.includes('roppongi')) {
+                result.destination = 'Roppongi Station, Tokyo, Japan';
+            } else if (description.includes('odaiba')) {
+                result.destination = 'Odaiba Marine Park Station, Tokyo, Japan';
+            }
+            
+            // Airports with specific terminals
+            else if (description.includes('haneda airport') || (description.includes('haneda') && description.includes('airport'))) {
+                result.destination = 'Tokyo International Airport (Haneda), Terminal 1, Tokyo, Japan';
+            } else if (description.includes('narita airport') || (description.includes('narita') && description.includes('airport'))) {
+                result.destination = 'Narita International Airport, Terminal 1, Chiba, Japan';
+            }
+            
+            // Day Trip Destinations with specific stations
+            else if (description.includes('nikko')) {
+                result.destination = 'Tobu-Nikko Station, Nikko, Tochigi, Japan';
+            } else if (description.includes('kamakura')) {
+                result.destination = 'Kamakura Station, Kamakura, Kanagawa, Japan';
+            } else if (description.includes('hakone')) {
+                result.destination = 'Hakone-Yumoto Station, Hakone, Kanagawa, Japan';
+            } else if (description.includes('mount fuji') || description.includes('mt fuji') || description.includes('kawaguchi')) {
+                result.destination = 'Kawaguchiko Station, Fujikawaguchiko, Yamanashi, Japan';
+            }
+            
+            // Other Major Cities with main stations
+            else if (description.includes('kyoto')) {
+                result.destination = 'Kyoto Station, Kyoto, Japan';
+            } else if (description.includes('osaka')) {
+                result.destination = 'Osaka Station, Osaka, Japan';
+            } else if (description.includes('hiroshima')) {
+                result.destination = 'Hiroshima Station, Hiroshima, Japan';
+            } else if (description.includes('nara')) {
+                result.destination = 'Nara Station, Nara, Japan';
+            } else if (description.includes('takayama')) {
+                result.destination = 'Takayama Station, Takayama, Gifu, Japan';
+            } else if (description.includes('kanazawa')) {
+                result.destination = 'Kanazawa Station, Kanazawa, Ishikawa, Japan';
+            }
+            
+            // Return journeys and general Tokyo
+            else if (description.includes('travel back to tokyo') || description.includes('return train to tokyo') || 
+                     description.includes('back to tokyo') || description.includes('return to tokyo')) {
+                result.destination = 'Tokyo Station, Tokyo, Japan';
+            }
+            
+            // Specific locations with exact addresses
+            else if (description.includes('tsukiji') || description.includes('fish market')) {
+                result.destination = 'Tsukiji Outer Market, 4 Chome Tsukiji, Chuo City, Tokyo, Japan';
+            } else if (description.includes('senso-ji') || description.includes('sensoji')) {
+                result.destination = 'Senso-ji Temple, 2 Chome-3-1 Asakusa, Taito City, Tokyo, Japan';
+            } else if (description.includes('meiji shrine')) {
+                result.destination = 'Meiji Shrine, 1-1 Kamizono-cho, Shibuya City, Tokyo, Japan';
+            } else if (description.includes('tokyo skytree')) {
+                result.destination = 'Tokyo Skytree, 1 Chome-1-2 Oshiage, Sumida City, Tokyo, Japan';
+            } else if (description.includes('imperial palace')) {
+                result.destination = 'Tokyo Imperial Palace, 1-1 Chiyoda, Chiyoda City, Tokyo, Japan';
+            } else if (description.includes('golden gai')) {
+                result.destination = 'Golden Gai, 1 Chome Kabukicho, Shinjuku City, Tokyo, Japan';
+            }        }
         
         // Detect optional activities
         result.isOptional = description.includes('optional') || 

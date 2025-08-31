@@ -3,8 +3,11 @@
     "date": "Thursday, November 28, 2025",
     "location": "Tokyo - Harajuku & Omotesando",
     "weather": "Cloudy, 14°C",
-    "description": "Exploring Tokyo's fashion and culture districts. From quirky Harajuku street style to upscale Omotesando shopping.",
-    "activities": [
+    "description": "Exploring Tokyo's fashion and culture districts. From quirky Harajuku street style to upscale Omotesando shopping.",    "activities": [
+        {
+            "time": "08:30",
+            "description": "Travel to Harajuku: JR Yamanote Line from Ebisu to Harajuku"
+        },
         {
             "time": "09:00",
             "description": "Breakfast: Japanese pancakes in Harajuku"

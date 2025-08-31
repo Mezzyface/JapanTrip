@@ -292,6 +292,38 @@
     margin-bottom: 0;
 }
 
+/* Google Maps Links for Travel Activities */
+.maps-link {
+    display: inline-block;
+    margin-left: var(--spacing-xs);
+    text-decoration: none;
+    font-size: 1.2em;
+    opacity: 0.7;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+    vertical-align: middle;
+}
+
+.maps-link:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    text-decoration: none;
+}
+
+.maps-link:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+/* Special styling for transport activities with maps links */
+.activity-item.cluster-transport .maps-link {
+    color: var(--secondary-color);
+}
+
+.activity-item.cluster-transport .maps-link:hover {
+    color: var(--secondary-hover);
+}
+
 /* Transportation & Accommodation */
 .day-info {
     display: grid;

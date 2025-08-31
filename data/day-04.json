@@ -3,16 +3,26 @@
     "date": "Friday, November 29, 2025",
     "location": "Tokyo",
     "weather": "Check forecast closer to date",
-    "description": "Day 4 in Tokyo. Plan your activities and experiences here.",
-    "activities": [
+    "description": "Day 4 in Tokyo. Plan your activities and experiences here.",    "activities": [
+        {
+            "time": "08:30", 
+            "description": "Travel to Ginza: JR Yamanote Line from Shibuya to Shimbashi, then walk"
+        },
         {
             "time": "09:00",
-            "description": "Morning activity - add your plans here"
+            "description": "Morning shopping in Ginza district"
         },
         {
             "time": "12:00",
-            "description": "Lunch and midday exploration"
+            "description": "Lunch at high-end sushi restaurant in Ginza"
         },
+        {
+            "time": "14:00",
+            "description": "Travel to Asakusa: Tokyo Metro from Ginza to Asakusa"
+        },
+        {
+            "time": "14:30",
+            "description": "Visit traditional shops and temples"        },
         {
             "time": "15:00",
             "description": "Afternoon activity"
