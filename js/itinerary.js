@@ -198,7 +198,153 @@ class ItineraryLoader {
             const dayCard = this.createDayCard(day, index + 1);
             timeline.appendChild(dayCard);
         });
-    }    createDayCard(day, dayNumber) {
+    }    // Check if transportation contains critical travel information
+    isCriticalTransportation(transportation) {
+        if (!transportation || transportation === 'TBD' || transportation.trim() === '') {
+            return false;
+        }
+        
+        const transportLower = transportation.toLowerCase();
+        
+        // Exclude routine local transportation patterns
+        const routinePatterns = [
+            /keikyu.*line.*yamanote/i,
+            /tokyo metro.*jr lines/i,
+            /local.*lines?/i,
+            /walking.*distance/i,
+            /total cost:.*¥\d{2,4}/i, // Small costs like ¥510
+            /time:.*\d+.*minutes?$/i // Just travel time info
+        ];
+        
+        // Check if this is routine local transport
+        const isRoutineTransport = routinePatterns.some(pattern => 
+            pattern.test(transportation)
+        );
+        
+        if (isRoutineTransport) {
+            return false;
+        }
+        
+        // Critical indicators - these override routine detection
+        const criticalKeywords = [
+            'shinkansen', 'bullet train', 'limited express', 'kaiji',
+            'must catch', 'critical', 'must not miss', 'platform',
+            'departure time', 'arrive by', 'reservation required',
+            'ana reservation', 'flight', 'airport express',
+            'shin-osaka', 'reserved seats', 'nozomi', 'hikari'
+        ];
+        
+        // Check for critical keywords first
+        const hasCriticalKeywords = criticalKeywords.some(keyword => 
+            transportLower.includes(keyword)
+        );
+        
+        if (hasCriticalKeywords) {
+            return true;
+        }
+        
+        // High-value transportation indicators (expensive = likely long distance/critical)
+        const expensiveTransportPatterns = [
+            /¥\d{4,}/, // High costs like ¥13,320 for Shinkansen
+            /\d+h.*\d+min.*pacific/i, // Long international flights
+            /reservation.*c\d+/i, // Reservation codes
+        ];
+        
+        // Specific timing patterns that suggest critical transport
+        const criticalTimePatterns = [
+            /\d{1,2}:\d{2}.*platform/i, // Specific departure time + platform
+            /depart.*\d{1,2}:\d{2}/i, // Specific departure times
+            /arrive.*\d{1,2}:\d{2}/i, // Specific arrival times
+        ];
+        
+        // Check for expensive transport or critical timing
+        const hasExpensiveTransport = expensiveTransportPatterns.some(pattern => 
+            pattern.test(transportation)
+        );
+        
+        const hasCriticalTiming = criticalTimePatterns.some(pattern => 
+            pattern.test(transportation)
+        );
+        
+        // Show transportation if it's expensive or has critical timing
+        return hasExpensiveTransport || hasCriticalTiming;
+    }// Format critical transportation to show only essential info
+    formatCriticalTransportation(transportation, activities = []) {
+        if (!transportation) return '';
+        
+        // Extract flight numbers and departure times
+        if (transportation.includes('NH7') || transportation.includes('ANA')) {
+            // Flight pattern: extract flight numbers and key info
+            const flightMatch = transportation.match(/NH\d+/g);
+            
+            // Look for departure times in activities
+            let departureTime = null;
+            if (activities && activities.length > 0) {
+                // Find the first departure activity
+                const departureActivity = activities.find(activity => 
+                    activity.description && 
+                    (activity.description.includes('Depart') || activity.description.includes('🛫')) &&
+                    activity.time && activity.time !== 'In-flight'
+                );
+                
+                if (departureActivity) {
+                    departureTime = departureActivity.time;
+                }
+            }
+            
+            // Fallback: try to find time in transportation text
+            if (!departureTime) {
+                const timeMatch = transportation.match(/\d{1,2}:\d{2}/g);
+                if (timeMatch) departureTime = timeMatch[0];
+            }
+            
+            if (flightMatch && departureTime) {
+                return `${flightMatch.join(', ')} | Depart: ${departureTime}`;
+            } else if (flightMatch) {
+                return `${flightMatch.join(', ')}`;
+            }
+        }
+        
+        // Extract Shinkansen info
+        if (transportation.includes('Shinkansen') || transportation.includes('shinkansen')) {
+            const shinkPattern = transportation.match(/(Nozomi|Hikari|Kodama|Hayabusa|Komachi)/i);
+            const timeMatch = transportation.match(/\d{1,2}:\d{2}/g);
+            const platformMatch = transportation.match(/platform \d+/i);
+            
+            let result = '';
+            if (shinkPattern) result += `${shinkPattern[1]} `;
+            if (timeMatch) result += `| Depart: ${timeMatch[0]} `;
+            if (platformMatch) result += `| ${platformMatch[0]}`;
+            
+            return result || transportation;
+        }
+        
+        // Extract Limited Express info (like Kaiji)
+        if (transportation.includes('Limited Express') || transportation.includes('Kaiji')) {
+            const trainMatch = transportation.match(/(Kaiji|Limited Express)\s*\d*/i);
+            const timeMatch = transportation.match(/\d{1,2}:\d{2}/g);
+            const platformMatch = transportation.match(/platform \d+/i);
+            
+            let result = '';
+            if (trainMatch) result += `${trainMatch[0]} `;
+            if (timeMatch) result += `| Depart: ${timeMatch[0]} `;
+            if (platformMatch) result += `| ${platformMatch[0]}`;
+            
+            return result || transportation;
+        }
+        
+        // For other critical transport, try to extract time and key info
+        const timeMatch = transportation.match(/\d{1,2}:\d{2}/g);
+        if (timeMatch) {
+            const keyInfo = transportation.split('-')[0].trim(); // Take first part before dash
+            return `${keyInfo} | Depart: ${timeMatch[0]}`;
+        }
+        
+        // Fallback: return first 80 characters to keep it concise
+        return transportation.length > 80 ? transportation.substring(0, 80) + '...' : transportation;
+    }
+
+    createDayCard(day, dayNumber) {
         const card = document.createElement('div');
         card.className = 'day-card';
         card.setAttribute('data-day', dayNumber);
@@ -224,13 +370,13 @@ class ItineraryLoader {
                 <div class="activity-list">
                     ${groupedActivities}
                 </div>
-            </div>
-            
-            <div class="day-info">
+            </div>              <div class="day-info">
+                ${this.isCriticalTransportation(day.transportation) ? `
                 <div class="info-section transportation">
-                    <div class="info-title">Transportation</div>
-                    <div class="info-content">${day.transportation}</div>
-                </div>                <div class="info-section accommodation">
+                    <div class="info-title">Critical Transportation</div>
+                    <div class="info-content">${this.formatCriticalTransportation(day.transportation, day.activities)}</div>
+                </div>` : ''}
+                <div class="info-section accommodation">
                     <div class="info-title">Accommodation</div>
                     <div class="info-content">${this.processMarkdownLinks(day.accommodation)}</div>
                 </div>

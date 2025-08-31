@@ -470,6 +470,38 @@
     margin-right: var(--spacing-xs);
 }
 
+/* Critical Transportation Enhancement */
+.transportation {
+    background: linear-gradient(135deg, #FF5722 0%, #FF8A65 100%);
+    border: 2px solid #D32F2F;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(255, 87, 34, 0.2);
+    animation: criticalPulse 2s ease-in-out infinite;
+}
+
+.transportation .info-title {
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.transportation .info-content {
+    color: white;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+@keyframes criticalPulse {
+    0%, 100% { 
+        transform: scale(1);
+        box-shadow: 0 4px 12px rgba(255, 87, 34, 0.2);
+    }
+    50% { 
+        transform: scale(1.02);
+        box-shadow: 0 6px 20px rgba(255, 87, 34, 0.4);
+    }
+}
+
 .accommodation::before {
     content: '🏨';
     margin-right: var(--spacing-xs);
