@@ -7,18 +7,14 @@
     "activities": [
         {
             "time": "14:50",
-            "description": "Arrive at Tokyo International (Haneda) Airport (HND)"
+            "description": "Arrive at Tokyo International (Haneda) Airport (HND), Clear immigration, collect luggage, and go through customs"
         },
         {
-            "time": "15:00",
-            "description": "Clear immigration, collect luggage, and go through customs"
+            "time": "~16:30",
+            "description": "Travel Ebisu Station"
         },        {
-            "time": "16:30",
-            "description": "Travel to Shibuya: Keikyu Line to Shinagawa → JR Yamanote Line to Ebisu"
-        },
-        {
             "time": "17:15",
-            "description": "Optional cultural stop: Visit Ebisu Shrine (恵比寿神社) to purchase Goshuincho (stamp book) and receive first goshuin"
+            "description": "Optional: Visit Ebisu Shrine to purchase Goshuincho and receive first goshuin | [Ebisu Shrine](https://maps.app.goo.gl/6bjWpLGNd6te9iqE8) [Shrine Store](https://maps.app.goo.gl/GsJNyLmWwg3JBntX9)"
         },
         {
             "time": "17:30",
