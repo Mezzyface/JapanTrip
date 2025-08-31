@@ -324,6 +324,35 @@
     color: var(--secondary-hover);
 }
 
+/* Shrine Guide Links */
+.shrine-link {
+    display: inline-block;
+    margin-left: var(--spacing-xs);
+    padding: 2px 8px;
+    background: var(--accent-color);
+    color: var(--text-dark);
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 1px solid var(--secondary-color);
+}
+
+.shrine-link:hover {
+    background: var(--secondary-color);
+    color: var(--white);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+
+.shrine-link:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
 /* Transportation & Accommodation */
 .day-info {
     display: grid;

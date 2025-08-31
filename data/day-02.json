@@ -1,46 +1,83 @@
 {
     "day": 2,
-    "date": "Wednesday, November 27, 2025",
-    "location": "Tokyo - Asakusa & Shibuya",
-    "weather": "Sunny, 17°C",
-    "description": "First full day exploring Tokyo! Starting with traditional Asakusa in the morning, then experiencing the modern energy of Shibuya in the evening.",
-    "activities": [
+    "date": "Thursday, November 27, 2025",
+    "location": "Tokyo Shrines → Mount Fuji (Kawaguchiko)",
+    "weather": "Check forecast - travel day to mountains",
+    "description": "Shrine-hopping adventure through Tokyo for goshuin collection, then departing for Mount Fuji area. Multiple beautiful shrines in Harajuku/Shibuya area before traveling to Kawaguchiko for ryokan stay.",    "activities": [
         {
-            "time": "08:00",
-            "description": "Traditional Japanese breakfast at hotel"
+            "time": "07:00",
+            "description": "Leave Airbnb and walk to Ebisu Station"
         },
         {
-            "time": "09:30",
-            "description": "Visit Senso-ji Temple in Asakusa"
+            "time": "07:00",
+            "description": "Travel to Shinjuku: JR Yamanote Line from Ebisu Station (inner loop, 2 stops north) - 10-15 mins, ~¥170"
+        },
+        {
+            "time": "07:30",
+            "description": "Arrive at Shinjuku Station and drop off bags in coin locker or luggage storage"
+        },
+        {
+            "time": "07:45",
+            "description": "Travel from Shinjuku Station to Harajuku Station (JR Yamanote Line, 1 stop south)"
+        },        {
+            "time": "08:00",
+            "description": "Visit Meiji Shrine (Meiji Jingu) - walk through serene forest path to main complex. Get goshuin at this prestigious shrine. [📖 Shrine Guide](https://jinja-gosyuin.com/meijijingu/)"
+        },
+        {
+            "time": "10:00",
+            "description": "Visit Togo-jinja Shrine - quiet atmosphere and lovely garden, short walk from Meiji Shrine"
         },
         {
             "time": "11:00",
-            "description": "Explore Nakamise Shopping Street"
+            "description": "Lunch in Harajuku/Shibuya - explore Omotesando, Cat Street, or backstreets of Harajuku"
+        },        {
+            "time": "12:30",
+            "description": "Visit Onden Shrine (穏田神社) - quiet local shrine tucked away from main streets, 10-15 min walk from Harajuku area. Beautiful goshuin available. [📖 Shrine Guide](https://jinja-gosyuin.com/ondenjinja-gosyuin/)"
         },
         {
-            "time": "13:00",
-            "description": "Lunch: Tempura at Daikokuya (established 1887)"
+            "time": "13:30",
+            "description": "Visit Kitaya Inari Shrine (北谷稲荷神社) - small oasis of calm in bustling area, 15-20 min walk from Onden"
         },
         {
-            "time": "15:00",
-            "description": "Tokyo Skytree observation deck"
+            "time": "14:30",
+            "description": "Visit Miyamasumitake Shrine (宮益御嶽神社) - short walk towards Shibuya Station, right in heart of city"
         },
         {
-            "time": "17:30",
-            "description": "Travel to Shibuya"
+            "time": "14:50",
+            "description": "Head to Shinjuku Station via nearby Shibuya Station (JR Yamanote line, 1 stop north)"
+        },
+        {
+            "time": "15:05",
+            "description": "Arrive at Shinjuku Station and retrieve your luggage"
+        },
+        {
+            "time": "15:30",
+            "description": "Depart from Shinjuku Station: Limited Express Kaiji 35 (Chuo Line) from Platform 10"
+        },
+        {
+            "time": "16:30",
+            "description": "Arrive at Ōtsuki Station for transfer"
+        },
+        {
+            "time": "16:57",
+            "description": "Depart Ōtsuki Station: Fujisan View Express 13 (Fujikyuko Line)"
+        },
+        {
+            "time": "17:56",
+            "description": "Arrive at Kawaguchiko Station"
         },
         {
             "time": "18:00",
-            "description": "Experience Shibuya Crossing"
+            "description": "Travel to ryokan: Take short taxi ride (5-10 minutes) from the station"
         },
         {
-            "time": "19:30",
-            "description": "Dinner and drinks in Shibuya"
+            "time": "18:15",
+            "description": "Check into Aoiso Ryokan (あおい荘) - 1297-1 Kodachi, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0302"
         }
     ],
-    "transportation": "JR Lines and Tokyo Metro - use day pass",
-    "accommodation": "Same hotel",
-    "meals": "Breakfast: Hotel, Lunch: Daikokuya Tempura, Dinner: Shibuya izakaya",
-    "budget": "¥12,000 - ¥18,000",
-    "notes": "Senso-ji opens at 6 AM - go early to avoid crowds. Shibuya Crossing is busiest around 6-8 PM. Try to catch sunset from Skytree!"
+    "transportation": "JR Yamanote Line (¥170 per trip), Limited Express Kaiji + Fujisan View Express to Kawaguchiko, taxi to ryokan",
+    "accommodation": "Aoiso Ryokan (あおい荘) - 1297-1 Kodachi, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0302",
+    "meals": "Breakfast: Light meal before departure, Lunch: Harajuku/Omotesando restaurants, Dinner: Traditional ryokan kaiseki",
+    "budget": "¥15,000 - ¥25,000 (includes train tickets ¥3,000+, shrine donations, meals, taxi, ryokan)",
+    "notes": "GOSHUIN COLLECTION DAY! Bring your goshuincho from Ebisu Shrine. Check shrine guides for Meiji Shrine and Onden Shrine for goshuin details and photos. Shrine addresses: Onden (5-26-6 Jingumae), Kitaya Inari (1-4-1 Jinnan), Miyamasumitake (1-12-16 Shibuya). Store luggage at Shinjuku early. Traditional ryokan experience begins!"
 }

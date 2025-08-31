@@ -26,9 +26,15 @@ class ItineraryLoader {
             this.renderError();
         }
     }    async loadDay(dayNumber) {
+        // First check if we have embedded data (for file:// protocol)
+        if (typeof ITINERARY_DATA !== 'undefined' && ITINERARY_DATA[dayNumber]) {
+            return ITINERARY_DATA[dayNumber];
+        }
+        
         try {
             const paddedDay = dayNumber.toString().padStart(2, '0');
-            const response = await fetch(`data/day-${paddedDay}.json`);
+            const timestamp = new Date().getTime();
+            const response = await fetch(`data/day-${paddedDay}.json?t=${timestamp}`);
             
             if (!response.ok) {
                 return this.getFallbackData(dayNumber);
@@ -251,6 +257,12 @@ class ItineraryLoader {
         return card;
     }
 
+    // Convert Markdown-style links to HTML links
+    processMarkdownLinks(text) {
+        // Regex to match [text](url) pattern
+        return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" class="shrine-link">$1</a>');
+    }
+
     groupActivitiesByLocation(activities) {
         let currentLocation = null;
         let html = '';
@@ -287,11 +299,10 @@ class ItineraryLoader {
                 const mapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(activityInfo.destination)}&travelmode=transit`;
                 mapsLink = ` <a href="${mapsUrl}" target="_blank" class="maps-link" title="Get directions to ${activityInfo.destination}">🗺️</a>`;
             }
-            
-            html += `
+              html += `
                 <div class="${classes.join(' ')}">
                     <span class="activity-time">${activity.time}</span>
-                    <span class="activity-description">${activity.description}${mapsLink}</span>
+                    <span class="activity-description">${this.processMarkdownLinks(activity.description)}${mapsLink}</span>
                 </div>
             `;
         });
@@ -392,32 +403,46 @@ class ItineraryLoader {
                      description.includes('back to tokyo') || description.includes('return to tokyo')) {
                 result.destination = 'Tokyo Station, Tokyo, Japan';
             }
-            
-            // Specific locations with exact addresses
+              // Specific locations with exact addresses
             else if (description.includes('tsukiji') || description.includes('fish market')) {
                 result.destination = 'Tsukiji Outer Market, 4 Chome Tsukiji, Chuo City, Tokyo, Japan';
             } else if (description.includes('senso-ji') || description.includes('sensoji')) {
                 result.destination = 'Senso-ji Temple, 2 Chome-3-1 Asakusa, Taito City, Tokyo, Japan';
-            } else if (description.includes('meiji shrine')) {
+            } else if (description.includes('meiji shrine') || description.includes('meiji jingu')) {
                 result.destination = 'Meiji Shrine, 1-1 Kamizono-cho, Shibuya City, Tokyo, Japan';
+            } else if (description.includes('togo-jinja') || description.includes('togo shrine')) {
+                result.destination = 'Togo Shrine, 1 Chome-5-3 Jingumae, Shibuya City, Tokyo, Japan';
+            } else if (description.includes('onden shrine') || description.includes('onden jinja')) {
+                result.destination = 'Onden Shrine, 5-26-6 Jingumae, Shibuya City, Tokyo, Japan';
+            } else if (description.includes('kitaya inari') || description.includes('kitaya shrine')) {
+                result.destination = 'Kitaya Inari Shrine, 1-4-1 Jinnan, Shibuya City, Tokyo, Japan';
+            } else if (description.includes('miyamasumitake') || description.includes('miyamasumitake shrine')) {
+                result.destination = 'Miyamasumitake Shrine, 1-12-16 Shibuya, Shibuya City, Tokyo, Japan';
+            } else if (description.includes('ebisu shrine')) {
+                result.destination = 'Ebisu Shrine, 1-11-1 Ebisu, Shibuya City, Tokyo, Japan';
             } else if (description.includes('tokyo skytree')) {
                 result.destination = 'Tokyo Skytree, 1 Chome-1-2 Oshiage, Sumida City, Tokyo, Japan';
             } else if (description.includes('imperial palace')) {
                 result.destination = 'Tokyo Imperial Palace, 1-1 Chiyoda, Chiyoda City, Tokyo, Japan';
             } else if (description.includes('golden gai')) {
                 result.destination = 'Golden Gai, 1 Chome Kabukicho, Shinjuku City, Tokyo, Japan';
-            }        }
+            } else if (description.includes('aoiso ryokan') || (description.includes('ryokan') && description.includes('kawaguchi'))) {
+                result.destination = 'Aoiso Ryokan, 1297-1 Kodachi, Fujikawaguchiko, Minamitsuru District, Yamanashi, Japan';
+            }}
         
         // Detect optional activities
         result.isOptional = description.includes('optional') || 
                            description.includes('if time permits') ||
                            description.includes('consider') ||
                            description.includes('cultural stop');
-        
-        // Detect location clusters with more specificity
+          // Detect location clusters with more specificity
         if (description.includes('temple') || description.includes('shrine') || 
             description.includes('goshuin') || description.includes('goshuincho') ||
-            description.includes('senso-ji') || description.includes('ebisu shrine')) {
+            description.includes('senso-ji') || description.includes('ebisu shrine') ||
+            description.includes('meiji jingu') || description.includes('meiji shrine') ||
+            description.includes('togo-jinja') || description.includes('togo shrine') ||
+            description.includes('onden shrine') || description.includes('onden jinja') ||
+            description.includes('kitaya inari') || description.includes('miyamasumitake')) {
             result.cluster = 'temple';
         } else if (description.includes('shopping') || description.includes('store') || 
                   description.includes('center') || description.includes('pokemon center') ||
@@ -433,18 +458,23 @@ class ItineraryLoader {
                   description.includes('immigration') || description.includes('customs')) {
             result.cluster = 'transport';
         }
-        
-        // Extract locations from descriptions with more detail
+          // Extract locations from descriptions with more detail
         if (description.includes('shibuya') && !description.includes('ebisu')) {
             result.location = 'Shibuya District';
         } else if (description.includes('ebisu')) {
             result.location = 'Ebisu Area';
+        } else if (description.includes('harajuku')) {
+            result.location = 'Harajuku Area';
+        } else if (description.includes('shinjuku')) {
+            result.location = 'Shinjuku Station';
         } else if (description.includes('asakusa')) {
             result.location = 'Asakusa District';
+        } else if (description.includes('kawaguchiko') || description.includes('mount fuji') || description.includes('ryokan')) {
+            result.location = 'Mount Fuji Area';
         } else if (description.includes('haneda') || (description.includes('airport') && !description.includes('depart from'))) {
             result.location = 'Haneda Airport';
         } else if (description.includes('airbnb') || description.includes('accommodation') || 
-                  description.includes('check into') || description.includes('hj place')) {
+                  description.includes('check into') || description.includes('hj place') || description.includes('aoiso')) {
             result.location = 'Accommodation';
         } else if (description.includes('austin') || description.includes('san francisco')) {
             result.location = 'USA Airports';
@@ -452,6 +482,12 @@ class ItineraryLoader {
             result.location = 'Tokyo Skytree Area';
         } else if (description.includes('scramble crossing') || description.includes('starbucks')) {
             result.location = 'Shibuya Crossing';
+        } else if (description.includes('meiji shrine') || description.includes('meiji jingu')) {
+            result.location = 'Meiji Shrine';
+        } else if (description.includes('shrine') && description.includes('visit')) {
+            result.location = 'Shrine Visits';
+        } else if (description.includes('luggage') || description.includes('locker')) {
+            result.location = 'Logistics';
         }
         
         // Extract travel time hints
