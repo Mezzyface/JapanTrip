@@ -489,58 +489,80 @@ const ITINERARY_DATA = {
 },
   7: {
     "day": 7,
-    "date": "Monday, December 2, 2025",
-    "location": "Kyoto",
-    "weather": "Check forecast closer to date",
-    "description": "First day in Kyoto - the ancient capital of Japan! Exploring traditional temples and gardens.",    "activities": [        {
-            "time": "06:30",
-            "description": "🚅 CRITICAL: Early departure for Tokyo Station - allow 45 minutes travel time from Shibuya"
+    "date": "Tuesday, December 2, 2025",
+    "location": "Nara & Osaka - Deer Park Temples & City Transition",
+    "weather": "Cool December weather, perfect for temple exploration and deer interactions",
+    "description": "🦌 Magical Nara deer park adventure with ancient temples and goshuin collection, followed by evening transition to vibrant Osaka city life.",
+    "activities": [
+        {
+            "time": "08:30",
+            "description": "🏨 Check out of Kyoto accommodation - pack luggage for Osaka move"
         },
         {
-            "time": "07:15",
-            "description": "🚅 Arrive at Tokyo Station - go to Tokaido Shinkansen Central Transfers (platforms 14-19)"
+            "time": "09:00",
+            "description": "🚄 Travel to Nara: JR Sagano Line from Nijo Station to Kyoto Station, then JR Nara Line Miyakoji Rapid to JR Nara Station (45 mins total)"
         },
         {
-            "time": "07:30",
-            "description": "🚅 Board Shinkansen Hikari 633 (or similar) - Tokyo to Kyoto (2h 45min) - RESERVED SEATS REQUIRED"
+            "time": "10:00",
+            "description": "🎒 Arrive JR Nara Station - store luggage in coin lockers for hands-free temple exploration"
         },
         {
-            "time": "08:00",
-            "description": "🚅 Shinkansen departs Tokyo Station - enjoy views of Mount Fuji on right side!"
+            "time": "10:20",
+            "description": "🦌 Walk to Nara Park - 15-20 minute stroll, first encounters with famous sacred deer along the way"
         },
         {
-            "time": "10:45",
-            "description": "🚅 Arrive at Kyoto Station (Platform 11 or 12) - Welcome to ancient Japan!"
+            "time": "10:20",
+            "description": "🏛️ Kofuku-ji Temple - explore grounds and iconic five-storied pagoda, collect first goshuin of the day (70 mins)"
         },
         {
-            "time": "11:00",
-            "description": "Arrive in Kyoto and check into ryokan/hotel"
+            "time": "11:30",
+            "description": "🚶 Walk to Todai-ji through Nandaimon Gate - pass fierce Nio guardian statues (15 min walk)"
         },
         {
-            "time": "12:00",
-            "description": "Travel to Gion: Bus or subway from Kyoto Station to Gion"
+            "time": "11:45",
+            "description": "🏛️ Todai-ji Temple & Great Buddha Hall (Daibutsuden) - see massive bronze Buddha statue, one of Japan's most iconic sights (75 mins)"
         },
         {
             "time": "13:00",
-            "description": "Lunch in Gion district"
+            "description": "🍜 Lunch break between Todai-ji and Kasuga Taisha - local restaurants and cafes in deer park area"
+        },
+        {
+            "time": "14:00",
+            "description": "🏛️ Nigatsu-do & Sangatsu-do Halls - scenic 10-minute uphill path, fantastic free city views from Nigatsu-do balcony (40 mins)"
+        },
+        {
+            "time": "14:40",
+            "description": "🚶 Walk to Kasuga Taisha through ancient forest - path lined with thousands of stone lanterns (20 min walk)"
         },
         {
             "time": "15:00",
-            "description": "Visit Kiyomizu-dera Temple"
+            "description": "⛩️ Kasuga Taisha Shrine - premier goshuin collection location, explore main complex and auxiliary sub-shrines with unique stamps (105 mins). [📖 Shrine Guide](https://example.com/kasuga-goshuin)"
         },
         {
-            "time": "17:00",
-            "description": "Walk through Gion district (geisha spotting)"
+            "time": "16:45",
+            "description": "🚶 Walk back to JR Nara Station - retrieve luggage from coin lockers (30 min walk)"
         },
         {
-            "time": "19:00",
-            "description": "Traditional kaiseki dinner"
+            "time": "17:30",
+            "description": "🚄 Travel to Osaka: JR Yamatoji Rapid Service from Nara to JR Namba Station (45-50 mins)"
+        },
+        {
+            "time": "18:30",
+            "description": "🚶 Walk to Osaka Airbnb from JR Namba Station - 15-minute walk to accommodation. [🗺️ Walking Route](https://maps.app.goo.gl/ZqJ1X1oT5w2sWJcEA)"
+        },
+        {
+            "time": "18:45",
+            "description": "🏨 Check into Osaka Airbnb (2 Chome-9-29 Shimanouchi, Chuo Ward) - base for next 2 nights"
+        },
+        {
+            "time": "19:30",
+            "description": "🍱 First Osaka dinner - explore local neighborhood for authentic Kansai cuisine"
         }
-    ],    "transportation": "🚅 Tokaido Shinkansen Hikari - Tokyo to Kyoto (2h 45min) - ¥13,320 reserved seat",
-    "accommodation": "Traditional ryokan in Kyoto",
-    "meals": "Lunch: Gion restaurant, Dinner: Kaiseki at ryokan",
-    "budget": "¥25,000 - ¥35,000 (includes Shinkansen ¥13,320)",
-    "notes": "🚅 SHINKANSEN CRITICAL INFO: Book seats 1 month in advance! Arrive Tokyo Station 30min early. Reserved seats mandatory during busy season. Sit on RIGHT side for Mount Fuji views. Download JR app for real-time updates. Keep ticket until exit! Dress respectfully for temples."
+    ],
+    "transportation": "🚄 JR Sagano Line + JR Nara Line to Nara, 🚶 Walking tours through Nara Park, 🚄 JR Yamatoji Rapid to Osaka",
+    "accommodation": "Osaka Airbnb (Check-in: After 3:00 PM, Checkout: Dec 4 at 10:00 AM)",
+    "meals": "Breakfast: Kyoto hotel, Lunch: Nara Park area restaurants, Dinner: Local Osaka neighborhood cuisine",
+    "budget": "¥8,000 - ¥12,000 (temple entrance fees ¥300-600 each, goshuin ¥300-500 each, coin lockers ¥500, meals, local transport)",    "notes": "🦌 MAGICAL DEER EXPERIENCE! Nara's sacred deer roam freely - buy deer crackers (shika senbei) ¥200. Bring goshuincho for comprehensive temple stamp collection. Kofuku-ji's five-story pagoda is iconic photo spot. Todai-ji Great Buddha is massive - 15 meters tall! Kasuga Taisha has over 3,000 stone lanterns. Store luggage early for comfortable temple walking. December weather requires layers for outdoor exploration."
 }
 ,
   8: {

@@ -510,9 +510,22 @@ class ItineraryLoader {
         } else if (description.includes('nison-in') || description.includes('shoan-in') || description.includes('gion-ji')) {
             result.location = 'Saga Area Temples';
         } else if (description.includes('daikaku-ji')) {
-            result.location = 'Daikaku-ji Temple';
-        } else if (description.includes('kitano tenmangu') || description.includes('momiji-en') || description.includes('maple')) {
+            result.location = 'Daikaku-ji Temple';        } else if (description.includes('kitano tenmangu') || description.includes('momiji-en') || description.includes('maple')) {
             result.location = 'Kitano Tenmangu Area';
+        } else if (description.includes('nara') && description.includes('station')) {
+            result.location = 'Nara Station';
+        } else if (description.includes('nara park') || description.includes('deer')) {
+            result.location = 'Nara Park';
+        } else if (description.includes('kofuku-ji') || description.includes('five-story') || description.includes('pagoda')) {
+            result.location = 'Kofuku-ji Temple';
+        } else if (description.includes('todai-ji') || description.includes('great buddha') || description.includes('daibutsuden')) {
+            result.location = 'Todai-ji Temple';
+        } else if (description.includes('nigatsu-do') || description.includes('sangatsu-do')) {
+            result.location = 'Nigatsu-do Area';
+        } else if (description.includes('kasuga taisha') || description.includes('stone lanterns')) {
+            result.location = 'Kasuga Taisha Shrine';
+        } else if (description.includes('osaka') && (description.includes('namba') || description.includes('airbnb'))) {
+            result.location = 'Osaka Namba District';
         } else if (description.includes('kamogawa river') || description.includes('riverside')) {
             result.location = 'Kamogawa River Area';
         } else if (description.includes('kawaguchiko') || description.includes('mount fuji') || description.includes('ryokan')) {
