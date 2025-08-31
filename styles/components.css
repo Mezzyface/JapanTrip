@@ -495,6 +495,29 @@
     box-shadow: 0 2px 8px rgba(92, 107, 192, 0.3);
 }
 
+/* Navigation Links */
+.accommodation a[href*="maps.app.goo.gl"],
+.accommodation a[href*="maps.google.com"] {
+    background: rgba(34, 139, 34, 0.1);
+    color: #228B22;
+    border: 1px solid rgba(34, 139, 34, 0.2);
+}
+
+.accommodation a[href*="maps.app.goo.gl"]:hover,
+.accommodation a[href*="maps.google.com"]:hover {
+    background: #228B22;
+    color: var(--white);
+    border-color: #228B22;
+    box-shadow: 0 2px 8px rgba(34, 139, 34, 0.3);
+}
+
+/* Navigation Icon for Maps Links */
+.accommodation a[href*="maps.app.goo.gl"]:before,
+.accommodation a[href*="maps.google.com"]:before {
+    content: '🗺️';
+    margin-right: 4px;
+}
+
 .meals::before {
     content: '🍱';
     margin-right: var(--spacing-xs);
