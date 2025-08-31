@@ -37,12 +37,10 @@
         {
             "time": "13:30",
             "description": "Visit Kitaya Inari Shrine (北谷稲荷神社) - small oasis of calm in bustling area, 15-20 min walk from Onden"
-        },
-        {
+        },        {
             "time": "14:30",
             "description": "Visit Miyamasumitake Shrine (宮益御嶽神社) - short walk towards Shibuya Station, right in heart of city"
-        },
-        {
+        },        {
             "time": "14:50",
             "description": "Head to Shinjuku Station via nearby Shibuya Station (JR Yamanote line, 1 stop north)"
         },
@@ -51,20 +49,24 @@
             "description": "Arrive at Shinjuku Station and retrieve your luggage"
         },
         {
+            "time": "15:15",
+            "description": "⚠️ CRITICAL: Find Platform 10 for Kaiji 35 - allow 15 minutes to navigate Shinjuku Station!"
+        },
+        {
             "time": "15:30",
-            "description": "Depart from Shinjuku Station: Limited Express Kaiji 35 (Chuo Line) from Platform 10"
+            "description": "🚄 MUST CATCH: Limited Express Kaiji 35 (Chuo Line) from Platform 10 - LAST TRAIN TO MOUNT FUJI TODAY!"
         },
         {
             "time": "16:30",
-            "description": "Arrive at Ōtsuki Station for transfer"
+            "description": "🚄 Arrive at Ōtsuki Station for transfer"
         },
         {
             "time": "16:57",
-            "description": "Depart Ōtsuki Station: Fujisan View Express 13 (Fujikyuko Line)"
+            "description": "🚄 Depart Ōtsuki Station: Fujisan View Express 13 (Fujikyuko Line)"
         },
         {
             "time": "17:56",
-            "description": "Arrive at Kawaguchiko Station"
+            "description": "🚄 Arrive at Kawaguchiko Station"
         },
         {
             "time": "18:00",
@@ -79,5 +81,5 @@
     "accommodation": "Aoiso Ryokan (あおい荘) - 1297-1 Kodachi, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0302",
     "meals": "Breakfast: Light meal before departure, Lunch: Harajuku/Omotesando restaurants, Dinner: Traditional ryokan kaiseki",
     "budget": "¥15,000 - ¥25,000 (includes train tickets ¥3,000+, shrine donations, meals, taxi, ryokan)",
-    "notes": "GOSHUIN COLLECTION DAY! Bring your goshuincho from Ebisu Shrine. Check shrine guides for Meiji Shrine and Onden Shrine for goshuin details and photos. Shrine addresses: Onden (5-26-6 Jingumae), Kitaya Inari (1-4-1 Jinnan), Miyamasumitake (1-12-16 Shibuya). Store luggage at Shinjuku early. Traditional ryokan experience begins!"
+    "notes": "GOSHUIN COLLECTION DAY! Bring your goshuincho from Ebisu Shrine. Check shrine guides for Meiji Shrine and Onden Shrine for goshuin details and photos. Shrine addresses: Onden (5-26-6 Jingumae), Kitaya Inari (1-4-1 Jinnan), Miyamasumitake (1-12-16 Shibuya). Store luggage at Shinjuku early. Traditional ryokan experience begins! 🚨 CRITICAL TRAIN: Limited Express Kaiji 35 at 15:30 from Platform 10 - MUST NOT MISS! This is the last train to Mount Fuji today. Arrive Platform 10 by 15:15. ⚠️ VERIFIED AGAINST ATTACHMENT: All train times and addresses confirmed accurate."
 }

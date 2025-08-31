@@ -1,1 +1,26 @@
-{"day":13,"date":"Sunday, December 8, 2025","location":"Osaka to Tokyo","weather":"Check forecast - December weather","description":"Travel day from Osaka back to Tokyo - morning in Osaka, afternoon arrival in Tokyo","activities":[{"time":"08:00","description":"Final Osaka breakfast"},{"time":"09:30","description":"Last-minute Osaka Castle or shopping"},{"time":"11:00","description":"Check out of Osaka hotel"},{"time":"12:00","description":"Shinkansen to Tokyo"},{"time":"15:00","description":"Arrive in Tokyo, check into hotel"},{"time":"16:30","description":"Return to familiar Tokyo neighborhoods"},{"time":"18:00","description":"Welcome back to Tokyo dinner"},{"time":"20:00","description":"Evening stroll in Tokyo"},{"time":"21:30","description":"Rest and plan final Tokyo days"}],"transportation":"Shinkansen Osaka to Tokyo","accommodation":"Tokyo hotel (final days)","meals":"Breakfast: Osaka, Lunch: Shinkansen bento, Dinner: Tokyo","budget":"�15,000 - �20,000 (including Shinkansen)","notes":"Back to Tokyo for the final stretch. Time to revisit favorite spots and do final shopping."}
+{
+    "day": 13,
+    "date": "Sunday, December 8, 2025",
+    "location": "Osaka to Tokyo",
+    "weather": "Check forecast - December weather",
+    "description": "Travel day from Osaka back to Tokyo - morning in Osaka, afternoon arrival in Tokyo",
+    "activities": [
+        {"time": "08:00", "description": "Final Osaka breakfast"},
+        {"time": "09:30", "description": "Last-minute Osaka Castle or shopping"},
+        {"time": "10:30", "description": "🚅 Check out of Osaka hotel - head to Shin-Osaka Station"},
+        {"time": "11:00", "description": "🚅 CRITICAL: Arrive at Shin-Osaka Station - go to Tokaido Shinkansen platforms 21-26"},
+        {"time": "11:15", "description": "🚅 Board Shinkansen Nozomi 64 (or Hikari) - Shin-Osaka to Tokyo (2h 45min)"},
+        {"time": "11:30", "description": "🚅 Shinkansen departs Shin-Osaka Station - buy bento on board!"},
+        {"time": "14:15", "description": "🚅 Arrive at Tokyo Station - transfer to hotel"},
+        {"time": "15:00", "description": "Check into Tokyo hotel (final days)"},
+        {"time": "16:30", "description": "Return to familiar Tokyo neighborhoods"},
+        {"time": "18:00", "description": "Welcome back to Tokyo dinner"},
+        {"time": "20:00", "description": "Evening stroll in Tokyo"},
+        {"time": "21:30", "description": "Rest and plan final Tokyo days"}
+    ],
+    "transportation": "🚅 Tokaido Shinkansen Nozomi/Hikari - Shin-Osaka to Tokyo (2h 45min) - ¥13,320",
+    "accommodation": "Tokyo hotel (final days)",
+    "meals": "Breakfast: Osaka, Lunch: Shinkansen ekiben bento, Dinner: Tokyo",
+    "budget": "¥15,000 - ¥20,000 (including Shinkansen ¥13,320)",
+    "notes": "🚅 SHINKANSEN CRITICAL: Depart from SHIN-OSAKA Station (not Osaka Station)! Take subway/taxi to Shin-Osaka 45min early. Reserved seats essential on Sunday. Try famous ekiben train bento. Keep tickets until final exit. Download JR app for delays."
+}

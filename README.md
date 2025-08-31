@@ -107,6 +107,18 @@ The website is fully responsive and includes:
 - **Weather**: Cool temperatures, possible snow in some areas
 - **Key Experiences**: Traditional culture, modern cities, food, temples, nature
 
+## 🚅 SHINKANSEN CRITICAL INFO
+
+**IMPORTANT: You have 2 Shinkansen trips planned!**
+- **Day 7**: Tokyo → Kyoto (Dec 2, 2025)
+- **Day 13**: Osaka → Tokyo (Dec 8, 2025)
+
+**📋 See `SHINKANSEN_CRITICAL_INFO.md` for complete details including:**
+- Booking requirements (1 month advance!)
+- Exact train times and platforms
+- Station navigation tips
+- Emergency contacts
+
 ## 📋 To-Do
 
 Create JSON files for remaining days:

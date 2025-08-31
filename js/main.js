@@ -1,6 +1,12 @@
 // Main JavaScript functionality for the Japan Trip Itinerary
 
 document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM loaded');
+    console.log('ITINERARY_DATA available:', typeof ITINERARY_DATA !== 'undefined');
+    if (typeof ITINERARY_DATA !== 'undefined') {
+        console.log('Available days:', Object.keys(ITINERARY_DATA));
+    }
+    
     // Initialize the itinerary loader
     const loader = new ItineraryLoader();
     

@@ -5,19 +5,17 @@ class ItineraryLoader {
         this.days = [];
         this.totalCities = new Set();
         this.totalActivities = 0;
-    }    async loadAllDays() {
-        const startDate = new Date(2025, 10, 25); // November 25, 2025 (travel day)
-        const endDate = new Date(2025, 11, 11);   // December 11, 2025
-        const dayCount = Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24)) + 1;
-
+    }    async loadAllDays() {        
         const loadPromises = [];
-        // Load day 0 (travel day) and days 1-16
-        for (let i = 0; i < dayCount; i++) {
+        // Load day 0 through day 16 (17 days total)
+        for (let i = 0; i <= 16; i++) {
             loadPromises.push(this.loadDay(i));
         }
 
         try {
             this.days = await Promise.all(loadPromises);
+            // Filter out any null/undefined days
+            this.days = this.days.filter(day => day !== null && day !== undefined);
             this.calculateStats();
             this.renderItinerary();
             this.updateStats();
@@ -283,11 +281,11 @@ class ItineraryLoader {
                     </div>
                     <div class="location-activities">
                 `;
-                currentLocation = activityInfo.location;
-            } else if (currentLocation === null) {
+                currentLocation = activityInfo.location;            } else if (currentLocation === null) {
                 html += '<div class="location-activities">';
             }
-              // Create activity item with appropriate classes
+            
+            // Create activity item with appropriate classes
             const classes = ['activity-item'];
             if (activityInfo.isOptional) classes.push('optional');
             if (activityInfo.cluster) classes.push(`cluster-${activityInfo.cluster}`);
@@ -321,17 +319,31 @@ class ItineraryLoader {
             travelTime: null,
             destination: null,
             isTravel: false
-        };
-        
-        // Enhanced travel activity detection with broader patterns
+        };        // Critical "MUST CATCH" train detection - check first before other logic
+        if (description.includes('must catch') || description.includes('critical')) {
+            result.cluster = 'critical-train';
+            result.isTravel = true;
+        }
+          // Enhanced travel activity detection with broader patterns
         if (description.includes('travel to') || description.includes('go to') || 
             description.includes('head to') || description.includes('depart to') ||
             description.includes('arrive at') || description.includes('take train to') ||
             description.includes('walk to') || description.includes('return to') ||
             description.includes('yamanote line') || description.includes('jr line') ||
-            description.includes('metro to') || description.includes('keikyu line')) {
+            description.includes('metro to') || description.includes('keikyu line') ||
+            description.includes('shinkansen') || description.includes('bullet train') ||
+            description.includes('hikari') || description.includes('nozomi')) {
             result.isTravel = true;
-            result.cluster = 'transport';
+            result.cluster = 'transport';            // Special Shinkansen detection
+            if (description.includes('shinkansen') || description.includes('bullet train') ||
+                description.includes('hikari') || description.includes('nozomi')) {
+                result.cluster = 'shinkansen';
+            }
+              // Special Limited Express detection (for Mount Fuji route)
+            if (description.includes('limited express') || description.includes('kaiji') || 
+                description.includes('fujisan view express') || description.includes('🚄')) {
+                result.cluster = 'shinkansen';
+            }
               // Enhanced destination mapping with specific train stations and addresses
             
             // Tokyo Districts & Stations
@@ -489,8 +501,7 @@ class ItineraryLoader {
         } else if (description.includes('luggage') || description.includes('locker')) {
             result.location = 'Logistics';
         }
-        
-        // Extract travel time hints
+          // Extract travel time hints
         if (description.includes('walk') && description.includes('minute')) {
             const match = description.match(/(\d+)[-\s]*minute/);
             if (match) result.travelTime = `${match[1]} min walk`;
@@ -501,6 +512,11 @@ class ItineraryLoader {
                 const minutes = match[2] || '0';
                 result.travelTime = `${hours}h ${minutes}m layover`;
             }
+        }
+          // Final check: Critical "MUST CATCH" train detection - override any other cluster
+        if (description.includes('must catch') || description.includes('critical') || description.includes('must not miss')) {
+            result.cluster = 'critical-train';
+            result.isTravel = true;
         }
         
         return result;

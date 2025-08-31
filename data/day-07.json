@@ -3,10 +3,25 @@
     "date": "Monday, December 2, 2025",
     "location": "Kyoto",
     "weather": "Check forecast closer to date",
-    "description": "First day in Kyoto - the ancient capital of Japan! Exploring traditional temples and gardens.",
-    "activities": [        {
+    "description": "First day in Kyoto - the ancient capital of Japan! Exploring traditional temples and gardens.",    "activities": [        {
+            "time": "06:30",
+            "description": "🚅 CRITICAL: Early departure for Tokyo Station - allow 45 minutes travel time from Shibuya"
+        },
+        {
+            "time": "07:15",
+            "description": "🚅 Arrive at Tokyo Station - go to Tokaido Shinkansen Central Transfers (platforms 14-19)"
+        },
+        {
+            "time": "07:30",
+            "description": "🚅 Board Shinkansen Hikari 633 (or similar) - Tokyo to Kyoto (2h 45min) - RESERVED SEATS REQUIRED"
+        },
+        {
             "time": "08:00",
-            "description": "Travel to Kyoto: Shinkansen bullet train from Tokyo Station to Kyoto Station"
+            "description": "🚅 Shinkansen departs Tokyo Station - enjoy views of Mount Fuji on right side!"
+        },
+        {
+            "time": "10:45",
+            "description": "🚅 Arrive at Kyoto Station (Platform 11 or 12) - Welcome to ancient Japan!"
         },
         {
             "time": "11:00",
@@ -32,10 +47,9 @@
             "time": "19:00",
             "description": "Traditional kaiseki dinner"
         }
-    ],
-    "transportation": "Shinkansen bullet train Tokyo → Kyoto",
+    ],    "transportation": "🚅 Tokaido Shinkansen Hikari - Tokyo to Kyoto (2h 45min) - ¥13,320 reserved seat",
     "accommodation": "Traditional ryokan in Kyoto",
     "meals": "Lunch: Gion restaurant, Dinner: Kaiseki at ryokan",
-    "budget": "¥25,000 - ¥35,000 (includes Shinkansen)",
-    "notes": "Book Shinkansen seats in advance. Dress respectfully for temples. No photos in some areas of Gion."
+    "budget": "¥25,000 - ¥35,000 (includes Shinkansen ¥13,320)",
+    "notes": "🚅 SHINKANSEN CRITICAL INFO: Book seats 1 month in advance! Arrive Tokyo Station 30min early. Reserved seats mandatory during busy season. Sit on RIGHT side for Mount Fuji views. Download JR app for real-time updates. Keep ticket until exit! Dress respectfully for temples."
 }

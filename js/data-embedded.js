@@ -131,12 +131,10 @@ const ITINERARY_DATA = {
         {
             "time": "13:30",
             "description": "Visit Kitaya Inari Shrine (北谷稲荷神社) - small oasis of calm in bustling area, 15-20 min walk from Onden"
-        },
-        {
+        },        {
             "time": "14:30",
             "description": "Visit Miyamasumitake Shrine (宮益御嶽神社) - short walk towards Shibuya Station, right in heart of city"
-        },
-        {
+        },        {
             "time": "14:50",
             "description": "Head to Shinjuku Station via nearby Shibuya Station (JR Yamanote line, 1 stop north)"
         },
@@ -145,20 +143,24 @@ const ITINERARY_DATA = {
             "description": "Arrive at Shinjuku Station and retrieve your luggage"
         },
         {
+            "time": "15:15",
+            "description": "⚠️ CRITICAL: Find Platform 10 for Kaiji 35 - allow 15 minutes to navigate Shinjuku Station!"
+        },
+        {
             "time": "15:30",
-            "description": "Depart from Shinjuku Station: Limited Express Kaiji 35 (Chuo Line) from Platform 10"
+            "description": "🚄 MUST CATCH: Limited Express Kaiji 35 (Chuo Line) from Platform 10 - LAST TRAIN TO MOUNT FUJI TODAY!"
         },
         {
             "time": "16:30",
-            "description": "Arrive at Ōtsuki Station for transfer"
+            "description": "🚄 Arrive at Ōtsuki Station for transfer"
         },
         {
             "time": "16:57",
-            "description": "Depart Ōtsuki Station: Fujisan View Express 13 (Fujikyuko Line)"
+            "description": "🚄 Depart Ōtsuki Station: Fujisan View Express 13 (Fujikyuko Line)"
         },
         {
             "time": "17:56",
-            "description": "Arrive at Kawaguchiko Station"
+            "description": "🚄 Arrive at Kawaguchiko Station"
         },
         {
             "time": "18:00",
@@ -173,7 +175,7 @@ const ITINERARY_DATA = {
     "accommodation": "Aoiso Ryokan (あおい荘) - 1297-1 Kodachi, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0302",
     "meals": "Breakfast: Light meal before departure, Lunch: Harajuku/Omotesando restaurants, Dinner: Traditional ryokan kaiseki",
     "budget": "¥15,000 - ¥25,000 (includes train tickets ¥3,000+, shrine donations, meals, taxi, ryokan)",
-    "notes": "GOSHUIN COLLECTION DAY! Bring your goshuincho from Ebisu Shrine. Check shrine guides for Meiji Shrine and Onden Shrine for goshuin details and photos. Shrine addresses: Onden (5-26-6 Jingumae), Kitaya Inari (1-4-1 Jinnan), Miyamasumitake (1-12-16 Shibuya). Store luggage at Shinjuku early. Traditional ryokan experience begins!"
+    "notes": "GOSHUIN COLLECTION DAY! Bring your goshuincho from Ebisu Shrine. Check shrine guides for Meiji Shrine and Onden Shrine for goshuin details and photos. Shrine addresses: Onden (5-26-6 Jingumae), Kitaya Inari (1-4-1 Jinnan), Miyamasumitake (1-12-16 Shibuya). Store luggage at Shinjuku early. Traditional ryokan experience begins! 🚨 CRITICAL TRAIN: Limited Express Kaiji 35 at 15:30 from Platform 10 - MUST NOT MISS! This is the last train to Mount Fuji today. Arrive Platform 10 by 15:15. ⚠️ VERIFIED AGAINST ATTACHMENT: All train times and addresses confirmed accurate."
 }
 ,
   3: {
@@ -365,10 +367,25 @@ const ITINERARY_DATA = {
     "date": "Monday, December 2, 2025",
     "location": "Kyoto",
     "weather": "Check forecast closer to date",
-    "description": "First day in Kyoto - the ancient capital of Japan! Exploring traditional temples and gardens.",
-    "activities": [        {
+    "description": "First day in Kyoto - the ancient capital of Japan! Exploring traditional temples and gardens.",    "activities": [        {
+            "time": "06:30",
+            "description": "🚅 CRITICAL: Early departure for Tokyo Station - allow 45 minutes travel time from Shibuya"
+        },
+        {
+            "time": "07:15",
+            "description": "🚅 Arrive at Tokyo Station - go to Tokaido Shinkansen Central Transfers (platforms 14-19)"
+        },
+        {
+            "time": "07:30",
+            "description": "🚅 Board Shinkansen Hikari 633 (or similar) - Tokyo to Kyoto (2h 45min) - RESERVED SEATS REQUIRED"
+        },
+        {
             "time": "08:00",
-            "description": "Travel to Kyoto: Shinkansen bullet train from Tokyo Station to Kyoto Station"
+            "description": "🚅 Shinkansen departs Tokyo Station - enjoy views of Mount Fuji on right side!"
+        },
+        {
+            "time": "10:45",
+            "description": "🚅 Arrive at Kyoto Station (Platform 11 or 12) - Welcome to ancient Japan!"
         },
         {
             "time": "11:00",
@@ -394,12 +411,11 @@ const ITINERARY_DATA = {
             "time": "19:00",
             "description": "Traditional kaiseki dinner"
         }
-    ],
-    "transportation": "Shinkansen bullet train Tokyo → Kyoto",
+    ],    "transportation": "🚅 Tokaido Shinkansen Hikari - Tokyo to Kyoto (2h 45min) - ¥13,320 reserved seat",
     "accommodation": "Traditional ryokan in Kyoto",
     "meals": "Lunch: Gion restaurant, Dinner: Kaiseki at ryokan",
-    "budget": "¥25,000 - ¥35,000 (includes Shinkansen)",
-    "notes": "Book Shinkansen seats in advance. Dress respectfully for temples. No photos in some areas of Gion."
+    "budget": "¥25,000 - ¥35,000 (includes Shinkansen ¥13,320)",
+    "notes": "🚅 SHINKANSEN CRITICAL INFO: Book seats 1 month in advance! Arrive Tokyo Station 30min early. Reserved seats mandatory during busy season. Sit on RIGHT side for Mount Fuji views. Download JR app for real-time updates. Keep ticket until exit! Dress respectfully for temples."
 }
 ,
   8: {
@@ -473,7 +489,30 @@ const ITINERARY_DATA = {
 ,
   10: {"day":10,"date":"Thursday, December 5, 2025","location":"Nara","weather":"Check forecast - December weather","description":"Day trip to Nara - ancient capital with friendly deer and historic temples","activities":[{"time":"08:00","description":"Early train from Kyoto to Nara"},{"time":"09:30","description":"Arrive in Nara, walk to Nara Park"},{"time":"10:00","description":"Feed deer in Nara Park"},{"time":"11:00","description":"Visit Todai-ji Temple and Great Buddha"},{"time":"13:00","description":"Lunch in Nara"},{"time":"14:30","description":"Explore Kasuga Taisha Shrine"},{"time":"16:00","description":"Walk through Nara's historic streets"},{"time":"17:30","description":"Return train to Kyoto"},{"time":"19:00","description":"Dinner in Kyoto"}],"transportation":"Kintetsu line Kyoto to Nara","accommodation":"Kyoto hotel","meals":"Lunch: Nara local specialties, Dinner: Kyoto restaurant","budget":"¥8,000 - ¥12,000","notes":"Nara's deer are sacred messengers. The Great Buddha is one of Japan's largest bronze Buddha statues."}
 ,
-  11: {"day":11,"date":"Friday, December 6, 2025","location":"Kyoto to Osaka","weather":"Check forecast - December weather","description":"Travel day from Kyoto to Osaka - final Kyoto morning and Osaka arrival","activities":[{"time":"08:00","description":"Final Kyoto breakfast"},{"time":"09:30","description":"Last-minute Kyoto sightseeing or shopping"},{"time":"11:30","description":"Check out of Kyoto hotel"},{"time":"12:30","description":"Train to Osaka"},{"time":"14:00","description":"Arrive in Osaka, check into hotel"},{"time":"15:30","description":"First exploration of Osaka - Dotonbori area"},{"time":"17:00","description":"Osaka street food tour"},{"time":"19:00","description":"Dinner in Dotonbori"},{"time":"21:00","description":"Experience Osaka nightlife"}],"transportation":"Shinkansen or express train Kyoto to Osaka","accommodation":"Osaka hotel (check-in)","meals":"Breakfast: Kyoto, Lunch: On train, Dinner: Osaka street food","budget":"�10,000 - �15,000","notes":"Dotonbori is famous for food and neon lights. Try takoyaki, okonomiyaki, and other Osaka specialties."}
+  11: {
+    "day": 11,
+    "date": "Friday, December 6, 2025",
+    "location": "Kyoto to Osaka",
+    "weather": "Check forecast - December weather",
+    "description": "Travel day from Kyoto to Osaka - final Kyoto morning and Osaka arrival",
+    "activities": [
+        {"time": "08:00", "description": "Final Kyoto breakfast"},
+        {"time": "09:30", "description": "Last-minute Kyoto sightseeing or shopping"},
+        {"time": "11:30", "description": "Check out of Kyoto hotel"},
+        {"time": "12:00", "description": "🚄 Express train to Osaka: Keihan Main Line (45min) OR Hankyu Railway (43min)"},
+        {"time": "12:45", "description": "🚄 Arrive in Osaka - Umeda or Namba area"},
+        {"time": "13:30", "description": "Check into Osaka hotel"},
+        {"time": "15:00", "description": "First exploration of Osaka - Dotonbori area"},
+        {"time": "17:00", "description": "Osaka street food tour"},
+        {"time": "19:00", "description": "Dinner in Dotonbori"},
+        {"time": "21:00", "description": "Experience Osaka nightlife"}
+    ],
+    "transportation": "🚄 Express train Kyoto to Osaka (45min) - ¥410 Keihan OR ¥400 Hankyu",
+    "accommodation": "Osaka hotel (check-in)",
+    "meals": "Breakfast: Kyoto, Lunch: Quick train bento, Dinner: Osaka street food",
+    "budget": "¥10,000 - ¥15,000 (train only ¥410)",
+    "notes": "🚄 Kyoto-Osaka: NO Shinkansen needed! Use local express trains - much cheaper & faster for city-to-city. Keihan Main Line (Gion→Osaka) or Hankyu (central Kyoto→Osaka). Both take ~45min. Dotonbori: Try takoyaki, okonomiyaki, kushikatsu!"
+}
 ,
   12: {
     "day": 12,
@@ -514,7 +553,32 @@ const ITINERARY_DATA = {
     "notes": "Osaka is famous for food! Try everything. Dotonbori is busiest in evening."
 }
 ,
-  13: {"day":13,"date":"Sunday, December 8, 2025","location":"Osaka to Tokyo","weather":"Check forecast - December weather","description":"Travel day from Osaka back to Tokyo - morning in Osaka, afternoon arrival in Tokyo","activities":[{"time":"08:00","description":"Final Osaka breakfast"},{"time":"09:30","description":"Last-minute Osaka Castle or shopping"},{"time":"11:00","description":"Check out of Osaka hotel"},{"time":"12:00","description":"Shinkansen to Tokyo"},{"time":"15:00","description":"Arrive in Tokyo, check into hotel"},{"time":"16:30","description":"Return to familiar Tokyo neighborhoods"},{"time":"18:00","description":"Welcome back to Tokyo dinner"},{"time":"20:00","description":"Evening stroll in Tokyo"},{"time":"21:30","description":"Rest and plan final Tokyo days"}],"transportation":"Shinkansen Osaka to Tokyo","accommodation":"Tokyo hotel (final days)","meals":"Breakfast: Osaka, Lunch: Shinkansen bento, Dinner: Tokyo","budget":"�15,000 - �20,000 (including Shinkansen)","notes":"Back to Tokyo for the final stretch. Time to revisit favorite spots and do final shopping."}
+  13: {
+    "day": 13,
+    "date": "Sunday, December 8, 2025",
+    "location": "Osaka to Tokyo",
+    "weather": "Check forecast - December weather",
+    "description": "Travel day from Osaka back to Tokyo - morning in Osaka, afternoon arrival in Tokyo",
+    "activities": [
+        {"time": "08:00", "description": "Final Osaka breakfast"},
+        {"time": "09:30", "description": "Last-minute Osaka Castle or shopping"},
+        {"time": "10:30", "description": "🚅 Check out of Osaka hotel - head to Shin-Osaka Station"},
+        {"time": "11:00", "description": "🚅 CRITICAL: Arrive at Shin-Osaka Station - go to Tokaido Shinkansen platforms 21-26"},
+        {"time": "11:15", "description": "🚅 Board Shinkansen Nozomi 64 (or Hikari) - Shin-Osaka to Tokyo (2h 45min)"},
+        {"time": "11:30", "description": "🚅 Shinkansen departs Shin-Osaka Station - buy bento on board!"},
+        {"time": "14:15", "description": "🚅 Arrive at Tokyo Station - transfer to hotel"},
+        {"time": "15:00", "description": "Check into Tokyo hotel (final days)"},
+        {"time": "16:30", "description": "Return to familiar Tokyo neighborhoods"},
+        {"time": "18:00", "description": "Welcome back to Tokyo dinner"},
+        {"time": "20:00", "description": "Evening stroll in Tokyo"},
+        {"time": "21:30", "description": "Rest and plan final Tokyo days"}
+    ],
+    "transportation": "🚅 Tokaido Shinkansen Nozomi/Hikari - Shin-Osaka to Tokyo (2h 45min) - ¥13,320",
+    "accommodation": "Tokyo hotel (final days)",
+    "meals": "Breakfast: Osaka, Lunch: Shinkansen ekiben bento, Dinner: Tokyo",
+    "budget": "¥15,000 - ¥20,000 (including Shinkansen ¥13,320)",
+    "notes": "🚅 SHINKANSEN CRITICAL: Depart from SHIN-OSAKA Station (not Osaka Station)! Take subway/taxi to Shin-Osaka 45min early. Reserved seats essential on Sunday. Try famous ekiben train bento. Keep tickets until final exit. Download JR app for delays."
+}
 ,
   14: {"day":14,"date":"Monday, December 9, 2025","location":"Tokyo","weather":"Check forecast - December weather","description":"Second-to-last day in Tokyo - favorite districts and final experiences","activities":[{"time":"09:00","description":"Breakfast in a favorite Tokyo neighborhood"},{"time":"10:30","description":"Tokyo National Museum or teamLab Borderless"},{"time":"13:00","description":"Lunch in Tsukiji or Ginza"},{"time":"15:00","description":"Final shopping in Harajuku or Shibuya"},{"time":"17:30","description":"Visit Tokyo Skytree or Tokyo Tower at sunset"},{"time":"19:00","description":"Special dinner at a high-end restaurant"},{"time":"21:00","description":"Final night out in Tokyo"},{"time":"23:00","description":"Reflection and packing"}],"transportation":"Tokyo Metro and JR lines","accommodation":"Tokyo hotel","meals":"Breakfast: Local cafe, Lunch: Tsukiji/Ginza, Dinner: Special restaurant","budget":"�18,000 - �25,000","notes":"Make the most of the second-to-last day. Visit any missed attractions and enjoy final Tokyo experiences."}
 ,
