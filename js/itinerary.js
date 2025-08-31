@@ -717,8 +717,7 @@ class ItineraryLoader {
         if (description.includes('shibuya') && !description.includes('ebisu')) {
             result.location = 'Shibuya District';
         } else if (description.includes('ebisu')) {
-            result.location = 'Ebisu Area';
-        } else if (description.includes('harajuku')) {
+            result.location = 'Ebisu Area';        } else if (description.includes('harajuku') || description.includes('meiji shrine') || description.includes('meiji jingu')) {
             result.location = 'Harajuku Area';
         } else if (description.includes('shinjuku')) {
             result.location = 'Shinjuku Station';        } else if (description.includes('asakusa')) {
@@ -780,9 +779,7 @@ class ItineraryLoader {
         } else if (description.includes('skytree')) {
             result.location = 'Tokyo Skytree Area';
         } else if (description.includes('scramble crossing') || description.includes('starbucks')) {
-            result.location = 'Shibuya Crossing';        } else if (description.includes('meiji shrine') || description.includes('meiji jingu')) {
-            result.location = 'Meiji Shrine';
-        } else if (description.includes('nikko') && !description.includes('travel')) {
+            result.location = 'Shibuya Crossing';        } else if (description.includes('nikko') && !description.includes('travel')) {
             result.location = 'Nikko Area';
         } else if (description.includes('toshogu')) {
             result.location = 'Toshogu Shrine Complex';
