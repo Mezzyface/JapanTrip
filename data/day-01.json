@@ -17,31 +17,18 @@
             "description": "Optional: Visit Ebisu Shrine to purchase Goshuincho and receive first goshuin | [Ebisu Shrine](https://maps.app.goo.gl/6bjWpLGNd6te9iqE8) [Shrine Store](https://maps.app.goo.gl/GsJNyLmWwg3JBntX9)"
         },
         {
-            "time": "17:30",
-            "description": "Check into HJ PLACE SHIBUYA Airbnb and settle in"
-        },
-        {
-            "time": "18:30",
-            "description": "Walk to Shibuya area (15-20 minute walk from Airbnb)"
-        },
-        {
             "time": "19:00",
-            "description": "Experience Shibuya Scramble Crossing - visit Starbucks on 2nd floor of Tsutaya for aerial view"
+            "description": "Experience Shibuya Scramble Crossing - visit Starbucks on 2nd floor of Tsutaya for aerial view | [Tsutaya](https://maps.app.goo.gl/3mX9Z8v3mU6y2b9K8)"
         },
         {
             "time": "20:00",
-            "description": "Visit Pokémon Center Shibuya (6th floor of PARCO building)"
+            "description": "Visit Pokémon Center Shibuya (6th floor of PARCO building) | [Pokémon Center Shibuya](https://maps.app.goo.gl/8mXG7bX4o7tX9m3K8)"
         },
         {
             "time": "21:00",
             "description": "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls"
-        },
-        {
-            "time": "22:30",
-            "description": "Walk back to Airbnb"
-        }    ],
-    "transportation": "Keikyu Airport Line to Shinagawa, then JR Yamanote Line to Ebisu. Total cost: ~¥510, Time: 45-55 minutes",
-    "travelRoutes": [
+        }   ],
+    "transportation": "Keikyu Airport Line to Shinagawa, then JR Yamanote Line to Ebisu. Total cost: ~¥510, Time: 45-55 minutes",    "travelRoutes": [
         {
             "name": "Haneda Airport to Ebisu Station",
             "description": "Airport arrival to accommodation area via Keikyu Line and JR Yamanote Line",
@@ -49,10 +36,18 @@
             "duration": "45-55 minutes",
             "cost": "~¥510",
             "method": "Train (Keikyu + JR Yamanote)"
+        },
+        {
+            "name": "Ebisu to Shibuya Scramble Crossing",
+            "description": "Evening walk from accommodation area to famous Shibuya crossing for sightseeing",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00002025&goal=%7B%27lat%27%3A35.65949%2C%27lon%27%3A139.700451%2C%27spot%27%3A%2702301-pn0003123%27%7D&start_name=Ebisu(Tokyo)&goal_name=Shibuya%20Scramble%20Crossing&cid=&from=route_top_search_box&ferry=false&taxi=false",
+            "duration": "15-20 minutes",
+            "cost": "Free (walking)",
+            "method": "Walking"
         }
     ],
     "accommodation": "HJ PLACE SHIBUYA Airbnb - 3 Chome-20-10 Higashi, Shibuya City, Tokyo 〒150-0011 | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
     "meals": "Dinner: Shibuya restaurants (ramen, sushi, or department store food hall)",
     "budget": "¥4,500 - ¥8,000 (includes transport ¥510, Goshuincho ¥1,500, goshuin ¥300, meals & activities)",
-    "notes": "Pick up Suica/Pasmo card at airport for easy train travel. CULTURAL HIGHLIGHT: Visit Ebisu Shrine for your first goshuin - a beautiful way to start your Japan journey! Goshuincho (stamp book) typically costs ¥1,000-2,000, goshuin stamps ¥300-500 each. Shibuya is busiest in evening - perfect timing!"
+    "notes": "Pick up Suica/Pasmo card at airport for easy train travel. Shopping List: Suitcase, Sling bag, Shopping Bag, Toiletire"
 }
