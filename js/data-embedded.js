@@ -302,10 +302,13 @@ const itineraryData = {
         {
             "time": "07:15",
             "description": "⛩️ Arrive at Inari Station via JR Nara Line from Kyoto Station - shrine entrance directly opposite the station"
+        },        {
+            "time": "07:15",
+            "description": "🦊 Explore Fushimi Inari Taisha - walk through iconic Senbon Torii (thousands of vermillion gates) up the mountain path. Multiple goshuin locations available: [📖 Shrine Guide](https://jinja-gosyuin.com/fushimiinaritaisya/) | [Navigate](https://maps.app.goo.gl/FushimiInariMain)"
         },
         {
-            "time": "07:15",
-            "description": "🦊 Explore Fushimi Inari Taisha - walk through iconic Senbon Torii (thousands of vermillion gates) up the mountain path. Goshuin available at multiple locations: [📖 Shrine Guide](https://jinja-gosyuin.com/fushimiinaritaisya/)"
+            "time": "07:30",
+            "description": "📖 Goshuin Collection Points at Fushimi Inari: 1) Main Office: 36 Fukakusa Yabunouchichō (+81 75-641-4693) 2) Secondary: 58 Fukakusa Yabunouchichō (+81 75-641-1253) 3) Mountain Path: 21-15 Inariyamakanyūchi (+81 75-641-2755) 4) Upper Shrine: Fukakusa Sasayamachō 5) Final: 15 Fukakusa Sasayamachō (+81 75-642-5838)"
         },
         {
             "time": "08:30",
@@ -362,10 +365,27 @@ const itineraryData = {
         {
             "time": "21:00",
             "description": "🚌 Return to accommodation via bus or subway from Gion area"
+        }    ],
+    "transportation": "🚄 JR Nara Line to Fushimi Inari, 🚃 Keihan Main Line to Gion, 🚶 Walking tour between temples, 🚌 City bus for return",
+    "travelRoutes": [
+        {
+            "name": "Kyoto Station to Fushimi Inari",
+            "description": "Early morning journey to Fushimi Inari Taisha via JR Nara Line for crowd-free shrine experience",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00005591&goal=00005653&start_name=Kyoto&goal_name=Inari&cid=&from=route_top_search_box&date_time=2025-11-30T06%3A30&ferry=false&taxi=false",
+            "duration": "5-7 minutes",
+            "cost": "~¥150",
+            "method": "JR Nara Line"
+        },
+        {
+            "name": "Fushimi Inari to Gion-Shijo",
+            "description": "Transfer from Fushimi Inari area to Gion district for Higashiyama temple tour via Keihan Main Line",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00005653&goal=00005680&start_name=Fushimi-Inari&goal_name=Gion-Shijo&cid=&from=route_top_search_box&date_time=2025-11-30T10%3A30&ferry=false&taxi=false",
+            "duration": "7-10 minutes",
+            "cost": "~¥210",
+            "method": "Keihan Main Line"
         }
     ],
-    "transportation": "🚄 JR Nara Line to Fushimi Inari, 🚃 Keihan Main Line to Gion, 🚶 Walking tour between temples, 🚌 City bus for return",
-    "accommodation": "Kyoto accommodation (ryokan or hotel)",
+    "accommodation": "Kyoto Airbnb | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMCDYDAZEN) | [Navigate](https://maps.app.goo.gl/KyotoAirbnbAddress) - 180 Jurakumawari Nishimachi, Nakagyō-ku, Kyōto-shi, Kyōto-fu 604-8402, Japan",
     "meals": "Breakfast: Early light meal, Lunch: Local restaurant in Maruyama Park area, Dinner: Traditional Higashiyama cuisine",
     "budget": "¥8,000 - ¥12,000 (temple entrance fees ¥300-600 each, goshuin ¥300-500 each, meals, illumination tickets ¥600)",
     "notes": "🦊 EARLY START ESSENTIAL! Fushimi Inari is magical at dawn but unbearably crowded after 10 AM. Bring goshuincho (stamp book) for comprehensive collection. Kodai-ji illuminations require separate evening ticket ¥600. Full mountain hike takes 2-3 hours if desired. Higashiyama walking tour covers ~3km. Evening illuminations are seasonal highlight!"
