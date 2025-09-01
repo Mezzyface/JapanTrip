@@ -77,9 +77,8 @@
         },
         {
             "time": "19:00",
-            "description": "🍱 Dinner in Higashiyama/Gion area - traditional kaiseki or modern Japanese cuisine in historic district"
-        }   ],
-    "transportation": "🚄 JR Nara Line to Fushimi Inari, 🚃 Keihan Main Line to Gion, 🚶 Walking tour between temples, 🚌 City bus for return",    "travelRoutes": [
+            "description": "🍱 Dinner in Higashiyama/Gion area - traditional kaiseki or modern Japanese cuisine in historic district"        }   ],
+    "travelRoutes": [
         {
             "name": "Kyoto Station to Fushimi Inari",
             "description": "Early morning journey to Fushimi Inari Taisha via JR Nara Line for crowd-free shrine experience",
@@ -100,5 +99,5 @@
     "accommodation": "Kyoto Airbnb | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMCDYDAZEN) | [Navigate](https://maps.app.goo.gl/KyotoAirbnbAddress)",
     "meals": "Breakfast: Early light meal, Lunch: Local restaurant in Maruyama Park area, Dinner: Traditional Higashiyama cuisine",
     "budget": "¥8,000 - ¥12,000 (temple entrance fees ¥300-600 each, goshuin ¥300-500 each, meals, illumination tickets ¥600)",
-    "notes": "🦊 EARLY START ESSENTIAL! Fushimi Inari is magical at dawn but unbearably crowded after 10 AM. Bring goshuincho (stamp book) for comprehensive collection. Kodai-ji illuminations require separate evening ticket ¥600. Full mountain hike takes 2-3 hours if desired. Higashiyama walking tour covers ~3km. Evening illuminations are seasonal highlight!"
+    "notes": "🦊 EARLY START ESSENTIAL! Fushimi Inari is magical at dawn but unbearably crowded after 10 AM."
 }
