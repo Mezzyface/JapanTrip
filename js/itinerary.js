@@ -793,7 +793,8 @@ class ItineraryLoader {
             result.location = 'Kamogawa River Area';        } else if (description.includes('kawaguchi asama-jinja') || description.includes('kawaguchi asama') ||
                    description.includes('natural living center') || description.includes('oishi park') ||
                    description.includes('maple corridor') || description.includes('momiji kairo') ||
-                   description.includes('itchiku kubota') || description.includes('red line bus') ||
+                   description.includes('itchiku kubota') || description.includes('kubota itchiku') ||
+                   description.includes('red line bus') ||
                    (description.includes('kawaguchiko') && (description.includes('sightseeing') || description.includes('bus')))) {
             result.location = 'Red Line Bus';
         } else if (description.includes('chureito pagoda') || description.includes('arakurayama sengen') || 

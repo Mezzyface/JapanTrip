@@ -15,7 +15,7 @@
         },
         {
             "time": "14:20",
-            "description": "🚅 SHINKANSEN: Board Hikari 517 from Tokyo to Kyoto (14:33 departure) - MUST CATCH for afternoon Kyoto activities! Reserved seats in Car 5. Journey time: 2 hours 15 minutes through stunning Mount Fuji views."
+            "description": "🚅 SHINKANSEN: Board Hikari 517 from Tokyo to Kyoto (14:33 departure)"
         },
         {
             "time": "16:48",
@@ -49,9 +49,8 @@
             "duration": "Check route details",
             "cost": "Local Kyoto transport",
             "method": "Subway + Walking"
-        }
-    ],
-    "accommodation": "Traditional ryokan or modern hotel in central Kyoto",
+        }    ],
+    "accommodation": "Kyoto Airbnb | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMCDYDAZEN) | [Navigate](https://maps.app.goo.gl/ejQTJRzxyqmuWyg36)",
     "meals": "Museum café lunch, traditional kaiseki dinner in Pontocho",
     "budget": "¥8,000-12,000 (museum entry ¥1,000, meals ¥6,000-10,000, local transport ¥500)",
     "notes": "CRITICAL: Must catch Hikari 517 at 14:33 - last good connection for afternoon Kyoto arrival. Book kaiseki dinner in advance. Pontocho can be crowded on weekends."
