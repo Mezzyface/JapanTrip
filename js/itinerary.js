@@ -754,15 +754,20 @@ class ItineraryLoader {
             result.location = 'Tokyo Station';
         } else if (description.includes('kyoto station') || (description.includes('kyoto') && description.includes('arrive'))) {
             result.location = 'Kyoto Station';        } else if (description.includes('pontocho') || description.includes('gion')) {
-            result.location = 'Pontocho & Gion District';
-        } else if (description.includes('fushimi inari') || description.includes('inari station')) {
+            result.location = 'Pontocho & Gion District';        } else if (description.includes('fushimi inari') || description.includes('inari station')) {
             result.location = 'Fushimi Inari Area';
-        } else if (description.includes('higashiyama') || description.includes('yasaka shrine')) {
+        } else if (description.includes('yasaka shrine') || description.includes('kodai-ji') || 
+                   description.includes('entoku-in') || description.includes('chorakuji') ||
+                   description.includes('chion-in') || description.includes('shoren-in') || 
+                   description.includes('awata shrine') || 
+                   (description.includes('goshuin') && (description.includes('6:') || description.includes('7:') || 
+                   description.includes('8:') || description.includes('9:') || description.includes('10:') || 
+                   description.includes('11:') || description.includes('12:')))) {
+            result.location = 'Yasaka Shrine';
+        } else if (description.includes('higashiyama') && !description.includes('yasaka shrine')) {
             result.location = 'Higashiyama District';
-        } else if (description.includes('kodai-ji') || description.includes('entoku-in') || description.includes('illuminations')) {
-            result.location = 'Kodai-ji Temple Complex';
-        } else if (description.includes('chion-in') || description.includes('shoren-in') || description.includes('awata shrine')) {
-            result.location = 'Northern Higashiyama';        } else if (description.includes('maruyama park')) {
+        } else if (description.includes('illuminations')) {
+            result.location = 'Kodai-ji Temple Complex';} else if (description.includes('maruyama park')) {
             result.location = 'Maruyama Park';
         } else if (description.includes('saiho-ji') || description.includes('koke-dera') || description.includes('moss temple')) {
             result.location = 'Saiho-ji (Moss Temple)';

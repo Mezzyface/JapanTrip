@@ -35,42 +35,41 @@
         {
             "time": "10:30",
             "description": "🚄 Travel to Gion district - walk to Fushimi-Inari Station (Keihan Main Line) then north to Gion-Shijo Station"
-        },
-        {
+        },        {
             "time": "11:15",
-            "description": "⛩️ Begin Higashiyama Goshuin Tour at Yasaka Shrine - start the temple hopping adventure in historic district. [📖 Tour Guide](https://jinja-gosyuin.com/higashiyama-gosyuin/#8221)"
+            "description": "⛩️ Begin Yasaka Shrine Area Goshuin Tour - 10-minute walk from Gion-Shijo station to start temple hopping adventure. [📖 Tour Guide](https://jinja-gosyuin.com/higashiyama-gosyuin/#8221)"
         },
         {
-            "time": "11:45",
-            "description": "🏛️ Kodai-ji Temple - temple of Toyotomi Hideyoshi and Nene, famous for illuminations and special night goshuin (6 min walk)"
+            "time": "11:30",
+            "description": "Goshuin 6: [Yasaka Shrine](https://maps.app.goo.gl/JT2BEAoVLzTK9FVc6) [Site](https://www.yasaka-jinja.or.jp/prize_all/)"
         },
         {
-            "time": "12:15",
-            "description": "🏛️ Entoku-in Temple - where Nene spent her final years, beautiful gardens (1 min walk)"
+            "time": "12:00",
+            "description": "Goshuin 7: [Kodai-ji Temple](https://maps.app.goo.gl/ibkmHS5gZWhWoTSP6) [Site](https://www.kodaiji.com/goshuinmap.pdf)"
         },
         {
-            "time": "12:45",
-            "description": "🏛️ Chorakuji Temple - associated with Tale of the Heike (5 min walk)"
+            "time": "12:30",
+            "description": "Goshuin 8: [Entoku-in Temple](https://maps.app.goo.gl/bQYfEFnzQpVgixQ16) [Site](https://www.kodaiji.com/entoku-in/index.html)"
         },
         {
-            "time": "13:15",
-            "description": "🌸 Maruyama Park - short break and lunch in Kyoto's premier cherry blossom park (1 min to park entrance)"
+            "time": "13:00",
+            "description": "Goshuin 9: [Chorakuji Temple](https://maps.app.goo.gl/MLGLSf2QmptvsJRM9) [Site](https://www.chorakuji.or.jp/)"
         },
         {
-            "time": "14:15",
-            "description": "🏛️ Chion-in Temple - head temple of Jodo sect with massive Sanmon Gate (3 min walk through park)"
+            "time": "13:30",
+            "description": "🌸 Maruyama Park [Navigate](https://maps.app.goo.gl/27CTsf4YfTBLNyXz6)"
         },
         {
-            "time": "15:00",
-            "description": "🏛️ Shoren-in Temple - Imperial family connections and famous blue illuminations (5 min walk)"
+            "time": "14:30",
+            "description": "Goshuin 10: [Chion-in Temple](https://maps.app.goo.gl/d8B51tkW2NAa6M18A) [Site](https://www.chion-in.or.jp/en/guide/goshuin.php)"
         },
         {
-            "time": "15:45",
-            "description": "⚔️ Awata Shrine - key stop on Kyoto Sword Goshuin Tour, finish by 4:30 PM for illuminations timing (5 min walk)"
+            "time": "15:15",
+            "description": "Goshuin 11: [Shoren-in Temple](https://maps.app.goo.gl/CxiUdNc2jsqx8pme6) [Site](https://www.shorenin.com/)"
         },
         {
-            "time": "16:30",
-            "description": "🚶 Walk to Kodai-ji Temple for evening illuminations - prepare for magical autumn light displays"
+            "time": "16:00",
+            "description": "Goshuin 12: [Awata Shrine](https://maps.app.goo.gl/EynAbhea17FYkyVk7) [Site](https://awatajinja.jp/)"
         },
         {
             "time": "17:00",
@@ -79,13 +78,8 @@
         {
             "time": "19:00",
             "description": "🍱 Dinner in Higashiyama/Gion area - traditional kaiseki or modern Japanese cuisine in historic district"
-        },
-        {
-            "time": "21:00",
-            "description": "🚌 Return to accommodation via bus or subway from Gion area"
-        }    ],
-    "transportation": "🚄 JR Nara Line to Fushimi Inari, 🚃 Keihan Main Line to Gion, 🚶 Walking tour between temples, 🚌 City bus for return",
-    "travelRoutes": [
+        }   ],
+    "transportation": "🚄 JR Nara Line to Fushimi Inari, 🚃 Keihan Main Line to Gion, 🚶 Walking tour between temples, 🚌 City bus for return",    "travelRoutes": [
         {
             "name": "Kyoto Station to Fushimi Inari",
             "description": "Early morning journey to Fushimi Inari Taisha via JR Nara Line for crowd-free shrine experience",
@@ -95,15 +89,15 @@
             "method": "JR Nara Line"
         },
         {
-            "name": "Fushimi Inari to Gion-Shijo",
-            "description": "Transfer from Fushimi Inari area to Gion district for Higashiyama temple tour via Keihan Main Line",
-            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00005653&goal=00005680&start_name=Fushimi-Inari&goal_name=Gion-Shijo&cid=&from=route_top_search_box&date_time=2025-11-30T10%3A30&ferry=false&taxi=false",
-            "duration": "7-10 minutes",
-            "cost": "~¥210",
-            "method": "Keihan Main Line"
+            "name": "Fushimi Inari Taisha to Gion-Shijo",
+            "description": "Direct route from Fushimi Inari Taisha to Gion district for Higashiyama temple tour after completing goshuin collection",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=%7B%27lat%27%3A34.967229%2C%27lon%27%3A135.773196%2C%27spot%27%3A%2702301-1301305%27%7D&goal=00003184&start_name=Fushimi%20Inari%20Taisha&goal_name=Gionshijo&cid=&from=route_top_search_box&date_time=2025-11-30T06%3A30&ferry=false&taxi=false",
+            "duration": "Check route details",
+            "cost": "Local transport cost",
+            "method": "Keihan Line"
         }
     ],
-    "accommodation": "Kyoto Airbnb | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMCDYDAZEN) | [Navigate](https://maps.app.goo.gl/KyotoAirbnbAddress) - 180 Jurakumawari Nishimachi, Nakagyō-ku, Kyōto-shi, Kyōto-fu 604-8402, Japan",
+    "accommodation": "Kyoto Airbnb | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMCDYDAZEN) | [Navigate](https://maps.app.goo.gl/KyotoAirbnbAddress)",
     "meals": "Breakfast: Early light meal, Lunch: Local restaurant in Maruyama Park area, Dinner: Traditional Higashiyama cuisine",
     "budget": "¥8,000 - ¥12,000 (temple entrance fees ¥300-600 each, goshuin ¥300-500 each, meals, illumination tickets ¥600)",
     "notes": "🦊 EARLY START ESSENTIAL! Fushimi Inari is magical at dawn but unbearably crowded after 10 AM. Bring goshuincho (stamp book) for comprehensive collection. Kodai-ji illuminations require separate evening ticket ¥600. Full mountain hike takes 2-3 hours if desired. Higashiyama walking tour covers ~3km. Evening illuminations are seasonal highlight!"
