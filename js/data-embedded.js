@@ -301,18 +301,26 @@ const itineraryData = {
         },
         {
             "time": "07:15",
-            "description": "⛩️ Arrive at Inari Station via JR Nara Line from Kyoto Station - shrine entrance directly opposite the station"
-        },        {
-            "time": "07:15",
-            "description": "🦊 Explore Fushimi Inari Taisha - walk through iconic Senbon Torii (thousands of vermillion gates) up the mountain path. Multiple goshuin locations available: [📖 Shrine Guide](https://jinja-gosyuin.com/fushimiinaritaisya/) | [Navigate](https://maps.app.goo.gl/FushimiInariMain)"
+            "description": "🦊 Explore Fushimi Inari Taisha Multiple goshuin locations available: [📖 Tour Guide](https://jinja-gosyuin.com/fushimiinaritaisya/) | [Navigate](https://maps.app.goo.gl/ddZnnVp5dNGqjFLv7)"
         },
         {
-            "time": "07:30",
-            "description": "📖 Goshuin Collection Points at Fushimi Inari: 1) Main Office: 36 Fukakusa Yabunouchichō (+81 75-641-4693) 2) Secondary: 58 Fukakusa Yabunouchichō (+81 75-641-1253) 3) Mountain Path: 21-15 Inariyamakanyūchi (+81 75-641-2755) 4) Upper Shrine: Fukakusa Sasayamachō 5) Final: 15 Fukakusa Sasayamachō (+81 75-642-5838)"
+            "time": "08:00",
+            "description": "Goshuin 1: [Main Office](https://maps.app.goo.gl/PizR8tyZ4XapWcCH9)"
         },
         {
             "time": "08:30",
-            "description": "🥾 Hike deeper into mountain paths - crowds thin out significantly as you climb higher through endless torii tunnels"
+            "description": "Goshuin 2: [Worship Hall](https://maps.app.goo.gl/1gtRGdNuaRJThtFb7)"
+        },
+        {
+            "time": "09:00",
+            "description": "Goshuin 3: [Gozendani Hohaisho](https://maps.app.goo.gl/epBuE7xN8R4HwMp26)"
+        },
+        {
+            "time": "09:30",
+            "description": "Goshuin 4: [Omokaru Stone](https://maps.app.goo.gl/1VkUFhxMc78ZQRxs7)"
+        },        {
+            "time": "10:00",
+            "description": "Goshuin 5: [Tōfuku-ji Temple](https://maps.app.goo.gl/SRcqt8gLeS8EhjbT9)"
         },
         {
             "time": "10:30",
