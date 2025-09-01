@@ -191,74 +191,43 @@ const itineraryData = {
     "description": "🗻 Fuji Views Adventure! Iconic Chureito Pagoda at sunrise, shrine hopping for goshuin collection, and stunning lakeside views. The perfect day to capture Mount Fuji's majesty from multiple angles.",
     "activities": [
         {
-            "time": "07:00",
-            "description": "🚄 Leave Aoiso Ryokan via taxi to Kawaguchiko Station (5-10 minutes)"
-        },
-        {
-            "time": "07:15",
-            "description": "🚄 Travel to Arakurayama Sengen Park: Fujikyu Railway Line from Kawaguchiko to Shimoyoshida Station (15 minutes)"
-        },
-        {
-            "time": "07:45",
-            "description": "🥾 Walk from Shimoyoshida Station to Arakurayama Sengen Park entrance (10-15 minutes)"
-        },
-        {
             "time": "08:00",
             "description": "🗻 Climb ~400 steps to Chureito Pagoda for iconic Mount Fuji views - BEST PHOTO SPOT!"
-        },
-        {
-            "time": "09:30",
-            "description": "⛩️ Visit Arakura Fujisengen-jinja Shrine for goshuin collection. [📖 Shrine Guide](https://example.com/arakura-shrine)"
         },        {
-            "time": "11:30",
-            "description": "🚄 Walk back to Shimoyoshida Station and return to Kawaguchiko Station 🗺️"
+            "time": "09:30",
+            "description": "⛩️ Visit Arakura Fujisengen-jinja Shrine [Shrine Site](https://www.arakurafujisengen.com/blog) [Navigate](https://maps.app.goo.gl/esXdopYW12tvZMof7)"
         },
         {
             "time": "12:00",
-            "description": "🍜 Lunch at Specialty Hoto Fudo (Kawaguchiko Ekimae branch) - famous local udon in miso broth"
-        },
-        {
-            "time": "13:30",
-            "description": "🚌 Take Kawaguchiko Sightseeing Bus (Red Line) for lakeside shrine tour"
+            "description": "🍜 Lunch at Specialty Hoto Fudo (Kawaguchiko Ekimae branch) [Navigate](https://maps.app.goo.gl/aLqEds7YVHaAGvom9)"
         },
         {
             "time": "14:00",
-            "description": "⛩️ Visit Kawaguchi Asama-jinja Shrine - ancient cedar trees and another goshuin. [📖 Shrine Guide](https://example.com/kawaguchi-asama)"
-        },
-        {
-            "time": "15:00",
-            "description": "🚌 Continue on Red Line bus to Natural Living Center"
+            "description": "⛩️ Visit Kawaguchi Asama-jinja Shrine [Shrine Site](https://asamajinja.or.jp/precinct/) [Navigate](https://maps.app.goo.gl/21os8NkELBzgJ4fP6)"
         },
         {
             "time": "15:30",
             "description": "🗻 Kawaguchiko Natural Living Center & Oishi Park - unobstructed Mount Fuji views"
         },
         {
-            "time": "16:30",
-            "description": "🌅 Mount Fuji sunset viewing from Oishi Park (sunset ~16:30 in late November)"
-        },
-        {
-            "time": "17:30",
-            "description": "🚌 Take Red Line bus towards Itchiku Kubota Art Museum stop"
-        },
-        {
             "time": "18:00",
-            "description": "🍁 Maple Corridor (Momiji Kairo) - evening illuminations on autumn leaves"
-        },
+            "description": "🍁 Maple Corridor (Momiji Kairo) - Itchiku Kubota Art Museum"
+        } ],
+    "transportation": "🚄 Fujikyu Railway, 🚌 Kawaguchiko Red Line Sightseeing Bus (¥1,500 2-day pass), 🚕 Local taxis",
+    "travelRoutes": [
         {
-            "time": "19:30",
-            "description": "🚌 Return to Kawaguchiko Station via Red Line bus"
-        },
-        {
-            "time": "20:00",
-            "description": "🚄 Taxi back to Aoiso Ryokan for traditional kaiseki dinner"
+            "name": "Kawaguchiko to Shimoyoshida Station",
+            "description": "Morning journey to Arakurayama Sengen Park for iconic Chureito Pagoda and Mount Fuji views",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00001065&goal=00000916&start_name=Kawaguchiko&goal_name=Shimoyoshida&cid=&from=route_top_search_box&ferry=false&taxi=false",
+            "duration": "15 minutes",
+            "cost": "~¥190",
+            "method": "Fujikyu Railway Line"
         }
     ],
-    "transportation": "🚄 Fujikyu Railway, 🚌 Kawaguchiko Red Line Sightseeing Bus (¥1,500 2-day pass), 🚕 Local taxis",
-    "accommodation": "Aoiso Ryokan (あおい荘) - final night with traditional kaiseki dinner",
+    "accommodation": "Aoiso Ryokan (あおい荘) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMKCYQKHZZ) |  [Navigate](https://maps.app.goo.gl/MCXdJWUuhSKBgMzF9)",
     "meals": "Breakfast: Light ryokan breakfast, Lunch: Hoto noodles specialty, Dinner: Traditional kaiseki at ryokan",
     "budget": "¥8,000 - ¥12,000 (includes bus pass ¥1,500, shrine donations, meals, local transport)",
-    "notes": "🗻 PERFECT FUJI VIEWING DAY! Weather is critical - clear skies needed for best views. Chureito Pagoda is the iconic postcard shot. Collect goshuin at both shrines. Red Line bus pass covers all sightseeing spots. Wear comfortable shoes for pagoda climb. Sunset timing is crucial - arrive at Oishi Park by 4:00 PM. Evening illuminations start after dark."
+    "notes": "Sunset ~16:30 in late November. Red Line bus pass covers all sightseeing spots."
 }
 ,
 "day04": {

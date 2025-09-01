@@ -211,8 +211,7 @@ class ItineraryLoader {
         }
         
         const transportLower = transportation.toLowerCase();
-        
-        // Hide routine local transportation patterns completely
+          // Hide routine local transportation patterns completely
         const hidePatterns = [
             /keikyu.*yamanote/i, // Airport to local area via common train lines
             /tokyo metro.*jr lines/i, // Standard metro combinations
@@ -220,6 +219,11 @@ class ItineraryLoader {
             /local.*lines?.*day pass/i, // Local transport with day passes
             /walking.*distance/i,
             /total cost:.*¥[1-9]\d{2}(?!\d)/i, // Small costs ¥100-999 (but not ¥1000+)
+            /fujikyu railway.*red line/i, // Kawaguchiko local transport
+            /red line.*sightseeing bus/i, // Kawaguchiko sightseeing buses
+            /local taxis/i, // Local taxi services
+            /¥1,500.*2-day pass/i, // Specific to Kawaguchiko bus passes
+            /kawaguchiko.*bus/i // General Kawaguchiko bus transport
         ];
         
         // Check if this should be hidden
@@ -240,15 +244,19 @@ class ItineraryLoader {
             return false;
         }
         
-        const transportLower = transportation.toLowerCase();
-          // Exclude routine local transportation patterns
+        const transportLower = transportation.toLowerCase();        // Exclude routine local transportation patterns
         const routinePatterns = [
             /keikyu.*yamanote/i, // More flexible: Keikyu...Yamanote (any text in between)
             /tokyo metro.*jr lines/i,
             /local.*lines?/i,
             /walking.*distance/i,
             /total cost:.*¥\d{2,4}(?!\d)/i, // Small costs like ¥510 (but not ¥5100+)
-            /time:.*\d+.*minutes?$/i // Just travel time info
+            /time:.*\d+.*minutes?$/i, // Just travel time info
+            /fujikyu railway.*red line/i, // Kawaguchiko local transport
+            /red line.*sightseeing bus/i, // Kawaguchiko sightseeing buses
+            /local taxis/i, // Local taxi services
+            /¥1,500.*2-day pass/i, // Specific to Kawaguchiko bus passes
+            /kawaguchiko.*bus/i // General Kawaguchiko bus transport
         ];
         
         // Check if this is routine local transport
@@ -767,24 +775,33 @@ class ItineraryLoader {
         } else if (description.includes('nison-in') || description.includes('shoan-in') || description.includes('gion-ji')) {
             result.location = 'Saga Area Temples';
         } else if (description.includes('daikaku-ji')) {
-            result.location = 'Daikaku-ji Temple';        } else if (description.includes('kitano tenmangu') || description.includes('momiji-en') || description.includes('maple')) {
+            result.location = 'Daikaku-ji Temple';        } else if (description.includes('kitano tenmangu') || description.includes('momiji-en') || 
+                   (description.includes('maple') && (description.includes('kyoto') || description.includes('shrine') || description.includes('tenmangu')))) {
             result.location = 'Kitano Tenmangu Area';
         } else if (description.includes('nara') && description.includes('station')) {
             result.location = 'Nara Station';
         } else if (description.includes('nara park') || description.includes('deer')) {
             result.location = 'Nara Park';
-        } else if (description.includes('kofuku-ji') || description.includes('five-story') || description.includes('pagoda')) {
-            result.location = 'Kofuku-ji Temple';
         } else if (description.includes('todai-ji') || description.includes('great buddha') || description.includes('daibutsuden')) {
             result.location = 'Todai-ji Temple';
         } else if (description.includes('nigatsu-do') || description.includes('sangatsu-do')) {
             result.location = 'Nigatsu-do Area';
         } else if (description.includes('kasuga taisha') || description.includes('stone lanterns')) {
-            result.location = 'Kasuga Taisha Shrine';
-        } else if (description.includes('osaka') && (description.includes('namba') || description.includes('airbnb'))) {
+            result.location = 'Kasuga Taisha Shrine';        } else if (description.includes('osaka') && (description.includes('namba') || description.includes('airbnb'))) {
             result.location = 'Osaka Namba District';
         } else if (description.includes('kamogawa river') || description.includes('riverside')) {
-            result.location = 'Kamogawa River Area';
+            result.location = 'Kamogawa River Area';        } else if (description.includes('kawaguchi asama-jinja') || description.includes('kawaguchi asama') ||
+                   description.includes('natural living center') || description.includes('oishi park') ||
+                   description.includes('maple corridor') || description.includes('momiji kairo') ||
+                   description.includes('itchiku kubota') || description.includes('red line bus') ||
+                   (description.includes('kawaguchiko') && (description.includes('sightseeing') || description.includes('bus')))) {
+            result.location = 'Red Line Bus';
+        } else if (description.includes('chureito pagoda') || description.includes('arakurayama sengen') || 
+                   description.includes('arakura fujisengen') || description.includes('arakura-fujisengen') ||
+                   description.includes('arakurayama') || description.includes('sengen park') ||
+                   (description.includes('shimoyoshida') && !description.includes('return to kawaguchiko')) ||
+                   (description.includes('pagoda') && (description.includes('mount fuji') || description.includes('fuji view')))) {
+            result.location = 'Arakurayama Sengen Park';
         } else if (description.includes('kawaguchiko') || description.includes('mount fuji') || description.includes('ryokan')) {
             result.location = 'Mount Fuji Area';
         } else if (description.includes('haneda') || (description.includes('airport') && !description.includes('depart from'))) {
