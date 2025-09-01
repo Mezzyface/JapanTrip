@@ -408,7 +408,7 @@ const itineraryData = {
         },
         {
             "time": "09:00",
-            "description": "🧘 Saiho-j (Koke-dera) meditation experience - participate in Buddhist chanting and sutra calligraphy (shakyo) before moss garden access. [📖 Temple Guide](https://jpmanual.com/en/kokedera)"
+            "description": "🧘 Saiho-j [📖 Temple Guide](https://jpmanual.com/en/kokedera) [Navigate](https://maps.app.goo.gl/zaEwoYSEpa1wbLLm9)"
         },
         {
             "time": "10:30",
@@ -468,7 +468,16 @@ const itineraryData = {
         },
         {
             "time": "20:30",
-            "description": "🚌 Return to accommodation via direct bus (Route 50) from Kitano Tenmangu-mae to Nijo Station"
+            "description": "🚌 Return to accommodation via direct bus (Route 50) from Kitano Tenmangu-mae to Nijo Station"        }
+    ],
+    "travelRoutes": [
+        {
+            "name": "Nijo Station to Saiho-j Temple (Moss Temple)",
+            "description": "Morning journey from Nijo Station to the sacred Moss Temple for early temple experience - combination of train and bus transport",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00007206&goal=%7B%27lat%27%3A34.991954%2C%27lon%27%3A135.683225%2C%27spot%27%3A%2702301-1700123%27%7D&start_name=Nijo&goal_name=Saiho-j%20Temple%20(Kokedera%20%2F%20Moss%20Temple)&cid=&from=route_top_search_box&date_time=2025-11-22T13%3A30&ferry=false&taxi=false",
+            "duration": "45-60 minutes",
+            "cost": "¥400-600",
+            "method": "Train + Bus combination"
         }
     ],
     "transportation": "🚄 Multiple trains/buses for temple hopping, 🚌 Kyoto city buses, 🚕 Taxi for time efficiency between distant locations",

@@ -6,21 +6,9 @@
     "description": "🍃 Ultimate Kyoto temple and garden adventure! Sacred moss garden meditation, bamboo forest exploration, comprehensive goshuin temple tour, and magical evening maple illuminations.",
     "activities": [
         {
-            "time": "07:30",
-            "description": "🚶 Depart accommodation for Saiho-ji (Moss Temple) - early start for exclusive temple experience"
-        },
-        {
-            "time": "08:30",
-            "description": "🚄 Arrive near Saiho-ji via train/bus combination from Nijo Station (45-60 mins) or taxi for time efficiency"
-        },
-        {
             "time": "09:00",
-            "description": "🧘 Saiho-j (Koke-dera) meditation experience - participate in Buddhist chanting and sutra calligraphy (shakyo) before moss garden access. [📖 Temple Guide](https://jpmanual.com/en/kokedera)"
-        },
-        {
-            "time": "10:30",
-            "description": "🚌 Travel from Saiho-j to central Arashiyama area - short bus or taxi ride"
-        },
+            "description": "🧘 Saiho-j [📖 Temple Guide](https://jpmanual.com/en/kokedera) [Navigate](https://maps.app.goo.gl/zaEwoYSEpa1wbLLm9)"
+        }
         {
             "time": "11:00",
             "description": "🍜 Quick lunch in Arashiyama before starting intensive temple tour"
@@ -75,7 +63,16 @@
         },
         {
             "time": "20:30",
-            "description": "🚌 Return to accommodation via direct bus (Route 50) from Kitano Tenmangu-mae to Nijo Station"
+            "description": "🚌 Return to accommodation via direct bus (Route 50) from Kitano Tenmangu-mae to Nijo Station"        }
+    ],
+    "travelRoutes": [
+        {
+            "name": "Nijo Station to Saiho-j Temple (Moss Temple)",
+            "description": "Morning journey from Nijo Station to the sacred Moss Temple for early temple experience - combination of train and bus transport",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00007206&goal=%7B%27lat%27%3A34.991954%2C%27lon%27%3A135.683225%2C%27spot%27%3A%2702301-1700123%27%7D&start_name=Nijo&goal_name=Saiho-j%20Temple%20(Kokedera%20%2F%20Moss%20Temple)&cid=&from=route_top_search_box&date_time=2025-11-22T13%3A30&ferry=false&taxi=false",
+            "duration": "45-60 minutes",
+            "cost": "¥400-600",
+            "method": "Train + Bus combination"
         }
     ],
     "transportation": "🚄 Multiple trains/buses for temple hopping, 🚌 Kyoto city buses, 🚕 Taxi for time efficiency between distant locations",
