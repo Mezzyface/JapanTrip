@@ -1,1 +1,46 @@
-{"day":14,"date":"Monday, December 9, 2025","location":"Tokyo","weather":"Check forecast - December weather","description":"Second-to-last day in Tokyo - favorite districts and final experiences","activities":[{"time":"09:00","description":"Breakfast in a favorite Tokyo neighborhood"},{"time":"10:30","description":"Tokyo National Museum or teamLab Borderless"},{"time":"13:00","description":"Lunch in Tsukiji or Ginza"},{"time":"15:00","description":"Final shopping in Harajuku or Shibuya"},{"time":"17:30","description":"Visit Tokyo Skytree or Tokyo Tower at sunset"},{"time":"19:00","description":"Special dinner at a high-end restaurant"},{"time":"21:00","description":"Final night out in Tokyo"},{"time":"23:00","description":"Reflection and packing"}],"transportation":"Tokyo Metro and JR lines","accommodation":"Tokyo accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)","meals":"Breakfast: Local cafe, Lunch: Tsukiji/Ginza, Dinner: Special restaurant","budget":"¥18,000 - ¥25,000","notes":"Make the most of the second-to-last day. Visit any missed attractions and enjoy final Tokyo experiences."}
+{
+    "day": 14,
+    "date": "Monday, December 9, 2025",
+    "location": "Tokyo",
+    "weather": "Check forecast - December weather",
+    "description": "Second-to-last day in Tokyo - favorite districts and final experiences",
+    "activities": [
+        {
+            "time": "09:00",
+            "description": "Breakfast in a favorite Tokyo neighborhood"
+        },
+        {
+            "time": "10:30",
+            "description": "Tokyo National Museum or teamLab Borderless"
+        },
+        {
+            "time": "13:00",
+            "description": "Lunch in Tsukiji or Ginza"
+        },
+        {
+            "time": "15:00",
+            "description": "Final shopping in Harajuku or Shibuya"
+        },
+        {
+            "time": "17:30",
+            "description": "Visit Tokyo Skytree or Tokyo Tower at sunset"
+        },
+        {
+            "time": "19:00",
+            "description": "Special dinner at a high-end restaurant"
+        },
+        {
+            "time": "21:00",
+            "description": "Final night out in Tokyo"
+        },
+        {
+            "time": "23:00",
+            "description": "Reflection and packing"
+        }
+    ],
+    "transportation": "Tokyo Metro and JR lines",
+    "accommodation": "Tokyo accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
+    "meals": "Breakfast: Local cafe, Lunch: Tsukiji/Ginza, Dinner: Special restaurant",
+    "budget": "¥18,000 - ¥25,000",
+    "notes": "Make the most of the second-to-last day. Visit any missed attractions and enjoy final Tokyo experiences."
+}

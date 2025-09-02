@@ -1,1 +1,50 @@
-{"day":10,"date":"Thursday, December 5, 2025","location":"Nara","weather":"Check forecast - December weather","description":"Day trip to Nara - ancient capital with friendly deer and historic temples","activities":[{"time":"08:00","description":"Early train from Kyoto to Nara"},{"time":"09:30","description":"Arrive in Nara, walk to Nara Park"},{"time":"10:00","description":"Feed deer in Nara Park"},{"time":"11:00","description":"Visit Todai-ji Temple and Great Buddha"},{"time":"13:00","description":"Lunch in Nara"},{"time":"14:30","description":"Explore Kasuga Taisha Shrine"},{"time":"16:00","description":"Walk through Nara's historic streets"},{"time":"17:30","description":"Return train to Kyoto"},{"time":"19:00","description":"Dinner in Kyoto"}],"transportation":"Kintetsu line Kyoto to Nara","accommodation":"Kyoto hotel","meals":"Lunch: Nara local specialties, Dinner: Kyoto restaurant","budget":"¥8,000 - ¥12,000","notes":"Nara's deer are sacred messengers. The Great Buddha is one of Japan's largest bronze Buddha statues."}
+{
+    "day": 10,
+    "date": "Thursday, December 5, 2025",
+    "location": "Fukuoka",
+    "weather": "Check forecast - December weather",
+    "description": "Day trip to Nara - ancient capital with friendly deer and historic temples",
+    "activities": [
+        {
+            "time": "08:00",
+            "description": "Early train from Kyoto to Nara"
+        },
+        {
+            "time": "09:30",
+            "description": "Arrive in Nara, walk to Nara Park"
+        },
+        {
+            "time": "10:00",
+            "description": "Feed deer in Nara Park"
+        },
+        {
+            "time": "11:00",
+            "description": "Visit Todai-ji Temple and Great Buddha"
+        },
+        {
+            "time": "13:00",
+            "description": "Lunch in Nara"
+        },
+        {
+            "time": "14:30",
+            "description": "Explore Kasuga Taisha Shrine"
+        },
+        {
+            "time": "16:00",
+            "description": "Walk through Nara's historic streets"
+        },
+        {
+            "time": "17:30",
+            "description": "Return train to Kyoto"
+        },
+        {
+            "time": "19:00",
+            "description": "Dinner in Kyoto"
+        }
+    ],
+    "transportation": "Kintetsu line Kyoto to Nara",
+    "accommodation": "Kyoto hotel",
+    "meals": "Lunch: Nara local specialties, Dinner: Kyoto restaurant",
+    "budget": "¥8,000 - ¥12,000",
+    "notes": "Nara's deer are sacred messengers. The Great Buddha is one of Japan's largest bronze Buddha statues."
+}

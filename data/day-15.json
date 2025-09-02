@@ -1,1 +1,42 @@
-{"day":15,"date":"Wednesday, December 10, 2025","location":"Tokyo","weather":"Check forecast - December weather","description":"Last full day in Tokyo - final shopping, favorite spots, and memorable experiences","activities":[{"time":"09:00","description":"Final breakfast at a favorite Tokyo cafe"},{"time":"10:30","description":"Last-minute shopping in Ginza or Shibuya"},{"time":"13:00","description":"Lunch at a memorable restaurant from the trip"},{"time":"15:00","description":"Revisit favorite spots or districts"},{"time":"17:00","description":"Final temple or shrine visit"},{"time":"19:00","description":"Farewell dinner - special restaurant or izakaya"},{"time":"21:00","description":"Pack and prepare for departure"}],"transportation":"Tokyo Metro and JR lines","accommodation":"Tokyo accommodation (final night) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)","meals":"Breakfast: Cafe, Lunch: Special restaurant, Dinner: Farewell meal","budget":"¥15,000 - ¥25,000 (including souvenirs)","notes":"Last chance for any missed experiences. Pack carefully for departure. Confirm transportation to airport."}
+{
+    "day": 15,
+    "date": "Wednesday, December 10, 2025",
+    "location": "Tokyo",
+    "weather": "Check forecast - December weather",
+    "description": "Last full day in Tokyo - final shopping, favorite spots, and memorable experiences",
+    "activities": [
+        {
+            "time": "09:00",
+            "description": "Final breakfast at a favorite Tokyo cafe"
+        },
+        {
+            "time": "10:30",
+            "description": "Last-minute shopping in Ginza or Shibuya"
+        },
+        {
+            "time": "13:00",
+            "description": "Lunch at a memorable restaurant from the trip"
+        },
+        {
+            "time": "15:00",
+            "description": "Revisit favorite spots or districts"
+        },
+        {
+            "time": "17:00",
+            "description": "Final temple or shrine visit"
+        },
+        {
+            "time": "19:00",
+            "description": "Farewell dinner - special restaurant or izakaya"
+        },
+        {
+            "time": "21:00",
+            "description": "Pack and prepare for departure"
+        }
+    ],
+    "transportation": "Tokyo Metro and JR lines",
+    "accommodation": "Tokyo accommodation (final night) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
+    "meals": "Breakfast: Cafe, Lunch: Special restaurant, Dinner: Farewell meal",
+    "budget": "¥15,000 - ¥25,000 (including souvenirs)",
+    "notes": "Last chance for any missed experiences. Pack carefully for departure. Confirm transportation to airport."
+}
