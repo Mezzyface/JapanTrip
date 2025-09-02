@@ -488,6 +488,31 @@ class ItineraryLoader {
                             </div>
                         </div>
                     `).join('')}
+                </div>            </div>
+            ` : ''}
+            
+            ${day.reservations && day.reservations.length > 0 ? `
+            <div class="reservations">
+                <h3 class="reservations-title">Reservations</h3>
+                <div class="reservations-list">
+                    ${day.reservations.map(reservation => `
+                        <div class="reservation-item">
+                            <div class="reservation-header">
+                                <h4 class="reservation-name">${reservation.name}</h4>
+                                <div class="reservation-summary">
+                                    <span class="reservation-type">📋 ${reservation.type}</span>
+                                    ${reservation.confirmationCode ? `<span class="reservation-code">🔢 ${reservation.confirmationCode}</span>` : ''}
+                                    ${reservation.location ? `<span class="reservation-location">📍 ${reservation.location}</span>` : ''}
+                                </div>
+                            </div>
+                            <p class="reservation-description">${reservation.description}</p>
+                            <div class="reservation-actions">
+                                <a href="${reservation.url}" target="_blank" class="reservation-link">
+                                    🔗 View Reservation
+                                </a>
+                            </div>
+                        </div>
+                    `).join('')}
                 </div>
             </div>
             ` : ''}            <div class="day-info">

@@ -41,11 +41,20 @@
         {
             "time": "15:30",
             "description": "🚄 MUST CATCH: Limited Express Kaiji 35 (Chuo Line) from Platform 10 - LAST TRAIN TO MOUNT FUJI TODAY!"
-        },
-        {
+        },        {
             "time": "16:30 - 16:57",
             "description": "🚄 Arrive at Ōtsuki Station for transfer to Fujisan View Express 13 (Fujikyuko Line)"
         }   ],
+    "reservations": [
+        {
+            "name": "Aoiso Ryokan (あおい荘)",
+            "description": "Traditional Japanese ryokan accommodation in Kawaguchiko with Mount Fuji views and kaiseki dinner",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMKCYQKHZZ",
+            "type": "Accommodation",
+            "confirmationCode": "HMKCYQKHZZ",
+            "location": "Kawaguchiko, Mount Fuji area"
+        }
+    ],
     "transportation": "JR Yamanote Line (¥170 per trip), Limited Express Kaiji + Fujisan View Express to Kawaguchiko, taxi to ryokan",    "travelRoutes": [
         {
             "name": "Ebisu to Shinjuku Station",
