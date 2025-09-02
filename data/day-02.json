@@ -2,16 +2,12 @@
     "day": 2,
     "date": "Thursday, November 27, 2025",
     "location": "Tokyo Shrines → Mount Fuji (Kawaguchiko)",
-    "weather": "Check forecast - travel day to mountains",
+    "weather": "~50 - 63°F",
     "description": "Shrine-hopping adventure through Tokyo for goshuin collection, then departing for Mount Fuji area. Multiple beautiful shrines in Harajuku/Shibuya area before traveling to Kawaguchiko for ryokan stay.",    "activities": [
         {
             "time": "07:30",
             "description": "Drop off bags in coin locker or luggage storage at Shinjuku Station"
         },
-        {
-            "time": "07:45",
-            "description": "Travel from Shinjuku Station to Harajuku Station (JR Yamanote Line, 1 stop south)"
-        },        
         {
             "time": "08:00",
             "description": "Meiji Shrine (Meiji Jingu) [Shrine Site](https://www.meijijingu.or.jp/en/feelshinto/3.php) | [Navigate](https://maps.app.goo.gl/yvm7qBZyZxeaYFPQ7)"

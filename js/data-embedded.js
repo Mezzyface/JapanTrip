@@ -49,24 +49,25 @@ const itineraryData = {
 "day01": {
     "day": 1,
     "date": "Wednesday, November 26, 2025",
-    "location": "Tokyo - Shibuya",
-    "weather": "Check forecast closer to date",
+    "location": "Tokyo",
+    "weather": "~50 - 63°F",
     "description": "Arrival day in Tokyo! Landing at Haneda Airport, traveling to Shibuya, starting your cultural journey with your first goshuin at Ebisu Shrine, and experiencing the famous Shibuya crossing.",
     "activities": [
         {
-            "time": "14:50",
+            "time": "14:50 (2:50pm JST)",
             "description": "Arrive at Tokyo International (Haneda) Airport (HND), Clear immigration, collect luggage, and go through customs"
         },
         {
-            "time": "~16:30",
+            "time": "~16:30 (4:50pm JST)",
             "description": "Travel Ebisu Station"
-        },        {
-            "time": "17:15",
-            "description": "Optional: Visit Ebisu Shrine to purchase Goshuincho and receive first goshuin | [Ebisu Shrine](https://maps.app.goo.gl/6bjWpLGNd6te9iqE8) [Shrine Store](https://maps.app.goo.gl/GsJNyLmWwg3JBntX9)"
+        },
+        {
+            "time": "Before 17:00 (5:00pm JST)",
+            "description": "Visit Ebisu Shrine to purchase Goshuincho and receive first goshuin | [Ebisu Shrine](https://maps.app.goo.gl/6bjWpLGNd6te9iqE8) | [Shrine Store](https://maps.app.goo.gl/GsJNyLmWwg3JBntX9) | [Shrine Site](https://jinjamemo.com/archives/ebisujinja.html)"
         },
         {
             "time": "19:00",
-            "description": "Experience Shibuya Scramble Crossing - visit Starbucks on 2nd floor of Tsutaya for aerial view | [Tsutaya](https://maps.app.goo.gl/3mX9Z8v3mU6y2b9K8)"
+            "description": "Visit Shibuya Scramble Crossing - visit Starbucks on 2nd floor of Tsutaya for aerial view | [Tsutaya](https://maps.app.goo.gl/3mX9Z8v3mU6y2b9K8)"
         },
         {
             "time": "20:00",
@@ -75,45 +76,42 @@ const itineraryData = {
         {
             "time": "21:00",
             "description": "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls"
-        }   ],
-    "transportation": "Keikyu Airport Line to Shinagawa, then JR Yamanote Line to Ebisu. Total cost: ~¥510, Time: 45-55 minutes",    "travelRoutes": [
+        }
+    ],
+    "transportation": "Keikyu Airport Line to Shinagawa, then JR Yamanote Line to Ebisu. Total cost: ~¥510, Time: 45-55 minutes",
+    "travelRoutes": [
         {
             "name": "Haneda Airport to Ebisu Station",
             "description": "Airport arrival to accommodation area via Keikyu Line and JR Yamanote Line",
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00000592&goal=%7B%27lat%27%3A35.646584%2C%27lon%27%3A139.710153%2C%27spot%27%3A%2702011-00002025%27%7D&start_name=Haneda%20Airport(Tokyo)&goal_name=Ebisu(Tokyo)&cid=&from=route_top_search_box&ferry=false&taxi=false",
             "duration": "45-55 minutes",
-            "cost": "~¥510",
+            "cost": "~510円",
             "method": "Train (Keikyu + JR Yamanote)"
         },
         {
             "name": "Ebisu to Shibuya Scramble Crossing",
-            "description": "Evening walk from accommodation area to famous Shibuya crossing for sightseeing",
+            "description": "Train from accommodation area to famous Shibuya crossing for sightseeing via JR Yamanote Line",
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00002025&goal=%7B%27lat%27%3A35.65949%2C%27lon%27%3A139.700451%2C%27spot%27%3A%2702301-pn0003123%27%7D&start_name=Ebisu(Tokyo)&goal_name=Shibuya%20Scramble%20Crossing&cid=&from=route_top_search_box&ferry=false&taxi=false",
-            "duration": "15-20 minutes",
-            "cost": "Free (walking)",
-            "method": "Walking"
+            "duration": "6-10 minutes",
+            "cost": "~150円",
+            "method": "Train (JR Yamanote)"
         }
     ],
     "accommodation": "HJ PLACE SHIBUYA Airbnb | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
     "meals": "Dinner: Shibuya restaurants (ramen, sushi, or department store food hall)",
-    "budget": "¥4,500 - ¥8,000 (includes transport ¥510, Goshuincho ¥1,500, goshuin ¥300, meals & activities)",
-    "notes": "Pick up Suica/Pasmo card at airport for easy train travel. Shopping List: Suitcase, Sling bag, Shopping Bag, Toiletire"
-}
-,
+    "budget": "3,600円 - 5,600円 (includes transport 660円, Goshuincho 2,500円, goshuin 500円, meals & activities)",
+    "notes": "Pick up Suica/Pasmo card at airport for easy train travel. Shopping List: Suitcase, Sling bag, Shopping Bag, Toiletire, Water Bottle"
+},
 "day02": {
     "day": 2,
     "date": "Thursday, November 27, 2025",
     "location": "Tokyo Shrines → Mount Fuji (Kawaguchiko)",
-    "weather": "Check forecast - travel day to mountains",
+    "weather": "~50 - 63°F",
     "description": "Shrine-hopping adventure through Tokyo for goshuin collection, then departing for Mount Fuji area. Multiple beautiful shrines in Harajuku/Shibuya area before traveling to Kawaguchiko for ryokan stay.",    "activities": [
         {
             "time": "07:30",
             "description": "Drop off bags in coin locker or luggage storage at Shinjuku Station"
         },
-        {
-            "time": "07:45",
-            "description": "Travel from Shinjuku Station to Harajuku Station (JR Yamanote Line, 1 stop south)"
-        },        
         {
             "time": "08:00",
             "description": "Meiji Shrine (Meiji Jingu) [Shrine Site](https://www.meijijingu.or.jp/en/feelshinto/3.php) | [Navigate](https://maps.app.goo.gl/yvm7qBZyZxeaYFPQ7)"
@@ -399,20 +397,8 @@ const itineraryData = {
     "description": "🍃 Ultimate Kyoto temple and garden adventure! Sacred moss garden meditation, bamboo forest exploration, comprehensive goshuin temple tour, and magical evening maple illuminations.",
     "activities": [
         {
-            "time": "07:30",
-            "description": "🚶 Depart accommodation for Saiho-ji (Moss Temple) - early start for exclusive temple experience"
-        },
-        {
-            "time": "08:30",
-            "description": "🚄 Arrive near Saiho-ji via train/bus combination from Nijo Station (45-60 mins) or taxi for time efficiency"
-        },
-        {
             "time": "09:00",
             "description": "🧘 Saiho-j [📖 Temple Guide](https://jpmanual.com/en/kokedera) [Navigate](https://maps.app.goo.gl/zaEwoYSEpa1wbLLm9)"
-        },
-        {
-            "time": "10:30",
-            "description": "🚌 Travel from Saiho-j to central Arashiyama area - short bus or taxi ride"
         },
         {
             "time": "11:00",
@@ -566,7 +552,8 @@ const itineraryData = {
 ,
 "day08": {
     "day": 8,
-    "date": "Tuesday, December 3, 2025",    "location": "Osaka Day Trip",
+    "date": "Tuesday, December 3, 2025",
+    "location": "Osaka Day Trip",
     "weather": "Check forecast closer to date",
     "description": "Day trip to Osaka from Kyoto - experience Japan's food capital and Osaka Castle.",
     "activities": [
@@ -608,12 +595,11 @@ const itineraryData = {
     "meals": "Breakfast: Kyoto, Lunch: Dotonbori takoyaki and street food, Dinner: Kyoto",
     "budget": "¥8,000 - ¥15,000",
     "notes": "Osaka is known as 'Japan's Kitchen' - try takoyaki, okonomiyaki, and fresh seafood! Keep ticket for multiple train rides."
-}
-,
+},
 "day09": {
     "day": 9,
     "date": "Wednesday, December 4, 2025",
-    "location": "Kyoto",
+    "location": "Osaka -> Fukuoka",
     "weather": "Check forecast - December weather",
     "description": "Third day in Kyoto - exploring Arashiyama bamboo grove and western Kyoto",
     "activities": [
@@ -633,12 +619,60 @@ const itineraryData = {
     "notes": "Arashiyama is famous for bamboo groves and autumn colors. Monkey park offers great views of Kyoto."
 }
 ,
-"day10": {"day":10,"date":"Thursday, December 5, 2025","location":"Nara","weather":"Check forecast - December weather","description":"Day trip to Nara - ancient capital with friendly deer and historic temples","activities":[{"time":"08:00","description":"Early train from Kyoto to Nara"},{"time":"09:30","description":"Arrive in Nara, walk to Nara Park"},{"time":"10:00","description":"Feed deer in Nara Park"},{"time":"11:00","description":"Visit Todai-ji Temple and Great Buddha"},{"time":"13:00","description":"Lunch in Nara"},{"time":"14:30","description":"Explore Kasuga Taisha Shrine"},{"time":"16:00","description":"Walk through Nara's historic streets"},{"time":"17:30","description":"Return train to Kyoto"},{"time":"19:00","description":"Dinner in Kyoto"}],"transportation":"Kintetsu line Kyoto to Nara","accommodation":"Kyoto hotel","meals":"Lunch: Nara local specialties, Dinner: Kyoto restaurant","budget":"¥8,000 - ¥12,000","notes":"Nara's deer are sacred messengers. The Great Buddha is one of Japan's largest bronze Buddha statues."}
-,
+"day10": {
+    "day": 10,
+    "date": "Thursday, December 5, 2025",
+    "location": "Fukuoka",
+    "weather": "Check forecast - December weather",
+    "description": "Day trip to Nara - ancient capital with friendly deer and historic temples",
+    "activities": [
+        {
+            "time": "08:00",
+            "description": "Early train from Kyoto to Nara"
+        },
+        {
+            "time": "09:30",
+            "description": "Arrive in Nara, walk to Nara Park"
+        },
+        {
+            "time": "10:00",
+            "description": "Feed deer in Nara Park"
+        },
+        {
+            "time": "11:00",
+            "description": "Visit Todai-ji Temple and Great Buddha"
+        },
+        {
+            "time": "13:00",
+            "description": "Lunch in Nara"
+        },
+        {
+            "time": "14:30",
+            "description": "Explore Kasuga Taisha Shrine"
+        },
+        {
+            "time": "16:00",
+            "description": "Walk through Nara's historic streets"
+        },
+        {
+            "time": "17:30",
+            "description": "Return train to Kyoto"
+        },
+        {
+            "time": "19:00",
+            "description": "Dinner in Kyoto"
+        }
+    ],
+    "transportation": "Kintetsu line Kyoto to Nara",
+    "accommodation": "Kyoto hotel",
+    "meals": "Lunch: Nara local specialties, Dinner: Kyoto restaurant",
+    "budget": "¥8,000 - ¥12,000",
+    "notes": "Nara's deer are sacred messengers. The Great Buddha is one of Japan's largest bronze Buddha statues."
+},
 "day11": {
     "day": 11,
     "date": "Friday, December 6, 2025",
-    "location": "Kyoto to Osaka",
+    "location": "Fukuoka -> Hiroshima",
     "weather": "Check forecast - December weather",
     "description": "Travel day from Kyoto to Osaka - final Kyoto morning and Osaka arrival",
     "activities": [
@@ -663,7 +697,7 @@ const itineraryData = {
 "day12": {
     "day": 12,
     "date": "Saturday, December 7, 2025",
-    "location": "Osaka",
+    "location": "Hiroshima",
     "weather": "Check forecast closer to date",
     "description": "Exploring Osaka - Japan's kitchen! Food adventures and city sights.",
     "activities": [
@@ -702,7 +736,7 @@ const itineraryData = {
 "day13": {
     "day": 13,
     "date": "Sunday, December 8, 2025",
-    "location": "Osaka to Tokyo",
+    "location": "Hiroshima -> Tokyo",
     "weather": "Check forecast - December weather",
     "description": "Travel day from Osaka back to Tokyo - morning in Osaka, afternoon arrival in Tokyo",
     "activities": [
@@ -726,10 +760,94 @@ const itineraryData = {
     "notes": "🚅 SHINKANSEN CRITICAL: Depart from SHIN-OSAKA Station (not Osaka Station)! Take subway/taxi to Shin-Osaka 45min early. Reserved seats essential on Sunday. Try famous ekiben train bento. Keep tickets until final exit. Download JR app for delays."
 }
 ,
-"day14": {"day":14,"date":"Monday, December 9, 2025","location":"Tokyo","weather":"Check forecast - December weather","description":"Second-to-last day in Tokyo - favorite districts and final experiences","activities":[{"time":"09:00","description":"Breakfast in a favorite Tokyo neighborhood"},{"time":"10:30","description":"Tokyo National Museum or teamLab Borderless"},{"time":"13:00","description":"Lunch in Tsukiji or Ginza"},{"time":"15:00","description":"Final shopping in Harajuku or Shibuya"},{"time":"17:30","description":"Visit Tokyo Skytree or Tokyo Tower at sunset"},{"time":"19:00","description":"Special dinner at a high-end restaurant"},{"time":"21:00","description":"Final night out in Tokyo"},{"time":"23:00","description":"Reflection and packing"}],"transportation":"Tokyo Metro and JR lines","accommodation":"Tokyo accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)","meals":"Breakfast: Local cafe, Lunch: Tsukiji/Ginza, Dinner: Special restaurant","budget":"¥18,000 - ¥25,000","notes":"Make the most of the second-to-last day. Visit any missed attractions and enjoy final Tokyo experiences."}
-,
-"day15": {"day":15,"date":"Wednesday, December 10, 2025","location":"Tokyo","weather":"Check forecast - December weather","description":"Last full day in Tokyo - final shopping, favorite spots, and memorable experiences","activities":[{"time":"09:00","description":"Final breakfast at a favorite Tokyo cafe"},{"time":"10:30","description":"Last-minute shopping in Ginza or Shibuya"},{"time":"13:00","description":"Lunch at a memorable restaurant from the trip"},{"time":"15:00","description":"Revisit favorite spots or districts"},{"time":"17:00","description":"Final temple or shrine visit"},{"time":"19:00","description":"Farewell dinner - special restaurant or izakaya"},{"time":"21:00","description":"Pack and prepare for departure"}],"transportation":"Tokyo Metro and JR lines","accommodation":"Tokyo accommodation (final night) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)","meals":"Breakfast: Cafe, Lunch: Special restaurant, Dinner: Farewell meal","budget":"¥15,000 - ¥25,000 (including souvenirs)","notes":"Last chance for any missed experiences. Pack carefully for departure. Confirm transportation to airport."}
-,
+"day14": {
+    "day": 14,
+    "date": "Monday, December 9, 2025",
+    "location": "Tokyo",
+    "weather": "Check forecast - December weather",
+    "description": "Second-to-last day in Tokyo - favorite districts and final experiences",
+    "activities": [
+        {
+            "time": "09:00",
+            "description": "Breakfast in a favorite Tokyo neighborhood"
+        },
+        {
+            "time": "10:30",
+            "description": "Tokyo National Museum or teamLab Borderless"
+        },
+        {
+            "time": "13:00",
+            "description": "Lunch in Tsukiji or Ginza"
+        },
+        {
+            "time": "15:00",
+            "description": "Final shopping in Harajuku or Shibuya"
+        },
+        {
+            "time": "17:30",
+            "description": "Visit Tokyo Skytree or Tokyo Tower at sunset"
+        },
+        {
+            "time": "19:00",
+            "description": "Special dinner at a high-end restaurant"
+        },
+        {
+            "time": "21:00",
+            "description": "Final night out in Tokyo"
+        },
+        {
+            "time": "23:00",
+            "description": "Reflection and packing"
+        }
+    ],
+    "transportation": "Tokyo Metro and JR lines",
+    "accommodation": "Tokyo accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
+    "meals": "Breakfast: Local cafe, Lunch: Tsukiji/Ginza, Dinner: Special restaurant",
+    "budget": "¥18,000 - ¥25,000",
+    "notes": "Make the most of the second-to-last day. Visit any missed attractions and enjoy final Tokyo experiences."
+},
+"day15": {
+    "day": 15,
+    "date": "Wednesday, December 10, 2025",
+    "location": "Tokyo",
+    "weather": "Check forecast - December weather",
+    "description": "Last full day in Tokyo - final shopping, favorite spots, and memorable experiences",
+    "activities": [
+        {
+            "time": "09:00",
+            "description": "Final breakfast at a favorite Tokyo cafe"
+        },
+        {
+            "time": "10:30",
+            "description": "Last-minute shopping in Ginza or Shibuya"
+        },
+        {
+            "time": "13:00",
+            "description": "Lunch at a memorable restaurant from the trip"
+        },
+        {
+            "time": "15:00",
+            "description": "Revisit favorite spots or districts"
+        },
+        {
+            "time": "17:00",
+            "description": "Final temple or shrine visit"
+        },
+        {
+            "time": "19:00",
+            "description": "Farewell dinner - special restaurant or izakaya"
+        },
+        {
+            "time": "21:00",
+            "description": "Pack and prepare for departure"
+        }
+    ],
+    "transportation": "Tokyo Metro and JR lines",
+    "accommodation": "Tokyo accommodation (final night) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
+    "meals": "Breakfast: Cafe, Lunch: Special restaurant, Dinner: Farewell meal",
+    "budget": "¥15,000 - ¥25,000 (including souvenirs)",
+    "notes": "Last chance for any missed experiences. Pack carefully for departure. Confirm transportation to airport."
+},
 "day16": {
     "day": 16,
     "date": "Thursday, December 11, 2025",

@@ -1,24 +1,25 @@
 {
     "day": 1,
     "date": "Wednesday, November 26, 2025",
-    "location": "Tokyo - Shibuya",
-    "weather": "Check forecast closer to date",
+    "location": "Tokyo",
+    "weather": "~50 - 63°F",
     "description": "Arrival day in Tokyo! Landing at Haneda Airport, traveling to Shibuya, starting your cultural journey with your first goshuin at Ebisu Shrine, and experiencing the famous Shibuya crossing.",
     "activities": [
         {
-            "time": "14:50",
+            "time": "14:50 (2:50pm JST)",
             "description": "Arrive at Tokyo International (Haneda) Airport (HND), Clear immigration, collect luggage, and go through customs"
         },
         {
-            "time": "~16:30",
+            "time": "~16:30 (4:50pm JST)",
             "description": "Travel Ebisu Station"
-        },        {
-            "time": "17:15",
-            "description": "Optional: Visit Ebisu Shrine to purchase Goshuincho and receive first goshuin | [Ebisu Shrine](https://maps.app.goo.gl/6bjWpLGNd6te9iqE8) [Shrine Store](https://maps.app.goo.gl/GsJNyLmWwg3JBntX9)"
+        },
+        {
+            "time": "Before 17:00 (5:00pm JST)",
+            "description": "Visit Ebisu Shrine to purchase Goshuincho and receive first goshuin | [Ebisu Shrine](https://maps.app.goo.gl/6bjWpLGNd6te9iqE8) | [Shrine Store](https://maps.app.goo.gl/GsJNyLmWwg3JBntX9) | [Shrine Site](https://jinjamemo.com/archives/ebisujinja.html)"
         },
         {
             "time": "19:00",
-            "description": "Experience Shibuya Scramble Crossing - visit Starbucks on 2nd floor of Tsutaya for aerial view | [Tsutaya](https://maps.app.goo.gl/3mX9Z8v3mU6y2b9K8)"
+            "description": "Visit Shibuya Scramble Crossing - visit Starbucks on 2nd floor of Tsutaya for aerial view | [Tsutaya](https://maps.app.goo.gl/3mX9Z8v3mU6y2b9K8)"
         },
         {
             "time": "20:00",
@@ -27,27 +28,29 @@
         {
             "time": "21:00",
             "description": "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls"
-        }   ],
-    "transportation": "Keikyu Airport Line to Shinagawa, then JR Yamanote Line to Ebisu. Total cost: ~¥510, Time: 45-55 minutes",    "travelRoutes": [
+        }
+    ],
+    "transportation": "Keikyu Airport Line to Shinagawa, then JR Yamanote Line to Ebisu. Total cost: ~¥510, Time: 45-55 minutes",
+    "travelRoutes": [
         {
             "name": "Haneda Airport to Ebisu Station",
             "description": "Airport arrival to accommodation area via Keikyu Line and JR Yamanote Line",
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00000592&goal=%7B%27lat%27%3A35.646584%2C%27lon%27%3A139.710153%2C%27spot%27%3A%2702011-00002025%27%7D&start_name=Haneda%20Airport(Tokyo)&goal_name=Ebisu(Tokyo)&cid=&from=route_top_search_box&ferry=false&taxi=false",
             "duration": "45-55 minutes",
-            "cost": "~¥510",
+            "cost": "~510円",
             "method": "Train (Keikyu + JR Yamanote)"
         },
         {
             "name": "Ebisu to Shibuya Scramble Crossing",
-            "description": "Evening walk from accommodation area to famous Shibuya crossing for sightseeing",
+            "description": "Train from accommodation area to famous Shibuya crossing for sightseeing via JR Yamanote Line",
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00002025&goal=%7B%27lat%27%3A35.65949%2C%27lon%27%3A139.700451%2C%27spot%27%3A%2702301-pn0003123%27%7D&start_name=Ebisu(Tokyo)&goal_name=Shibuya%20Scramble%20Crossing&cid=&from=route_top_search_box&ferry=false&taxi=false",
-            "duration": "15-20 minutes",
-            "cost": "Free (walking)",
-            "method": "Walking"
+            "duration": "6-10 minutes",
+            "cost": "~150円",
+            "method": "Train (JR Yamanote)"
         }
     ],
     "accommodation": "HJ PLACE SHIBUYA Airbnb | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
     "meals": "Dinner: Shibuya restaurants (ramen, sushi, or department store food hall)",
-    "budget": "¥4,500 - ¥8,000 (includes transport ¥510, Goshuincho ¥1,500, goshuin ¥300, meals & activities)",
+    "budget": "3,600円 - 5,600円 (includes transport 660円, Goshuincho 2,500円, goshuin 500円, meals & activities)",
     "notes": "Pick up Suica/Pasmo card at airport for easy train travel. Shopping List: Suitcase, Sling bag, Shopping Bag, Toiletire, Water Bottle"
 }
