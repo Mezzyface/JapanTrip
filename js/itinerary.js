@@ -519,15 +519,17 @@ class ItineraryLoader {
                 ${day.transportation && day.transportation !== 'TBD' && day.transportation.trim() !== '' && this.shouldShowTransportation(day.transportation) ? `
                 <div class="info-section transportation ${this.isCriticalTransportation(day.transportation) ? 'critical' : ''}">
                     <div class="info-title">${this.isCriticalTransportation(day.transportation) ? 'Critical Transportation' : 'Transportation'}</div>
-                    <div class="info-content">${this.isCriticalTransportation(day.transportation) ? this.formatCriticalTransportation(day.transportation, day.activities) : this.processMarkdownLinks(day.transportation)}</div>
-                </div>` : ''}                <div class="info-section accommodation">
+                    <div class="info-content">${this.isCriticalTransportation(day.transportation) ? this.formatCriticalTransportation(day.transportation, day.activities) : this.processMarkdownLinks(day.transportation)}</div>                </div>` : ''}
+                ${day.accommodation && day.accommodation.trim() !== '' && day.accommodation !== 'TBD' ? `
+                <div class="info-section accommodation">
                     <div class="info-title">Accommodation</div>
-                    <div class="info-content">${this.processMarkdownLinks(day.accommodation || 'TBD')}</div>
-                </div>
+                    <div class="info-content">${this.processMarkdownLinks(day.accommodation)}</div>
+                </div>` : ''}
+                ${day.meals && day.meals.trim() !== '' && day.meals !== 'TBD' ? `
                 <div class="info-section meals">
                     <div class="info-title">Meals</div>
-                    <div class="info-content">${day.meals || 'TBD'}</div>
-                </div>
+                    <div class="info-content">${day.meals}</div>
+                </div>` : ''}
                 <div class="info-section budget">
                     <div class="info-title">Budget</div>
                     <div class="info-content">${day.budget || 'TBD'}</div>

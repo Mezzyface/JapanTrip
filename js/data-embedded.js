@@ -5,18 +5,9 @@ const itineraryData = {
     "location": "Travel Day (USA → Japan)",
     "weather": "In transit",
     "description": "ANA Reservation C13J79 - Travel day from Austin to Tokyo via San Francisco. United Airlines Economy Value Plus class. Long journey across the Pacific - get ready for the adventure!",
-    "activities": [
-        {
+    "activities": [        {
             "time": "06:00",
             "description": "🛫 Depart Austin-Bergstrom International Airport (AUS) - United NH7333 (operated by United Airlines)"
-        },
-        {
-            "time": "06:00-08:03",
-            "description": "✈️ Flight NH7333: AUS→SFO (2hr 3min) - Economy Value Plus - Passenger: Adam Henderson"
-        },
-        {
-            "time": "08:03",
-            "description": "🛬 Arrive at San Francisco International Airport (SFO) - PST Terminal 3"
         },
         {
             "time": "08:03-10:15",
@@ -25,10 +16,6 @@ const itineraryData = {
         {
             "time": "10:15",
             "description": "🛫 Depart San Francisco International Airport (SFO) - United NH7011 (operated by United Airlines)"
-        },
-        {
-            "time": "10:15-14:50+1",
-            "description": "✈️ Flight NH7011: SFO→HND (11hr 35min trans-Pacific) - Economy Value Plus - Sleep, movies, prepare for Japan!"
         },
         {
             "time": "14:50+1",
@@ -44,13 +31,11 @@ const itineraryData = {
             "name": "ANA Flights to Tokyo",
             "description": "Round-trip flights Austin to Tokyo via San Francisco - NH7333 (AUS→SFO) and NH7011 (SFO→HND) operated by United Airlines in Economy Value Plus class",
             "url": "https://aswbe.ana.co.jp/webapps/servicing/mybooking",
-            "type": "Flight Reservation",
-            "confirmationCode": "C13J79",
+            "type": "Flight Reservation",            "confirmationCode": "C13J79",
             "location": "Austin → San Francisco → Tokyo"
-        }    ],
+        }
+    ],
     "transportation": "ANA Reservation C13J79: NH7333 (AUS→SFO), NH7011 (SFO→HND) - operated by United Airlines | [Manage Booking](https://aswbe.ana.co.jp/webapps/servicing/mybooking)",
-    "accommodation": "In transit - overnight flight",
-    "meals": "Airline meal service on both flights",
     "budget": "$1200, Flight already paid - ANA/United codeshare booking",
     "notes": "Set watch to Japan time (+14 hours from Austin). Try to sleep on the long SFO→HND flight. Download offline maps and translation apps. Bring entertainment for 11+ hour flight!"
 }
