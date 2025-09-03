@@ -5,29 +5,7 @@
     "weather": "Check forecast closer to date",
     "description": "Exploring Osaka - Japan's kitchen! Food adventures and city sights.",
     "activities": [
-        {
-            "time": "09:00",
-            "description": "Visit Osaka Castle"
-        },
-        {
-            "time": "12:00",
-            "description": "Lunch: Famous takoyaki in Dotonbori"
-        },
-        {
-            "time": "14:00",
-            "description": "Explore Dotonbori district"
-        },
-        {
-            "time": "16:00",
-            "description": "Shopping in Shinsaibashi"
-        },
-        {
-            "time": "18:00",
-            "description": "Street food tour"
-        },        {
-            "time": "20:00",
-            "description": "Experience Osaka nightlife"
-        }
+     
     ],
     "reservations": [
         {
@@ -39,8 +17,6 @@
             "location": "Hondori Naka Ward, Hiroshima"
         }
     ],
-    "transportation": "Osaka Metro and JR lines",
-    "accommodation": "Osaka hotel",
     "meals": "Multiple street food experiences - takoyaki, okonomiyaki, kushikatsu",
     "budget": "¥12,000 - ¥18,000",
     "notes": "Osaka is famous for food! Try everything. Dotonbori is busiest in evening."

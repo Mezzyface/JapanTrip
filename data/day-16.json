@@ -5,29 +5,7 @@
     "weather": "Check forecast closer to date",
     "description": "Final day in Japan - last-minute shopping, favorite spots, and departure preparations.",
     "activities": [
-        {
-            "time": "08:00",
-            "description": "Final Japanese breakfast"
-        },
-        {
-            "time": "10:00",
-            "description": "Last-minute souvenir shopping"
-        },
-        {
-            "time": "12:00",
-            "description": "Lunch at your favorite discovered restaurant"
-        },
-        {
-            "time": "14:00",
-            "description": "Pack and check out of hotel"
-        },
-        {
-            "time": "16:00",
-            "description": "Depart for Haneda Airport"
-        },
-        {
-            "time": "18:00",
-            "description": "Flight departure (check your actual time)"        }
+      
     ],
     "reservations": [
         {
@@ -39,7 +17,6 @@
             "location": "6-chōme-5-7 Shinjuku, Shinjuku City, Tokyo"
         }
     ],    "transportation": "Airport Express to Haneda Airport",
-    "accommodation": "Check out of Shinjuku accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ) | [Navigate](https://maps.app.goo.gl/shinjuku-location)",
     "meals": "Breakfast: Hotel, Lunch: Favorite restaurant, Dinner: Airport/In-flight",
     "budget": "¥10,000 - ¥15,000 (plus souvenirs)",
     "notes": "Allow extra time for airport. Keep receipts for tax-free shopping. Don't forget to say arigatou gozaimasu!"

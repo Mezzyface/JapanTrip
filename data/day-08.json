@@ -5,37 +5,7 @@
     "weather": "Check forecast closer to date",
     "description": "Day trip to Osaka from Kyoto - experience Japan's food capital and Osaka Castle.",
     "activities": [
-        {
-            "time": "08:00",
-            "description": "Travel to Osaka: Rapid train from Kyoto Station to Osaka Station"
-        },
-        {
-            "time": "09:00",
-            "description": "Visit Osaka Castle and surrounding park"
-        },
-        {
-            "time": "11:30",
-            "description": "Travel to Dotonbori: Osaka Metro from Osakajo-koen to Namba"
-        },
-        {
-            "time": "12:00",
-            "description": "Lunch in Dotonbori - famous street food and takoyaki"
-        },
-        {
-            "time": "14:00",
-            "description": "Shopping and exploring Dotonbori district"
-        },
-        {
-            "time": "16:00",
-            "description": "Travel to Kuromon Market: Walk from Dotonbori to Kuromon"
-        },
-        {
-            "time": "16:30",
-            "description": "Explore Kuromon Ichiba Market for fresh seafood"
-        },
-        {
-            "time": "18:00",
-            "description": "Travel back to Kyoto: Express train from Osaka to Kyoto"        }
+
     ],
     "reservations": [
         {
@@ -47,8 +17,6 @@
             "location": "Osaka"
         }
     ],
-    "transportation": "JR trains between Kyoto-Osaka, Osaka Metro within city",
-    "accommodation": "Kyoto ryokan/hotel",
     "meals": "Breakfast: Kyoto, Lunch: Dotonbori takoyaki and street food, Dinner: Kyoto",
     "budget": "¥8,000 - ¥15,000",
     "notes": "Osaka is known as 'Japan's Kitchen' - try takoyaki, okonomiyaki, and fresh seafood! Keep ticket for multiple train rides."

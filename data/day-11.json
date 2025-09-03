@@ -5,15 +5,7 @@
     "weather": "Check forecast - December weather",
     "description": "Travel day from Kyoto to Osaka - final Kyoto morning and Osaka arrival",
     "activities": [
-        {"time": "08:00", "description": "Final Kyoto breakfast"},
-        {"time": "09:30", "description": "Last-minute Kyoto sightseeing or shopping"},
-        {"time": "11:30", "description": "Check out of Kyoto hotel"},
-        {"time": "12:00", "description": "🚄 Express train to Osaka: Keihan Main Line (45min) OR Hankyu Railway (43min)"},
-        {"time": "12:45", "description": "🚄 Arrive in Osaka - Umeda or Namba area"},
-        {"time": "13:30", "description": "Check into Osaka hotel"},
-        {"time": "15:00", "description": "First exploration of Osaka - Dotonbori area"},
-        {"time": "17:00", "description": "Osaka street food tour"},
-        {"time": "19:00", "description": "Dinner in Dotonbori"},        {"time": "21:00", "description": "Experience Osaka nightlife"}
+       
     ],    "reservations": [
         {
             "name": "Hiroshima Guesthouse ROOM3",
@@ -25,7 +17,6 @@
         }
     ],
     "transportation": "🚄 Express train Kyoto to Osaka (45min) - ¥410 Keihan OR ¥400 Hankyu",
-    "accommodation": "Osaka hotel (check-in)",
     "meals": "Breakfast: Kyoto, Lunch: Quick train bento, Dinner: Osaka street food",
     "budget": "¥10,000 - ¥15,000 (train only ¥410)",
     "notes": "🚄 Kyoto-Osaka: NO Shinkansen needed! Use local express trains - much cheaper & faster for city-to-city. Keihan Main Line (Gion→Osaka) or Hankyu (central Kyoto→Osaka). Both take ~45min. Dotonbori: Try takoyaki, okonomiyaki, kushikatsu!"

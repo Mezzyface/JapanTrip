@@ -5,33 +5,7 @@
     "weather": "Check forecast - December weather",
     "description": "Last full day in Tokyo - final shopping, favorite spots, and memorable experiences",
     "activities": [
-        {
-            "time": "09:00",
-            "description": "Final breakfast at a favorite Tokyo cafe"
-        },
-        {
-            "time": "10:30",
-            "description": "Last-minute shopping in Akihabara"
-        },
-        {
-            "time": "13:00",
-            "description": "Maid Cafe"
-        },
-        {
-            "time": "15:00",
-            "description": "Revisit favorite spots or districts"
-        },
-        {
-            "time": "17:00",
-            "description": "Final temple or shrine visit"
-        },
-        {
-            "time": "19:00",
-            "description": "Farewell dinner - special restaurant or izakaya"
-        },
-        {
-            "time": "21:00",
-            "description": "Pack and prepare for departure"        }
+      
     ],
     "reservations": [
         {
@@ -44,7 +18,6 @@
         }
     ],
     "transportation": "Tokyo Metro and JR lines",
-    "accommodation": "Shinjuku accommodation (final night) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ) | [Navigate](https://maps.app.goo.gl/shinjuku-location)",
     "meals": "Breakfast: Cafe, Lunch: Special restaurant, Dinner: Farewell meal",
     "budget": "¥15,000 - ¥25,000 (including souvenirs)",
     "notes": "Last chance for any missed experiences. Pack carefully for departure. Confirm transportation to airport."

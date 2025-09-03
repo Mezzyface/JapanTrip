@@ -638,37 +638,7 @@ const itineraryData = {
     "weather": "Check forecast closer to date",
     "description": "Day trip to Osaka from Kyoto - experience Japan's food capital and Osaka Castle.",
     "activities": [
-        {
-            "time": "08:00",
-            "description": "Travel to Osaka: Rapid train from Kyoto Station to Osaka Station"
-        },
-        {
-            "time": "09:00",
-            "description": "Visit Osaka Castle and surrounding park"
-        },
-        {
-            "time": "11:30",
-            "description": "Travel to Dotonbori: Osaka Metro from Osakajo-koen to Namba"
-        },
-        {
-            "time": "12:00",
-            "description": "Lunch in Dotonbori - famous street food and takoyaki"
-        },
-        {
-            "time": "14:00",
-            "description": "Shopping and exploring Dotonbori district"
-        },
-        {
-            "time": "16:00",
-            "description": "Travel to Kuromon Market: Walk from Dotonbori to Kuromon"
-        },
-        {
-            "time": "16:30",
-            "description": "Explore Kuromon Ichiba Market for fresh seafood"
-        },
-        {
-            "time": "18:00",
-            "description": "Travel back to Kyoto: Express train from Osaka to Kyoto"        }
+
     ],
     "reservations": [
         {
@@ -680,8 +650,6 @@ const itineraryData = {
             "location": "Osaka"
         }
     ],
-    "transportation": "JR trains between Kyoto-Osaka, Osaka Metro within city",
-    "accommodation": "Kyoto ryokan/hotel",
     "meals": "Breakfast: Kyoto, Lunch: Dotonbori takoyaki and street food, Dinner: Kyoto",
     "budget": "¥8,000 - ¥15,000",
     "notes": "Osaka is known as 'Japan's Kitchen' - try takoyaki, okonomiyaki, and fresh seafood! Keep ticket for multiple train rides."
@@ -693,34 +661,18 @@ const itineraryData = {
     "weather": "Check forecast - December weather",
     "description": "Third day in Kyoto - exploring Arashiyama bamboo grove and western Kyoto",
     "activities": [
-        {"time": "08:30", "description": "Early train to Arashiyama"},
-        {"time": "09:30", "description": "Explore Bamboo Grove"},
-        {"time": "10:30", "description": "Visit Tenryu-ji Temple"},
-        {"time": "12:00", "description": "Lunch in Arashiyama"},
-        {"time": "14:00", "description": "Togetsukyo Bridge and river views"},
-        {"time": "15:30", "description": "Visit monkey park for city views"},
-        {"time": "17:00", "description": "Return to central Kyoto"},
-        {"time": "19:00", "description": "Traditional kaiseki dinner"}
-    ],
+ 
+    ],    
     "reservations": [        {
-            "name": "Hakata Base The Passage 2号",
-            "description": "Private accommodation in Hakata Ward, Fukuoka hosted by Naoki - great location for Fukuoka exploration, check-in 4:00 PM December 4th",
-            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMMK8QPSFC",
-            "type": "Accommodation",
-            "confirmationCode": "HMMK8QPSFC",
-            "location": "Hakata Ward, Fukuoka"
-        },
-        {
-            "name": "Hiroshima Guesthouse ROOM3",
-            "description": "Family-run guesthouse in central Hiroshima hosted by Kunihiro - operated with 80-year-old mother and disabled brother who also run a coffee shop, check-in 3:00 PM December 6th, checkout 10:00 AM December 8th",
-            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMT2E4C89P",
-            "type": "Accommodation",
-            "confirmationCode": "HMT2E4C89P",
-            "location": "Hondori Naka Ward, Hiroshima"
-        }
+        "name": "Hakata Base The Passage 2号",
+        "description": "Private accommodation in Hakata Ward, Fukuoka hosted by Naoki - great location for Fukuoka exploration, check-in 4:00 PM December 4th",
+        "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMMK8QPSFC",
+        "type": "Accommodation",
+        "confirmationCode": "HMMK8QPSFC",
+        "location": "Hakata Ward, Fukuoka"
+     }
     ],
     "transportation": "JR trains and local buses",
-    "accommodation": "Kyoto hotel",
     "meals": "Lunch: Arashiyama local cuisine, Dinner: Kaiseki restaurant",
     "budget": "�12,000 - �18,000",
     "notes": "Arashiyama is famous for bamboo groves and autumn colors. Monkey park offers great views of Kyoto."
@@ -733,41 +685,7 @@ const itineraryData = {
     "weather": "Check forecast - December weather",
     "description": "Day trip to Nara - ancient capital with friendly deer and historic temples",
     "activities": [
-        {
-            "time": "08:00",
-            "description": "Early train from Kyoto to Nara"
-        },
-        {
-            "time": "09:30",
-            "description": "Arrive in Nara, walk to Nara Park"
-        },
-        {
-            "time": "10:00",
-            "description": "Feed deer in Nara Park"
-        },
-        {
-            "time": "11:00",
-            "description": "Visit Todai-ji Temple and Great Buddha"
-        },
-        {
-            "time": "13:00",
-            "description": "Lunch in Nara"
-        },
-        {
-            "time": "14:30",
-            "description": "Explore Kasuga Taisha Shrine"
-        },
-        {
-            "time": "16:00",
-            "description": "Walk through Nara's historic streets"
-        },
-        {
-            "time": "17:30",
-            "description": "Return train to Kyoto"
-        },        {
-            "time": "19:00",
-            "description": "Dinner in Kyoto"
-        }    ],
+      ],
     "reservations": [        {
             "name": "Hakata Base The Passage 2号",
             "description": "Private accommodation in Hakata Ward, Fukuoka hosted by Naoki - second night of stay for Fukuoka exploration",
@@ -777,7 +695,6 @@ const itineraryData = {
             "location": "Hakata Ward, Fukuoka"
         }
     ],
-    "transportation": "Kintetsu line Kyoto to Nara",
     "accommodation": "Kyoto hotel",
     "meals": "Lunch: Nara local specialties, Dinner: Kyoto restaurant",
     "budget": "¥8,000 - ¥12,000",
@@ -790,15 +707,7 @@ const itineraryData = {
     "weather": "Check forecast - December weather",
     "description": "Travel day from Kyoto to Osaka - final Kyoto morning and Osaka arrival",
     "activities": [
-        {"time": "08:00", "description": "Final Kyoto breakfast"},
-        {"time": "09:30", "description": "Last-minute Kyoto sightseeing or shopping"},
-        {"time": "11:30", "description": "Check out of Kyoto hotel"},
-        {"time": "12:00", "description": "🚄 Express train to Osaka: Keihan Main Line (45min) OR Hankyu Railway (43min)"},
-        {"time": "12:45", "description": "🚄 Arrive in Osaka - Umeda or Namba area"},
-        {"time": "13:30", "description": "Check into Osaka hotel"},
-        {"time": "15:00", "description": "First exploration of Osaka - Dotonbori area"},
-        {"time": "17:00", "description": "Osaka street food tour"},
-        {"time": "19:00", "description": "Dinner in Dotonbori"},        {"time": "21:00", "description": "Experience Osaka nightlife"}
+       
     ],    "reservations": [
         {
             "name": "Hiroshima Guesthouse ROOM3",
@@ -810,7 +719,6 @@ const itineraryData = {
         }
     ],
     "transportation": "🚄 Express train Kyoto to Osaka (45min) - ¥410 Keihan OR ¥400 Hankyu",
-    "accommodation": "Osaka hotel (check-in)",
     "meals": "Breakfast: Kyoto, Lunch: Quick train bento, Dinner: Osaka street food",
     "budget": "¥10,000 - ¥15,000 (train only ¥410)",
     "notes": "🚄 Kyoto-Osaka: NO Shinkansen needed! Use local express trains - much cheaper & faster for city-to-city. Keihan Main Line (Gion→Osaka) or Hankyu (central Kyoto→Osaka). Both take ~45min. Dotonbori: Try takoyaki, okonomiyaki, kushikatsu!"
@@ -823,29 +731,7 @@ const itineraryData = {
     "weather": "Check forecast closer to date",
     "description": "Exploring Osaka - Japan's kitchen! Food adventures and city sights.",
     "activities": [
-        {
-            "time": "09:00",
-            "description": "Visit Osaka Castle"
-        },
-        {
-            "time": "12:00",
-            "description": "Lunch: Famous takoyaki in Dotonbori"
-        },
-        {
-            "time": "14:00",
-            "description": "Explore Dotonbori district"
-        },
-        {
-            "time": "16:00",
-            "description": "Shopping in Shinsaibashi"
-        },
-        {
-            "time": "18:00",
-            "description": "Street food tour"
-        },        {
-            "time": "20:00",
-            "description": "Experience Osaka nightlife"
-        }
+     
     ],
     "reservations": [
         {
@@ -857,8 +743,6 @@ const itineraryData = {
             "location": "Hondori Naka Ward, Hiroshima"
         }
     ],
-    "transportation": "Osaka Metro and JR lines",
-    "accommodation": "Osaka hotel",
     "meals": "Multiple street food experiences - takoyaki, okonomiyaki, kushikatsu",
     "budget": "¥12,000 - ¥18,000",
     "notes": "Osaka is famous for food! Try everything. Dotonbori is busiest in evening."
@@ -871,17 +755,7 @@ const itineraryData = {
     "weather": "Check forecast - December weather",
     "description": "Travel day from Osaka back to Tokyo - morning in Osaka, afternoon arrival in Tokyo",
     "activities": [
-        {"time": "08:00", "description": "Final Osaka breakfast"},
-        {"time": "09:30", "description": "Last-minute Osaka Castle or shopping"},
-        {"time": "10:30", "description": "🚅 Check out of Osaka hotel - head to Shin-Osaka Station"},
-        {"time": "11:00", "description": "🚅 CRITICAL: Arrive at Shin-Osaka Station - go to Tokaido Shinkansen platforms 21-26"},
-        {"time": "11:15", "description": "🚅 Board Shinkansen Nozomi 64 (or Hikari) - Shin-Osaka to Tokyo (2h 45min)"},
-        {"time": "11:30", "description": "🚅 Shinkansen departs Shin-Osaka Station - buy bento on board!"},
-        {"time": "14:15", "description": "🚅 Arrive at Tokyo Station - transfer to hotel"},
-        {"time": "15:00", "description": "Check into Tokyo hotel (final days)"},
-        {"time": "16:30", "description": "Return to familiar Tokyo neighborhoods"},
-        {"time": "18:00", "description": "Welcome back to Tokyo dinner"},
-        {"time": "20:00", "description": "Evening stroll in Tokyo"},        {"time": "21:30", "description": "Rest and plan final Tokyo days"}
+      
     ],
     "reservations": [
         {
@@ -894,7 +768,6 @@ const itineraryData = {
         }
     ],
     "transportation": "🚅 Tokaido Shinkansen Nozomi/Hikari - Shin-Osaka to Tokyo (2h 45min) - ¥13,320",
-    "accommodation": "Shinjuku accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ) | [Navigate](https://maps.app.goo.gl/shinjuku-location)",
     "meals": "Breakfast: Osaka, Lunch: Shinkansen ekiben bento, Dinner: Tokyo",
     "budget": "¥15,000 - ¥20,000 (including Shinkansen ¥13,320)",
     "notes": "🚅 SHINKANSEN CRITICAL: Depart from SHIN-OSAKA Station (not Osaka Station)! Take subway/taxi to Shin-Osaka 45min early. Reserved seats essential on Sunday. Try famous ekiben train bento. Keep tickets until final exit. Download JR app for delays."
@@ -907,37 +780,7 @@ const itineraryData = {
     "weather": "Check forecast - December weather",
     "description": "Second-to-last day in Tokyo - favorite districts and final experiences",
     "activities": [
-        {
-            "time": "09:00",
-            "description": "Breakfast in a favorite Tokyo neighborhood"
-        },
-        {
-            "time": "10:30",
-            "description": "Tokyo National Museum or teamLab Borderless"
-        },
-        {
-            "time": "13:00",
-            "description": "Lunch in Tsukiji or Ginza"
-        },
-        {
-            "time": "15:00",
-            "description": "Final shopping in Harajuku or Shibuya"
-        },
-        {
-            "time": "17:30",
-            "description": "Visit Tokyo Skytree or Tokyo Tower at sunset"
-        },
-        {
-            "time": "19:00",
-            "description": "Special dinner at a high-end restaurant"
-        },
-        {
-            "time": "21:00",
-            "description": "Final night out in Tokyo"
-        },
-        {
-            "time": "23:00",
-            "description": "Reflection and packing"        }
+      
     ],
     "reservations": [
         {
@@ -949,8 +792,6 @@ const itineraryData = {
             "location": "6-chōme-5-7 Shinjuku, Shinjuku City, Tokyo"
         }
     ],
-    "transportation": "Tokyo Metro and JR lines",
-    "accommodation": "Shinjuku accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ) | [Navigate](https://maps.app.goo.gl/shinjuku-location)",
     "meals": "Breakfast: Local cafe, Lunch: Tsukiji/Ginza, Dinner: Special restaurant",
     "budget": "¥18,000 - ¥25,000",
     "notes": "Make the most of the second-to-last day. Visit any missed attractions and enjoy final Tokyo experiences."
@@ -962,33 +803,7 @@ const itineraryData = {
     "weather": "Check forecast - December weather",
     "description": "Last full day in Tokyo - final shopping, favorite spots, and memorable experiences",
     "activities": [
-        {
-            "time": "09:00",
-            "description": "Final breakfast at a favorite Tokyo cafe"
-        },
-        {
-            "time": "10:30",
-            "description": "Last-minute shopping in Akihabara"
-        },
-        {
-            "time": "13:00",
-            "description": "Maid Cafe"
-        },
-        {
-            "time": "15:00",
-            "description": "Revisit favorite spots or districts"
-        },
-        {
-            "time": "17:00",
-            "description": "Final temple or shrine visit"
-        },
-        {
-            "time": "19:00",
-            "description": "Farewell dinner - special restaurant or izakaya"
-        },
-        {
-            "time": "21:00",
-            "description": "Pack and prepare for departure"        }
+      
     ],
     "reservations": [
         {
@@ -1001,7 +816,6 @@ const itineraryData = {
         }
     ],
     "transportation": "Tokyo Metro and JR lines",
-    "accommodation": "Shinjuku accommodation (final night) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ) | [Navigate](https://maps.app.goo.gl/shinjuku-location)",
     "meals": "Breakfast: Cafe, Lunch: Special restaurant, Dinner: Farewell meal",
     "budget": "¥15,000 - ¥25,000 (including souvenirs)",
     "notes": "Last chance for any missed experiences. Pack carefully for departure. Confirm transportation to airport."
@@ -1013,29 +827,7 @@ const itineraryData = {
     "weather": "Check forecast closer to date",
     "description": "Final day in Japan - last-minute shopping, favorite spots, and departure preparations.",
     "activities": [
-        {
-            "time": "08:00",
-            "description": "Final Japanese breakfast"
-        },
-        {
-            "time": "10:00",
-            "description": "Last-minute souvenir shopping"
-        },
-        {
-            "time": "12:00",
-            "description": "Lunch at your favorite discovered restaurant"
-        },
-        {
-            "time": "14:00",
-            "description": "Pack and check out of hotel"
-        },
-        {
-            "time": "16:00",
-            "description": "Depart for Haneda Airport"
-        },
-        {
-            "time": "18:00",
-            "description": "Flight departure (check your actual time)"        }
+      
     ],
     "reservations": [
         {
@@ -1047,82 +839,9 @@ const itineraryData = {
             "location": "6-chōme-5-7 Shinjuku, Shinjuku City, Tokyo"
         }
     ],    "transportation": "Airport Express to Haneda Airport",
-    "accommodation": "Check out of Shinjuku accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ) | [Navigate](https://maps.app.goo.gl/shinjuku-location)",
     "meals": "Breakfast: Hotel, Lunch: Favorite restaurant, Dinner: Airport/In-flight",
     "budget": "¥10,000 - ¥15,000 (plus souvenirs)",
     "notes": "Allow extra time for airport. Keep receipts for tax-free shopping. Don't forget to say arigatou gozaimasu!"
-}
-,
-"day17": {
-    "day": 17,
-    "date": "Wednesday, December 11, 2025",
-    "location": "Travel Day (Japan → USA)",
-    "weather": "In transit",
-    "description": "ANA Reservation C13J79 - Return journey from Tokyo to Austin via San Francisco. United Airlines Economy Value Plus class. Final day of the Japan adventure - sayonara! 🇯🇵✈️🇺🇸",
-    "activities": [
-        {
-            "time": "08:00",
-            "description": "🧳 Final packing and check out from accommodation - Double check passport, JR Pass, souvenirs!"
-        },
-        {
-            "time": "09:00",
-            "description": "🚇 Tokyo city center to Haneda Airport (HND) - Allow extra time for train delays"
-        },
-        {
-            "time": "10:30",
-            "description": "🛫 Arrive at Tokyo International (Haneda) Airport (HND) - Check-in and security (3+ hours early for international)"
-        },
-        {
-            "time": "10:30-13:30",
-            "description": "✅ Check-in, security, duty-free shopping, final Japanese meal at airport - Last chance for omiyage (souvenirs)!"
-        },
-        {
-            "time": "13:30",
-            "description": "🛫 Depart Tokyo International (Haneda) Airport (HND) - United NH7010 (operated by United Airlines)"
-        },
-        {
-            "time": "13:30-06:45",
-            "description": "✈️ Flight NH7010: HND→SFO (9hr 15min trans-Pacific) - Economy Value Plus - Sleep, reflect on amazing trip!"
-        },
-        {
-            "time": "06:45",
-            "description": "🛬 Arrive at San Francisco International Airport (SFO) - Wednesday Dec 11, 6:45 AM PST (same day due to time zone)"
-        },
-        {
-            "time": "06:45-09:10",
-            "description": "⏰ Layover at SFO (2 hours 25 minutes) - Immigration, customs, terminal change for domestic connection"
-        },
-        {
-            "time": "09:10",
-            "description": "🛫 Depart San Francisco International Airport (SFO) - United NH7332 (operated by United Airlines)"
-        },
-        {
-            "time": "09:10-14:28",
-            "description": "✈️ Flight NH7332: SFO→AUS (3hr 18min) - Economy Value Plus - Almost home!"
-        },
-        {
-            "time": "14:28",
-            "description": "🛬 Arrive at Austin-Bergstrom International Airport (AUS) - Wednesday Dec 11, 2:28 PM CST - Welcome home! 🏠"
-        },
-        {
-            "time": "15:00",
-            "description": "🚗 Baggage claim, customs, and head home - Trip complete! Time to start planning the next Japan adventure! 😊"        }
-    ],
-    "reservations": [
-        {
-            "name": "ANA Return Flights to Austin",
-            "description": "Return flights Tokyo to Austin via San Francisco - NH7010 (HND→SFO) and NH7332 (SFO→AUS) operated by United Airlines in Economy Value Plus class",
-            "url": "https://aswbe.ana.co.jp/webapps/servicing/mybooking",
-            "type": "Flight Reservation",
-            "confirmationCode": "C13J79",
-            "location": "Tokyo → San Francisco → Austin"
-        }
-    ],
-    "transportation": "ANA Reservation C13J79: NH7010 (HND→SFO), NH7332 (SFO→AUS) - operated by United Airlines | [Manage Booking](https://aswbe.ana.co.jp/webapps/servicing/mybooking)",
-    "accommodation": "Economy Value Plus seats on both flights",
-    "meals": "In-flight meals on both segments - last taste of Japanese hospitality on NH7010",
-    "budget": "Flight already paid - ANA/United codeshare booking",
-    "notes": "✅ Reservation: C13J79 | ✅ Passenger: Adam Henderson | ✅ Economy Value Plus class | ✅ Check baggage weight limits for souvenirs! | Set watch back to US time zones during layover. Download photos from trip during flights. Prepare for reverse jet lag. Don't forget to declare any food items at customs!"
 }
 ,
 };

@@ -5,23 +5,18 @@
     "weather": "Check forecast - December weather",
     "description": "Third day in Kyoto - exploring Arashiyama bamboo grove and western Kyoto",
     "activities": [
-        {"time": "08:30", "description": "Early train to Arashiyama"},
-        {"time": "09:30", "description": "Explore Bamboo Grove"},
-        {"time": "10:30", "description": "Visit Tenryu-ji Temple"},
-        {"time": "12:00", "description": "Lunch in Arashiyama"},
-        {"time": "14:00", "description": "Togetsukyo Bridge and river views"},
-        {"time": "15:30", "description": "Visit monkey park for city views"},
-        {"time": "17:00", "description": "Return to central Kyoto"},        {"time": "19:00", "description": "Traditional kaiseki dinner"}    ],    "reservations": [        {
-            "name": "Hakata Base The Passage 2号",
-            "description": "Private accommodation in Hakata Ward, Fukuoka hosted by Naoki - great location for Fukuoka exploration, check-in 4:00 PM December 4th",
-            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMMK8QPSFC",
-            "type": "Accommodation",
-            "confirmationCode": "HMMK8QPSFC",
-            "location": "Hakata Ward, Fukuoka"
-        }
+ 
+    ],    
+    "reservations": [        {
+        "name": "Hakata Base The Passage 2号",
+        "description": "Private accommodation in Hakata Ward, Fukuoka hosted by Naoki - great location for Fukuoka exploration, check-in 4:00 PM December 4th",
+        "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMMK8QPSFC",
+        "type": "Accommodation",
+        "confirmationCode": "HMMK8QPSFC",
+        "location": "Hakata Ward, Fukuoka"
+     }
     ],
     "transportation": "JR trains and local buses",
-    "accommodation": "Kyoto hotel",
     "meals": "Lunch: Arashiyama local cuisine, Dinner: Kaiseki restaurant",
     "budget": "�12,000 - �18,000",
     "notes": "Arashiyama is famous for bamboo groves and autumn colors. Monkey park offers great views of Kyoto."
