@@ -520,18 +520,17 @@ class ItineraryLoader {
                 <div class="info-section transportation ${this.isCriticalTransportation(day.transportation) ? 'critical' : ''}">
                     <div class="info-title">${this.isCriticalTransportation(day.transportation) ? 'Critical Transportation' : 'Transportation'}</div>
                     <div class="info-content">${this.isCriticalTransportation(day.transportation) ? this.formatCriticalTransportation(day.transportation, day.activities) : this.processMarkdownLinks(day.transportation)}</div>
-                </div>` : ''}
-                <div class="info-section accommodation">
+                </div>` : ''}                <div class="info-section accommodation">
                     <div class="info-title">Accommodation</div>
-                    <div class="info-content">${this.processMarkdownLinks(day.accommodation)}</div>
+                    <div class="info-content">${this.processMarkdownLinks(day.accommodation || 'TBD')}</div>
                 </div>
                 <div class="info-section meals">
                     <div class="info-title">Meals</div>
-                    <div class="info-content">${day.meals}</div>
+                    <div class="info-content">${day.meals || 'TBD'}</div>
                 </div>
                 <div class="info-section budget">
                     <div class="info-title">Budget</div>
-                    <div class="info-content">${day.budget}</div>
+                    <div class="info-content">${day.budget || 'TBD'}</div>
                 </div>
             </div>
             
@@ -544,10 +543,12 @@ class ItineraryLoader {
         `;
 
         return card;
-    }
-
-    // Convert Markdown-style links to HTML links
+    }    // Convert Markdown-style links to HTML links
     processMarkdownLinks(text) {
+        // Handle undefined, null, or non-string values
+        if (!text || typeof text !== 'string') {
+            return text || '';
+        }
         // Regex to match [text](url) pattern
         return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" class="shrine-link">$1</a>');
     }
@@ -591,7 +592,7 @@ class ItineraryLoader {
               html += `
                 <div class="${classes.join(' ')}">
                     <span class="activity-time">${activity.time}</span>
-                    <span class="activity-description">${this.processMarkdownLinks(activity.description)}${mapsLink}</span>
+                    <span class="activity-description">${this.processMarkdownLinks(activity.description || '')}${mapsLink}</span>
                 </div>
             `;
         });
