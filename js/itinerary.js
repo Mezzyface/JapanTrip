@@ -553,29 +553,40 @@ class ItineraryLoader {
         }
         // Regex to match [text](url) pattern
         return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" class="shrine-link">$1</a>');
-    }
-
-    groupActivitiesByLocation(activities) {
+    }    groupActivitiesByLocation(activities) {
         let currentLocation = null;
         let html = '';
         
         activities.forEach((activity, index) => {
-            // Detect activity type and location
+            // Check for area property first, then detect activity type and location
+            let locationToUse = null;
+            
+            if (activity.area) {
+                // Use the area property if it exists
+                locationToUse = activity.area;
+            } else {
+                // Fall back to analyzing the activity for location
+                const activityInfo = this.analyzeActivity(activity);
+                locationToUse = activityInfo.location;
+            }
+            
+            // Detect activity info for other properties
             const activityInfo = this.analyzeActivity(activity);
             
             // Add location group header if location changes
-            if (activityInfo.location && activityInfo.location !== currentLocation) {
+            if (locationToUse && locationToUse !== currentLocation) {
                 if (currentLocation !== null) {
                     html += '</div>'; // Close previous location group
                 }
                 html += `
                     <div class="location-group">
-                        <span class="location-name">${activityInfo.location}</span>
+                        <span class="location-name">${locationToUse}</span>
                         ${activityInfo.travelTime ? `<span class="travel-time">${activityInfo.travelTime}</span>` : ''}
                     </div>
                     <div class="location-activities">
                 `;
-                currentLocation = activityInfo.location;            } else if (currentLocation === null) {
+                currentLocation = locationToUse;
+            } else if (currentLocation === null) {
                 html += '<div class="location-activities">';
             }
             

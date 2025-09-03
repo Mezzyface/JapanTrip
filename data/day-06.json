@@ -4,50 +4,60 @@
     "location": "Kyoto - Moss Garden, Arashiyama & Maple Illuminations",
     "weather": "Cool December weather, perfect for temple gardens and autumn illuminations",
     "description": "🍃 Ultimate Kyoto temple and garden adventure! Sacred moss garden meditation, bamboo forest exploration, comprehensive goshuin temple tour, and magical evening maple illuminations.",
-    "activities": [
-        {
+    "activities": [        {
             "time": "09:00",
-            "description": "🧘 Saiho-j [📖 Temple Guide](https://jpmanual.com/en/kokedera) [Navigate](https://maps.app.goo.gl/zaEwoYSEpa1wbLLm9)"
+            "description": "🧘 Saiho-j [📖 Temple Guide](https://jpmanual.com/en/kokedera) [Navigate](https://maps.app.goo.gl/zaEwoYSEpa1wbLLm9)",
+            "area": "Moss Temple"
         },
         {
             "time": "11:00",
-            "description": "🍜 Quick lunch in Arashiyama before starting intensive temple tour"
+            "description": "🍜 Quick lunch in Arashiyama before starting intensive temple tour",
+            "area": "Arashiyama"
         },
         {
             "time": "12:00",
-            "description": "🏛️ Begin Arashiyama Goshuin Tour at Tenryu-j Temple - UNESCO World Heritage site (40 mins). [📖 Tour Guide](https://jinja-gosyuin.com/kyoto-rakusai/#8221)"
+            "description": "🏛️ Begin Arashiyama Goshuin Tour at Tenryu-j Temple - UNESCO World Heritage site (40 mins). [📖 Tour Guide](https://jinja-gosyuin.com/kyoto-rakusai/#8221)",
+            "area": "Arashiyama Goshuin Tour"
         },
         {
             "time": "12:46",
-            "description": "🎋 Walk through iconic Bamboo Forest Path to next shrine - ethereal bamboo grove experience (6 min walk)"
+            "description": "🎋 Walk through iconic Bamboo Forest Path to next shrine - ethereal bamboo grove experience (6 min walk)",
+            "area": "Arashiyama Goshuin Tour"
         },
         {
             "time": "13:00",
-            "description": "⛩️ Nonomiya Shrine - associated with Tale of Genji literary classic (25 mins, 6 min walk)"
+            "description": "⛩️ Nonomiya Shrine - associated with Tale of Genji literary classic (25 mins, 6 min walk)",
+            "area": "Arashiyama Goshuin Tour"
         },
         {
             "time": "13:31",
-            "description": "🍁 Jojakko-j Temple - famous for spectacular autumn leaves display (40 mins, 8 min walk)"
+            "description": "🍁 Jojakko-j Temple - famous for spectacular autumn leaves display (40 mins, 8 min walk)",
+            "area": "Arashiyama Goshuin Tour"
         },
         {
             "time": "14:19",
-            "description": "🏡 Rakushisha (Persimmon Hut) - former villa of Matsuo Basho's disciple (15 mins, 2 min walk)"
+            "description": "🏡 Rakushisha (Persimmon Hut) - former villa of Matsuo Basho's disciple (15 mins, 2 min walk)",
+            "area": "Arashiyama Goshuin Tour"
         },
         {
             "time": "14:36",
-            "description": "🏛️ Nison-in Temple - autumn leaves specialty with seasonal goshuin (25 mins, 2 min walk)"
+            "description": "🏛️ Nison-in Temple - autumn leaves specialty with seasonal goshuin (25 mins, 2 min walk)",
+            "area": "Arashiyama Goshuin Tour"
         },
         {
             "time": "15:03",
-            "description": "🏛️ Shoan-in Temple - popular goshuin (if open - typically closed Mondays, check Twitter/X) (15 mins, 3 min walk)"
+            "description": "🏛️ Shoan-in Temple - popular goshuin (if open - typically closed Mondays, check Twitter/X) (15 mins, 3 min walk)",
+            "area": "Arashiyama Goshuin Tour"
         },
         {
             "time": "15:20",
-            "description": "📖 Gion-j Temple - connected to Tale of the Heike epic (25 mins, 2 min walk)"
+            "description": "📖 Gion-j Temple - connected to Tale of the Heike epic (25 mins, 2 min walk)",
+            "area": "Arashiyama Goshuin Tour"
         },
         {
             "time": "15:47",
-            "description": "🏛️ Daikaku-j Temple - final temple stop, arrive by 4:15 PM latest for goshuin collection (20 min walk)"
+            "description": "🏛️ Daikaku-j Temple - final temple stop, arrive by 4:15 PM latest for goshuin collection (20 min walk)",
+            "area": "Arashiyama Goshuin Tour"
         },
         {
             "time": "16:30",
@@ -63,8 +73,7 @@
         },
         {
             "time": "20:30",
-            "description": "🚌 Return to accommodation via direct bus (Route 50) from Kitano Tenmangu-mae to Nijo Station"        }
-    ],
+            "description": "🚌 Return to accommodation via direct bus (Route 50) from Kitano Tenmangu-mae to Nijo Station"        }    ],
     "reservations": [
         {
             "name": "Saiho-j Temple (Moss Temple) - Nichi-nichi Sanpai",
