@@ -312,14 +312,20 @@ const itineraryData = {
             "type": "Bus Reservation",
             "confirmationCode": "BUS112925",
             "location": "Kawaguchiko → Mishima"
-        },
-        {
+        },        {
             "name": "Shinkansen Hikari 517",
             "description": "High-speed rail from Mishima to Kyoto - Hikari 517 departure 14:33, critical connection for afternoon Kyoto arrival",
             "url": "https://www.jrpass.com/",
             "type": "Train Reservation",
             "confirmationCode": "JR112925",
             "location": "Mishima → Kyoto"
+        },        {
+            "name": "Soba Roujina",
+            "description": "Award-winning soba restaurant (Top 100 Soba 2024) serving handmade 100% buckwheat soba and pure rice sake in Kyoto's Imperial Palace area - dinner reservation required",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260202/26023992/",
+            "type": "Restaurant Reservation",
+            "confirmationCode": "SOBA112925",
+            "location": "Kyoto Shiyakusho Mae"
         }
     ],
     "accommodation": "Kyoto Airbnb | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMCDYDAZEN) | [Navigate](https://maps.app.goo.gl/ejQTJRzxyqmuWyg36)",
