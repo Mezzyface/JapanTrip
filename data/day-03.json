@@ -14,7 +14,7 @@
         },
         {
             "time": "12:00",
-            "description": "🍜 Lunch at Specialty Hoto Fudo (Kawaguchiko Ekimae branch) [Navigate](https://maps.app.goo.gl/aLqEds7YVHaAGvom9)"
+            "description": "🍜 Lunch at Specialty Hoto Fudo (Kawaguchiko Ekimae branch) |[Site](http://www.houtou-fudou.jp/english.html) | [Navigate](https://maps.app.goo.gl/aLqEds7YVHaAGvom9)"
         },
         {
             "time": "14:00",
@@ -36,7 +36,16 @@
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00001065&goal=00000916&start_name=Kawaguchiko&goal_name=Shimoyoshida&cid=&from=route_top_search_box&ferry=false&taxi=false",
             "duration": "15 minutes",
             "cost": "~¥190",
-            "method": "Fujikyu Railway Line"
+            "method": "Fujikyu Railway Line"        }
+    ],
+    "reservations": [
+        {
+            "name": "Aoiso Ryokan",
+            "description": "Traditional Japanese ryokan accommodation in Kawaguchiko with Mount Fuji views and kaiseki dinner - Second night stay",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMKCYQKHZZ",
+            "type": "Accommodation",
+            "confirmationCode": "HMKCYQKHZZ",
+            "location": "Kawaguchiko"
         }
     ],
     "accommodation": "Aoiso Ryokan (あおい荘) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMKCYQKHZZ) |  [Navigate](https://maps.app.goo.gl/MCXdJWUuhSKBgMzF9)",
