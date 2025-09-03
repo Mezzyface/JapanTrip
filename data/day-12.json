@@ -24,10 +24,19 @@
         {
             "time": "18:00",
             "description": "Street food tour"
-        },
-        {
+        },        {
             "time": "20:00",
             "description": "Experience Osaka nightlife"
+        }
+    ],
+    "reservations": [
+        {
+            "name": "Hiroshima Guesthouse ROOM3",
+            "description": "Family-run guesthouse in central Hiroshima hosted by Kunihiro - second night of stay, check-out 10:00 AM December 8th",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMT2E4C89P",
+            "type": "Accommodation",
+            "confirmationCode": "HMT2E4C89P",
+            "location": "Hondori Naka Ward, Hiroshima"
         }
     ],
     "transportation": "Osaka Metro and JR lines",

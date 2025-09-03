@@ -35,7 +35,16 @@
         },
         {
             "time": "18:00",
-            "description": "Travel back to Kyoto: Express train from Osaka to Kyoto"
+            "description": "Travel back to Kyoto: Express train from Osaka to Kyoto"        }
+    ],
+    "reservations": [
+        {
+            "name": "Osaka Capsule Hotel",
+            "description": "Modern capsule hotel accommodation in Osaka - second night of stay for continued Osaka exploration",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMK2TXC8PM",
+            "type": "Accommodation",
+            "confirmationCode": "HMK2TXC8PM",
+            "location": "Osaka"
         }
     ],
     "transportation": "JR trains between Kyoto-Osaka, Osaka Metro within city",

@@ -13,8 +13,16 @@
         {"time": "13:30", "description": "Check into Osaka hotel"},
         {"time": "15:00", "description": "First exploration of Osaka - Dotonbori area"},
         {"time": "17:00", "description": "Osaka street food tour"},
-        {"time": "19:00", "description": "Dinner in Dotonbori"},
-        {"time": "21:00", "description": "Experience Osaka nightlife"}
+        {"time": "19:00", "description": "Dinner in Dotonbori"},        {"time": "21:00", "description": "Experience Osaka nightlife"}
+    ],    "reservations": [
+        {
+            "name": "Hiroshima Guesthouse ROOM3",
+            "description": "Family-run guesthouse in central Hiroshima hosted by Kunihiro - check-in 3:00 PM December 6th, smart lock entry system",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMT2E4C89P",
+            "type": "Accommodation",
+            "confirmationCode": "HMT2E4C89P",
+            "location": "Hondori Naka Ward, Hiroshima"
+        }
     ],
     "transportation": "🚄 Express train Kyoto to Osaka (45min) - ¥410 Keihan OR ¥400 Hankyu",
     "accommodation": "Osaka hotel (check-in)",

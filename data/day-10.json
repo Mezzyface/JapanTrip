@@ -36,10 +36,17 @@
         {
             "time": "17:30",
             "description": "Return train to Kyoto"
-        },
-        {
+        },        {
             "time": "19:00",
             "description": "Dinner in Kyoto"
+        }    ],
+    "reservations": [        {
+            "name": "Hakata Base The Passage 2号",
+            "description": "Private accommodation in Hakata Ward, Fukuoka hosted by Naoki - second night of stay for Fukuoka exploration",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMMK8QPSFC",
+            "type": "Accommodation",
+            "confirmationCode": "HMMK8QPSFC",
+            "location": "Hakata Ward, Fukuoka"
         }
     ],
     "transportation": "Kintetsu line Kyoto to Nara",

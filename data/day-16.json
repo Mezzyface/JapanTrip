@@ -27,10 +27,19 @@
         },
         {
             "time": "18:00",
-            "description": "Flight departure (check your actual time)"
+            "description": "Flight departure (check your actual time)"        }
+    ],
+    "reservations": [
+        {
+            "name": "Home in Shinjuku City",
+            "description": "Private room in Shinjuku hosted by Okamoto - CHECKOUT DAY: 10:00 AM December 11th checkout time, close to transportation for airport departure",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ",
+            "type": "Accommodation",
+            "confirmationCode": "HM5S8ARHRQ",
+            "location": "6-chōme-5-7 Shinjuku, Shinjuku City, Tokyo"
         }
     ],    "transportation": "Airport Express to Haneda Airport",
-    "accommodation": "Check out of Tokyo accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
+    "accommodation": "Check out of Shinjuku accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ) | [Navigate](https://maps.app.goo.gl/shinjuku-location)",
     "meals": "Breakfast: Hotel, Lunch: Favorite restaurant, Dinner: Airport/In-flight",
     "budget": "¥10,000 - ¥15,000 (plus souvenirs)",
     "notes": "Allow extra time for airport. Keep receipts for tax-free shopping. Don't forget to say arigatou gozaimasu!"

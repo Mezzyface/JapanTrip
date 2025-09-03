@@ -35,11 +35,20 @@
         },
         {
             "time": "23:00",
-            "description": "Reflection and packing"
+            "description": "Reflection and packing"        }
+    ],
+    "reservations": [
+        {
+            "name": "Home in Shinjuku City",
+            "description": "Private room in Shinjuku hosted by Okamoto - 7 minutes walk to Shinjuku Gyoen, near station, clean private room perfect for sightseeing, continuing stay from December 8th",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ",
+            "type": "Accommodation",
+            "confirmationCode": "HM5S8ARHRQ",
+            "location": "6-chōme-5-7 Shinjuku, Shinjuku City, Tokyo"
         }
     ],
     "transportation": "Tokyo Metro and JR lines",
-    "accommodation": "Tokyo accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
+    "accommodation": "Shinjuku accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ) | [Navigate](https://maps.app.goo.gl/shinjuku-location)",
     "meals": "Breakfast: Local cafe, Lunch: Tsukiji/Ginza, Dinner: Special restaurant",
     "budget": "¥18,000 - ¥25,000",
     "notes": "Make the most of the second-to-last day. Visit any missed attractions and enjoy final Tokyo experiences."

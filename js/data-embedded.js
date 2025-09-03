@@ -613,7 +613,16 @@ const itineraryData = {
         },
         {
             "time": "19:30",
-            "description": "🍱 First Osaka dinner - explore local neighborhood for authentic Kansai cuisine"
+            "description": "🍱 First Osaka dinner - explore local neighborhood for authentic Kansai cuisine"        }
+    ],
+    "reservations": [
+        {
+            "name": "Osaka Capsule Hotel",
+            "description": "Modern capsule hotel accommodation in Osaka for 2-night stay - convenient location for exploring Nara and Osaka attractions",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMK2TXC8PM",
+            "type": "Accommodation",
+            "confirmationCode": "HMK2TXC8PM",
+            "location": "Osaka"
         }
     ],
     "transportation": "🚄 JR Sagano Line + JR Nara Line to Nara, 🚶 Walking tours through Nara Park, 🚄 JR Yamatoji Rapid to Osaka",
@@ -659,7 +668,16 @@ const itineraryData = {
         },
         {
             "time": "18:00",
-            "description": "Travel back to Kyoto: Express train from Osaka to Kyoto"
+            "description": "Travel back to Kyoto: Express train from Osaka to Kyoto"        }
+    ],
+    "reservations": [
+        {
+            "name": "Osaka Capsule Hotel",
+            "description": "Modern capsule hotel accommodation in Osaka - second night of stay for continued Osaka exploration",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMK2TXC8PM",
+            "type": "Accommodation",
+            "confirmationCode": "HMK2TXC8PM",
+            "location": "Osaka"
         }
     ],
     "transportation": "JR trains between Kyoto-Osaka, Osaka Metro within city",
@@ -683,6 +701,23 @@ const itineraryData = {
         {"time": "15:30", "description": "Visit monkey park for city views"},
         {"time": "17:00", "description": "Return to central Kyoto"},
         {"time": "19:00", "description": "Traditional kaiseki dinner"}
+    ],
+    "reservations": [        {
+            "name": "Hakata Base The Passage 2号",
+            "description": "Private accommodation in Hakata Ward, Fukuoka hosted by Naoki - great location for Fukuoka exploration, check-in 4:00 PM December 4th",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMMK8QPSFC",
+            "type": "Accommodation",
+            "confirmationCode": "HMMK8QPSFC",
+            "location": "Hakata Ward, Fukuoka"
+        },
+        {
+            "name": "Hiroshima Guesthouse ROOM3",
+            "description": "Family-run guesthouse in central Hiroshima hosted by Kunihiro - operated with 80-year-old mother and disabled brother who also run a coffee shop, check-in 3:00 PM December 6th, checkout 10:00 AM December 8th",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMT2E4C89P",
+            "type": "Accommodation",
+            "confirmationCode": "HMT2E4C89P",
+            "location": "Hondori Naka Ward, Hiroshima"
+        }
     ],
     "transportation": "JR trains and local buses",
     "accommodation": "Kyoto hotel",
@@ -729,10 +764,17 @@ const itineraryData = {
         {
             "time": "17:30",
             "description": "Return train to Kyoto"
-        },
-        {
+        },        {
             "time": "19:00",
             "description": "Dinner in Kyoto"
+        }    ],
+    "reservations": [        {
+            "name": "Hakata Base The Passage 2号",
+            "description": "Private accommodation in Hakata Ward, Fukuoka hosted by Naoki - second night of stay for Fukuoka exploration",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMMK8QPSFC",
+            "type": "Accommodation",
+            "confirmationCode": "HMMK8QPSFC",
+            "location": "Hakata Ward, Fukuoka"
         }
     ],
     "transportation": "Kintetsu line Kyoto to Nara",
@@ -756,8 +798,16 @@ const itineraryData = {
         {"time": "13:30", "description": "Check into Osaka hotel"},
         {"time": "15:00", "description": "First exploration of Osaka - Dotonbori area"},
         {"time": "17:00", "description": "Osaka street food tour"},
-        {"time": "19:00", "description": "Dinner in Dotonbori"},
-        {"time": "21:00", "description": "Experience Osaka nightlife"}
+        {"time": "19:00", "description": "Dinner in Dotonbori"},        {"time": "21:00", "description": "Experience Osaka nightlife"}
+    ],    "reservations": [
+        {
+            "name": "Hiroshima Guesthouse ROOM3",
+            "description": "Family-run guesthouse in central Hiroshima hosted by Kunihiro - check-in 3:00 PM December 6th, smart lock entry system",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMT2E4C89P",
+            "type": "Accommodation",
+            "confirmationCode": "HMT2E4C89P",
+            "location": "Hondori Naka Ward, Hiroshima"
+        }
     ],
     "transportation": "🚄 Express train Kyoto to Osaka (45min) - ¥410 Keihan OR ¥400 Hankyu",
     "accommodation": "Osaka hotel (check-in)",
@@ -792,10 +842,19 @@ const itineraryData = {
         {
             "time": "18:00",
             "description": "Street food tour"
-        },
-        {
+        },        {
             "time": "20:00",
             "description": "Experience Osaka nightlife"
+        }
+    ],
+    "reservations": [
+        {
+            "name": "Hiroshima Guesthouse ROOM3",
+            "description": "Family-run guesthouse in central Hiroshima hosted by Kunihiro - second night of stay, check-out 10:00 AM December 8th",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMT2E4C89P",
+            "type": "Accommodation",
+            "confirmationCode": "HMT2E4C89P",
+            "location": "Hondori Naka Ward, Hiroshima"
         }
     ],
     "transportation": "Osaka Metro and JR lines",
@@ -822,11 +881,20 @@ const itineraryData = {
         {"time": "15:00", "description": "Check into Tokyo hotel (final days)"},
         {"time": "16:30", "description": "Return to familiar Tokyo neighborhoods"},
         {"time": "18:00", "description": "Welcome back to Tokyo dinner"},
-        {"time": "20:00", "description": "Evening stroll in Tokyo"},
-        {"time": "21:30", "description": "Rest and plan final Tokyo days"}
+        {"time": "20:00", "description": "Evening stroll in Tokyo"},        {"time": "21:30", "description": "Rest and plan final Tokyo days"}
+    ],
+    "reservations": [
+        {
+            "name": "Home in Shinjuku City",
+            "description": "Private room in Shinjuku hosted by Okamoto - 7 minutes walk to Shinjuku Gyoen, near station, clean private room perfect for sightseeing, check-in 3:00 PM December 8th, checkout 10:00 AM December 11th",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ",
+            "type": "Accommodation",
+            "confirmationCode": "HM5S8ARHRQ",
+            "location": "6-chōme-5-7 Shinjuku, Shinjuku City, Tokyo"
+        }
     ],
     "transportation": "🚅 Tokaido Shinkansen Nozomi/Hikari - Shin-Osaka to Tokyo (2h 45min) - ¥13,320",
-    "accommodation": "Tokyo accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
+    "accommodation": "Shinjuku accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ) | [Navigate](https://maps.app.goo.gl/shinjuku-location)",
     "meals": "Breakfast: Osaka, Lunch: Shinkansen ekiben bento, Dinner: Tokyo",
     "budget": "¥15,000 - ¥20,000 (including Shinkansen ¥13,320)",
     "notes": "🚅 SHINKANSEN CRITICAL: Depart from SHIN-OSAKA Station (not Osaka Station)! Take subway/taxi to Shin-Osaka 45min early. Reserved seats essential on Sunday. Try famous ekiben train bento. Keep tickets until final exit. Download JR app for delays."
@@ -869,11 +937,20 @@ const itineraryData = {
         },
         {
             "time": "23:00",
-            "description": "Reflection and packing"
+            "description": "Reflection and packing"        }
+    ],
+    "reservations": [
+        {
+            "name": "Home in Shinjuku City",
+            "description": "Private room in Shinjuku hosted by Okamoto - 7 minutes walk to Shinjuku Gyoen, near station, clean private room perfect for sightseeing, continuing stay from December 8th",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ",
+            "type": "Accommodation",
+            "confirmationCode": "HM5S8ARHRQ",
+            "location": "6-chōme-5-7 Shinjuku, Shinjuku City, Tokyo"
         }
     ],
     "transportation": "Tokyo Metro and JR lines",
-    "accommodation": "Tokyo accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
+    "accommodation": "Shinjuku accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ) | [Navigate](https://maps.app.goo.gl/shinjuku-location)",
     "meals": "Breakfast: Local cafe, Lunch: Tsukiji/Ginza, Dinner: Special restaurant",
     "budget": "¥18,000 - ¥25,000",
     "notes": "Make the most of the second-to-last day. Visit any missed attractions and enjoy final Tokyo experiences."
@@ -891,11 +968,11 @@ const itineraryData = {
         },
         {
             "time": "10:30",
-            "description": "Last-minute shopping in Ginza or Shibuya"
+            "description": "Last-minute shopping in Akihabara"
         },
         {
             "time": "13:00",
-            "description": "Lunch at a memorable restaurant from the trip"
+            "description": "Maid Cafe"
         },
         {
             "time": "15:00",
@@ -911,11 +988,20 @@ const itineraryData = {
         },
         {
             "time": "21:00",
-            "description": "Pack and prepare for departure"
+            "description": "Pack and prepare for departure"        }
+    ],
+    "reservations": [
+        {
+            "name": "Home in Shinjuku City",
+            "description": "Private room in Shinjuku hosted by Okamoto - 7 minutes walk to Shinjuku Gyoen, near station, clean private room perfect for sightseeing, continuing stay from December 8th",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ",
+            "type": "Accommodation",
+            "confirmationCode": "HM5S8ARHRQ",
+            "location": "6-chōme-5-7 Shinjuku, Shinjuku City, Tokyo"
         }
     ],
     "transportation": "Tokyo Metro and JR lines",
-    "accommodation": "Tokyo accommodation (final night) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
+    "accommodation": "Shinjuku accommodation (final night) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ) | [Navigate](https://maps.app.goo.gl/shinjuku-location)",
     "meals": "Breakfast: Cafe, Lunch: Special restaurant, Dinner: Farewell meal",
     "budget": "¥15,000 - ¥25,000 (including souvenirs)",
     "notes": "Last chance for any missed experiences. Pack carefully for departure. Confirm transportation to airport."
@@ -949,10 +1035,19 @@ const itineraryData = {
         },
         {
             "time": "18:00",
-            "description": "Flight departure (check your actual time)"
+            "description": "Flight departure (check your actual time)"        }
+    ],
+    "reservations": [
+        {
+            "name": "Home in Shinjuku City",
+            "description": "Private room in Shinjuku hosted by Okamoto - CHECKOUT DAY: 10:00 AM December 11th checkout time, close to transportation for airport departure",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ",
+            "type": "Accommodation",
+            "confirmationCode": "HM5S8ARHRQ",
+            "location": "6-chōme-5-7 Shinjuku, Shinjuku City, Tokyo"
         }
     ],    "transportation": "Airport Express to Haneda Airport",
-    "accommodation": "Check out of Tokyo accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
+    "accommodation": "Check out of Shinjuku accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ) | [Navigate](https://maps.app.goo.gl/shinjuku-location)",
     "meals": "Breakfast: Hotel, Lunch: Favorite restaurant, Dinner: Airport/In-flight",
     "budget": "¥10,000 - ¥15,000 (plus souvenirs)",
     "notes": "Allow extra time for airport. Keep receipts for tax-free shopping. Don't forget to say arigatou gozaimasu!"

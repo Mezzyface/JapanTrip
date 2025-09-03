@@ -15,11 +15,20 @@
         {"time": "15:00", "description": "Check into Tokyo hotel (final days)"},
         {"time": "16:30", "description": "Return to familiar Tokyo neighborhoods"},
         {"time": "18:00", "description": "Welcome back to Tokyo dinner"},
-        {"time": "20:00", "description": "Evening stroll in Tokyo"},
-        {"time": "21:30", "description": "Rest and plan final Tokyo days"}
+        {"time": "20:00", "description": "Evening stroll in Tokyo"},        {"time": "21:30", "description": "Rest and plan final Tokyo days"}
+    ],
+    "reservations": [
+        {
+            "name": "Home in Shinjuku City",
+            "description": "Private room in Shinjuku hosted by Okamoto - 7 minutes walk to Shinjuku Gyoen, near station, clean private room perfect for sightseeing, check-in 3:00 PM December 8th, checkout 10:00 AM December 11th",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ",
+            "type": "Accommodation",
+            "confirmationCode": "HM5S8ARHRQ",
+            "location": "6-chōme-5-7 Shinjuku, Shinjuku City, Tokyo"
+        }
     ],
     "transportation": "🚅 Tokaido Shinkansen Nozomi/Hikari - Shin-Osaka to Tokyo (2h 45min) - ¥13,320",
-    "accommodation": "Tokyo accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
+    "accommodation": "Shinjuku accommodation | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ) | [Navigate](https://maps.app.goo.gl/shinjuku-location)",
     "meals": "Breakfast: Osaka, Lunch: Shinkansen ekiben bento, Dinner: Tokyo",
     "budget": "¥15,000 - ¥20,000 (including Shinkansen ¥13,320)",
     "notes": "🚅 SHINKANSEN CRITICAL: Depart from SHIN-OSAKA Station (not Osaka Station)! Take subway/taxi to Shin-Osaka 45min early. Reserved seats essential on Sunday. Try famous ekiben train bento. Keep tickets until final exit. Download JR app for delays."

@@ -67,7 +67,16 @@
         },
         {
             "time": "19:30",
-            "description": "🍱 First Osaka dinner - explore local neighborhood for authentic Kansai cuisine"
+            "description": "🍱 First Osaka dinner - explore local neighborhood for authentic Kansai cuisine"        }
+    ],
+    "reservations": [
+        {
+            "name": "Osaka Capsule Hotel",
+            "description": "Modern capsule hotel accommodation in Osaka for 2-night stay - convenient location for exploring Nara and Osaka attractions",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMK2TXC8PM",
+            "type": "Accommodation",
+            "confirmationCode": "HMK2TXC8PM",
+            "location": "Osaka"
         }
     ],
     "transportation": "🚄 JR Sagano Line + JR Nara Line to Nara, 🚶 Walking tours through Nara Park, 🚄 JR Yamatoji Rapid to Osaka",

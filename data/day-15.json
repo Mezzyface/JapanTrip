@@ -11,11 +11,11 @@
         },
         {
             "time": "10:30",
-            "description": "Last-minute shopping in Ginza or Shibuya"
+            "description": "Last-minute shopping in Akihabara"
         },
         {
             "time": "13:00",
-            "description": "Lunch at a memorable restaurant from the trip"
+            "description": "Maid Cafe"
         },
         {
             "time": "15:00",
@@ -31,11 +31,20 @@
         },
         {
             "time": "21:00",
-            "description": "Pack and prepare for departure"
+            "description": "Pack and prepare for departure"        }
+    ],
+    "reservations": [
+        {
+            "name": "Home in Shinjuku City",
+            "description": "Private room in Shinjuku hosted by Okamoto - 7 minutes walk to Shinjuku Gyoen, near station, clean private room perfect for sightseeing, continuing stay from December 8th",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ",
+            "type": "Accommodation",
+            "confirmationCode": "HM5S8ARHRQ",
+            "location": "6-chōme-5-7 Shinjuku, Shinjuku City, Tokyo"
         }
     ],
     "transportation": "Tokyo Metro and JR lines",
-    "accommodation": "Tokyo accommodation (final night) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
+    "accommodation": "Shinjuku accommodation (final night) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM5S8ARHRQ) | [Navigate](https://maps.app.goo.gl/shinjuku-location)",
     "meals": "Breakfast: Cafe, Lunch: Special restaurant, Dinner: Farewell meal",
     "budget": "¥15,000 - ¥25,000 (including souvenirs)",
     "notes": "Last chance for any missed experiences. Pack carefully for departure. Confirm transportation to airport."
