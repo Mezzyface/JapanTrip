@@ -65,6 +65,16 @@
             "time": "20:30",
             "description": "🚌 Return to accommodation via direct bus (Route 50) from Kitano Tenmangu-mae to Nijo Station"        }
     ],
+    "reservations": [
+        {
+            "name": "Saiho-j Temple (Moss Temple) - Nichi-nichi Sanpai",
+            "description": "Sacred moss temple experience with sutra copying meditation and garden contemplation - advance reservation required since 1977, limited daily visitors for peaceful spiritual practice, 9:00 AM visit",
+            "url": "https://intosaihoji.com/en/nichinichi/",
+            "type": "Temple Reservation",
+            "confirmationCode": "SAIHOJI120125",
+            "location": "Arashiyama, Kyoto"
+        }
+    ],
     "travelRoutes": [
         {
             "name": "Nijo Station to Saiho-j Temple (Moss Temple)",
@@ -75,8 +85,6 @@
             "method": "Train + Bus combination"
         }
     ],
-    "transportation": "🚄 Multiple trains/buses for temple hopping, 🚌 Kyoto city buses, 🚕 Taxi for time efficiency between distant locations",
-    "accommodation": "Kyoto accommodation (ryokan or hotel)",
     "meals": "Breakfast: Light early meal, Lunch: Arashiyama local cuisine, Dinner: Traditional restaurant near Kitano Tenmangu",
     "budget": "¥12,000 - ¥18,000 (Saiho-j reservation ¥3,000, temple fees ¥300-600 each, illumination ticket ¥1,000, meals, transport)",
     "notes": "🧘 ADVANCE RESERVATION REQUIRED for Saiho-j! Very ambitious 9-temple tour - move efficiently between stops. Shoan-in typically closed Mondays - check social media. Daikaku-j goshuin office closes 4:30 PM sharp. Maple illuminations are seasonal highlight and can be crowded. December weather requires warm clothing for evening illuminations."
