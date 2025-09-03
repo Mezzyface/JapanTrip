@@ -262,7 +262,7 @@ const itineraryData = {
     "activities": [
         {
             "time": "09:00",
-            "description": "🎨 Visit Kubota Itchiku Art Museum [Navigate](https://maps.app.goo.gl/ky2v6U1GBZ3zZNwL7)"
+            "description": "🎨 Visit Kubota Itchiku Art Museum | [Site](https://www.itchiku-museum.com/) | [Navigate](https://maps.app.goo.gl/ky2v6U1GBZ3zZNwL7)"
         },
         {
             "time": "13:30",
@@ -302,9 +302,26 @@ const itineraryData = {
             "description": "Evening journey from Nijo Station to Pontocho Alley for traditional sushi dining",
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00007206&goal=%7B%27lat%27%3A35.005086%2C%27lon%27%3A135.770815%2C%27spot%27%3A%2701378-22704310739%27%7D&start_name=Nijo&goal_name=Pontocho%20Sushi%20Ishiya&cid=&from=route_top_search_box&date_time=2025-11-22T13%3A30&ferry=false&taxi=false",
             "duration": "Check route details",
-            "cost": "Local Kyoto transport",
-            "method": "Subway + Walking"
-        }    ],
+            "cost": "Local Kyoto transport",            "method": "Subway + Walking"
+        }
+    ],    "reservations": [
+        {
+            "name": "Kawaguchiko to Mishima Express Bus",
+            "description": "Express bus service from Kawaguchiko Station to Mishima Station for Shinkansen connection to Kyoto - critical transport connection",
+            "url": "https://www.fujikyu.co.jp/bus/",
+            "type": "Bus Reservation",
+            "confirmationCode": "BUS112925",
+            "location": "Kawaguchiko → Mishima"
+        },
+        {
+            "name": "Shinkansen Hikari 517",
+            "description": "High-speed rail from Mishima to Kyoto - Hikari 517 departure 14:33, critical connection for afternoon Kyoto arrival",
+            "url": "https://www.jrpass.com/",
+            "type": "Train Reservation",
+            "confirmationCode": "JR112925",
+            "location": "Mishima → Kyoto"
+        }
+    ],
     "accommodation": "Kyoto Airbnb | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMCDYDAZEN) | [Navigate](https://maps.app.goo.gl/ejQTJRzxyqmuWyg36)",
     "meals": "Museum café lunch, traditional kaiseki dinner in Pontocho",
     "budget": "¥8,000-12,000 (museum entry ¥1,000, meals ¥6,000-10,000, local transport ¥500)",
