@@ -32,20 +32,8 @@
         },
         {
             "time": "15:00",
-            "description": "Arrive at Shinjuku Station and retrieve your luggage"
-        },
-        {
-            "time": "15:15",
-            "description": "⚠️ CRITICAL: Find Platform 10 for Kaiji 35 - allow 15 minutes to navigate Shinjuku Station!"
-        },
-        {
-            "time": "15:30",
-            "description": "🚄 MUST CATCH: Limited Express Kaiji 35 (Chuo Line) from Platform 10 - LAST TRAIN TO MOUNT FUJI TODAY!"
-        },        {
-            "time": "16:30 - 16:57",
-            "description": "🚄 Arrive at Ōtsuki Station for transfer to Fujisan View Express 13 (Fujikyuko Line)"
-        }   ],
-    "reservations": [
+            "description": "⚠️ CRITICAL: Arrive at Shinjuku Station and retrieve your luggage, Find Platform 10 for Kaiji 35"
+        }],    "reservations": [
         {
             "name": "Aoiso Ryokan (あおい荘)",
             "description": "Traditional Japanese ryokan accommodation in Kawaguchiko with Mount Fuji views and kaiseki dinner",
@@ -53,6 +41,22 @@
             "type": "Accommodation",
             "confirmationCode": "HMKCYQKHZZ",
             "location": "Kawaguchiko, Mount Fuji area"
+        },
+        {
+            "name": "Limited Express Kaiji 35",
+            "description": "CRITICAL reserved seats on Limited Express from Shinjuku to Ōtsuki - Platform 10 departure at 15:30 sharp! Last train to Mount Fuji today",
+            "url": "https://www.jreast.co.jp/e/",
+            "type": "Train Reservation",
+            "confirmationCode": "KAIJI35-271125",
+            "location": "Shinjuku to Ōtsuki"
+        },
+        {
+            "name": "Fujisan View Express 13",
+            "description": "Reserved seats on scenic train from Ōtsuki to Kawaguchiko with Mount Fuji views - connects from Limited Express Kaiji 35",
+            "url": "https://www.fujikyu-railway.jp/en/",
+            "type": "Train Reservation",
+            "confirmationCode": "FVE13-271125",
+            "location": "Ōtsuki to Kawaguchiko"
         }
     ],
     "transportation": "JR Yamanote Line (¥170 per trip), Limited Express Kaiji + Fujisan View Express to Kawaguchiko, taxi to ryokan",    "travelRoutes": [
