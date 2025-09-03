@@ -18,16 +18,27 @@
             "time": "12:00",
             "description": "🏛️ Begin Arashiyama Goshuin Tour at Tenryu-j Temple - UNESCO World Heritage site (40 mins). [📖 Tour Guide](https://jinja-gosyuin.com/kyoto-rakusai/#8221)",
             "area": "Arashiyama Goshuin Tour"
-        },
-        {
+        },        {
             "time": "12:46",
             "description": "🎋 Walk through iconic Bamboo Forest Path to next shrine - ethereal bamboo grove experience (6 min walk)",
             "area": "Arashiyama Goshuin Tour"
         },
         {
+            "type": "route",
+            "description": "Short walk through famous bamboo grove",
+            "duration": "6 minutes",
+            "url": "https://maps.app.goo.gl/bamboo-to-nonomiya"
+        },
+        {
             "time": "13:00",
             "description": "⛩️ Nonomiya Shrine - associated with Tale of Genji literary classic (25 mins, 6 min walk)",
             "area": "Arashiyama Goshuin Tour"
+        },
+        {
+            "type": "route", 
+            "description": "Walk to temple famous for autumn leaves",
+            "duration": "8 minutes",
+            "url": "https://maps.app.goo.gl/nonomiya-to-jojakko"
         },
         {
             "time": "13:31",

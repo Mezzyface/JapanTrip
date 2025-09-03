@@ -52,12 +52,19 @@ const itineraryData = {
             "description": "Arrive at Tokyo International (Haneda) Airport (HND), Clear immigration, collect luggage, and go through customs"
         },
         {
-            "time": "~16:30 (4:50pm JST)",
-            "description": "Travel Ebisu Station"
-        },
-        {
+            "type": "route",
+            "description": "Airport to Ebisu Station via Keikyu Line and JR Yamanote Line",
+            "duration": "45-55 minutes",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=%7B%27lat%27%3A35.544982%2C%27lon%27%3A139.769184%2C%27spot%27%3A%2702301-1404578%27%7D&goal=00002025&start_name=Haneda%20Airport%20Terminal%203&goal_name=Ebisu(Tokyo)&cid=&from=route_top_search_box&date_time=2025-11-26T15%3A50&ferry=false&taxi=false"
+        },        {
             "time": "Before 17:00 (5:00pm JST)",
             "description": "Visit Ebisu Shrine to purchase Goshuincho and receive first goshuin | [Ebisu Shrine](https://maps.app.goo.gl/6bjWpLGNd6te9iqE8) | [Shrine Store](https://maps.app.goo.gl/GsJNyLmWwg3JBntX9) | [Shrine Site](https://jinjamemo.com/archives/ebisujinja.html)"
+        },
+        {
+            "type": "route",
+            "description": "Train from Ebisu to Shibuya Scramble Crossing via JR Yamanote Line",
+            "duration": "6-10 minutes",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00002025&goal=%7B%27lat%27%3A35.65949%2C%27lon%27%3A139.700451%2C%27spot%27%3A%2702301-pn0003123%27%7D&start_name=Ebisu(Tokyo)&goal_name=Shibuya%20Scramble%20Crossing&cid=&from=route_top_search_box&date_time=2025-11-26T17%3A50&ferry=false&taxi=false"
         },
         {
             "time": "19:00",
@@ -69,7 +76,8 @@ const itineraryData = {
         },
         {
             "time": "21:00",
-            "description": "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls"        }
+            "description": "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls"
+        }
     ],
     "reservations": [
         {
@@ -100,7 +108,6 @@ const itineraryData = {
             "method": "Train (JR Yamanote)"
         }
     ],
-    "accommodation": "HJ PLACE SHIBUYA Airbnb | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
     "meals": "Dinner: Shibuya restaurants (ramen, sushi, or department store food hall)",
     "budget": "3,600円 - 5,600円 (includes transport 660円, Goshuincho 2,500円, goshuin 500円, meals & activities)",
     "notes": "Pick up Suica/Pasmo card at airport for easy train travel. Shopping List: Suitcase, Sling bag, Shopping Bag, Toiletire, Water Bottle"
@@ -110,10 +117,24 @@ const itineraryData = {
     "date": "Thursday, November 27, 2025",
     "location": "Tokyo Shrines → Mount Fuji (Kawaguchiko)",
     "weather": "~50 - 63°F",
-    "description": "Shrine-hopping adventure through Tokyo for goshuin collection, then departing for Mount Fuji area. Multiple beautiful shrines in Harajuku/Shibuya area before traveling to Kawaguchiko for ryokan stay.",    "activities": [
+    "description": "Shrine-hopping adventure through Tokyo for goshuin collection, then departing for Mount Fuji area. Multiple beautiful shrines in Harajuku/Shibuya area before traveling to Kawaguchiko for ryokan stay.",    "activities": [        {
+            "time": "07:00",
+            "description": "Check out of accommodation in Ebisu area, head to Shinjuku Station"
+        },
         {
+            "type": "route",
+            "description": "Travel from Ebisu to Shinjuku Station via JR Yamanote Line",
+            "duration": "10-15 minutes",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00002025&goal=%7B%27lat%27%3A35.689579%2C%27lon%27%3A139.700676%2C%27spot%27%3A%2702011-00004254%27%7D&start_name=Ebisu(Tokyo)&goal_name=Shinjuku&cid=&from=route_top_search_box&date_time=2025-11-27T07%3A00&ferry=false&taxi=false"
+        },        {
             "time": "07:30",
             "description": "Drop off bags in coin locker or luggage storage at Shinjuku Station"
+        },
+        {
+            "type": "route",
+            "description": "Travel from Shinjuku to Meiji Shrine area via JR Yamanote Line",
+            "duration": "4-6 minutes",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00004254&goal=%7B%27lat%27%3A35.67637%2C%27lon%27%3A139.699365%2C%27spot%27%3A%2702301-1300512%27%7D&start_name=Shinjuku&goal_name=Meiji%20Shrine&cid=&from=route_top_search_box&date_time=2025-11-27T07%3A00&ferry=false&taxi=false"
         },
         {
             "time": "08:00",
@@ -125,7 +146,8 @@ const itineraryData = {
         },
         {
             "time": "11:00",
-            "description": "Lunch in Harajuku/Shibuya - explore Omotesando, Cat Street, or backstreets of Harajuku"
+            "description": "Lunch in Harajuku - explore Omotesando, Cat Street, or backstreets of Harajuku",
+            "area": "Harajuku Area"
         },        {
             "time": "12:30",
             "description": "Visit Onden Shrine (穏田神社) - [Shrine Site](https://onden.jp/items/) [Navigate](https://maps.app.goo.gl/NdsQCNcR2bXTjPkcA)"
@@ -481,16 +503,27 @@ const itineraryData = {
             "time": "12:00",
             "description": "🏛️ Begin Arashiyama Goshuin Tour at Tenryu-j Temple - UNESCO World Heritage site (40 mins). [📖 Tour Guide](https://jinja-gosyuin.com/kyoto-rakusai/#8221)",
             "area": "Arashiyama Goshuin Tour"
-        },
-        {
+        },        {
             "time": "12:46",
             "description": "🎋 Walk through iconic Bamboo Forest Path to next shrine - ethereal bamboo grove experience (6 min walk)",
             "area": "Arashiyama Goshuin Tour"
         },
         {
+            "type": "route",
+            "description": "Short walk through famous bamboo grove",
+            "duration": "6 minutes",
+            "url": "https://maps.app.goo.gl/bamboo-to-nonomiya"
+        },
+        {
             "time": "13:00",
             "description": "⛩️ Nonomiya Shrine - associated with Tale of Genji literary classic (25 mins, 6 min walk)",
             "area": "Arashiyama Goshuin Tour"
+        },
+        {
+            "type": "route", 
+            "description": "Walk to temple famous for autumn leaves",
+            "duration": "8 minutes",
+            "url": "https://maps.app.goo.gl/nonomiya-to-jojakko"
         },
         {
             "time": "13:31",
@@ -523,20 +556,15 @@ const itineraryData = {
             "area": "Arashiyama Goshuin Tour"
         },
         {
-            "time": "16:30",
-            "description": "🚌 Travel to Northern Kyoto - bus or taxi to Kitano Tenmangu Shrine area (40-50 mins)"
-        },
-        {
             "time": "17:30",
-            "description": "🍱 Early dinner near Kitano Tenmangu Shrine - local restaurant in shrine area"
+            "description": "🍱 Early dinner near Kitano Tenmangu Shrine - local restaurant in shrine area",
+            "area": "Kitano Tenmangu Area"
         },
         {
             "time": "18:30",
-            "description": "🍁 Kitano Tenmangu Shrine Momiji-en (Maple Garden) evening illuminations - exclusive autumn light display among hundreds of maple trees. [📖 Illumination Guide](https://jinja-gosyuin.com/kawaii-gosyuin-kyoto/#i-29)"
-        },
-        {
-            "time": "20:30",
-            "description": "🚌 Return to accommodation via direct bus (Route 50) from Kitano Tenmangu-mae to Nijo Station"        }    ],
+            "description": "🍁 Kitano Tenmangu Shrine Momiji-en (Maple Garden) evening illuminations - exclusive autumn light display among hundreds of maple trees. [📖 Illumination Guide](https://jinja-gosyuin.com/kawaii-gosyuin-kyoto/#i-29)",
+            "area": "Kitano Tenmangu Area"
+        } ],
     "reservations": [
         {
             "name": "Saiho-j Temple (Moss Temple) - Nichi-nichi Sanpai",

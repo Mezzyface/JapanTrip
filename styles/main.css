@@ -1,8 +1,8 @@
 /* Main Styles for Japan Trip Itinerary */
-:root {
-    /* New ColorHunt Dark Palette: https://colorhunt.co/palette/1e201e3c3d37697565ecdfcc */
+:root {    /* New ColorHunt Dark Palette: https://colorhunt.co/palette/1e201e3c3d37697565ecdfcc */
     --primary-color: #ECDFCC;      /* Warm cream - main brand color and text */
     --secondary-color: #697565;    /* Muted sage green - secondary actions */
+    --secondary-color-rgb: 105, 117, 101; /* RGB values for secondary color */
     --accent-color: #697565;       /* Sage green - highlights and accents */
     --background-light: #3C3D37;   /* Dark olive - light backgrounds */
     

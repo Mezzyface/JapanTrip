@@ -3,10 +3,24 @@
     "date": "Thursday, November 27, 2025",
     "location": "Tokyo Shrines → Mount Fuji (Kawaguchiko)",
     "weather": "~50 - 63°F",
-    "description": "Shrine-hopping adventure through Tokyo for goshuin collection, then departing for Mount Fuji area. Multiple beautiful shrines in Harajuku/Shibuya area before traveling to Kawaguchiko for ryokan stay.",    "activities": [
+    "description": "Shrine-hopping adventure through Tokyo for goshuin collection, then departing for Mount Fuji area. Multiple beautiful shrines in Harajuku/Shibuya area before traveling to Kawaguchiko for ryokan stay.",    "activities": [        {
+            "time": "07:00",
+            "description": "Check out of accommodation in Ebisu area, head to Shinjuku Station"
+        },
         {
+            "type": "route",
+            "description": "Travel from Ebisu to Shinjuku Station via JR Yamanote Line",
+            "duration": "10-15 minutes",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00002025&goal=%7B%27lat%27%3A35.689579%2C%27lon%27%3A139.700676%2C%27spot%27%3A%2702011-00004254%27%7D&start_name=Ebisu(Tokyo)&goal_name=Shinjuku&cid=&from=route_top_search_box&date_time=2025-11-27T07%3A00&ferry=false&taxi=false"
+        },        {
             "time": "07:30",
             "description": "Drop off bags in coin locker or luggage storage at Shinjuku Station"
+        },
+        {
+            "type": "route",
+            "description": "Travel from Shinjuku to Meiji Shrine area via JR Yamanote Line",
+            "duration": "4-6 minutes",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00004254&goal=%7B%27lat%27%3A35.67637%2C%27lon%27%3A139.699365%2C%27spot%27%3A%2702301-1300512%27%7D&start_name=Shinjuku&goal_name=Meiji%20Shrine&cid=&from=route_top_search_box&date_time=2025-11-27T07%3A00&ferry=false&taxi=false"
         },
         {
             "time": "08:00",
@@ -18,7 +32,8 @@
         },
         {
             "time": "11:00",
-            "description": "Lunch in Harajuku/Shibuya - explore Omotesando, Cat Street, or backstreets of Harajuku"
+            "description": "Lunch in Harajuku - explore Omotesando, Cat Street, or backstreets of Harajuku",
+            "area": "Harajuku Area"
         },        {
             "time": "12:30",
             "description": "Visit Onden Shrine (穏田神社) - [Shrine Site](https://onden.jp/items/) [Navigate](https://maps.app.goo.gl/NdsQCNcR2bXTjPkcA)"

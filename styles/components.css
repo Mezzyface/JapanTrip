@@ -572,6 +572,58 @@
     border-radius: 6px;
 }
 
+/* Route Item Styles - Less obtrusive indented sections */
+.route-item {
+    margin: var(--spacing-xs) 0;
+    margin-left: var(--spacing-lg);
+    opacity: 0.7;
+    font-size: 0.875rem;
+}
+
+.route-content {
+    background: rgba(var(--secondary-color-rgb), 0.1);
+    border-left: 2px dashed var(--secondary-color);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: 4px;
+    transition: opacity 0.2s ease;
+}
+
+.route-item:hover .route-content {
+    opacity: 1;
+    background: rgba(var(--secondary-color-rgb), 0.15);
+}
+
+.route-description {
+    color: var(--text-light);
+    font-style: italic;
+    display: block;
+    margin-bottom: var(--spacing-xs);
+}
+
+.route-details {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: 0.8rem;
+}
+
+.route-duration {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.route-link {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.route-link:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
 /* Reservations Section */
 .reservations {
     margin: var(--spacing-lg) 0;

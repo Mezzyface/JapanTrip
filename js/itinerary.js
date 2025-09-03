@@ -556,8 +556,24 @@ class ItineraryLoader {
     }    groupActivitiesByLocation(activities) {
         let currentLocation = null;
         let html = '';
-        
-        activities.forEach((activity, index) => {
+          activities.forEach((activity, index) => {
+            // Check if this is a route item (different handling)
+            if (activity.type === 'route') {
+                // Route items are rendered differently - more subtle
+                html += `
+                    <div class="route-item">
+                        <div class="route-content">
+                            <span class="route-description">🚶 ${activity.description}</span>
+                            <div class="route-details">
+                                <span class="route-duration">⏱️ ${activity.duration}</span>
+                                ${activity.url ? `<a href="${activity.url}" target="_blank" class="route-link">🗺️ Directions</a>` : ''}
+                            </div>
+                        </div>
+                    </div>
+                `;
+                return; // Skip the regular activity processing for this iteration
+            }
+            
             // Check for area property first, then detect activity type and location
             let locationToUse = null;
             

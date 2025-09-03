@@ -10,12 +10,19 @@
             "description": "Arrive at Tokyo International (Haneda) Airport (HND), Clear immigration, collect luggage, and go through customs"
         },
         {
-            "time": "~16:30 (4:50pm JST)",
-            "description": "Travel Ebisu Station"
-        },
-        {
+            "type": "route",
+            "description": "Airport to Ebisu Station via Keikyu Line and JR Yamanote Line",
+            "duration": "45-55 minutes",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=%7B%27lat%27%3A35.544982%2C%27lon%27%3A139.769184%2C%27spot%27%3A%2702301-1404578%27%7D&goal=00002025&start_name=Haneda%20Airport%20Terminal%203&goal_name=Ebisu(Tokyo)&cid=&from=route_top_search_box&date_time=2025-11-26T15%3A50&ferry=false&taxi=false"
+        },        {
             "time": "Before 17:00 (5:00pm JST)",
             "description": "Visit Ebisu Shrine to purchase Goshuincho and receive first goshuin | [Ebisu Shrine](https://maps.app.goo.gl/6bjWpLGNd6te9iqE8) | [Shrine Store](https://maps.app.goo.gl/GsJNyLmWwg3JBntX9) | [Shrine Site](https://jinjamemo.com/archives/ebisujinja.html)"
+        },
+        {
+            "type": "route",
+            "description": "Train from Ebisu to Shibuya Scramble Crossing via JR Yamanote Line",
+            "duration": "6-10 minutes",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00002025&goal=%7B%27lat%27%3A35.65949%2C%27lon%27%3A139.700451%2C%27spot%27%3A%2702301-pn0003123%27%7D&start_name=Ebisu(Tokyo)&goal_name=Shibuya%20Scramble%20Crossing&cid=&from=route_top_search_box&date_time=2025-11-26T17%3A50&ferry=false&taxi=false"
         },
         {
             "time": "19:00",
@@ -27,7 +34,8 @@
         },
         {
             "time": "21:00",
-            "description": "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls"        }
+            "description": "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls"
+        }
     ],
     "reservations": [
         {
@@ -58,7 +66,6 @@
             "method": "Train (JR Yamanote)"
         }
     ],
-    "accommodation": "HJ PLACE SHIBUYA Airbnb | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4) | [Navigate](https://maps.app.goo.gl/p23JVeaNBoLmfd75A)",
     "meals": "Dinner: Shibuya restaurants (ramen, sushi, or department store food hall)",
     "budget": "3,600円 - 5,600円 (includes transport 660円, Goshuincho 2,500円, goshuin 500円, meals & activities)",
     "notes": "Pick up Suica/Pasmo card at airport for easy train travel. Shopping List: Suitcase, Sling bag, Shopping Bag, Toiletire, Water Bottle"
