@@ -36,7 +36,16 @@ const itineraryData = {
         },
         {
             "time": "15:00+1",
-            "description": "🚇 Immigration, customs, and train to Tokyo city center - Welcome to Japan! 🇯🇵"
+            "description": "🚇 Immigration, customs, and train to Tokyo city center - Welcome to Japan! 🇯🇵"        }
+    ],
+    "reservations": [
+        {
+            "name": "ANA Flights to Tokyo",
+            "description": "Round-trip flights Austin to Tokyo via San Francisco - NH7333 (AUS→SFO) and NH7011 (SFO→HND) operated by United Airlines in Economy Value Plus class",
+            "url": "https://aswbe.ana.co.jp/webapps/servicing/mybooking",
+            "type": "Flight Reservation",
+            "confirmationCode": "C13J79",
+            "location": "Austin → San Francisco → Tokyo"
         }
     ],
     "transportation": "ANA Reservation C13J79: NH7333 (AUS→SFO), NH7011 (SFO→HND) - operated by United Airlines | [Manage Booking](https://aswbe.ana.co.jp/webapps/servicing/mybooking)",
@@ -75,7 +84,16 @@ const itineraryData = {
         },
         {
             "time": "21:00",
-            "description": "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls"
+            "description": "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls"        }
+    ],
+    "reservations": [
+        {
+            "name": "HJ PLACE SHIBUYA Airbnb",
+            "description": "Modern Tokyo accommodation in Shibuya district with easy access to train lines and city attractions",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4",
+            "type": "Accommodation",
+            "confirmationCode": "HMRDDYA2N4",
+            "location": "Shibuya, Tokyo"
         }
     ],
     "transportation": "Keikyu Airport Line to Shinagawa, then JR Yamanote Line to Ebisu. Total cost: ~¥510, Time: 45-55 minutes",
@@ -952,7 +970,16 @@ const itineraryData = {
         },
         {
             "time": "15:00",
-            "description": "🚗 Baggage claim, customs, and head home - Trip complete! Time to start planning the next Japan adventure! 😊"
+            "description": "🚗 Baggage claim, customs, and head home - Trip complete! Time to start planning the next Japan adventure! 😊"        }
+    ],
+    "reservations": [
+        {
+            "name": "ANA Return Flights to Austin",
+            "description": "Return flights Tokyo to Austin via San Francisco - NH7010 (HND→SFO) and NH7332 (SFO→AUS) operated by United Airlines in Economy Value Plus class",
+            "url": "https://aswbe.ana.co.jp/webapps/servicing/mybooking",
+            "type": "Flight Reservation",
+            "confirmationCode": "C13J79",
+            "location": "Tokyo → San Francisco → Austin"
         }
     ],
     "transportation": "ANA Reservation C13J79: NH7010 (HND→SFO), NH7332 (SFO→AUS) - operated by United Airlines | [Manage Booking](https://aswbe.ana.co.jp/webapps/servicing/mybooking)",

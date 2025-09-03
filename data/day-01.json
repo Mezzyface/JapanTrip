@@ -27,7 +27,16 @@
         },
         {
             "time": "21:00",
-            "description": "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls"
+            "description": "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls"        }
+    ],
+    "reservations": [
+        {
+            "name": "HJ PLACE SHIBUYA Airbnb",
+            "description": "Modern Tokyo accommodation in Shibuya district with easy access to train lines and city attractions",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMRDDYA2N4",
+            "type": "Accommodation",
+            "confirmationCode": "HMRDDYA2N4",
+            "location": "Shibuya, Tokyo"
         }
     ],
     "transportation": "Keikyu Airport Line to Shinagawa, then JR Yamanote Line to Ebisu. Total cost: ~¥510, Time: 45-55 minutes",

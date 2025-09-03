@@ -35,7 +35,16 @@
         },
         {
             "time": "15:00+1",
-            "description": "🚇 Immigration, customs, and train to Tokyo city center - Welcome to Japan! 🇯🇵"
+            "description": "🚇 Immigration, customs, and train to Tokyo city center - Welcome to Japan! 🇯🇵"        }
+    ],
+    "reservations": [
+        {
+            "name": "ANA Flights to Tokyo",
+            "description": "Round-trip flights Austin to Tokyo via San Francisco - NH7333 (AUS→SFO) and NH7011 (SFO→HND) operated by United Airlines in Economy Value Plus class",
+            "url": "https://aswbe.ana.co.jp/webapps/servicing/mybooking",
+            "type": "Flight Reservation",
+            "confirmationCode": "C13J79",
+            "location": "Austin → San Francisco → Tokyo"
         }
     ],
     "transportation": "ANA Reservation C13J79: NH7333 (AUS→SFO), NH7011 (SFO→HND) - operated by United Airlines | [Manage Booking](https://aswbe.ana.co.jp/webapps/servicing/mybooking)",
