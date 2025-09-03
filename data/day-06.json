@@ -60,20 +60,15 @@
             "area": "Arashiyama Goshuin Tour"
         },
         {
-            "time": "16:30",
-            "description": "🚌 Travel to Northern Kyoto - bus or taxi to Kitano Tenmangu Shrine area (40-50 mins)"
-        },
-        {
             "time": "17:30",
-            "description": "🍱 Early dinner near Kitano Tenmangu Shrine - local restaurant in shrine area"
+            "description": "🍱 Early dinner near Kitano Tenmangu Shrine - local restaurant in shrine area",
+            "area": "Kitano Tenmangu Area"
         },
         {
             "time": "18:30",
-            "description": "🍁 Kitano Tenmangu Shrine Momiji-en (Maple Garden) evening illuminations - exclusive autumn light display among hundreds of maple trees. [📖 Illumination Guide](https://jinja-gosyuin.com/kawaii-gosyuin-kyoto/#i-29)"
-        },
-        {
-            "time": "20:30",
-            "description": "🚌 Return to accommodation via direct bus (Route 50) from Kitano Tenmangu-mae to Nijo Station"        }    ],
+            "description": "🍁 Kitano Tenmangu Shrine Momiji-en (Maple Garden) evening illuminations - exclusive autumn light display among hundreds of maple trees. [📖 Illumination Guide](https://jinja-gosyuin.com/kawaii-gosyuin-kyoto/#i-29)",
+            "area": "Kitano Tenmangu Area"
+        } ],
     "reservations": [
         {
             "name": "Saiho-j Temple (Moss Temple) - Nichi-nichi Sanpai",
