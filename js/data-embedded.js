@@ -436,8 +436,24 @@ const itineraryData = {
             "description": "Direct route from Fushimi Inari Taisha to Gion district for Higashiyama temple tour after completing goshuin collection",
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=%7B%27lat%27%3A34.967229%2C%27lon%27%3A135.773196%2C%27spot%27%3A%2702301-1301305%27%7D&goal=00003184&start_name=Fushimi%20Inari%20Taisha&goal_name=Gionshijo&cid=&from=route_top_search_box&date_time=2025-11-30T06%3A30&ferry=false&taxi=false",
             "duration": "Check route details",
-            "cost": "Local transport cost",
-            "method": "Keihan Line"
+            "cost": "Local transport cost",            "method": "Keihan Line"
+        }
+    ],    "reservations": [
+        {
+            "name": "Kyoto Wagyu Tonkatsu Ten no Meshi Gion Hakukawa Ten",
+            "description": "Premium tonkatsu restaurant in Gion district serving domestic pork cutlet and Wagyu beef cutlet with traditional kamado-cooked rice - perfect after temple hopping",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260301/26043082/",
+            "type": "Restaurant Reservation",
+            "confirmationCode": "TONKATSU113025",
+            "location": "Gion Shijo"
+        },
+        {
+            "name": "Kyoto Airbnb",
+            "description": "Central Kyoto accommodation for temple hopping adventure - continuing stay during Fushimi Inari and Higashiyama goshuin collection tour",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMCDYDAZEN",
+            "type": "Accommodation",
+            "confirmationCode": "HMCDYDAZEN",
+            "location": "Kyoto"
         }
     ],
     "accommodation": "Kyoto Airbnb | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMCDYDAZEN) | [Navigate](https://maps.app.goo.gl/KyotoAirbnbAddress)",
