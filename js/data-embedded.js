@@ -42,10 +42,8 @@ const itineraryData = {
         }
     ],
     "transportation": "ANA Reservation C13J79: NH7333 (AUS→SFO), NH7011 (SFO→HND) - operated by United Airlines | [Manage Booking](https://aswbe.ana.co.jp/webapps/servicing/mybooking)",
-    "accommodation": "Economy Value Plus seats on both flights",
-    "meals": "In-flight meals on both segments - special meal requests confirmed",
-    "budget": "Flight already paid - ANA/United codeshare booking",
-    "notes": "✅ Reservation: C13J79 | ✅ Passenger: Adam Henderson | ✅ Economy Value Plus class | ✅ Baggage: Check ANA/United policy | Set watch to Japan time (+14 hours from Austin). Try to sleep on the long SFO→HND flight. Download offline maps and translation apps. Bring entertainment for 11+ hour flight!"
+    "budget": "$1200, Flight already paid - ANA/United codeshare booking",
+    "notes": "Set watch to Japan time (+14 hours from Austin). Try to sleep on the long SFO→HND flight. Download offline maps and translation apps. Bring entertainment for 11+ hour flight!"
 }
 ,
 "day01": {
