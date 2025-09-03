@@ -10,10 +10,6 @@
             "description": "🛫 Depart Austin-Bergstrom International Airport (AUS) - United NH7333 (operated by United Airlines)"
         },
         {
-            "time": "06:00-08:03",
-            "description": "✈️ Flight NH7333: AUS→SFO (2hr 3min) - Economy Value Plus - Passenger: Adam Henderson"
-        },
-        {
             "time": "08:03",
             "description": "🛬 Arrive at San Francisco International Airport (SFO) - PST Terminal 3"
         },
@@ -26,16 +22,13 @@
             "description": "🛫 Depart San Francisco International Airport (SFO) - United NH7011 (operated by United Airlines)"
         },
         {
-            "time": "10:15-14:50+1",
-            "description": "✈️ Flight NH7011: SFO→HND (11hr 35min trans-Pacific) - Economy Value Plus - Sleep, movies, prepare for Japan!"
-        },
-        {
             "time": "14:50+1",
             "description": "🛬 Arrive at Tokyo International (Haneda) Airport (HND) - Wednesday Nov 26, 2:50 PM JST"
         },
         {
             "time": "15:00+1",
-            "description": "🚇 Immigration, customs, and train to Tokyo city center - Welcome to Japan! 🇯🇵"        }
+            "description": "🚇 Immigration, customs, and train to Tokyo city center - Welcome to Japan! 🇯🇵"        
+        }
     ],
     "reservations": [
         {
@@ -48,8 +41,6 @@
         }
     ],
     "transportation": "ANA Reservation C13J79: NH7333 (AUS→SFO), NH7011 (SFO→HND) - operated by United Airlines | [Manage Booking](https://aswbe.ana.co.jp/webapps/servicing/mybooking)",
-    "accommodation": "Economy Value Plus seats on both flights",
-    "meals": "In-flight meals on both segments - special meal requests confirmed",
-    "budget": "Flight already paid - ANA/United codeshare booking",
-    "notes": "✅ Reservation: C13J79 | ✅ Passenger: Adam Henderson | ✅ Economy Value Plus class | ✅ Baggage: Check ANA/United policy | Set watch to Japan time (+14 hours from Austin). Try to sleep on the long SFO→HND flight. Download offline maps and translation apps. Bring entertainment for 11+ hour flight!"
+    "budget": "$1200, Flight already paid - ANA/United codeshare booking",
+    "notes": "Set watch to Japan time (+14 hours from Austin). Try to sleep on the long SFO→HND flight. Download offline maps and translation apps. Bring entertainment for 11+ hour flight!"
 }

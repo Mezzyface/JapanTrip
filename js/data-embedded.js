@@ -11,10 +11,6 @@ const itineraryData = {
             "description": "🛫 Depart Austin-Bergstrom International Airport (AUS) - United NH7333 (operated by United Airlines)"
         },
         {
-            "time": "06:00-08:03",
-            "description": "✈️ Flight NH7333: AUS→SFO (2hr 3min) - Economy Value Plus - Passenger: Adam Henderson"
-        },
-        {
             "time": "08:03",
             "description": "🛬 Arrive at San Francisco International Airport (SFO) - PST Terminal 3"
         },
@@ -27,16 +23,13 @@ const itineraryData = {
             "description": "🛫 Depart San Francisco International Airport (SFO) - United NH7011 (operated by United Airlines)"
         },
         {
-            "time": "10:15-14:50+1",
-            "description": "✈️ Flight NH7011: SFO→HND (11hr 35min trans-Pacific) - Economy Value Plus - Sleep, movies, prepare for Japan!"
-        },
-        {
             "time": "14:50+1",
             "description": "🛬 Arrive at Tokyo International (Haneda) Airport (HND) - Wednesday Nov 26, 2:50 PM JST"
         },
         {
             "time": "15:00+1",
-            "description": "🚇 Immigration, customs, and train to Tokyo city center - Welcome to Japan! 🇯🇵"        }
+            "description": "🚇 Immigration, customs, and train to Tokyo city center - Welcome to Japan! 🇯🇵"        
+        }
     ],
     "reservations": [
         {
