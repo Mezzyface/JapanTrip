@@ -695,7 +695,6 @@ const itineraryData = {
             "location": "Hakata Ward, Fukuoka"
         }
     ],
-    "accommodation": "Kyoto hotel",
     "meals": "Lunch: Nara local specialties, Dinner: Kyoto restaurant",
     "budget": "¥8,000 - ¥12,000",
     "notes": "Nara's deer are sacred messengers. The Great Buddha is one of Japan's largest bronze Buddha statues."
