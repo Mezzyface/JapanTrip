@@ -3,7 +3,9 @@
     "date": "Thursday, November 27, 2025",
     "location": "Tokyo Shrines → Mount Fuji (Kawaguchiko)",
     "weather": "~50 - 63°F",
-    "description": "Shrine-hopping adventure through Tokyo for goshuin collection, then departing for Mount Fuji area. Multiple beautiful shrines in Harajuku/Shibuya area before traveling to Kawaguchiko for ryokan stay.",    "activities": [        {
+    "description": "Shrine-hopping adventure through Tokyo for goshuin collection, then departing for Mount Fuji area. Multiple beautiful shrines in Harajuku/Shibuya area before traveling to Kawaguchiko for ryokan stay.",
+    "activities": [
+        {
             "time": "07:00",
             "description": "Check out of accommodation in Ebisu area, head to Shinjuku Station"
         },
@@ -12,7 +14,8 @@
             "description": "Travel from Ebisu to Shinjuku Station via JR Yamanote Line",
             "duration": "10-15 minutes",
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00002025&goal=%7B%27lat%27%3A35.689579%2C%27lon%27%3A139.700676%2C%27spot%27%3A%2702011-00004254%27%7D&start_name=Ebisu(Tokyo)&goal_name=Shinjuku&cid=&from=route_top_search_box&date_time=2025-11-27T07%3A00&ferry=false&taxi=false"
-        },        {
+        },
+        {
             "time": "07:30",
             "description": "Drop off bags in coin locker or luggage storage at Shinjuku Station"
         },
@@ -23,32 +26,82 @@
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00004254&goal=%7B%27lat%27%3A35.67637%2C%27lon%27%3A139.699365%2C%27spot%27%3A%2702301-1300512%27%7D&start_name=Shinjuku&goal_name=Meiji%20Shrine&cid=&from=route_top_search_box&date_time=2025-11-27T07%3A00&ferry=false&taxi=false"
         },
         {
-            "time": "08:00",
+            "time": "08:00 - 09:35 (1hr 20min)",
             "description": "Meiji Shrine (Meiji Jingu) [Shrine Site](https://www.meijijingu.or.jp/en/feelshinto/3.php) | [Navigate](https://maps.app.goo.gl/yvm7qBZyZxeaYFPQ7)"
         },
         {
-            "time": "10:00",
+            "type": "route",
+            "description": "Walk from Meiji Shrine to Togo-jinja Shrine in Harajuku area",
+            "duration": "6-7 minutes",
+            "url": "https://maps.app.goo.gl/9hrvJjaEx6aBwdCg7"
+        },
+        {
+            "time": "09:45 - 10:20 (35min)",
             "description": "Visit Togo-jinja Shrine [Shrine Site](https://togojinja.or.jp/amulet) [Navigate](https://maps.app.goo.gl/mreRoTzuLsWqs2FfA)"
         },
         {
-            "time": "11:00",
+            "type": "route",
+            "description": "Walk to Harajuku lunch area via Omotesando or Cat Street",
+            "duration": "8-10 minutes",
+            "url": "https://maps.app.goo.gl/YWbZYf7BGom6P6pJA"
+        },
+        {
+            "time": "11:00 - 12:00",
             "description": "Lunch in Harajuku - explore Omotesando, Cat Street, or backstreets of Harajuku",
             "area": "Harajuku Area"
-        },        {
-            "time": "12:30",
+        },
+        {
+            "type": "route",
+            "description": "Walk from Harajuku to Onden Shrine in Shibuya area",
+            "duration": "5-10 minutes",
+            "url": "https://maps.app.goo.gl/atdxFjvUvLUwu83e7"
+        },
+        {
+            "time": "12:10 - 12:40 (30 min)",
             "description": "Visit Onden Shrine (穏田神社) - [Shrine Site](https://onden.jp/items/) [Navigate](https://maps.app.goo.gl/NdsQCNcR2bXTjPkcA)"
         },
         {
-            "time": "13:30",
+            "type": "route",
+            "description": "Short walk to Kitaya Inari Shrine in nearby Shibuya area",
+            "duration": "10-12 minutes",
+            "url": "https://maps.app.goo.gl/utHakHJ8PJccGfz96"
+        },
+        {
+            "time": "12:55 - 13:20  (25 min)",
             "description": "Visit Kitaya Inari Shrine (北谷稲荷神社) - [Shrine Site](https://jinjamemo.com/archives/kitayainarijinja.html#toc24) [Navigate](https://maps.app.goo.gl/1MZoi6S4n5Esv3JCA)"
-        },        {
-            "time": "14:30",
+        },
+        {
+            "type": "route",
+            "description": "Walk to Miyamasumitake Shrine in central Shibuya",
+            "duration": "15-18 minutes",
+            "url": "https://maps.app.goo.gl/CnH1rLgSSRcWi4dP9"
+        },
+        {
+            "time": "13:40 - 14:00 (20 min)",
             "description": "Visit Miyamasumitake Shrine (宮益御嶽神社) - [Shrine Site](https://shibuyamiyamasu.jp/?page_id=396) [Navigate](https://maps.app.goo.gl/MrKPzY4c8KzzVRju8)"
+        },
+        {
+            "type": "route",
+            "description": "Walk from Miyamasumitake Shrine to Shibuya Station",
+            "duration": "5-8 minutes",
+            "url": "https://maps.app.goo.gl/hhsF9J2gxXEkfTAF9"
+        },
+        {
+            "time": "14:10",
+            "description": "Arrive at Shibuya Station - brief rest and preparation for return to Shinjuku"
+        },
+        {
+            "type": "route",
+            "description": "Return to Shinjuku Station to retrieve luggage for Mount Fuji departure",
+            "duration": "15-20 minutes",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=%7B%27lat%27%3A35.658034%2C%27lon%27%3A139.701636%7D&goal=00004254&start_name=Shibuya%20Area&goal_name=Shinjuku&cid=&from=route_top_search_box"
         },
         {
             "time": "15:00",
             "description": "⚠️ CRITICAL: Arrive at Shinjuku Station and retrieve your luggage, Find Platform 10 for Kaiji 35"
-        }],    "reservations": [
+        }
+    ],
+    "reservations": [
         {
             "name": "Aoiso Ryokan (あおい荘)",
             "description": "Traditional Japanese ryokan accommodation in Kawaguchiko with Mount Fuji views and kaiseki dinner",
@@ -74,7 +127,8 @@
             "location": "Ōtsuki to Kawaguchiko"
         }
     ],
-    "transportation": "JR Yamanote Line (¥170 per trip), Limited Express Kaiji + Fujisan View Express to Kawaguchiko, taxi to ryokan",    "travelRoutes": [
+    "transportation": "JR Yamanote Line (¥170 per trip), Limited Express Kaiji + Fujisan View Express to Kawaguchiko, taxi to ryokan",
+    "travelRoutes": [
         {
             "name": "Ebisu to Shinjuku Station",
             "description": "Morning journey from Shibuya accommodation area to Shinjuku for shrine hopping departure",
@@ -89,7 +143,7 @@
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00004254&goal=00002128&start_name=Shinjuku&goal_name=Harajuku&cid=&from=route_top_search_box&ferry=false&taxi=false",
             "duration": "4-6 minutes",
             "cost": "~¥170",
-            "method": "JR Yamanote Line"        
+            "method": "JR Yamanote Line"
         },
         {
             "name": "Shinjuku to Kawaguchiko Station",
@@ -98,8 +152,8 @@
             "duration": "2 hours 26 minutes",
             "cost": "~¥2,700",
             "method": "Limited Express + Local Train"
-        }    ],
-    "accommodation": "Aoiso Ryokan (あおい荘) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMKCYQKHZZ) |  [Navigate](https://maps.app.goo.gl/MCXdJWUuhSKBgMzF9)",
+        }
+    ],
     "meals": "Breakfast: Light meal before departure, Lunch: Harajuku/Omotesando restaurants, Dinner: Traditional ryokan kaiseki",
     "budget": "¥15,000 - ¥25,000 (includes train tickets ¥3,000+, shrine donations, meals, taxi, ryokan)",
     "notes": "GOSHUIN COLLECTION DAY! 🚨 CRITICAL TRAIN: Limited Express Kaiji 35 at 15:30 from Platform 10 - MUST NOT MISS!"

@@ -4,9 +4,7 @@
     "location": "Hiroshima",
     "weather": "Check forecast closer to date",
     "description": "Exploring Osaka - Japan's kitchen! Food adventures and city sights.",
-    "activities": [
-     
-    ],
+    "activities": [],
     "reservations": [
         {
             "name": "Hiroshima Guesthouse ROOM3",
@@ -15,6 +13,14 @@
             "type": "Accommodation",
             "confirmationCode": "HMT2E4C89P",
             "location": "Hondori Naka Ward, Hiroshima"
+        },
+        {
+            "name": "Okonomimura",
+            "description": "Famous okonomiyaki theme park in Hiroshima with multiple floors of okonomiyaki stalls - iconic dining experience",
+            "url": "https://maps.app.goo.gl/ZqJ1X1oT5w2sWJcEA",
+            "type": "Restaurant",
+            "location": "Hiroshima",
+            "notes": "Multi-story okonomiyaki complex with various vendors"
         }
     ],
     "meals": "Multiple street food experiences - takoyaki, okonomiyaki, kushikatsu",

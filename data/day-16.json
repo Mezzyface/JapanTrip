@@ -2,10 +2,20 @@
     "day": 16,
     "date": "Thursday, December 11, 2025",
     "location": "Tokyo",
-    "weather": "Check forecast closer to date",
-    "description": "Final day in Japan - last-minute shopping, favorite spots, and departure preparations.",
-    "activities": [
-      
+    "weather": "Check forecast closer to date",    "description": "Final day in Japan - last-minute shopping, favorite spots, and departure preparations.",    "activities": [
+        {
+            "type": "route",
+            "description": "Shinjuku → Small Worlds Tokyo (Ariake): JR Yamanote Line to Shimbashi → Yurikamome Line to Ariake Tennis no Mori Station",
+            "duration": "35-40 minutes",
+            "url": "https://goo.gl/maps/fUgaXfSK5yNGhpYn6"
+        },
+        {
+            "time": "10:30",
+            "description": "🏛️ Visit Small Worlds Tokyo - One of Asia's largest miniature museums featuring incredible dioramas of Space Center, Kansai Airport, Evangelion scenes, and Japanese landmarks. Create your own 3D figurine! (3 hours)",
+            "location": "Ariake, Tokyo",
+            "url": "https://smallworlds.jp/en/",
+            "notes": "Adult admission ¥3,200. Open 9:00-19:00 (last admission 18:00). Near Ariake Tennis no Mori Station (3 min walk). Perfect final Japan experience!"
+        }
     ],
     "reservations": [
         {
@@ -16,7 +26,8 @@
             "confirmationCode": "HM5S8ARHRQ",
             "location": "6-chōme-5-7 Shinjuku, Shinjuku City, Tokyo"
         }
-    ],    "transportation": "Airport Express to Haneda Airport",
+    ],
+    "transportation": "Airport Express to Haneda Airport",
     "meals": "Breakfast: Hotel, Lunch: Favorite restaurant, Dinner: Airport/In-flight",
     "budget": "¥10,000 - ¥15,000 (plus souvenirs)",
     "notes": "Allow extra time for airport. Keep receipts for tax-free shopping. Don't forget to say arigatou gozaimasu!"

@@ -4,9 +4,7 @@
     "location": "Hiroshima -> Tokyo",
     "weather": "Check forecast - December weather",
     "description": "Travel day from Osaka back to Tokyo - morning in Osaka, afternoon arrival in Tokyo",
-    "activities": [
-      
-    ],
+    "activities": [],
     "reservations": [
         {
             "name": "Home in Shinjuku City",

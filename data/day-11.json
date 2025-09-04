@@ -4,9 +4,8 @@
     "location": "Fukuoka -> Hiroshima",
     "weather": "Check forecast - December weather",
     "description": "Travel day from Kyoto to Osaka - final Kyoto morning and Osaka arrival",
-    "activities": [
-       
-    ],    "reservations": [
+    "activities": [],
+    "reservations": [
         {
             "name": "Hiroshima Guesthouse ROOM3",
             "description": "Family-run guesthouse in central Hiroshima hosted by Kunihiro - check-in 3:00 PM December 6th, smart lock entry system",

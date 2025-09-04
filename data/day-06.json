@@ -4,7 +4,8 @@
     "location": "Kyoto - Moss Garden, Arashiyama & Maple Illuminations",
     "weather": "Cool December weather, perfect for temple gardens and autumn illuminations",
     "description": "🍃 Ultimate Kyoto temple and garden adventure! Sacred moss garden meditation, bamboo forest exploration, comprehensive goshuin temple tour, and magical evening maple illuminations.",
-    "activities": [        {
+    "activities": [
+        {
             "time": "09:00",
             "description": "🧘 Saiho-j [📖 Temple Guide](https://jpmanual.com/en/kokedera) [Navigate](https://maps.app.goo.gl/zaEwoYSEpa1wbLLm9)",
             "area": "Moss Temple"
@@ -18,7 +19,8 @@
             "time": "12:00",
             "description": "🏛️ Begin Arashiyama Goshuin Tour at Tenryu-j Temple - UNESCO World Heritage site (40 mins). [📖 Tour Guide](https://jinja-gosyuin.com/kyoto-rakusai/#8221)",
             "area": "Arashiyama Goshuin Tour"
-        },        {
+        },
+        {
             "time": "12:46",
             "description": "🎋 Walk through iconic Bamboo Forest Path to next shrine - ethereal bamboo grove experience (6 min walk)",
             "area": "Arashiyama Goshuin Tour"
@@ -35,7 +37,7 @@
             "area": "Arashiyama Goshuin Tour"
         },
         {
-            "type": "route", 
+            "type": "route",
             "description": "Walk to temple famous for autumn leaves",
             "duration": "8 minutes",
             "url": "https://maps.app.goo.gl/nonomiya-to-jojakko"
@@ -79,7 +81,8 @@
             "time": "18:30",
             "description": "🍁 Kitano Tenmangu Shrine Momiji-en (Maple Garden) evening illuminations - exclusive autumn light display among hundreds of maple trees. [📖 Illumination Guide](https://jinja-gosyuin.com/kawaii-gosyuin-kyoto/#i-29)",
             "area": "Kitano Tenmangu Area"
-        } ],
+        }
+    ],
     "reservations": [
         {
             "name": "Saiho-j Temple (Moss Temple) - Nichi-nichi Sanpai",

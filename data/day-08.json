@@ -5,7 +5,12 @@
     "weather": "Check forecast closer to date",
     "description": "Day trip to Osaka from Kyoto - experience Japan's food capital and Osaka Castle.",
     "activities": [
-
+        {
+            "time": "14:00",
+            "description": "🎮 Explore Denden Town (Den Den Town) - Osaka's electronics and anime district, browse manga shops, retro gaming stores, and electronic goods. Known as Osaka's Akihabara! (90 minutes)",
+            "location": "Denden Town, Osaka",
+            "url": "https://maps.app.goo.gl/DendenTownOsaka"
+        }
     ],
     "reservations": [
         {

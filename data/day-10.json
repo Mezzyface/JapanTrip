@@ -4,9 +4,9 @@
     "location": "Fukuoka",
     "weather": "Check forecast - December weather",
     "description": "Day trip to Nara - ancient capital with friendly deer and historic temples",
-    "activities": [
-      ],
-    "reservations": [        {
+    "activities": [],
+    "reservations": [
+        {
             "name": "Hakata Base The Passage 2号",
             "description": "Private accommodation in Hakata Ward, Fukuoka hosted by Naoki - second night of stay for Fukuoka exploration",
             "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMMK8QPSFC",

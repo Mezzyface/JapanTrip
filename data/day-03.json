@@ -8,7 +8,8 @@
         {
             "time": "08:00",
             "description": "🗻 Climb ~400 steps to Chureito Pagoda for iconic Mount Fuji views - BEST PHOTO SPOT!"
-        },        {
+        },
+        {
             "time": "09:30",
             "description": "⛩️ Visit Arakura Fujisengen-jinja Shrine [Shrine Site](https://www.arakurafujisengen.com/blog) [Navigate](https://maps.app.goo.gl/esXdopYW12tvZMof7)"
         },
@@ -27,7 +28,8 @@
         {
             "time": "18:00",
             "description": "🍁 Maple Corridor (Momiji Kairo) - Itchiku Kubota Art Museum"
-        } ],
+        }
+    ],
     "transportation": "🚄 Fujikyu Railway, 🚌 Kawaguchiko Red Line Sightseeing Bus (¥1,500 2-day pass), 🚕 Local taxis",
     "travelRoutes": [
         {
@@ -36,7 +38,8 @@
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00001065&goal=00000916&start_name=Kawaguchiko&goal_name=Shimoyoshida&cid=&from=route_top_search_box&ferry=false&taxi=false",
             "duration": "15 minutes",
             "cost": "~¥190",
-            "method": "Fujikyu Railway Line"        }
+            "method": "Fujikyu Railway Line"
+        }
     ],
     "reservations": [
         {

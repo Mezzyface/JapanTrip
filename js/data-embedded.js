@@ -5,7 +5,8 @@ const itineraryData = {
     "location": "Travel Day (USA → Japan)",
     "weather": "In transit",
     "description": "ANA Reservation C13J79 - Travel day from Austin to Tokyo via San Francisco. United Airlines Economy Value Plus class. Long journey across the Pacific - get ready for the adventure!",
-    "activities": [        {
+    "activities": [
+        {
             "time": "06:00",
             "description": "🛫 Depart Austin-Bergstrom International Airport (AUS) - United NH7333 (operated by United Airlines)"
         },
@@ -31,15 +32,15 @@ const itineraryData = {
             "name": "ANA Flights to Tokyo",
             "description": "Round-trip flights Austin to Tokyo via San Francisco - NH7333 (AUS→SFO) and NH7011 (SFO→HND) operated by United Airlines in Economy Value Plus class",
             "url": "https://aswbe.ana.co.jp/webapps/servicing/mybooking",
-            "type": "Flight Reservation",            "confirmationCode": "C13J79",
+            "type": "Flight Reservation",
+            "confirmationCode": "C13J79",
             "location": "Austin → San Francisco → Tokyo"
         }
     ],
     "transportation": "ANA Reservation C13J79: NH7333 (AUS→SFO), NH7011 (SFO→HND) - operated by United Airlines | [Manage Booking](https://aswbe.ana.co.jp/webapps/servicing/mybooking)",
     "budget": "$1200, Flight already paid - ANA/United codeshare booking",
     "notes": "Set watch to Japan time (+14 hours from Austin). Try to sleep on the long SFO→HND flight. Download offline maps and translation apps. Bring entertainment for 11+ hour flight!"
-}
-,
+},
 "day01": {
     "day": 1,
     "date": "Wednesday, November 26, 2025",
@@ -56,7 +57,8 @@ const itineraryData = {
             "description": "Airport to Ebisu Station via Keikyu Line and JR Yamanote Line",
             "duration": "45-55 minutes",
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=%7B%27lat%27%3A35.544982%2C%27lon%27%3A139.769184%2C%27spot%27%3A%2702301-1404578%27%7D&goal=00002025&start_name=Haneda%20Airport%20Terminal%203&goal_name=Ebisu(Tokyo)&cid=&from=route_top_search_box&date_time=2025-11-26T15%3A50&ferry=false&taxi=false"
-        },        {
+        },
+        {
             "time": "Before 17:00 (5:00pm JST)",
             "description": "Visit Ebisu Shrine to purchase Goshuincho and receive first goshuin | [Ebisu Shrine](https://maps.app.goo.gl/6bjWpLGNd6te9iqE8) | [Shrine Store](https://maps.app.goo.gl/GsJNyLmWwg3JBntX9) | [Shrine Site](https://jinjamemo.com/archives/ebisujinja.html)"
         },
@@ -117,7 +119,9 @@ const itineraryData = {
     "date": "Thursday, November 27, 2025",
     "location": "Tokyo Shrines → Mount Fuji (Kawaguchiko)",
     "weather": "~50 - 63°F",
-    "description": "Shrine-hopping adventure through Tokyo for goshuin collection, then departing for Mount Fuji area. Multiple beautiful shrines in Harajuku/Shibuya area before traveling to Kawaguchiko for ryokan stay.",    "activities": [        {
+    "description": "Shrine-hopping adventure through Tokyo for goshuin collection, then departing for Mount Fuji area. Multiple beautiful shrines in Harajuku/Shibuya area before traveling to Kawaguchiko for ryokan stay.",
+    "activities": [
+        {
             "time": "07:00",
             "description": "Check out of accommodation in Ebisu area, head to Shinjuku Station"
         },
@@ -126,7 +130,8 @@ const itineraryData = {
             "description": "Travel from Ebisu to Shinjuku Station via JR Yamanote Line",
             "duration": "10-15 minutes",
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00002025&goal=%7B%27lat%27%3A35.689579%2C%27lon%27%3A139.700676%2C%27spot%27%3A%2702011-00004254%27%7D&start_name=Ebisu(Tokyo)&goal_name=Shinjuku&cid=&from=route_top_search_box&date_time=2025-11-27T07%3A00&ferry=false&taxi=false"
-        },        {
+        },
+        {
             "time": "07:30",
             "description": "Drop off bags in coin locker or luggage storage at Shinjuku Station"
         },
@@ -137,32 +142,82 @@ const itineraryData = {
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00004254&goal=%7B%27lat%27%3A35.67637%2C%27lon%27%3A139.699365%2C%27spot%27%3A%2702301-1300512%27%7D&start_name=Shinjuku&goal_name=Meiji%20Shrine&cid=&from=route_top_search_box&date_time=2025-11-27T07%3A00&ferry=false&taxi=false"
         },
         {
-            "time": "08:00",
+            "time": "08:00 - 09:35 (1hr 20min)",
             "description": "Meiji Shrine (Meiji Jingu) [Shrine Site](https://www.meijijingu.or.jp/en/feelshinto/3.php) | [Navigate](https://maps.app.goo.gl/yvm7qBZyZxeaYFPQ7)"
         },
         {
-            "time": "10:00",
+            "type": "route",
+            "description": "Walk from Meiji Shrine to Togo-jinja Shrine in Harajuku area",
+            "duration": "6-7 minutes",
+            "url": "https://maps.app.goo.gl/9hrvJjaEx6aBwdCg7"
+        },
+        {
+            "time": "09:45 - 10:20 (35min)",
             "description": "Visit Togo-jinja Shrine [Shrine Site](https://togojinja.or.jp/amulet) [Navigate](https://maps.app.goo.gl/mreRoTzuLsWqs2FfA)"
         },
         {
-            "time": "11:00",
+            "type": "route",
+            "description": "Walk to Harajuku lunch area via Omotesando or Cat Street",
+            "duration": "8-10 minutes",
+            "url": "https://maps.app.goo.gl/YWbZYf7BGom6P6pJA"
+        },
+        {
+            "time": "11:00 - 12:00",
             "description": "Lunch in Harajuku - explore Omotesando, Cat Street, or backstreets of Harajuku",
             "area": "Harajuku Area"
-        },        {
-            "time": "12:30",
+        },
+        {
+            "type": "route",
+            "description": "Walk from Harajuku to Onden Shrine in Shibuya area",
+            "duration": "5-10 minutes",
+            "url": "https://maps.app.goo.gl/atdxFjvUvLUwu83e7"
+        },
+        {
+            "time": "12:10 - 12:40 (30 min)",
             "description": "Visit Onden Shrine (穏田神社) - [Shrine Site](https://onden.jp/items/) [Navigate](https://maps.app.goo.gl/NdsQCNcR2bXTjPkcA)"
         },
         {
-            "time": "13:30",
+            "type": "route",
+            "description": "Short walk to Kitaya Inari Shrine in nearby Shibuya area",
+            "duration": "10-12 minutes",
+            "url": "https://maps.app.goo.gl/utHakHJ8PJccGfz96"
+        },
+        {
+            "time": "12:55 - 13:20  (25 min)",
             "description": "Visit Kitaya Inari Shrine (北谷稲荷神社) - [Shrine Site](https://jinjamemo.com/archives/kitayainarijinja.html#toc24) [Navigate](https://maps.app.goo.gl/1MZoi6S4n5Esv3JCA)"
-        },        {
-            "time": "14:30",
+        },
+        {
+            "type": "route",
+            "description": "Walk to Miyamasumitake Shrine in central Shibuya",
+            "duration": "15-18 minutes",
+            "url": "https://maps.app.goo.gl/CnH1rLgSSRcWi4dP9"
+        },
+        {
+            "time": "13:40 - 14:00 (20 min)",
             "description": "Visit Miyamasumitake Shrine (宮益御嶽神社) - [Shrine Site](https://shibuyamiyamasu.jp/?page_id=396) [Navigate](https://maps.app.goo.gl/MrKPzY4c8KzzVRju8)"
+        },
+        {
+            "type": "route",
+            "description": "Walk from Miyamasumitake Shrine to Shibuya Station",
+            "duration": "5-8 minutes",
+            "url": "https://maps.app.goo.gl/hhsF9J2gxXEkfTAF9"
+        },
+        {
+            "time": "14:10",
+            "description": "Arrive at Shibuya Station - brief rest and preparation for return to Shinjuku"
+        },
+        {
+            "type": "route",
+            "description": "Return to Shinjuku Station to retrieve luggage for Mount Fuji departure",
+            "duration": "15-20 minutes",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=%7B%27lat%27%3A35.658034%2C%27lon%27%3A139.701636%7D&goal=00004254&start_name=Shibuya%20Area&goal_name=Shinjuku&cid=&from=route_top_search_box"
         },
         {
             "time": "15:00",
             "description": "⚠️ CRITICAL: Arrive at Shinjuku Station and retrieve your luggage, Find Platform 10 for Kaiji 35"
-        }],    "reservations": [
+        }
+    ],
+    "reservations": [
         {
             "name": "Aoiso Ryokan (あおい荘)",
             "description": "Traditional Japanese ryokan accommodation in Kawaguchiko with Mount Fuji views and kaiseki dinner",
@@ -188,7 +243,8 @@ const itineraryData = {
             "location": "Ōtsuki to Kawaguchiko"
         }
     ],
-    "transportation": "JR Yamanote Line (¥170 per trip), Limited Express Kaiji + Fujisan View Express to Kawaguchiko, taxi to ryokan",    "travelRoutes": [
+    "transportation": "JR Yamanote Line (¥170 per trip), Limited Express Kaiji + Fujisan View Express to Kawaguchiko, taxi to ryokan",
+    "travelRoutes": [
         {
             "name": "Ebisu to Shinjuku Station",
             "description": "Morning journey from Shibuya accommodation area to Shinjuku for shrine hopping departure",
@@ -203,7 +259,7 @@ const itineraryData = {
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00004254&goal=00002128&start_name=Shinjuku&goal_name=Harajuku&cid=&from=route_top_search_box&ferry=false&taxi=false",
             "duration": "4-6 minutes",
             "cost": "~¥170",
-            "method": "JR Yamanote Line"        
+            "method": "JR Yamanote Line"
         },
         {
             "name": "Shinjuku to Kawaguchiko Station",
@@ -212,13 +268,12 @@ const itineraryData = {
             "duration": "2 hours 26 minutes",
             "cost": "~¥2,700",
             "method": "Limited Express + Local Train"
-        }    ],
-    "accommodation": "Aoiso Ryokan (あおい荘) | [View Reservation](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMKCYQKHZZ) |  [Navigate](https://maps.app.goo.gl/MCXdJWUuhSKBgMzF9)",
+        }
+    ],
     "meals": "Breakfast: Light meal before departure, Lunch: Harajuku/Omotesando restaurants, Dinner: Traditional ryokan kaiseki",
     "budget": "¥15,000 - ¥25,000 (includes train tickets ¥3,000+, shrine donations, meals, taxi, ryokan)",
     "notes": "GOSHUIN COLLECTION DAY! 🚨 CRITICAL TRAIN: Limited Express Kaiji 35 at 15:30 from Platform 10 - MUST NOT MISS!"
-}
-,
+},
 "day03": {
     "day": 3,
     "date": "Friday, November 28, 2025",
@@ -229,7 +284,8 @@ const itineraryData = {
         {
             "time": "08:00",
             "description": "🗻 Climb ~400 steps to Chureito Pagoda for iconic Mount Fuji views - BEST PHOTO SPOT!"
-        },        {
+        },
+        {
             "time": "09:30",
             "description": "⛩️ Visit Arakura Fujisengen-jinja Shrine [Shrine Site](https://www.arakurafujisengen.com/blog) [Navigate](https://maps.app.goo.gl/esXdopYW12tvZMof7)"
         },
@@ -248,7 +304,8 @@ const itineraryData = {
         {
             "time": "18:00",
             "description": "🍁 Maple Corridor (Momiji Kairo) - Itchiku Kubota Art Museum"
-        } ],
+        }
+    ],
     "transportation": "🚄 Fujikyu Railway, 🚌 Kawaguchiko Red Line Sightseeing Bus (¥1,500 2-day pass), 🚕 Local taxis",
     "travelRoutes": [
         {
@@ -257,7 +314,8 @@ const itineraryData = {
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00001065&goal=00000916&start_name=Kawaguchiko&goal_name=Shimoyoshida&cid=&from=route_top_search_box&ferry=false&taxi=false",
             "duration": "15 minutes",
             "cost": "~¥190",
-            "method": "Fujikyu Railway Line"        }
+            "method": "Fujikyu Railway Line"
+        }
     ],
     "reservations": [
         {
@@ -273,8 +331,7 @@ const itineraryData = {
     "meals": "Breakfast: Light ryokan breakfast, Lunch: Hoto noodles specialty, Dinner: Traditional kaiseki at ryokan",
     "budget": "¥8,000 - ¥12,000 (includes bus pass ¥1,500, shrine donations, meals, local transport)",
     "notes": "Sunset ~16:30 in late November. Red Line bus pass covers all sightseeing spots."
-}
-,
+},
 "day04": {
     "day": 4,
     "date": "Friday, November 29, 2025",
@@ -301,8 +358,10 @@ const itineraryData = {
         {
             "time": "17:30",
             "description": "🏮 Explore Pontocho Alley [Navigate](https://maps.app.goo.gl/VGA9vCVgYWDDgEy77)"
-        }    ],
-    "transportation": "JR Pass valid for Yamanote Line and Shinkansen. Kyoto city bus day pass recommended for tomorrow.",    "travelRoutes": [
+        }
+    ],
+    "transportation": "JR Pass valid for Yamanote Line and Shinkansen. Kyoto city bus day pass recommended for tomorrow.",
+    "travelRoutes": [
         {
             "name": "Kawaguchiko to Itchiku Kubota Art Museum",
             "description": "Morning journey to Itchiku Kubota Art Museum for traditional textile art before continuing to Tokyo",
@@ -324,10 +383,11 @@ const itineraryData = {
             "description": "Evening journey from Nijo Station to Pontocho Alley for traditional sushi dining",
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00007206&goal=%7B%27lat%27%3A35.005086%2C%27lon%27%3A135.770815%2C%27spot%27%3A%2701378-22704310739%27%7D&start_name=Nijo&goal_name=Pontocho%20Sushi%20Ishiya&cid=&from=route_top_search_box&date_time=2025-11-22T13%3A30&ferry=false&taxi=false",
             "duration": "Check route details",
-            "cost": "Local Kyoto transport",            
+            "cost": "Local Kyoto transport",
             "method": "Subway + Walking"
         }
-    ],    "reservations": [
+    ],
+    "reservations": [
         {
             "name": "Kawaguchiko to Mishima Express Bus",
             "description": "Express bus service from Kawaguchiko Station to Mishima Station for Shinkansen connection to Kyoto - critical transport connection",
@@ -335,14 +395,16 @@ const itineraryData = {
             "type": "Bus Reservation",
             "confirmationCode": "BUS112925",
             "location": "Kawaguchiko → Mishima"
-        },        {
+        },
+        {
             "name": "Shinkansen Hikari 517",
             "description": "High-speed rail from Mishima to Kyoto - Hikari 517 departure 14:33, critical connection for afternoon Kyoto arrival",
             "url": "https://www.jrpass.com/",
             "type": "Train Reservation",
             "confirmationCode": "JR112925",
             "location": "Mishima → Kyoto"
-        },        {
+        },
+        {
             "name": "Soba Roujina",
             "description": "Award-winning soba restaurant (Top 100 Soba 2024) serving handmade 100% buckwheat soba and pure rice sake in Kyoto's Imperial Palace area - dinner reservation required",
             "url": "https://tabelog.com/en/kyoto/A2601/A260202/26023992/",
@@ -362,8 +424,7 @@ const itineraryData = {
     "meals": "Museum café lunch, traditional kaiseki dinner in Pontocho",
     "budget": "¥8,000-12,000 (museum entry ¥1,000, meals ¥6,000-10,000, local transport ¥500)",
     "notes": "CRITICAL: Must catch Hikari 517 at 14:33 - last good connection for afternoon Kyoto arrival. Book kaiseki dinner in advance. Pontocho can be crowded on weekends."
-}
-,
+},
 "day05": {
     "day": 5,
     "date": "Sunday, November 30, 2025",
@@ -394,14 +455,16 @@ const itineraryData = {
         {
             "time": "09:30",
             "description": "Goshuin 4: [Omokaru Stone](https://maps.app.goo.gl/1VkUFhxMc78ZQRxs7)"
-        },        {
+        },
+        {
             "time": "10:00",
             "description": "Goshuin 5: [Tōfuku-ji Temple](https://maps.app.goo.gl/SRcqt8gLeS8EhjbT9)"
         },
         {
             "time": "10:30",
             "description": "🚄 Travel to Gion district - walk to Fushimi-Inari Station (Keihan Main Line) then north to Gion-Shijo Station"
-        },        {
+        },
+        {
             "time": "11:15",
             "description": "⛩️ Begin Yasaka Shrine Area Goshuin Tour - 10-minute walk from Gion-Shijo station to start temple hopping adventure. [📖 Tour Guide](https://jinja-gosyuin.com/higashiyama-gosyuin/#8221)"
         },
@@ -443,7 +506,9 @@ const itineraryData = {
         },
         {
             "time": "19:00",
-            "description": "🍱 Dinner in Higashiyama/Gion area - traditional kaiseki or modern Japanese cuisine in historic district"        }   ],
+            "description": "🍱 Dinner in Higashiyama/Gion area - traditional kaiseki or modern Japanese cuisine in historic district"
+        }
+    ],
     "travelRoutes": [
         {
             "name": "Kyoto Station to Fushimi Inari",
@@ -458,9 +523,11 @@ const itineraryData = {
             "description": "Direct route from Fushimi Inari Taisha to Gion district for Higashiyama temple tour after completing goshuin collection",
             "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=%7B%27lat%27%3A34.967229%2C%27lon%27%3A135.773196%2C%27spot%27%3A%2702301-1301305%27%7D&goal=00003184&start_name=Fushimi%20Inari%20Taisha&goal_name=Gionshijo&cid=&from=route_top_search_box&date_time=2025-11-30T06%3A30&ferry=false&taxi=false",
             "duration": "Check route details",
-            "cost": "Local transport cost",            "method": "Keihan Line"
+            "cost": "Local transport cost",
+            "method": "Keihan Line"
         }
-    ],    "reservations": [
+    ],
+    "reservations": [
         {
             "name": "Kyoto Wagyu Tonkatsu Ten no Meshi Gion Hakukawa Ten",
             "description": "Premium tonkatsu restaurant in Gion district serving domestic pork cutlet and Wagyu beef cutlet with traditional kamado-cooked rice - perfect after temple hopping",
@@ -489,7 +556,8 @@ const itineraryData = {
     "location": "Kyoto - Moss Garden, Arashiyama & Maple Illuminations",
     "weather": "Cool December weather, perfect for temple gardens and autumn illuminations",
     "description": "🍃 Ultimate Kyoto temple and garden adventure! Sacred moss garden meditation, bamboo forest exploration, comprehensive goshuin temple tour, and magical evening maple illuminations.",
-    "activities": [        {
+    "activities": [
+        {
             "time": "09:00",
             "description": "🧘 Saiho-j [📖 Temple Guide](https://jpmanual.com/en/kokedera) [Navigate](https://maps.app.goo.gl/zaEwoYSEpa1wbLLm9)",
             "area": "Moss Temple"
@@ -503,7 +571,8 @@ const itineraryData = {
             "time": "12:00",
             "description": "🏛️ Begin Arashiyama Goshuin Tour at Tenryu-j Temple - UNESCO World Heritage site (40 mins). [📖 Tour Guide](https://jinja-gosyuin.com/kyoto-rakusai/#8221)",
             "area": "Arashiyama Goshuin Tour"
-        },        {
+        },
+        {
             "time": "12:46",
             "description": "🎋 Walk through iconic Bamboo Forest Path to next shrine - ethereal bamboo grove experience (6 min walk)",
             "area": "Arashiyama Goshuin Tour"
@@ -520,7 +589,7 @@ const itineraryData = {
             "area": "Arashiyama Goshuin Tour"
         },
         {
-            "type": "route", 
+            "type": "route",
             "description": "Walk to temple famous for autumn leaves",
             "duration": "8 minutes",
             "url": "https://maps.app.goo.gl/nonomiya-to-jojakko"
@@ -564,7 +633,8 @@ const itineraryData = {
             "time": "18:30",
             "description": "🍁 Kitano Tenmangu Shrine Momiji-en (Maple Garden) evening illuminations - exclusive autumn light display among hundreds of maple trees. [📖 Illumination Guide](https://jinja-gosyuin.com/kawaii-gosyuin-kyoto/#i-29)",
             "area": "Kitano Tenmangu Area"
-        } ],
+        }
+    ],
     "reservations": [
         {
             "name": "Saiho-j Temple (Moss Temple) - Nichi-nichi Sanpai",
@@ -591,7 +661,7 @@ const itineraryData = {
 },
 "day07": {
     "day": 7,
-    "date": "Tuesday, December 2, 2025",
+    "date": "Sunday, December 7, 2025",
     "location": "Nara & Osaka - Deer Park Temples & City Transition",
     "weather": "Cool December weather, perfect for temple exploration and deer interactions",
     "description": "🦌 Magical Nara deer park adventure with ancient temples and goshuin collection, followed by evening transition to vibrant Osaka city life.",
@@ -658,7 +728,8 @@ const itineraryData = {
         },
         {
             "time": "19:30",
-            "description": "🍱 First Osaka dinner - explore local neighborhood for authentic Kansai cuisine"        }
+            "description": "🍱 First Osaka dinner - explore local neighborhood for authentic Kansai cuisine"
+        }
     ],
     "reservations": [
         {
@@ -673,9 +744,9 @@ const itineraryData = {
     "transportation": "🚄 JR Sagano Line + JR Nara Line to Nara, 🚶 Walking tours through Nara Park, 🚄 JR Yamatoji Rapid to Osaka",
     "accommodation": "Osaka Airbnb (Check-in: After 3:00 PM, Checkout: Dec 4 at 10:00 AM)",
     "meals": "Breakfast: Kyoto hotel, Lunch: Nara Park area restaurants, Dinner: Local Osaka neighborhood cuisine",
-    "budget": "¥8,000 - ¥12,000 (temple entrance fees ¥300-600 each, goshuin ¥300-500 each, coin lockers ¥500, meals, local transport)",    "notes": "🦌 MAGICAL DEER EXPERIENCE! Nara's sacred deer roam freely - buy deer crackers (shika senbei) ¥200. Bring goshuincho for comprehensive temple stamp collection. Kofuku-ji's five-story pagoda is iconic photo spot. Todai-ji Great Buddha is massive - 15 meters tall! Kasuga Taisha has over 3,000 stone lanterns. Store luggage early for comfortable temple walking. December weather requires layers for outdoor exploration."
-}
-,
+    "budget": "¥8,000 - ¥12,000 (temple entrance fees ¥300-600 each, goshuin ¥300-500 each, coin lockers ¥500, meals, local transport)",
+    "notes": "🦌 MAGICAL DEER EXPERIENCE! Nara's sacred deer roam freely - buy deer crackers (shika senbei) ¥200. Bring goshuincho for comprehensive temple stamp collection. Kofuku-ji's five-story pagoda is iconic photo spot. Todai-ji Great Buddha is massive - 15 meters tall! Kasuga Taisha has over 3,000 stone lanterns. Store luggage early for comfortable temple walking. December weather requires layers for outdoor exploration."
+},
 "day08": {
     "day": 8,
     "date": "Tuesday, December 3, 2025",
@@ -683,7 +754,12 @@ const itineraryData = {
     "weather": "Check forecast closer to date",
     "description": "Day trip to Osaka from Kyoto - experience Japan's food capital and Osaka Castle.",
     "activities": [
-
+        {
+            "time": "14:00",
+            "description": "🎮 Explore Denden Town (Den Den Town) - Osaka's electronics and anime district, browse manga shops, retro gaming stores, and electronic goods. Known as Osaka's Akihabara! (90 minutes)",
+            "location": "Denden Town, Osaka",
+            "url": "https://maps.app.goo.gl/DendenTownOsaka"
+        }
     ],
     "reservations": [
         {
@@ -705,33 +781,31 @@ const itineraryData = {
     "location": "Osaka -> Fukuoka",
     "weather": "Check forecast - December weather",
     "description": "Third day in Kyoto - exploring Arashiyama bamboo grove and western Kyoto",
-    "activities": [
- 
-    ],    
-    "reservations": [        {
-        "name": "Hakata Base The Passage 2号",
-        "description": "Private accommodation in Hakata Ward, Fukuoka hosted by Naoki - great location for Fukuoka exploration, check-in 4:00 PM December 4th",
-        "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMMK8QPSFC",
-        "type": "Accommodation",
-        "confirmationCode": "HMMK8QPSFC",
-        "location": "Hakata Ward, Fukuoka"
-     }
+    "activities": [],
+    "reservations": [
+        {
+            "name": "Hakata Base The Passage 2号",
+            "description": "Private accommodation in Hakata Ward, Fukuoka hosted by Naoki - great location for Fukuoka exploration, check-in 4:00 PM December 4th",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMMK8QPSFC",
+            "type": "Accommodation",
+            "confirmationCode": "HMMK8QPSFC",
+            "location": "Hakata Ward, Fukuoka"
+        }
     ],
     "transportation": "JR trains and local buses",
     "meals": "Lunch: Arashiyama local cuisine, Dinner: Kaiseki restaurant",
     "budget": "�12,000 - �18,000",
     "notes": "Arashiyama is famous for bamboo groves and autumn colors. Monkey park offers great views of Kyoto."
-}
-,
+},
 "day10": {
     "day": 10,
     "date": "Thursday, December 5, 2025",
     "location": "Fukuoka",
     "weather": "Check forecast - December weather",
     "description": "Day trip to Nara - ancient capital with friendly deer and historic temples",
-    "activities": [
-      ],
-    "reservations": [        {
+    "activities": [],
+    "reservations": [
+        {
             "name": "Hakata Base The Passage 2号",
             "description": "Private accommodation in Hakata Ward, Fukuoka hosted by Naoki - second night of stay for Fukuoka exploration",
             "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMMK8QPSFC",
@@ -750,9 +824,8 @@ const itineraryData = {
     "location": "Fukuoka -> Hiroshima",
     "weather": "Check forecast - December weather",
     "description": "Travel day from Kyoto to Osaka - final Kyoto morning and Osaka arrival",
-    "activities": [
-       
-    ],    "reservations": [
+    "activities": [],
+    "reservations": [
         {
             "name": "Hiroshima Guesthouse ROOM3",
             "description": "Family-run guesthouse in central Hiroshima hosted by Kunihiro - check-in 3:00 PM December 6th, smart lock entry system",
@@ -766,17 +839,14 @@ const itineraryData = {
     "meals": "Breakfast: Kyoto, Lunch: Quick train bento, Dinner: Osaka street food",
     "budget": "¥10,000 - ¥15,000 (train only ¥410)",
     "notes": "🚄 Kyoto-Osaka: NO Shinkansen needed! Use local express trains - much cheaper & faster for city-to-city. Keihan Main Line (Gion→Osaka) or Hankyu (central Kyoto→Osaka). Both take ~45min. Dotonbori: Try takoyaki, okonomiyaki, kushikatsu!"
-}
-,
+},
 "day12": {
     "day": 12,
     "date": "Saturday, December 7, 2025",
     "location": "Hiroshima",
     "weather": "Check forecast closer to date",
     "description": "Exploring Osaka - Japan's kitchen! Food adventures and city sights.",
-    "activities": [
-     
-    ],
+    "activities": [],
     "reservations": [
         {
             "name": "Hiroshima Guesthouse ROOM3",
@@ -785,22 +855,27 @@ const itineraryData = {
             "type": "Accommodation",
             "confirmationCode": "HMT2E4C89P",
             "location": "Hondori Naka Ward, Hiroshima"
+        },
+        {
+            "name": "Okonomimura",
+            "description": "Famous okonomiyaki theme park in Hiroshima with multiple floors of okonomiyaki stalls - iconic dining experience",
+            "url": "https://maps.app.goo.gl/ZqJ1X1oT5w2sWJcEA",
+            "type": "Restaurant",
+            "location": "Hiroshima",
+            "notes": "Multi-story okonomiyaki complex with various vendors"
         }
     ],
     "meals": "Multiple street food experiences - takoyaki, okonomiyaki, kushikatsu",
     "budget": "¥12,000 - ¥18,000",
     "notes": "Osaka is famous for food! Try everything. Dotonbori is busiest in evening."
-}
-,
+},
 "day13": {
     "day": 13,
     "date": "Sunday, December 8, 2025",
     "location": "Hiroshima -> Tokyo",
     "weather": "Check forecast - December weather",
     "description": "Travel day from Osaka back to Tokyo - morning in Osaka, afternoon arrival in Tokyo",
-    "activities": [
-      
-    ],
+    "activities": [],
     "reservations": [
         {
             "name": "Home in Shinjuku City",
@@ -815,17 +890,14 @@ const itineraryData = {
     "meals": "Breakfast: Osaka, Lunch: Shinkansen ekiben bento, Dinner: Tokyo",
     "budget": "¥15,000 - ¥20,000 (including Shinkansen ¥13,320)",
     "notes": "🚅 SHINKANSEN CRITICAL: Depart from SHIN-OSAKA Station (not Osaka Station)! Take subway/taxi to Shin-Osaka 45min early. Reserved seats essential on Sunday. Try famous ekiben train bento. Keep tickets until final exit. Download JR app for delays."
-}
-,
+},
 "day14": {
     "day": 14,
     "date": "Monday, December 9, 2025",
     "location": "Tokyo",
     "weather": "Check forecast - December weather",
     "description": "Second-to-last day in Tokyo - favorite districts and final experiences",
-    "activities": [
-      
-    ],
+    "activities": [],
     "reservations": [
         {
             "name": "Home in Shinjuku City",
@@ -846,9 +918,7 @@ const itineraryData = {
     "location": "Tokyo",
     "weather": "Check forecast - December weather",
     "description": "Last full day in Tokyo - final shopping, favorite spots, and memorable experiences",
-    "activities": [
-      
-    ],
+    "activities": [],
     "reservations": [
         {
             "name": "Home in Shinjuku City",
@@ -868,10 +938,20 @@ const itineraryData = {
     "day": 16,
     "date": "Thursday, December 11, 2025",
     "location": "Tokyo",
-    "weather": "Check forecast closer to date",
-    "description": "Final day in Japan - last-minute shopping, favorite spots, and departure preparations.",
-    "activities": [
-      
+    "weather": "Check forecast closer to date",    "description": "Final day in Japan - last-minute shopping, favorite spots, and departure preparations.",    "activities": [
+        {
+            "type": "route",
+            "description": "Shinjuku → Small Worlds Tokyo (Ariake): JR Yamanote Line to Shimbashi → Yurikamome Line to Ariake Tennis no Mori Station",
+            "duration": "35-40 minutes",
+            "url": "https://goo.gl/maps/fUgaXfSK5yNGhpYn6"
+        },
+        {
+            "time": "10:30",
+            "description": "🏛️ Visit Small Worlds Tokyo - One of Asia's largest miniature museums featuring incredible dioramas of Space Center, Kansai Airport, Evangelion scenes, and Japanese landmarks. Create your own 3D figurine! (3 hours)",
+            "location": "Ariake, Tokyo",
+            "url": "https://smallworlds.jp/en/",
+            "notes": "Adult admission ¥3,200. Open 9:00-19:00 (last admission 18:00). Near Ariake Tennis no Mori Station (3 min walk). Perfect final Japan experience!"
+        }
     ],
     "reservations": [
         {
@@ -882,12 +962,12 @@ const itineraryData = {
             "confirmationCode": "HM5S8ARHRQ",
             "location": "6-chōme-5-7 Shinjuku, Shinjuku City, Tokyo"
         }
-    ],    "transportation": "Airport Express to Haneda Airport",
+    ],
+    "transportation": "Airport Express to Haneda Airport",
     "meals": "Breakfast: Hotel, Lunch: Favorite restaurant, Dinner: Airport/In-flight",
     "budget": "¥10,000 - ¥15,000 (plus souvenirs)",
     "notes": "Allow extra time for airport. Keep receipts for tax-free shopping. Don't forget to say arigatou gozaimasu!"
-}
-,
+},
 };
 
 if (typeof module !== 'undefined' && module.exports) {

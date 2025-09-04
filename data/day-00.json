@@ -4,7 +4,8 @@
     "location": "Travel Day (USA → Japan)",
     "weather": "In transit",
     "description": "ANA Reservation C13J79 - Travel day from Austin to Tokyo via San Francisco. United Airlines Economy Value Plus class. Long journey across the Pacific - get ready for the adventure!",
-    "activities": [        {
+    "activities": [
+        {
             "time": "06:00",
             "description": "🛫 Depart Austin-Bergstrom International Airport (AUS) - United NH7333 (operated by United Airlines)"
         },
@@ -30,7 +31,8 @@
             "name": "ANA Flights to Tokyo",
             "description": "Round-trip flights Austin to Tokyo via San Francisco - NH7333 (AUS→SFO) and NH7011 (SFO→HND) operated by United Airlines in Economy Value Plus class",
             "url": "https://aswbe.ana.co.jp/webapps/servicing/mybooking",
-            "type": "Flight Reservation",            "confirmationCode": "C13J79",
+            "type": "Flight Reservation",
+            "confirmationCode": "C13J79",
             "location": "Austin → San Francisco → Tokyo"
         }
     ],

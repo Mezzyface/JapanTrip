@@ -4,17 +4,16 @@
     "location": "Osaka -> Fukuoka",
     "weather": "Check forecast - December weather",
     "description": "Third day in Kyoto - exploring Arashiyama bamboo grove and western Kyoto",
-    "activities": [
- 
-    ],    
-    "reservations": [        {
-        "name": "Hakata Base The Passage 2号",
-        "description": "Private accommodation in Hakata Ward, Fukuoka hosted by Naoki - great location for Fukuoka exploration, check-in 4:00 PM December 4th",
-        "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMMK8QPSFC",
-        "type": "Accommodation",
-        "confirmationCode": "HMMK8QPSFC",
-        "location": "Hakata Ward, Fukuoka"
-     }
+    "activities": [],
+    "reservations": [
+        {
+            "name": "Hakata Base The Passage 2号",
+            "description": "Private accommodation in Hakata Ward, Fukuoka hosted by Naoki - great location for Fukuoka exploration, check-in 4:00 PM December 4th",
+            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMMK8QPSFC",
+            "type": "Accommodation",
+            "confirmationCode": "HMMK8QPSFC",
+            "location": "Hakata Ward, Fukuoka"
+        }
     ],
     "transportation": "JR trains and local buses",
     "meals": "Lunch: Arashiyama local cuisine, Dinner: Kaiseki restaurant",

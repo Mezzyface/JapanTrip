@@ -1,6 +1,6 @@
 {
     "day": 7,
-    "date": "Tuesday, December 2, 2025",
+    "date": "Sunday, December 7, 2025",
     "location": "Nara & Osaka - Deer Park Temples & City Transition",
     "weather": "Cool December weather, perfect for temple exploration and deer interactions",
     "description": "🦌 Magical Nara deer park adventure with ancient temples and goshuin collection, followed by evening transition to vibrant Osaka city life.",
@@ -67,7 +67,8 @@
         },
         {
             "time": "19:30",
-            "description": "🍱 First Osaka dinner - explore local neighborhood for authentic Kansai cuisine"        }
+            "description": "🍱 First Osaka dinner - explore local neighborhood for authentic Kansai cuisine"
+        }
     ],
     "reservations": [
         {
@@ -82,5 +83,6 @@
     "transportation": "🚄 JR Sagano Line + JR Nara Line to Nara, 🚶 Walking tours through Nara Park, 🚄 JR Yamatoji Rapid to Osaka",
     "accommodation": "Osaka Airbnb (Check-in: After 3:00 PM, Checkout: Dec 4 at 10:00 AM)",
     "meals": "Breakfast: Kyoto hotel, Lunch: Nara Park area restaurants, Dinner: Local Osaka neighborhood cuisine",
-    "budget": "¥8,000 - ¥12,000 (temple entrance fees ¥300-600 each, goshuin ¥300-500 each, coin lockers ¥500, meals, local transport)",    "notes": "🦌 MAGICAL DEER EXPERIENCE! Nara's sacred deer roam freely - buy deer crackers (shika senbei) ¥200. Bring goshuincho for comprehensive temple stamp collection. Kofuku-ji's five-story pagoda is iconic photo spot. Todai-ji Great Buddha is massive - 15 meters tall! Kasuga Taisha has over 3,000 stone lanterns. Store luggage early for comfortable temple walking. December weather requires layers for outdoor exploration."
+    "budget": "¥8,000 - ¥12,000 (temple entrance fees ¥300-600 each, goshuin ¥300-500 each, coin lockers ¥500, meals, local transport)",
+    "notes": "🦌 MAGICAL DEER EXPERIENCE! Nara's sacred deer roam freely - buy deer crackers (shika senbei) ¥200. Bring goshuincho for comprehensive temple stamp collection. Kofuku-ji's five-story pagoda is iconic photo spot. Todai-ji Great Buddha is massive - 15 meters tall! Kasuga Taisha has over 3,000 stone lanterns. Store luggage early for comfortable temple walking. December weather requires layers for outdoor exploration."
 }
