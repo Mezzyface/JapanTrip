@@ -3,7 +3,7 @@
     "date": "Wednesday, November 26, 2025",
     "location": "Tokyo",
     "weather": "~50 - 63°F",
-    "description": "Arrival day in Tokyo! Landing at Haneda Airport, traveling to Shibuya, starting your cultural journey with your first goshuin at Ebisu Shrine, and experiencing the famous Shibuya crossing.",
+    "description": "Arrival day in Tokyo! Landing at Haneda Airport, traveling to Shibuya, starting your cultural journey with your first goshuin at Ebisu Shrine, experiencing the famous Shibuya crossing, and celebrating your first night in Japan at A10 nightlife venue.",
     "activities": [
         {
             "time": "14:50 (2:50pm JST)",
@@ -32,10 +32,22 @@
         {
             "time": "20:00",
             "description": "Visit Pokémon Center Shibuya (6th floor of PARCO building) | [Pokémon Center Shibuya](https://maps.app.goo.gl/8mXG7bX4o7tX9m3K8)"
-        },
-        {
+        },        {
             "time": "21:00",
             "description": "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls"
+        },
+        {
+            "type": "route",
+            "description": "Shibuya → A10 (Roppongi): JR Yamanote Line to Shimbashi → Tokyo Metro Ginza Line to Toranomon-Hills → 5 min walk",
+            "duration": "25-30 minutes",
+            "url": "https://www.google.com/maps/place/A10/@35.6469821,139.7062437,310m/data=!3m2!1e3!5s0x60188b413924f475:0x91d9e6d6f5115938!4m6!3m5!1s0x60188b8d0bbc998d:0xdbdb6eb72400c38f!8m2!3d35.6473325!4d139.7073511!16s%2Fg%2F11nnsh78xs"
+        },
+        {
+            "time": "22:30",
+            "description": "🍻 Visit A10 - Tokyo nightlife experience in Roppongi area to celebrate your first night in Japan! Perfect way to experience Tokyo nightlife after your arrival day (2 hours)",
+            "location": "Roppongi, Tokyo",
+            "url": "https://www.google.com/maps/place/A10/@35.6469821,139.7062437,310m/data=!3m2!1e3!5s0x60188b413924f475:0x91d9e6d6f5115938!4m6!3m5!1s0x60188b8d0bbc998d:0xdbdb6eb72400c38f!8m2!3d35.6473325!4d139.7073511!16s%2Fg%2F11nnsh78xs?entry=ttu&g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+            "notes": "Perfect way to celebrate your first night in Japan and experience Tokyo's famous nightlife scene"
         }
     ],
     "reservations": [
@@ -68,6 +80,6 @@
         }
     ],
     "meals": "Dinner: Shibuya restaurants (ramen, sushi, or department store food hall)",
-    "budget": "3,600円 - 5,600円 (includes transport 660円, Goshuincho 2,500円, goshuin 500円, meals & activities)",
+    "budget": "¥5,000 - ¥10,000 (includes transport ¥660, Goshuincho ¥2,500, goshuin ¥500, meals, nightlife & activities)",
     "notes": "Pick up Suica/Pasmo card at airport for easy train travel. Shopping List: Suitcase, Sling bag, Shopping Bag, Toiletire, Water Bottle"
 }

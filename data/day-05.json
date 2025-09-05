@@ -76,10 +76,22 @@
         {
             "time": "17:00",
             "description": "✨ Kodai-ji Evening Illuminations - be first in line for famous autumn night illuminations, collect special glowing goshuin in illuminated gardens"
-        },
-        {
+        },        {
             "time": "19:00",
             "description": "🍱 Dinner in Higashiyama/Gion area - traditional kaiseki or modern Japanese cuisine in historic district"
+        },
+        {
+            "type": "route",
+            "description": "Gion → Bee's Knees (Nakagyo): Walk or short taxi ride from Gion district to Kamiyacho area",
+            "duration": "15-20 minutes walk or 5-minute taxi",
+            "url": "https://sipswithkilala.com/my-favorites/bars/breweries/distilleries/kyoto-beesknees"
+        },
+        {
+            "time": "21:00",
+            "description": "🍸 Visit Bee's Knees - Prohibition-era themed speakeasy with Japanese-flavored cocktails. Try signature drinks like Ninja Smash or Truffle Bee's Knees in this atmospheric cocktail bar (90 minutes)",
+            "location": "Nakagyo-ku, Kyoto",
+            "url": "https://sipswithkilala.com/my-favorites/bars/breweries/distilleries/kyoto-beesknees",
+            "notes": "364 Kamiyacho, Nakagyo-Ku. Open 6pm-1am, closed Mondays. No reservations - arrive early to beat crowds!"
         }
     ],
     "travelRoutes": [
@@ -99,8 +111,15 @@
             "cost": "Local transport cost",
             "method": "Keihan Line"
         }
-    ],
-    "reservations": [
+    ],    "reservations": [
+        {
+            "name": "Bee's Knees",
+            "description": "Prohibition-era themed speakeasy bar in Kyoto with Japanese-flavored cocktails - signature drinks include Ninja Smash and Truffle Bee's Knees",
+            "url": "https://sipswithkilala.com/my-favorites/bars/breweries/distilleries/kyoto-beesknees",
+            "type": "Restaurant",
+            "location": "364 Kamiyacho, Nakagyo-ku, Kyoto",
+            "notes": "Open 6pm-1am, closed Mondays. No reservations accepted - first-come, first-served"
+        },
         {
             "name": "Kyoto Wagyu Tonkatsu Ten no Meshi Gion Hakukawa Ten",
             "description": "Premium tonkatsu restaurant in Gion district serving domestic pork cutlet and Wagyu beef cutlet with traditional kamado-cooked rice - perfect after temple hopping",

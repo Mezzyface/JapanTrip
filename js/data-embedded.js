@@ -46,7 +46,7 @@ const itineraryData = {
     "date": "Wednesday, November 26, 2025",
     "location": "Tokyo",
     "weather": "~50 - 63°F",
-    "description": "Arrival day in Tokyo! Landing at Haneda Airport, traveling to Shibuya, starting your cultural journey with your first goshuin at Ebisu Shrine, and experiencing the famous Shibuya crossing.",
+    "description": "Arrival day in Tokyo! Landing at Haneda Airport, traveling to Shibuya, starting your cultural journey with your first goshuin at Ebisu Shrine, experiencing the famous Shibuya crossing, and celebrating your first night in Japan at A10 nightlife venue.",
     "activities": [
         {
             "time": "14:50 (2:50pm JST)",
@@ -75,10 +75,22 @@ const itineraryData = {
         {
             "time": "20:00",
             "description": "Visit Pokémon Center Shibuya (6th floor of PARCO building) | [Pokémon Center Shibuya](https://maps.app.goo.gl/8mXG7bX4o7tX9m3K8)"
-        },
-        {
+        },        {
             "time": "21:00",
             "description": "Dinner in Shibuya - explore side streets for ramen, sushi, or department store food halls"
+        },
+        {
+            "type": "route",
+            "description": "Shibuya → A10 (Roppongi): JR Yamanote Line to Shimbashi → Tokyo Metro Ginza Line to Toranomon-Hills → 5 min walk",
+            "duration": "25-30 minutes",
+            "url": "https://www.google.com/maps/place/A10/@35.6469821,139.7062437,310m/data=!3m2!1e3!5s0x60188b413924f475:0x91d9e6d6f5115938!4m6!3m5!1s0x60188b8d0bbc998d:0xdbdb6eb72400c38f!8m2!3d35.6473325!4d139.7073511!16s%2Fg%2F11nnsh78xs"
+        },
+        {
+            "time": "22:30",
+            "description": "🍻 Visit A10 - Tokyo nightlife experience in Roppongi area to celebrate your first night in Japan! Perfect way to experience Tokyo nightlife after your arrival day (2 hours)",
+            "location": "Roppongi, Tokyo",
+            "url": "https://www.google.com/maps/place/A10/@35.6469821,139.7062437,310m/data=!3m2!1e3!5s0x60188b413924f475:0x91d9e6d6f5115938!4m6!3m5!1s0x60188b8d0bbc998d:0xdbdb6eb72400c38f!8m2!3d35.6473325!4d139.7073511!16s%2Fg%2F11nnsh78xs?entry=ttu&g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+            "notes": "Perfect way to celebrate your first night in Japan and experience Tokyo's famous nightlife scene"
         }
     ],
     "reservations": [
@@ -111,7 +123,7 @@ const itineraryData = {
         }
     ],
     "meals": "Dinner: Shibuya restaurants (ramen, sushi, or department store food hall)",
-    "budget": "3,600円 - 5,600円 (includes transport 660円, Goshuincho 2,500円, goshuin 500円, meals & activities)",
+    "budget": "¥5,000 - ¥10,000 (includes transport ¥660, Goshuincho ¥2,500, goshuin ¥500, meals, nightlife & activities)",
     "notes": "Pick up Suica/Pasmo card at airport for easy train travel. Shopping List: Suitcase, Sling bag, Shopping Bag, Toiletire, Water Bottle"
 },
 "day02": {
@@ -503,10 +515,22 @@ const itineraryData = {
         {
             "time": "17:00",
             "description": "✨ Kodai-ji Evening Illuminations - be first in line for famous autumn night illuminations, collect special glowing goshuin in illuminated gardens"
-        },
-        {
+        },        {
             "time": "19:00",
             "description": "🍱 Dinner in Higashiyama/Gion area - traditional kaiseki or modern Japanese cuisine in historic district"
+        },
+        {
+            "type": "route",
+            "description": "Gion → Bee's Knees (Nakagyo): Walk or short taxi ride from Gion district to Kamiyacho area",
+            "duration": "15-20 minutes walk or 5-minute taxi",
+            "url": "https://sipswithkilala.com/my-favorites/bars/breweries/distilleries/kyoto-beesknees"
+        },
+        {
+            "time": "21:00",
+            "description": "🍸 Visit Bee's Knees - Prohibition-era themed speakeasy with Japanese-flavored cocktails. Try signature drinks like Ninja Smash or Truffle Bee's Knees in this atmospheric cocktail bar (90 minutes)",
+            "location": "Nakagyo-ku, Kyoto",
+            "url": "https://sipswithkilala.com/my-favorites/bars/breweries/distilleries/kyoto-beesknees",
+            "notes": "364 Kamiyacho, Nakagyo-Ku. Open 6pm-1am, closed Mondays. No reservations - arrive early to beat crowds!"
         }
     ],
     "travelRoutes": [
@@ -526,8 +550,15 @@ const itineraryData = {
             "cost": "Local transport cost",
             "method": "Keihan Line"
         }
-    ],
-    "reservations": [
+    ],    "reservations": [
+        {
+            "name": "Bee's Knees",
+            "description": "Prohibition-era themed speakeasy bar in Kyoto with Japanese-flavored cocktails - signature drinks include Ninja Smash and Truffle Bee's Knees",
+            "url": "https://sipswithkilala.com/my-favorites/bars/breweries/distilleries/kyoto-beesknees",
+            "type": "Restaurant",
+            "location": "364 Kamiyacho, Nakagyo-ku, Kyoto",
+            "notes": "Open 6pm-1am, closed Mondays. No reservations accepted - first-come, first-served"
+        },
         {
             "name": "Kyoto Wagyu Tonkatsu Ten no Meshi Gion Hakukawa Ten",
             "description": "Premium tonkatsu restaurant in Gion district serving domestic pork cutlet and Wagyu beef cutlet with traditional kamado-cooked rice - perfect after temple hopping",
@@ -872,11 +903,29 @@ const itineraryData = {
 "day13": {
     "day": 13,
     "date": "Sunday, December 8, 2025",
-    "location": "Hiroshima -> Tokyo",
-    "weather": "Check forecast - December weather",
-    "description": "Travel day from Osaka back to Tokyo - morning in Osaka, afternoon arrival in Tokyo",
-    "activities": [],
-    "reservations": [
+    "location": "Hiroshima -> Tokyo",    "weather": "Check forecast - December weather",    "description": "Travel day from Hiroshima back to Tokyo - morning in Hiroshima, afternoon arrival in Tokyo, evening coffee experience",    "activities": [
+        {
+            "type": "route",
+            "description": "Shinjuku → Janai Coffee (Ebisu): JR Yamanote Line direct to Ebisu Station, then 5-minute walk",
+            "duration": "20-25 minutes total",
+            "url": "https://janaicoffee.tokyo/"
+        },
+        {
+            "time": "19:00",
+            "description": "☕ Visit Janai Coffee in Ebisu - Relax with specialty seasonal blend coffee after your travel day from Hiroshima. Perfect atmosphere to unwind and plan your final Tokyo days (90 minutes)",
+            "location": "Ebisu, Tokyo",
+            "url": "https://janaicoffee.tokyo/",
+            "notes": "Basement location, opens at 18:00. Known for seasonal JANAI blend and relaxing atmosphere"
+        }
+    ],"reservations": [
+        {
+            "name": "Janai Coffee",
+            "description": "Specialty coffee shop in Ebisu offering seasonal blend coffees and relaxing atmosphere - perfect evening coffee experience after arriving in Tokyo",
+            "url": "https://janaicoffee.tokyo/",
+            "type": "Restaurant",
+            "location": "Ebisu, Tokyo",
+            "notes": "Open 18:00-24:00, closed Tuesdays. Basement location at 恵比寿南2-3-13山燃ビルB1. Known for seasonal JANAI blend coffee"
+        },
         {
             "name": "Home in Shinjuku City",
             "description": "Private room in Shinjuku hosted by Okamoto - 7 minutes walk to Shinjuku Gyoen, near station, clean private room perfect for sightseeing, check-in 3:00 PM December 8th, checkout 10:00 AM December 11th",
@@ -895,10 +944,29 @@ const itineraryData = {
     "day": 14,
     "date": "Monday, December 9, 2025",
     "location": "Tokyo",
-    "weather": "Check forecast - December weather",
-    "description": "Second-to-last day in Tokyo - favorite districts and final experiences",
-    "activities": [],
-    "reservations": [
+    "weather": "Check forecast - December weather",    "description": "Second-to-last day in Tokyo - favorite districts and final experiences",    "activities": [
+        {
+            "type": "route",
+            "description": "Shinjuku → Golden Gai: Short walk from Shinjuku Station East Exit through Kabukicho district to Golden Gai",
+            "duration": "10-15 minutes walk",
+            "url": "https://maps.app.goo.gl/6GRfLQjsAHoAT72N7"
+        },
+        {
+            "time": "20:00",
+            "description": "🍋 Visit OpenBook Tokyo - Famous lemon sour bar in Shinjuku Golden Gai serving 'the world's best lemon sour' made with brown sugar shochu, domestic lime syrup, and Hiroshima lemons. Literary atmosphere with books from the late Kojimasa Tanaka (90 minutes)",
+            "location": "Shinjuku Golden Gai, Tokyo",
+            "url": "https://www.openbook.tokyo/pages/about",
+            "notes": "No signboard, 3rd shop from outside on Golden Gai Street No. 5. Open 8pm-midnight daily. Check Google Maps for directions."
+        }
+    ],"reservations": [
+        {
+            "name": "OpenBook Tokyo",
+            "description": "Legendary lemon sour bar in Shinjuku Golden Gai - famous for 'world's best lemon sour' with literary atmosphere and books from late author Kojimasa Tanaka",
+            "url": "https://www.openbook.tokyo/pages/about",
+            "type": "Restaurant",
+            "location": "Shinjuku Golden Gai Street No. 5, Tokyo",
+            "notes": "No signboard, tiny 3-tsubo shop. Open 8pm-midnight. Check Instagram for updates. Google Maps: https://maps.app.goo.gl/6GRfLQjsAHoAT72N7"
+        },
         {
             "name": "Home in Shinjuku City",
             "description": "Private room in Shinjuku hosted by Okamoto - 7 minutes walk to Shinjuku Gyoen, near station, clean private room perfect for sightseeing, continuing stay from December 8th",

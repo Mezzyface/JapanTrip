@@ -2,10 +2,29 @@
     "day": 14,
     "date": "Monday, December 9, 2025",
     "location": "Tokyo",
-    "weather": "Check forecast - December weather",
-    "description": "Second-to-last day in Tokyo - favorite districts and final experiences",
-    "activities": [],
-    "reservations": [
+    "weather": "Check forecast - December weather",    "description": "Second-to-last day in Tokyo - favorite districts and final experiences",    "activities": [
+        {
+            "type": "route",
+            "description": "Shinjuku → Golden Gai: Short walk from Shinjuku Station East Exit through Kabukicho district to Golden Gai",
+            "duration": "10-15 minutes walk",
+            "url": "https://maps.app.goo.gl/6GRfLQjsAHoAT72N7"
+        },
+        {
+            "time": "20:00",
+            "description": "🍋 Visit OpenBook Tokyo - Famous lemon sour bar in Shinjuku Golden Gai serving 'the world's best lemon sour' made with brown sugar shochu, domestic lime syrup, and Hiroshima lemons. Literary atmosphere with books from the late Kojimasa Tanaka (90 minutes)",
+            "location": "Shinjuku Golden Gai, Tokyo",
+            "url": "https://www.openbook.tokyo/pages/about",
+            "notes": "No signboard, 3rd shop from outside on Golden Gai Street No. 5. Open 8pm-midnight daily. Check Google Maps for directions."
+        }
+    ],"reservations": [
+        {
+            "name": "OpenBook Tokyo",
+            "description": "Legendary lemon sour bar in Shinjuku Golden Gai - famous for 'world's best lemon sour' with literary atmosphere and books from late author Kojimasa Tanaka",
+            "url": "https://www.openbook.tokyo/pages/about",
+            "type": "Restaurant",
+            "location": "Shinjuku Golden Gai Street No. 5, Tokyo",
+            "notes": "No signboard, tiny 3-tsubo shop. Open 8pm-midnight. Check Instagram for updates. Google Maps: https://maps.app.goo.gl/6GRfLQjsAHoAT72N7"
+        },
         {
             "name": "Home in Shinjuku City",
             "description": "Private room in Shinjuku hosted by Okamoto - 7 minutes walk to Shinjuku Gyoen, near station, clean private room perfect for sightseeing, continuing stay from December 8th",

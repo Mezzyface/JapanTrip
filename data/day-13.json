@@ -1,11 +1,29 @@
 {
     "day": 13,
     "date": "Sunday, December 8, 2025",
-    "location": "Hiroshima -> Tokyo",
-    "weather": "Check forecast - December weather",
-    "description": "Travel day from Osaka back to Tokyo - morning in Osaka, afternoon arrival in Tokyo",
-    "activities": [],
-    "reservations": [
+    "location": "Hiroshima -> Tokyo",    "weather": "Check forecast - December weather",    "description": "Travel day from Hiroshima back to Tokyo - morning in Hiroshima, afternoon arrival in Tokyo, evening coffee experience",    "activities": [
+        {
+            "type": "route",
+            "description": "Shinjuku → Janai Coffee (Ebisu): JR Yamanote Line direct to Ebisu Station, then 5-minute walk",
+            "duration": "20-25 minutes total",
+            "url": "https://janaicoffee.tokyo/"
+        },
+        {
+            "time": "19:00",
+            "description": "☕ Visit Janai Coffee in Ebisu - Relax with specialty seasonal blend coffee after your travel day from Hiroshima. Perfect atmosphere to unwind and plan your final Tokyo days (90 minutes)",
+            "location": "Ebisu, Tokyo",
+            "url": "https://janaicoffee.tokyo/",
+            "notes": "Basement location, opens at 18:00. Known for seasonal JANAI blend and relaxing atmosphere"
+        }
+    ],"reservations": [
+        {
+            "name": "Janai Coffee",
+            "description": "Specialty coffee shop in Ebisu offering seasonal blend coffees and relaxing atmosphere - perfect evening coffee experience after arriving in Tokyo",
+            "url": "https://janaicoffee.tokyo/",
+            "type": "Restaurant",
+            "location": "Ebisu, Tokyo",
+            "notes": "Open 18:00-24:00, closed Tuesdays. Basement location at 恵比寿南2-3-13山燃ビルB1. Known for seasonal JANAI blend coffee"
+        },
         {
             "name": "Home in Shinjuku City",
             "description": "Private room in Shinjuku hosted by Okamoto - 7 minutes walk to Shinjuku Gyoen, near station, clean private room perfect for sightseeing, check-in 3:00 PM December 8th, checkout 10:00 AM December 11th",
