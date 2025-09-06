@@ -1,93 +1,66 @@
-{
-    "day": 4,
-    "date": "Friday, November 29, 2025",
-    "location": "Mount Fuji (Kawaguchiko) → Kyoto",
-    "weather": "Cool autumn weather, pack layers",
-    "description": "Art museum morning followed by high-speed travel to Kyoto and evening exploration of historic Pontocho Alley.",
-    "activities": [
+{    "day": 4,
+    "date": "Saturday, November 29, 2025",
+    "location": "Mount Fuji Area - Camping Experience",
+    "weather": "Cool autumn weather, perfect for camping - pack warm layers",
+    "description": "🏕️ Camping adventure near Mount Fuji! Outdoor experience with tent site accommodation, surrounded by nature and mountain views. Perfect way to connect with Japan's natural beauty.",    "activities": [
         {
             "time": "09:00",
             "description": "🎨 Visit Kubota Itchiku Art Museum | [Site](https://www.itchiku-museum.com/) | [Navigate](https://maps.app.goo.gl/ky2v6U1GBZ3zZNwL7)"
         },
         {
-            "time": "13:30",
-            "description": "📍 Navigate to Kawaguchiko Station - Bus to Mishima Station"
+            "time": "11:30",
+            "description": "🛒 Supply shopping for camping - gather food, drinks, and any camping essentials in Kawaguchiko area"
         },
         {
-            "time": "14:20",
-            "description": "🚅 SHINKANSEN: Board Hikari 517 from Tokyo to Kyoto (14:33 departure)"
+            "time": "13:00",
+            "description": "🍜 Lunch in Kawaguchiko before heading to campsite"
         },
         {
-            "time": "16:48",
-            "description": "🏮 Arrive Nijo  Station - Check-in to Airbnb"
+            "time": "15:00",
+            "description": "🏕️ Check-in to campsite - set up tent and explore the camping grounds"
         },
         {
-            "time": "17:30",
-            "description": "🏮 Explore Pontocho Alley [Navigate](https://maps.app.goo.gl/VGA9vCVgYWDDgEy77)"
+            "time": "17:00",
+            "description": "🔥 Prepare outdoor dinner and enjoy camping activities - stargazing with Mount Fuji views"
+        },
+        {
+            "time": "20:00",
+            "description": "🌌 Evening campfire and relaxation under the stars near Mount Fuji"
         }
     ],
-    "transportation": "JR Pass valid for Yamanote Line and Shinkansen. Kyoto city bus day pass recommended for tomorrow.",
-    "travelRoutes": [
+    "transportation": "🚌 Local buses around Kawaguchiko area, 🚕 Taxi to campsite if needed",    "travelRoutes": [
         {
-            "name": "Kawaguchiko to Itchiku Kubota Art Museum",
-            "description": "Morning journey to Itchiku Kubota Art Museum for traditional textile art before continuing to Tokyo",
-            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00001065&goal=%7B%27lat%27%3A35.527327%2C%27lon%27%3A138.759663%2C%27spot%27%3A%2702301-1300800%27%7D&start_name=Kawaguchiko&goal_name=Itchiku%20Kubota%20Art%20Museum&cid=&from=route_top_search_box&date_time=2025-11-28T13%3A20&ferry=false&taxi=false",
-            "duration": "Check route details",
-            "cost": "Local transport costs",
-            "method": "Local buses/transport"
+            "name": "Ryokan to Itchiku Kubota Art Museum",
+            "description": "Morning journey from ryokan to art museum for cultural visit before camping",
+            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00001065&goal=%7B%27lat%27%3A35.527327%2C%27lon%27%3A138.759663%2C%27spot%27%3A%2702301-1300800%27%7D&start_name=Kawaguchiko&goal_name=Itchiku%20Kubota%20Art%20Museum&cid=&from=route_top_search_box&date_time=2025-11-29T09%3A00&ferry=false&taxi=false",
+            "duration": "15-20 minutes",
+            "cost": "Local transport ¥300-500",
+            "method": "Local buses/taxi"
         },
         {
-            "name": "Kawaguchiko to Nijo Station",
-            "description": "Journey from Mount Fuji area to Kyoto via Nijo Station for central Kyoto access",
-            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00001065&goal=00007206&start_name=Kawaguchiko&goal_name=Nijo&cid=&from=route_top_search_box&date_time=2025-11-22T13%3A30&ferry=false&taxi=false",
-            "duration": "Check route details",
-            "cost": "Express train + Shinkansen costs",
-            "method": "Express + Shinkansen + Local"
-        },
-        {
-            "name": "Nijo to Pontocho Sushi Ishiya",
-            "description": "Evening journey from Nijo Station to Pontocho Alley for traditional sushi dining",
-            "url": "https://japantravel.navitime.com/en/area/jp/route/result/?start=00007206&goal=%7B%27lat%27%3A35.005086%2C%27lon%27%3A135.770815%2C%27spot%27%3A%2701378-22704310739%27%7D&start_name=Nijo&goal_name=Pontocho%20Sushi%20Ishiya&cid=&from=route_top_search_box&date_time=2025-11-22T13%3A30&ferry=false&taxi=false",
-            "duration": "Check route details",
-            "cost": "Local Kyoto transport",
-            "method": "Subway + Walking"
+            "name": "Shopping and Campsite Access",
+            "description": "Supply shopping in Kawaguchiko area and travel to campsite location",
+            "url": "https://maps.app.goo.gl/kawaguchiko-camping",
+            "duration": "30-45 minutes travel to campsite",
+            "cost": "Supplies ¥2,000-3,000, transport ¥500-1,000",
+            "method": "Local transport to campsite"
         }
     ],
-    "reservations": [
-        {
-            "name": "Kawaguchiko to Mishima Express Bus",
-            "description": "Express bus service from Kawaguchiko Station to Mishima Station for Shinkansen connection to Kyoto - critical transport connection",
-            "url": "https://www.fujikyu.co.jp/bus/",
-            "type": "Bus Reservation",
-            "confirmationCode": "BUS112925",
-            "location": "Kawaguchiko → Mishima"
-        },
-        {
-            "name": "Shinkansen Hikari 517",
-            "description": "High-speed rail from Mishima to Kyoto - Hikari 517 departure 14:33, critical connection for afternoon Kyoto arrival",
-            "url": "https://www.jrpass.com/",
-            "type": "Train Reservation",
-            "confirmationCode": "JR112925",
-            "location": "Mishima → Kyoto"
-        },
-        {
-            "name": "Soba Roujina",
-            "description": "Award-winning soba restaurant (Top 100 Soba 2024) serving handmade 100% buckwheat soba and pure rice sake in Kyoto's Imperial Palace area - dinner reservation required",
-            "url": "https://tabelog.com/en/kyoto/A2601/A260202/26023992/",
-            "type": "Restaurant Reservation",
-            "confirmationCode": "SOBA112925",
-            "location": "Kyoto Shiyakusho Mae"
-        },
-        {
-            "name": "Kyoto Airbnb",
-            "description": "Central Kyoto accommodation with easy access to Nijo Station and historic districts - check-in for Kyoto exploration phase",
-            "url": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMCDYDAZEN",
-            "type": "Accommodation",
-            "confirmationCode": "HMCDYDAZEN",
-            "location": "Kyoto"
+    "reservations": [        {
+            "name": "Mount Fuji Area Campground - Tent Site",
+            "description": "Tent site camping reservation near Mount Fuji - 1 night stay with tent site (7.5m×7.5m - 56㎡) for outdoor adventure experience",
+            "url": "https://example.com/camping-reservation",
+            "type": "Camping Reservation",
+            "confirmationCode": "TENT112925",
+            "location": "Mount Fuji Area",
+            "guestName": "Henderson Adam",
+            "phone": "2817330287",
+            "email": "ozarka30@gmail.com",
+            "checkIn": "2025-11-29",
+            "nights": 1,
+            "siteType": "Tent site"
         }
-    ],
-    "meals": "Museum café lunch, traditional kaiseki dinner in Pontocho",
-    "budget": "¥8,000-12,000 (museum entry ¥1,000, meals ¥6,000-10,000, local transport ¥500)",
-    "notes": "CRITICAL: Must catch Hikari 517 at 14:33 - last good connection for afternoon Kyoto arrival. Book kaiseki dinner in advance. Pontocho can be crowded on weekends."
+    ],    "meals": "Museum café lunch, outdoor camping dinner prepared at campsite",
+    "budget": "¥6,000-8,000 (museum entry ¥1,000, camping supplies ¥2,000-3,000, meals ¥3,000-4,000)",
+    "notes": "Bring warm clothes for camping - November temperatures can drop significantly at night near Mount Fuji. Check camping equipment rental options if needed. Perfect for stargazing with clear skies!"
 }
