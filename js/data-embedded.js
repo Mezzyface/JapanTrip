@@ -1109,6 +1109,7 @@ const itineraryData = {
 },
 };
 
-if (typeof module !== `"undefined`" && module.exports) {
+if (typeof module !== 'undefined' && module.exports) {
     module.exports = itineraryData;
 }
+
