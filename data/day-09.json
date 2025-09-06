@@ -3,8 +3,17 @@
     "date": "Wednesday, December 4, 2025",
     "location": "Osaka -> Fukuoka",
     "weather": "Check forecast - December weather",
-    "description": "Third day in Kyoto - exploring Arashiyama bamboo grove and western Kyoto",
-    "activities": [],
+    "description": "Travel day from Osaka to Fukuoka - settle into accommodation and first evening exploration",
+    "activities": [
+        {
+            "name": "Evening arrival in Fukuoka",
+            "time": "6:00 PM - 8:00 PM",
+            "description": "Arrive in Fukuoka and check into Hakata Base accommodation. Take a brief evening stroll around the Hakata area to get oriented.",
+            "area": "Hakata",
+            "type": "exploration",
+            "coordinates": [130.4017, 33.5904]
+        }
+    ],
     "reservations": [
         {
             "name": "Hakata Base The Passage 2号",
@@ -16,7 +25,7 @@
         }
     ],
     "transportation": "JR trains and local buses",
-    "meals": "Lunch: Arashiyama local cuisine, Dinner: Kaiseki restaurant",
-    "budget": "�12,000 - �18,000",
-    "notes": "Arashiyama is famous for bamboo groves and autumn colors. Monkey park offers great views of Kyoto."
+    "meals": "Lunch: On travel route, Dinner: Local Hakata ramen",
+    "budget": "¥8,000 - ¥12,000",
+    "notes": "Travel day to Fukuoka. Hakata ward is the central district with excellent food scene and historic sites."
 }

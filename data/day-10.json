@@ -2,9 +2,72 @@
     "day": 10,
     "date": "Thursday, December 5, 2025",
     "location": "Fukuoka",
-    "weather": "Check forecast - December weather",
-    "description": "Day trip to Nara - ancient capital with friendly deer and historic temples",
-    "activities": [],
+    "weather": "Check forecast - December weather",    "description": "Full day exploring Fukuoka - shrine hopping tour of three historic shrines",
+    "activities": [
+        {
+            "name": "Sumiyoshi Shrine",
+            "time": "9:00 AM - 10:30 AM",
+            "description": "One of Japan's three most important Sumiyoshi shrines, featuring traditional architecture and peaceful grounds. This ancient Shinto shrine is dedicated to the three Sumiyoshi gods of the sea.",
+            "area": "Sumiyoshi",
+            "type": "shrine",
+            "coordinates": [130.4136385, 33.5858948],
+            "googleMapsUrl": "https://maps.app.goo.gl/K6spN3aHdm7r8W5SA"
+        },
+        {
+            "name": "Route to Tooka Ebisu Shrine",
+            "time": "10:30 AM - 11:00 AM",
+            "description": "Travel from Sumiyoshi Shrine to Tooka Ebisu Shrine (approx. 30 minutes)",
+            "type": "route",
+            "duration": "30 minutes"
+        },
+        {
+            "name": "Tooka Ebisu Shrine",
+            "time": "11:00 AM - 12:30 PM",
+            "description": "Dedicated to Ebisu, the god of prosperity and good fortune in business. Popular with merchants and business people, especially during the annual Toka Ebisu festival.",
+            "area": "Central Fukuoka",
+            "type": "shrine",
+            "coordinates": [130.4186935, 33.604084],
+            "googleMapsUrl": "https://maps.app.goo.gl/6w3hSQzwHhFrWWtG6"
+        },
+        {
+            "name": "Lunch break",
+            "time": "12:30 PM - 1:30 PM",
+            "description": "Enjoy local Fukuoka specialties near the shrine area",
+            "area": "Central Fukuoka",
+            "type": "meal"
+        },
+        {
+            "name": "Route to Jurokuten Shrine",
+            "time": "1:30 PM - 2:15 PM",
+            "description": "Travel from central Fukuoka to Jurokuten Shrine (approx. 45 minutes)",
+            "type": "route",
+            "duration": "45 minutes"
+        },
+        {
+            "name": "Jurokuten Shrine",
+            "time": "2:15 PM - 3:45 PM",
+            "description": "A historic shrine dedicated to the sixteen protective deities. Known for its serene atmosphere and beautiful traditional architecture nestled in a peaceful setting.",
+            "area": "Western Fukuoka",
+            "type": "shrine",
+            "coordinates": [130.2367023, 33.5845862],
+            "googleMapsUrl": "https://maps.app.goo.gl/8cT9s5HUqBSRzd9P7"
+        },
+        {
+            "name": "Return to Hakata area",
+            "time": "3:45 PM - 4:30 PM",
+            "description": "Return to central Hakata area for evening activities",
+            "area": "Hakata",
+            "type": "travel"
+        },
+        {
+            "name": "Hakata Bay area exploration",
+            "time": "4:30 PM - 6:00 PM",
+            "description": "Explore the modern Hakata Bay area with its waterfront views, shopping, and urban atmosphere as a contrast to the traditional shrines visited earlier.",
+            "area": "Hakata Bay",
+            "type": "exploration",
+            "coordinates": [130.4017, 33.5904]
+        }
+    ],
     "reservations": [
         {
             "name": "Hakata Base The Passage 2号",
@@ -14,8 +77,7 @@
             "confirmationCode": "HMMK8QPSFC",
             "location": "Hakata Ward, Fukuoka"
         }
-    ],
-    "meals": "Lunch: Nara local specialties, Dinner: Kyoto restaurant",
-    "budget": "¥8,000 - ¥12,000",
-    "notes": "Nara's deer are sacred messengers. The Great Buddha is one of Japan's largest bronze Buddha statues."
+    ],    "meals": "Lunch: Local Fukuoka specialties, Dinner: Hakata ramen and yatai food stalls",
+    "budget": "¥10,000 - ¥15,000",
+    "notes": "Fukuoka's shrine tour showcases the city's spiritual heritage. Sumiyoshi is one of Japan's most important Sumiyoshi shrines, while Tooka Ebisu attracts business prosperity seekers. Complete the day with Hakata's famous street food scene."
 }
